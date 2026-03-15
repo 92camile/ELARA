@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #800080, #ff0000);
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .clock {
+            text-align: center;
+            font-size: 3em;
+        }
+        .time-zone {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="clock">
+        <div id="current-time"></div>
+        <div class="time-zone">EST: <span id="est-time"></span></div>
+        <div class="time-zone">CST: <span id="cst-time"></span></div>
+        <div class="time-zone">PST: <span id="pst-time"></span></div>
+        <div class="time-zone">UTC: <span id="utc-time"></span></div>
+        <div class="time-zone">GMT: <span id="gmt-time"></span></div>
+        <div class="time-zone">CET: <span id="cet-time"></span></div>
+        <div class="time-zone">IST: <span id="ist-time"></span></div>
+    </div>
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const options = { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false };
+            document.getElementById('current-time').innerText = now.toLocaleString();
+            document.getElementById('est-time').innerText = now.toLocaleString('en-US', { timeZone: 'America/New_York', ...options });
+            document.getElementById('cst-time').innerText = now.toLocaleString('en-US', { timeZone: 'America/Chicago', ...options });
+            document.getElementById('pst-time').innerText = now.toLocaleString('en-US', { timeZone: 'America/Los_Angeles', ...options });
+            document.getElementById('utc-time').innerText = now.toUTCString().split(' ')[4];
+            document.getElementById('gmt-time').innerText = now.toLocaleString('en-GB', { timeZone: 'GMT', ...options });
+            document.getElementById('cet-time').innerText = now.toLocaleString('en-GB', { timeZone: 'CET', ...options });
+            document.getElementById('ist-time').innerText = now.toLocaleString('en-IN', { timeZone: 'Asia/Kolkata', ...options });
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+    </script>
+</body>
+</html>
