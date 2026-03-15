@@ -1,12 +1,893 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ELARA Lab | Empathetic Lifespan AI & Robotics for Aging</title>
+  <meta
+    name="description"
+    content="ELARA Lab develops human-centered AI, robotics, and care ecosystem approaches that support older adults in everyday life, out-of-hospital care, and community settings."
+  />
+  <style>
+    :root {
+      --red: #e31745;
+      --red-dark: #b80f36;
+      --purple: #6f237f;
+      --purple-dark: #4f185c;
+      --black: #111111;
+      --gray-900: #1b1b1b;
+      --gray-700: #4f4f4f;
+      --gray-500: #777777;
+      --gray-300: #dddddd;
+      --gray-100: #f7f5f8;
+      --white: #ffffff;
+      --soft-purple: #f5eef8;
+      --soft-red: #fff1f4;
+      --shadow: 0 18px 40px rgba(17, 17, 17, 0.08);
+      --radius-xl: 28px;
+      --radius-lg: 20px;
+      --radius-md: 14px;
+      --max-width: 1200px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, Arial, Helvetica, sans-serif;
+      color: var(--gray-900);
+      background: var(--white);
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .container {
+      width: min(calc(100% - 32px), var(--max-width));
+      margin: 0 auto;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(17, 17, 17, 0.06);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 16px 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 0;
+    }
+
+    .brand img {
+      width: 62px;
+      height: 62px;
+      object-fit: contain;
+    }
+
+    .brand-text {
+      min-width: 0;
+    }
+
+    .brand-text strong {
+      display: block;
+      font-size: 1.2rem;
+      line-height: 1.1;
+      color: var(--black);
+    }
+
+    .brand-text span {
+      display: block;
+      font-size: 0.86rem;
+      color: var(--gray-700);
+      margin-top: 2px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      flex-wrap: wrap;
+      font-size: 0.95rem;
+      color: var(--gray-700);
+    }
+
+    .nav-links a:hover {
+      color: var(--red);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 14px 22px;
+      border-radius: 999px;
+      font-weight: 700;
+      transition: 0.2s ease;
+      border: 2px solid transparent;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+    }
+
+    .btn-primary {
+      background: linear-gradient(90deg, var(--red), var(--purple));
+      color: var(--white);
+      box-shadow: var(--shadow);
+    }
+
+    .btn-secondary {
+      background: var(--white);
+      color: var(--purple);
+      border-color: rgba(111, 35, 127, 0.16);
+    }
+
+    .hero {
+      background:
+        radial-gradient(circle at top left, rgba(227, 23, 69, 0.08), transparent 24%),
+        radial-gradient(circle at top right, rgba(111, 35, 127, 0.10), transparent 26%),
+        linear-gradient(180deg, #ffffff 0%, #faf7fb 100%);
+      padding: 72px 0 64px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 34px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, rgba(227, 23, 69, 0.10), rgba(111, 35, 127, 0.10));
+      color: var(--purple-dark);
+      font-size: 0.85rem;
+      font-weight: 700;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0 0 18px;
+      font-size: clamp(2.4rem, 5vw, 4.6rem);
+      line-height: 1.02;
+      letter-spacing: -0.04em;
+      color: var(--black);
+    }
+
+    .gradient-text {
+      background: linear-gradient(90deg, var(--red), var(--purple));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .hero p {
+      margin: 0 0 26px;
+      font-size: 1.08rem;
+      color: var(--gray-700);
+      max-width: 760px;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+
+    .hero-highlights {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .chip {
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: var(--white);
+      border: 1px solid rgba(17, 17, 17, 0.08);
+      color: var(--gray-700);
+      font-size: 0.92rem;
+      font-weight: 600;
+    }
+
+    .hero-card {
+      background: var(--white);
+      border: 1px solid rgba(17, 17, 17, 0.06);
+      border-radius: var(--radius-xl);
+      padding: 28px;
+      box-shadow: var(--shadow);
+    }
+
+    .hero-card .logo-wrap {
+      background: linear-gradient(180deg, #ffffff 0%, #faf7fb 100%);
+      border-radius: 22px;
+      padding: 22px;
+      border: 1px solid rgba(17, 17, 17, 0.05);
+      margin-bottom: 18px;
+    }
+
+    .hero-card h3 {
+      margin: 0 0 10px;
+      font-size: 1.25rem;
+      color: var(--black);
+    }
+
+    .hero-card p {
+      margin: 0;
+      color: var(--gray-700);
+      font-size: 0.98rem;
+    }
+
+    section {
+      padding: 78px 0;
+    }
+
+    .section-head {
+      margin-bottom: 28px;
+    }
+
+    .section-kicker {
+      color: var(--red);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 0.8rem;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: clamp(1.8rem, 3vw, 3rem);
+      line-height: 1.08;
+      letter-spacing: -0.03em;
+      color: var(--black);
+    }
+
+    .section-head p {
+      margin: 0;
+      max-width: 820px;
+      color: var(--gray-700);
+      font-size: 1.04rem;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      background: var(--white);
+      border: 1px solid rgba(17, 17, 17, 0.07);
+      border-radius: var(--radius-lg);
+      padding: 26px;
+      box-shadow: var(--shadow);
+      height: 100%;
+    }
+
+    .card-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 16px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 16px;
+      background: linear-gradient(135deg, var(--red), var(--purple));
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 1.22rem;
+      color: var(--black);
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--gray-700);
+    }
+
+    .about-band {
+      background: linear-gradient(90deg, var(--soft-red), var(--soft-purple));
+    }
+
+    .quote-box {
+      background: linear-gradient(135deg, var(--red), var(--purple));
+      color: var(--white);
+      border-radius: var(--radius-xl);
+      padding: 34px;
+      box-shadow: var(--shadow);
+      margin-top: 28px;
+    }
+
+    .quote-box p {
+      margin: 0;
+      font-size: clamp(1.2rem, 2.2vw, 1.8rem);
+      line-height: 1.4;
+      font-weight: 700;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .pill {
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(111, 35, 127, 0.08);
+      color: var(--purple-dark);
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+
+    .activity-section {
+      background: linear-gradient(180deg, #ffffff 0%, #faf7fb 100%);
+    }
+
+    .activity-panel {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 22px;
+      align-items: stretch;
+    }
+
+    .activity-big {
+      background: linear-gradient(135deg, rgba(227, 23, 69, 0.08), rgba(111, 35, 127, 0.10));
+      border-radius: var(--radius-xl);
+      padding: 32px;
+      border: 1px solid rgba(17, 17, 17, 0.06);
+      box-shadow: var(--shadow);
+    }
+
+    .activity-big h3 {
+      margin: 0 0 14px;
+      font-size: 1.5rem;
+      color: var(--black);
+    }
+
+    .activity-big p {
+      margin: 0 0 14px;
+      color: var(--gray-700);
+    }
+
+    .feature-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .feature-item {
+      background: var(--white);
+      border-radius: 18px;
+      padding: 18px 18px;
+      border: 1px solid rgba(17, 17, 17, 0.07);
+      box-shadow: var(--shadow);
+    }
+
+    .feature-item strong {
+      display: block;
+      color: var(--black);
+      margin-bottom: 4px;
+    }
+
+    .feature-item span {
+      color: var(--gray-700);
+      font-size: 0.96rem;
+    }
+
+    .cta {
+      background: linear-gradient(135deg, #181818, #2a1230);
+      color: var(--white);
+      border-radius: 34px;
+      padding: 42px;
+      box-shadow: var(--shadow);
+    }
+
+    .cta h2 {
+      color: var(--white);
+      margin-bottom: 12px;
+    }
+
+    .cta p {
+      color: rgba(255, 255, 255, 0.84);
+      max-width: 760px;
+      margin: 0 0 24px;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+    }
+
+    .contact-box {
+      background: var(--white);
+      border: 1px solid rgba(17, 17, 17, 0.07);
+      border-radius: var(--radius-lg);
+      padding: 26px;
+      box-shadow: var(--shadow);
+    }
+
+    .contact-box h3 {
+      margin: 0 0 12px;
+      color: var(--black);
+    }
+
+    .contact-box p,
+    .contact-box li {
+      color: var(--gray-700);
+    }
+
+    .contact-box ul {
+      padding-left: 18px;
+      margin: 0;
+    }
+
+    .site-footer {
+      background: #121212;
+      color: rgba(255, 255, 255, 0.8);
+      padding: 28px 0;
+      margin-top: 78px;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .footer-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .footer-brand img {
+      width: 38px;
+      height: 38px;
+      object-fit: contain;
+      border-radius: 8px;
+      background: #fff;
+      padding: 2px;
+    }
+
+    .footer-brand strong {
+      color: #fff;
+      display: block;
+      line-height: 1.1;
+    }
+
+    .footer-brand span {
+      font-size: 0.86rem;
+    }
+
+    @media (max-width: 980px) {
+      .hero-grid,
+      .grid-2,
+      .grid-3,
+      .activity-panel,
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .nav {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .nav-links {
+        gap: 14px;
+      }
+
+      h1 {
+        max-width: 13ch;
+      }
+
+      .cta,
+      .hero-card,
+      .activity-big,
+      .card,
+      .contact-box {
+        padding: 22px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .brand img {
+        width: 50px;
+        height: 50px;
+      }
+
+      .brand-text strong {
+        font-size: 1rem;
+      }
+
+      .hero {
+        padding-top: 48px;
+      }
+
+      section {
+        padding: 56px 0;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is an example index.html file.</p>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav">
+        <a class="brand" href="#top">
+          <img src="elara-logo.png" alt="ELARA Lab logo" />
+          <div class="brand-text">
+            <strong>ELARA Lab</strong>
+            <span>Empathetic Lifespan AI & Robotics for Aging</span>
+          </div>
+        </a>
+
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#ecosystem">Care Ecosystem</a>
+          <a href="#activities">Activities</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div>
+            <div class="eyebrow">Human-centered AI, robotics, and aging</div>
+            <h1>
+              Building the future of aging technology
+              <span class="gradient-text">around people, not just products.</span>
+            </h1>
+            <p>
+              ELARA Lab develops empathetic AI, robotics, and digital technologies for aging,
+              with a focus on the real-world conditions that shape trust, adoption, usability,
+              and meaningful benefit for older adults in homes, communities, and out-of-hospital care.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#about">Explore ELARA</a>
+              <a class="btn btn-secondary" href="#contact">Collaborate</a>
+            </div>
+
+            <div class="hero-highlights">
+              <span class="chip">AI for aging</span>
+              <span class="chip">Human-robot interaction</span>
+              <span class="chip">Care ecosystem design</span>
+              <span class="chip">Community-embedded research</span>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="logo-wrap">
+              <img src="elara-logo.png" alt="ELARA Lab logo large display" />
+            </div>
+            <h3>What ELARA does differently</h3>
+            <p>
+              We do not stop at prototype development. ELARA studies what it takes for technology
+              to become understandable, trusted, and sustainable in everyday life, especially for
+              older adults who face fragmented systems, digital barriers, and support gaps.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-band">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-kicker">About ELARA</div>
+          <h2>From invention to adoption</h2>
+          <p>
+            ELARA Lab bridges technical innovation and lived human experience.
+            The lab focuses on how AI, robotics, and digital tools can support older adults not only in theory,
+            but in the reality of daily life, care coordination, communication, and ongoing support.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <div class="card-icon">01</div>
+            <h3>Human-centered by default</h3>
+            <p>
+              We study how trust, privacy, dignity, emotional fit, accessibility, and caregiver dynamics shape technology use.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">02</div>
+            <h3>Built for real settings</h3>
+            <p>
+              Our work targets homes, community spaces, out-of-hospital care pathways, and everyday routines where support is often missing.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">03</div>
+            <h3>Designed for translation</h3>
+            <p>
+              We aim to generate systems, design principles, and implementation models that partners can sustain beyond a single pilot.
+            </p>
+          </div>
+        </div>
+
+        <div class="quote-box">
+          <p>
+            "ELARA asks not only what technology can do, but what it takes for older adults and caregivers
+            to actually trust it, use it, and benefit from it."
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="research">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-kicker">Research Areas</div>
+          <h2>Core directions of the lab</h2>
+          <p>
+            ELARA works across aging, human-computer interaction, human-robot interaction, accessibility,
+            care technology, and community-based support models.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <div class="card-icon">AI</div>
+            <h3>Empathetic AI and assistive interaction</h3>
+            <p>
+              Designing AI systems that are understandable, emotionally appropriate, and genuinely supportive in everyday life.
+            </p>
+            <div class="pill-row">
+              <span class="pill">Trust</span>
+              <span class="pill">Transparency</span>
+              <span class="pill">Accessibility</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">HRI</div>
+            <h3>Human-robot interaction for aging</h3>
+            <p>
+              Exploring how social and assistive robots can support communication, guidance, wellbeing, and long-term engagement.
+            </p>
+            <div class="pill-row">
+              <span class="pill">Social robots</span>
+              <span class="pill">Adoption</span>
+              <span class="pill">Companionship</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">UX</div>
+            <h3>Technology barriers and redesign</h3>
+            <p>
+              Identifying where users get stuck and redesigning systems so technology feels usable instead of overwhelming.
+            </p>
+            <div class="pill-row">
+              <span class="pill">Failure points</span>
+              <span class="pill">Age-attuned design</span>
+              <span class="pill">Plain language</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">COM</div>
+            <h3>Community-embedded implementation</h3>
+            <p>
+              Co-developing support models with older adults, caregivers, and local partners so innovation can move into practice.
+            </p>
+            <div class="pill-row">
+              <span class="pill">Co-design</span>
+              <span class="pill">Community sites</span>
+              <span class="pill">Sustainable models</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ecosystem" class="activity-section">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-kicker">Care Ecosystem</div>
+          <h2>Creating support beyond the hospital</h2>
+          <p>
+            A major part of ELARA's mission is building community-centered care ecosystems for older adults.
+            This includes volunteer-led support, practical navigation help, and tools that make healthcare-related tasks
+            less confusing outside formal clinical environments.
+          </p>
+        </div>
+
+        <div class="activity-panel">
+          <div class="activity-big">
+            <h3>Out-of-hospital care support</h3>
+            <p>
+              ELARA is building models that connect older adults with trained volunteers, community partners,
+              and accessible materials that help with digital health access, telehealth preparation, appointments,
+              medication routines, and everyday technology use tied to care.
+            </p>
+            <p>
+              The goal is not a one-time event. The goal is a repeatable support structure that communities can grow,
+              adapt, and sustain over time.
+            </p>
+            <a class="btn btn-primary" href="#activities">See activity model</a>
+          </div>
+
+          <div class="feature-list">
+            <div class="feature-item">
+              <strong>Trusted community settings</strong>
+              <span>Support can happen through libraries, older adult centers, and other familiar local spaces.</span>
+            </div>
+            <div class="feature-item">
+              <strong>Intergenerational volunteer model</strong>
+              <span>Students and volunteers are trained to offer respectful, patient, age-attuned support.</span>
+            </div>
+            <div class="feature-item">
+              <strong>Low-barrier materials</strong>
+              <span>Print-friendly guides, step-by-step checklists, and clear language reduce friction and stress.</span>
+            </div>
+            <div class="feature-item">
+              <strong>Follow-up continuity</strong>
+              <span>Support includes ongoing check-ins so older adults are not left alone after a single interaction.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="activities">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-kicker">Activities</div>
+          <h2>Volunteer and community activity model</h2>
+          <p>
+            ELARA's activities extend research into practical support for older adults through hands-on,
+            community-centered initiatives that reduce digital confusion and strengthen care access.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <div class="card-icon">1</div>
+            <h3>One-to-one guidance</h3>
+            <p>
+              Helping older adults navigate tasks such as telehealth setup, appointments, portals, reminders, and health-related technology.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">2</div>
+            <h3>Volunteer training</h3>
+            <p>
+              Preparing students and community volunteers to communicate clearly, respectfully, and in ways that match older adults' comfort levels.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card-icon">3</div>
+            <h3>Community partnerships</h3>
+            <p>
+              Working through trusted organizations so support is easier to reach and more grounded in real community needs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="cta">
+          <h2>ELARA Lab turns emerging technology into practical support.</h2>
+          <p>
+            We focus on the human conditions that determine whether AI, robotics, and digital tools become meaningful,
+            trusted, and usable for older adults in everyday life.
+          </p>
+          <a class="btn btn-primary" href="#contact">Start a conversation</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-kicker">Contact</div>
+          <h2>Connect with ELARA Lab</h2>
+          <p>
+            Update the details below with your preferred links, affiliation, and email.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-box">
+            <h3>Lab information</h3>
+            <ul>
+              <li><strong>Lab:</strong> ELARA Lab</li>
+              <li><strong>Meaning:</strong> Empathetic Lifespan AI & Robotics for Aging</li>
+              <li><strong>Email:</strong> cpark14@uh.edu</li>
+              <li><strong>Location:</strong> University of Houston</li>
+            </ul>
+          </div>
+
+          <div class="contact-box">
+            <h3>Collaboration areas</h3>
+            <ul>
+              <li>Human-centered AI</li>
+              <li>Human-robot interaction</li>
+              <li>Older adult technology support</li>
+              <li>Care ecosystem and volunteer initiatives</li>
+              <li>Community-based aging technology research</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="elara-logo.png" alt="ELARA Lab footer logo" />
+          <div>
+            <strong>ELARA Lab</strong>
+            <span>Empathetic Lifespan AI & Robotics for Aging</span>
+          </div>
+        </div>
+        <div>© 2026 ELARA Lab. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
