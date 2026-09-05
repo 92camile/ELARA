@@ -1,8 +1,7 @@
 # ELARA
 
-A responsive ELARA launch website, built with React and Vinext. The current
-copy is a coming-soon introduction until ELARA's purpose and final content
-are supplied.
+A responsive ELARA Lab website, built with React and Vinext. The site presents
+the lab's public vision and mission for autonomy-preserving embodied AI.
 
 ## Develop
 

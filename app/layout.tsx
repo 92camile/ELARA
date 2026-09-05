@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'ELARA | A New Horizon',
+  title: 'ELARA Lab | Human Agency Across the Lifespan',
   description:
-    'Something new is taking shape. Discover the beginning of ELARA.',
+    'Autonomy-preserving embodied AI to support independence, well-being, and control for older adults and people living with chronic conditions.',
 };
 
 export default function RootLayout({

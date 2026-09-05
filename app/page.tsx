@@ -12,26 +12,25 @@ export default function Home() {
           </span>
         </a>
         <span className="status">
-          <span aria-hidden="true" />A new beginning
+          <span aria-hidden="true" />Embodied AI. Human agency.
         </span>
       </header>
       <section className="hero" id="intro" aria-labelledby="headline">
         <div className="hero-copy">
-          <p className="eyebrow">Introducing ELARA</p>
+          <p className="eyebrow">ELARA Lab</p>
           <h1 id="headline">
-            A little curiosity.
+            Expanding
             <br />
-            An entirely
+            human agency.
             <br />
-            <em>new horizon.</em>
+            <em>Across the lifespan.</em>
           </h1>
           <p className="introduction">
-            Something new is taking shape.
-            <br />
-            This is where it begins.
+            AI should expand human agency across the lifespan, not replace
+            human judgment, relationships, or care.
           </p>
           <a className="explore" href="#next">
-            Discover what&apos;s next <span aria-hidden="true">&#8599;</span>
+            Explore our mission <span aria-hidden="true">&#8599;</span>
           </a>
         </div>
         <div className="orbital-art" aria-hidden="true">
@@ -41,16 +40,24 @@ export default function Home() {
           <div className="sphere" />
           <div className="satellite" />
           <span className="art-coordinate">E / 001</span>
-          <span className="art-caption">A world of possibility</span>
+          <span className="art-caption">Independence. Well-being. Control.</span>
           <span className="art-cross">+</span>
         </div>
       </section>
       <section className="next-chapter" id="next" aria-labelledby="next-title">
-        <p className="eyebrow">The next chapter</p>
+        <p className="eyebrow">Our mission</p>
         <div>
-          <h2 id="next-title">We&apos;re just getting started.</h2>
+          <h2 id="next-title">Autonomy at the center.</h2>
           <p>
-            ELARA&apos;s story is on its way. Return here for what comes next.
+            ELARA Lab develops and evaluates autonomy-preserving embodied AI
+            systems that help older adults and people living with chronic
+            conditions maintain independence, well-being, and control.
+          </p>
+          <p>
+            We integrate participatory design, behavioral science, and safe
+            generative AI to create clinically credible, implementation-ready
+            interventions with viable pathways to adoption, reimbursement, and
+            sustainable scale across diverse health and care systems.
           </p>
         </div>
         <span className="chapter-mark" aria-hidden="true">
@@ -61,7 +68,7 @@ export default function Home() {
         <a className="wordmark" href="#top">
           ELARA
         </a>
-        <p>A new horizon awaits.</p>
+        <p>Human agency across the lifespan.</p>
         <a className="back-top" href="#top">
           Back to top <span aria-hidden="true">&#8593;</span>
         </a>

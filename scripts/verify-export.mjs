@@ -5,8 +5,9 @@ import path from 'node:path';
 const root = path.resolve('dist/client');
 const html = readFileSync(path.join(root, 'index.html'), 'utf8');
 const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
-assert.match(html, /ELARA \| A New Horizon/, 'ELARA title is missing');
-assert.match(html, /new horizon/, 'ELARA page content is missing');
+assert.match(html, /ELARA Lab \| Human Agency Across the Lifespan/, 'ELARA title is missing');
+assert.match(html, /autonomy-preserving embodied AI/, 'ELARA mission is missing');
+assert.doesNotMatch(html, /financial independence|faculty salary|long-term wealth|geographic mobility/i, 'Private strategy must not appear on the public site');
 const ids = new Set([...html.matchAll(/\bid="([^"]+)"/g)].map((match) => match[1]));
 let checked = 0;
 for (const [, url] of html.matchAll(/(?:href|src)="([^"]+)"/g)) {

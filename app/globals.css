@@ -93,6 +93,7 @@ main {
   min-height: 690px;
 }
 .hero-copy {
+  min-width: 0;
   position: relative;
   z-index: 1;
   animation: enter 0.8s ease-out both;
@@ -105,7 +106,7 @@ main {
   margin: 0 0 32px;
 }
 h1 {
-  font-size: clamp(3.4rem, 5.7vw, 6.6rem);
+  font-size: clamp(3rem, 5vw, 5.8rem);
   font-family: Georgia, 'Times New Roman', serif;
   font-weight: normal;
   line-height: 1.04;
@@ -238,8 +239,9 @@ h1 em {
   left: 27px;
 }
 .art-caption {
-  bottom: 28px;
+  bottom: 52px;
   right: 27px;
+  max-width: calc(100% - 54px);
 }
 .art-cross {
   right: 11%;
@@ -270,7 +272,10 @@ h1 em {
   color: var(--muted);
   margin: 0;
   line-height: 1.7;
-  max-width: 440px;
+  max-width: 660px;
+}
+.next-chapter p + p {
+  margin-top: 1.2rem;
 }
 .chapter-mark {
   font-family: Georgia, serif;
