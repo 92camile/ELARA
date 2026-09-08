@@ -1,0 +1,67 @@
+{
+  "slug": "elara-first-research-recruitment-table",
+  "title": "ELARA Opens Its First Research Recruitment Table",
+  "summary": "Students and professionals connected with the lab through an early community-building effort.",
+  "category": "Lab & community",
+  "postId": "7449947202388389888",
+  "originalDate": "2026-04-14",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 3,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_humanrobotinteraction-robots-ai-activity-7449947202388389888-8RGI"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "ELARA Lab marked an early community-building milestone with its first research study recruitment table. Chorong Park shared the update on April 14, 2026, alongside photographs of the team, research materials, and companion robots.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "The table created an opportunity to meet students and professionals and introduce the lab's work on technology and aging. Park described these conversations as a way to build relationships and broaden the research community.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Her message also recognized the people who made the activity possible. The photographs document both the preparation of the table and the team members helping bring the lab's research into conversation with others.",
+      "sourceIds": ["linkedin"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/post-7449947202388389888-1.jpg",
+      "width": 1280,
+      "height": 960,
+      "sha256": "933b5ee932edecde03224ef5e0e76e355f677f153c5314f1e88098f69cb02e28",
+      "alt": "Three lab participants pose with several small companion robots.",
+      "caption": "Three lab participants pose with several small companion robots. Original LinkedIn image 1 of 3.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7449947202388389888-2.jpg",
+      "width": 938,
+      "height": 1250,
+      "sha256": "1bcf4164deb5bc00ab4832abc9e7258744309283eede8bc8bfd7c663ee6edfab",
+      "alt": "An ELARA Lab recruitment table displays small robots and research materials.",
+      "caption": "An ELARA Lab recruitment table displays small robots and research materials. Original LinkedIn image 2 of 3.",
+      "afterParagraph": 1
+    },
+    {
+      "src": "/images/news/post-7449947202388389888-3.jpg",
+      "width": 1280,
+      "height": 960,
+      "sha256": "efa2d5d2ef77e59a809f579b1667e59f88691346152ed4a7041bbb228ee316c4",
+      "alt": "Two participants pose beside the ELARA Lab recruitment table.",
+      "caption": "Two participants pose beside the ELARA Lab recruitment table. Original LinkedIn image 3 of 3.",
+      "afterParagraph": 2
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Full April 14, 5:30 PM post and all three gallery images reviewed. The source reports a first recruitment table, not enrollment totals, study outcomes, or an invitation with unverified eligibility criteria. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+  }
+}
