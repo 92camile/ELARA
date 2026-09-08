@@ -1,0 +1,89 @@
+{
+  "slug": "interai-2026-user-controlled-robot-autonomy",
+  "title": "Putting People in Control of Adaptive Robot Autonomy",
+  "summary": "At InterAI 2026, Park emphasized personalization and predictable behavior as design priorities for assistive robots.",
+  "category": "Research & workshops",
+  "postId": "7449950843333677056",
+  "originalDate": "2026-04-14",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 5,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_chi2026-hci-humanrobotinteraction-activity-7449950843333677056-q_GF"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "People change over time; assistive robots should be designed to respond without taking control away from them. That was the central idea Chorong Park highlighted from the third InterAI Workshop on Interactive AI for Human-centered Robotics at CHI 2026.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "In her April 14 reflection, Park described how changing abilities, bodies, and preferences call for user-controlled personalization. Adaptation, in this view, is not simply something a system does automatically. People need a meaningful role in deciding how assistance changes.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Predictability was a second priority. Park argued that people should be able to understand a robot's next action and what it expects from them, making an interaction easier to navigate.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "The workshop also brought opportunities to exchange ideas with researchers working on related questions. The original gallery follows the presentation into group discussion and shared note-making, documenting the collaborative setting behind these design proposals.",
+      "sourceIds": ["linkedin"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/post-7449950843333677056-1.jpg",
+      "width": 1280,
+      "height": 960,
+      "sha256": "41400319aa7a33f813ee78fd2ce004539faf237a5ca053adeb1d9cf7fc5b0d46",
+      "alt": "A speaker presents from a lectern below a projected workshop slide.",
+      "caption": "A speaker presents from a lectern below a projected workshop slide. Original LinkedIn image 1 of 5.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7449950843333677056-2.jpg",
+      "width": 1891,
+      "height": 1536,
+      "sha256": "0cc3371dc31e504dee193db9f34c1e52d317627aa20933761a96e37f280bd48a",
+      "alt": "Workshop participants sit in a circle for discussion.",
+      "caption": "Workshop participants sit in a circle for discussion. Original LinkedIn image 2 of 5.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7449950843333677056-3.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "17d2b45e446f69cd5be7c4385cdf32cb5fc728be496478ea1d44df850621fe28",
+      "alt": "Participants arrange paper sheets and sticky notes on the floor.",
+      "caption": "Participants arrange paper sheets and sticky notes on the floor. Original LinkedIn image 3 of 5.",
+      "afterParagraph": 1
+    },
+    {
+      "src": "/images/news/post-7449950843333677056-4.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "53018886a20960fb045395892ff9bc0630142c5b24b01e4804913fab5dabec3c",
+      "alt": "Small groups work together in a conference workshop room.",
+      "caption": "Small groups work together in a conference workshop room. Original LinkedIn image 4 of 5.",
+      "afterParagraph": 2
+    },
+    {
+      "src": "/images/news/post-7449950843333677056-5.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "95fb18194cf119154426ac8252970b737b0081eaf33a84935b142208904f685c",
+      "alt": "Handwritten notes and sticky notes lie between participants' chairs.",
+      "caption": "Handwritten notes and sticky notes lie between participants' chairs. Original LinkedIn image 5 of 5.",
+      "afterParagraph": 3
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Full April 14, 5:44 PM post and all five ordered images reviewed. Personalization and predictability presented as workshop design arguments, not experimentally established adoption results. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+  }
+}
