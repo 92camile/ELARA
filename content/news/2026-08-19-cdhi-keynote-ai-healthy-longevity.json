@@ -1,0 +1,76 @@
+{
+  "slug": "cdhi-keynote-ai-healthy-longevity",
+  "title": "Human-Centered AI and Healthy Longevity at CDHI",
+  "summary": "A June keynote explored how intelligent systems can remain meaningful and usable in older adults' everyday lives.",
+  "category": "Talks & international exchange",
+  "postId": "7495723942599503872",
+  "originalDate": "2026-08-19",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 3,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_humancenteredai-digitalhealth-healthylongevity-activity-7495723942599503872-a9al"
+    },
+    {
+      "id": "cdhi",
+      "label": "CDHI's June 1 keynote announcement",
+      "url": "https://www.c4dhi.org/news/260601-keynote-prof-park-human-centered-ai-and-digital-coaching-healthy-longevity/"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Chorong Park reflected on a June keynote with the Centre for Digital Health Interventions in an August 19, 2026, post. CDHI's event announcement identifies the keynote date as June 1, distinguishing the research visit from the later reflection.",
+      "sourceIds": ["linkedin", "cdhi"]
+    },
+    {
+      "text": "Her presentation connected ELARA's work on human-centered AI, socially assistive robots, voice interaction, and technology for aging. The central question was how intelligent, adaptive systems can also be trustworthy, understandable, and grounded in daily experience.",
+      "sourceIds": ["linkedin", "cdhi"]
+    },
+    {
+      "text": "Park described discussions of digital coaching, personalization, dignity, and technology acceptance. These topics drew attention to the gap between developing an interesting system and making it meaningful in a real health or care setting.",
+      "sourceIds": ["linkedin", "cdhi"]
+    },
+    {
+      "text": "She thanked Tobias Kowatsch, Rasita Vinay, Felix Moser, and the CDHI team for hosting the exchange. The visit offered space to share research and explore future collaboration without claiming that the technologies discussed were already proven interventions.",
+      "sourceIds": ["linkedin"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/post-7495723942599503872-1.jpg",
+      "width": 1280,
+      "height": 794,
+      "sha256": "a591da7492b8806f2916d6459b54a0baba90d06b864d56398db693968615f743",
+      "alt": "A presenter stands beside a display showing a community robot workshop.",
+      "caption": "A presenter stands beside a display showing a community robot workshop. Original LinkedIn image 1 of 3.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7495723942599503872-2.jpg",
+      "width": 1280,
+      "height": 960,
+      "sha256": "0ac5ac0932ccf92cd825c8b2dcf80093047db767b9fd5f332c2195baccaf26ad",
+      "alt": "A presenter discusses a slide titled Robot and Senior Study: Summary and Goal.",
+      "caption": "A presenter discusses a slide titled Robot and Senior Study: Summary and Goal. Original LinkedIn image 2 of 3.",
+      "afterParagraph": 1
+    },
+    {
+      "src": "/images/news/post-7495723942599503872-3.jpg",
+      "width": 1977,
+      "height": 1536,
+      "sha256": "81a21d7b5016126d0c3fc612d24d474f89e8a21ac3998e51de61062455fef14f",
+      "alt": "A presenter points to a slide containing participant drawings and handwritten worksheets.",
+      "caption": "A presenter points to a slide containing participant drawings and handwritten worksheets. Original LinkedIn image 3 of 3.",
+      "afterParagraph": 2
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Full August 19 post and three original keynote photographs reviewed. June 1 event date and topic verified on CDHI host page. August is publication timing, not the keynote date. No efficacy or implementation outcome asserted. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+  }
+}
