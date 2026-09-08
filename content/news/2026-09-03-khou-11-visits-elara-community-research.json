@@ -1,0 +1,116 @@
+{
+  "slug": "khou-11-visits-elara-community-research",
+  "title": "KHOU 11 Visits ELARA's Community Research",
+  "summary": "A filmed interview at the Mamie George Community Center highlighted work with older adults on companion robot design.",
+  "category": "Community & media",
+  "postId": "7501362982296178688",
+  "originalDate": "2026-09-03",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 7,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_elaralab-universityofhouston-agetech-activity-7501362982296178688-oZvY"
+    },
+    {
+      "id": "uh",
+      "label": "University of Houston report on ELARA's community research",
+      "url": "https://stories.uh.edu/2026-ai-robots-for-older-adults/index.html"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Chorong Park shared a behind-the-scenes account of an interview with KHOU 11 reporter Amanda Henderson on September 3, 2026. The photographs show filming and community activities at the Mamie George Community Center.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "The update places older adults' perspectives at the center of ELARA's work. Park described listening to what people find welcoming, useful, confusing, or intrusive when they encounter companion robots.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "A University of Houston report by Kelly Schafler offers additional context: older adults and students have contributed feedback on existing robots and used creative activities to explore ideas for future designs. The work supports development, rather than establishing that a new robot has already been completed or clinically validated.",
+      "sourceIds": ["uh"]
+    },
+    {
+      "text": "Park emphasized an aim of supporting choice, independence, and connection without replacing human relationships. She thanked community participants, students, and collaborators for helping shape the research.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "At the time of her post, broadcast coverage was expected near the end of September. This article records the interview and preparation; it does not imply that the segment has already aired.",
+      "sourceIds": ["linkedin"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/post-7501362982296178688-1.jpg",
+      "width": 1280,
+      "height": 960,
+      "sha256": "1f4b520bde6984cf9b5c16616a90557e150b1832c7d8d5255ae4305d16b270e0",
+      "alt": "Two people sit facing each other during a filmed interview at a community center.",
+      "caption": "Two people sit facing each other during a filmed interview at a community center. Original LinkedIn image 1 of 7.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7501362982296178688-2.jpg",
+      "width": 1280,
+      "height": 960,
+      "sha256": "895c5f41a6e7505490241faee5edeeb1f480b844846e0657e233fd491c35ed81",
+      "alt": "A wide view of cameras, lights, and a seated community-center interview.",
+      "caption": "A wide view of cameras, lights, and a seated community-center interview. Original LinkedIn image 2 of 7.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7501362982296178688-3.jpg",
+      "width": 1280,
+      "height": 960,
+      "sha256": "24d9cd29861f54461dc167bea62405b45e1be0345e0336393b7a8ea7106eccbe",
+      "alt": "A camera operator films an interview with a seated community participant.",
+      "caption": "A camera operator films an interview with a seated community participant. Original LinkedIn image 3 of 7.",
+      "afterParagraph": 1
+    },
+    {
+      "src": "/images/news/post-7501362982296178688-4.jpg",
+      "width": 1280,
+      "height": 960,
+      "sha256": "715028df5f1569e222bea55ece8eb1a8eb7dbc359f1ee21c051a233d2d6e5986",
+      "alt": "Community members sit around tables facing a presentation screen.",
+      "caption": "Community members sit around tables facing a presentation screen. Original LinkedIn image 4 of 7.",
+      "afterParagraph": 2
+    },
+    {
+      "src": "/images/news/post-7501362982296178688-5.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "c9025eac457f4eaa52a754f1ecc72181c4b40c1adda1ff4c56b2131f8ae8fbaa",
+      "alt": "A presenter stands behind an ELARA Lab table displaying companion robots.",
+      "caption": "A presenter stands behind an ELARA Lab table displaying companion robots. Original LinkedIn image 5 of 7.",
+      "afterParagraph": 2
+    },
+    {
+      "src": "/images/news/post-7501362982296178688-6.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "00a40e8c99937db2245fc9f40e428d9021a4a345606fbf47d74a53aab0f49e3d",
+      "alt": "A camera operator films participants at a community-center table.",
+      "caption": "A camera operator films participants at a community-center table. Original LinkedIn image 6 of 7.",
+      "afterParagraph": 3
+    },
+    {
+      "src": "/images/news/post-7501362982296178688-7.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "1c3bb94b4da11f66e73dfe4d66fc7eb27025c9c3e8528ed924c3dbe27365dbde",
+      "alt": "A community participant smiles while holding a small furry companion robot.",
+      "caption": "A community participant smiles while holding a small furry companion robot. Original LinkedIn image 7 of 7.",
+      "afterParagraph": 4
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Full September 3 post and all seven original images reviewed. UH primary report corroborates community co-design context. KHOU interview and expected broadcast attributed to Park. No aired segment, finished robot, clinical outcome, or guaranteed future completion date asserted. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+  }
+}
