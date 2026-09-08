@@ -24,15 +24,21 @@ page works on GitHub Pages without routing rules.
 
 ## GitHub updates
 
-The workflow in `.github/workflows/pages.yml` builds and deploys the site on
-every push to `main`. In the destination repository, select **Settings / Pages /
-Source / GitHub Actions**. A repository URL and authenticated Git access are
-required for the initial push. Neither is configured yet.
+The source repository is [92camile/ELARA](https://github.com/92camile/ELARA).
+The workflow in `.github/workflows/pages.yml` validates pull requests and
+the `codex/elara-website` branch, and publishes pushes to `main`.
+GitHub Pages uses **Settings / Pages / Source / GitHub Actions**.
+The existing custom domain is `elaralab.org`.
 
 The workflow obtains the repository base path from GitHub Pages, so project
 repositories and user sites use the appropriate asset paths.
 Local edits are not uploaded automatically; commit and push them to trigger
 deployment. Never put passwords or tokens in this repository.
+
+The existing repository history and root files are retained. The static build
+preserves the old `/clock.html` page and assets, and redirects `/people.html`
+to `/students/`. Website content is now maintained in `app/`; the old root
+`index.html` is retained as legacy source and is not the deployment artifact.
 
 Edit `app/page.tsx` for text and `app/globals.css` for the visual design.
 

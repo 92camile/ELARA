@@ -6,6 +6,21 @@ const root = path.resolve('dist/client');
 const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
 const home = readFileSync(path.join(root, 'index.html'), 'utf8');
 const students = readFileSync(path.join(root, 'students/index.html'), 'utf8');
+assert.equal(
+  readFileSync(path.join(root, 'CNAME'), 'utf8').trim(),
+  'elaralab.org',
+  'Custom domain must be preserved',
+);
+assert.ok(
+  existsSync(path.join(root, 'clock.html')),
+  'Existing clock page is missing',
+);
+assert.ok(
+  readFileSync(path.join(root, 'people.html'), 'utf8').includes(
+    `href="${base}/students/"`,
+  ),
+  'Old Team URL must link to students',
+);
 
 assert.match(
   home,
