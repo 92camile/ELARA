@@ -1,0 +1,98 @@
+{
+  "slug": "eth-zurich-social-robotics-exchange",
+  "title": "Connecting Human Behavior and Social Robotics at ETH Zurich",
+  "summary": "A June research visit opened conversations across human-centered AI, social robotics, and human behavior.",
+  "category": "International exchange",
+  "postId": "7496325100552474625",
+  "originalDate": "2026-08-20",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 6,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_ethzurich-humanrobotinteraction-hri-activity-7496325100552474625-H1rn"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Chorong Park's June visit to ETH Zurich brought her research into conversation with a group working across human behavior and social robotics. In an August 20, 2026, reflection, she thanked Emily S. Cross and Amol Deshmukh for hosting the exchange.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Park described presenting work on human-centered AI and human-robot interaction, with a focus on aging, trust, autonomy, and meaningful everyday experiences. The visit offered an opportunity to discuss these questions with researchers approaching them from related perspectives.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Her reflection highlighted the intersection of neuroscience, behavior, and social robotics. The photographs show the presentation and discussion around a shared meeting table.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Park closed by expressing appreciation for the welcome and interest in continuing the conversation. The account documents an exchange of ideas and potential future collaboration, rather than a new formal agreement.",
+      "sourceIds": ["linkedin"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/post-7496325100552474625-1.jpg",
+      "width": 1280,
+      "height": 2269,
+      "sha256": "660fc47b0593f233b6993273196d70cf8cbf9ffb2c8396a943f44fa7a6491822",
+      "alt": "A research group sits around a long table facing a presentation screen.",
+      "caption": "A research group sits around a long table facing a presentation screen. Original LinkedIn image 1 of 6.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7496325100552474625-2.jpg",
+      "width": 1280,
+      "height": 2269,
+      "sha256": "286dbb6348d942fd9ef3bf0e9170751aad20830516527c986e2366285550fa37",
+      "alt": "A presenter addresses colleagues seated around a meeting table.",
+      "caption": "A presenter addresses colleagues seated around a meeting table. Original LinkedIn image 2 of 6.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7496325100552474625-3.jpg",
+      "width": 1280,
+      "height": 2269,
+      "sha256": "2736b20f17ac9a53875676f1a172cb94dc451d301e1a43f71a20b8fcbe599e64",
+      "alt": "A presenter gestures toward a projected research slide.",
+      "caption": "A presenter gestures toward a projected research slide. Original LinkedIn image 3 of 6.",
+      "afterParagraph": 1
+    },
+    {
+      "src": "/images/news/post-7496325100552474625-4.jpg",
+      "width": 1280,
+      "height": 2269,
+      "sha256": "8812806041ec580d1314d6f2371b60931dffc7d9dd3439fa13b4726540db39d5",
+      "alt": "A view along a meeting table toward a presenter and projected images.",
+      "caption": "A view along a meeting table toward a presenter and projected images. Original LinkedIn image 4 of 6.",
+      "afterParagraph": 2
+    },
+    {
+      "src": "/images/news/post-7496325100552474625-5.jpg",
+      "width": 2048,
+      "height": 1155,
+      "sha256": "32dae9e74ac6dd2ba5dadd6b2b07d0d0d0f372b0b5b59d097c6e0a693e6f8152",
+      "alt": "A presenter discusses a slide in a bright meeting room with bookshelves.",
+      "caption": "A presenter discusses a slide in a bright meeting room with bookshelves. Original LinkedIn image 5 of 6.",
+      "afterParagraph": 2
+    },
+    {
+      "src": "/images/news/post-7496325100552474625-6.jpg",
+      "width": 2048,
+      "height": 1155,
+      "sha256": "d225f96248f1d3690c108ce0d1943fd6177f5f7956427fad46fb6ab875993fd7",
+      "alt": "A research group watches a presentation beside tall windows.",
+      "caption": "A research group watches a presentation beside tall windows. Original LinkedIn image 6 of 6.",
+      "afterParagraph": 3
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Full August 20, 4:59 PM post and all six original photographs reviewed. Visit is explicitly in June; no exact date supplied. Host names and research context attributed to Park. Future collaboration not stated as a signed partnership. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+  }
+}
