@@ -1,63 +1,111 @@
 import assert from 'node:assert/strict';
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, readFileSync, statSync } from 'node:fs';
 import path from 'node:path';
 
 const root = path.resolve('dist/client');
-const html = readFileSync(path.join(root, 'index.html'), 'utf8');
 const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
+const home = readFileSync(path.join(root, 'index.html'), 'utf8');
+const students = readFileSync(path.join(root, 'students/index.html'), 'utf8');
+
 assert.match(
-  html,
+  home,
   /ELARA Lab \| Human Agency Across the Lifespan/,
-  'ELARA title is missing',
+  'Homepage title is missing',
 );
 assert.match(
-  html,
+  home,
   /autonomy-preserving embodied AI/,
   'ELARA mission is missing',
 );
-assert.doesNotMatch(
-  html,
-  /financial independence|faculty salary|long-term wealth|geographic mobility/i,
-  'Private strategy must not appear on the public site',
+assert.match(home, /href="#news"[^>]*>News<\/a>/, 'News navigation is missing');
+assert.match(
+  students,
+  /Current Students \| ELARA Lab/,
+  'Student page title is missing',
 );
-const ids = new Set(
-  [...html.matchAll(/\bid="([^"]+)"/g)].map((match) => match[1]),
+assert.ok(
+  home.includes(`href="${base}/students/"`),
+  'Homepage does not link to students',
 );
-assert.ok(ids.has('news'), 'Homepage News section is missing');
-assert.match(html, /href="#news"[^>]*>News<\/a>/, 'News navigation is missing');
-const articles = [...html.matchAll(/<article\b[^>]*>[\s\S]*?<\/article>/g)];
-assert.equal(articles.length, 3, 'Expected three verified news articles');
-for (const [article] of articles) {
+assert.ok(
+  students.includes(`href="${base}/#news"`),
+  'Students page does not link back to News',
+);
+
+const newsCards = [...home.matchAll(/<article\b[^>]*>[\s\S]*?<\/article>/g)];
+assert.equal(newsCards.length, 3, 'Expected three verified news articles');
+for (const [card] of newsCards) {
   assert.match(
-    article,
+    card,
     /<time dateTime="\d{4}-\d{2}-\d{2}"/,
     'Article date is missing',
   );
-  assert.match(article, /href="https:\/\//, 'Article source link is missing');
-  assert.match(
-    article,
-    /rel="noopener noreferrer"/,
-    'External link safety attributes are missing',
+  assert.match(card, /href="https:\/\//, 'Article source is missing');
+}
+
+const studentCards = [
+  ...students.matchAll(/<article\b[^>]*>[\s\S]*?<\/article>/g),
+];
+assert.equal(studentCards.length, 4, 'Expected four student profiles');
+for (const name of [
+  'Anika Vadlamudi',
+  'Noorul Maqbool',
+  'Jana Qaddoura',
+  'Levi Abrahams',
+]) {
+  assert.ok(
+    studentCards.some(([card]) => card.includes(name)),
+    `Missing student: ${name}`,
   );
 }
+const anika = studentCards.find(([card]) =>
+  card.includes('Anika Vadlamudi'),
+)?.[0];
+assert.ok(anika?.includes('/elara-logo.png'), 'Anika should use the lab logo');
+assert.doesNotMatch(anika, /<a\b/, 'Anika requested no personal links');
+
 let checked = 0;
-for (const [, url] of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
-  if (url.startsWith('#')) {
-    assert.ok(ids.has(url.slice(1)), `Missing anchor: ${url}`);
-  } else if (url.startsWith('/') && !url.startsWith('//')) {
+for (const [route, html] of [
+  ['/', home],
+  ['/students/', students],
+]) {
+  assert.doesNotMatch(
+    html,
+    /financial independence|faculty salary|long-term wealth|geographic mobility/i,
+    'Private strategy must not appear on the public site',
+  );
+  const pageUrl = new URL(`${base}${route}`, 'https://elara.test');
+  for (const [, href] of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
+    const url = new URL(href, pageUrl);
+    if (url.origin !== pageUrl.origin) continue;
     assert.ok(
-      !base || url.startsWith(`${base}/`),
-      `Missing repository base path: ${url}`,
+      !base || url.pathname.startsWith(`${base}/`),
+      `Missing repository base path: ${href}`,
     );
-    const localPath = decodeURIComponent(url.slice(base.length).split('?')[0]);
+    const relative = decodeURIComponent(url.pathname.slice(base.length));
+    let file = path.resolve(root, `.${relative}`);
     assert.ok(
-      existsSync(path.join(root, localPath)),
-      `Missing exported asset: ${url}`,
+      file === root || file.startsWith(`${root}${path.sep}`),
+      'Link escapes the export directory',
     );
+    assert.ok(existsSync(file), `Missing exported route or asset: ${href}`);
+    if (statSync(file).isDirectory()) file = path.join(file, 'index.html');
+    assert.ok(existsSync(file), `Missing page: ${href}`);
+    if (url.hash) {
+      const target = readFileSync(file, 'utf8');
+      const id = decodeURIComponent(url.hash.slice(1));
+      assert.ok(target.includes(`id="${id}"`), `Missing anchor: ${href}`);
+    }
     checked++;
   }
+  for (const [link] of html.matchAll(/<a\b[^>]*target="_blank"[^>]*>/g)) {
+    assert.match(
+      link,
+      /rel="noopener noreferrer"/,
+      'External link safety attributes are missing',
+    );
+  }
 }
-assert.ok(checked > 0, 'No exported assets found');
 console.log(
-  `Verified ELARA content, navigation anchors, and ${checked} exported asset references.`,
+  `Verified both pages, four student profiles, three news articles, and ${checked} internal links and assets.`,
 );

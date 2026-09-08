@@ -1,5 +1,6 @@
 /* oxlint-disable next/no-img-element -- Static hosting serves the existing logo without an image service. */
 import { newsArticles } from '../lib/news';
+import { SiteHeader, SiteFooter } from '../components/site-shell';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 const logo = `${basePath}/elara-logo.png`;
@@ -7,31 +8,9 @@ const logo = `${basePath}/elara-logo.png`;
 export default function Home() {
   return (
     <div id="top">
-      <a className="skip-link" href="#intro">
-        Skip to content
-      </a>
-      <header className="masthead">
-        <div className="header-inner">
-          <a className="brand" href="#top" aria-label="ELARA Lab home">
-            <img src={logo} width={64} height={64} alt="" />
-            <span>
-              <strong>ELARA Lab</strong>
-              <span className="brand-description">
-                Empathetic Lifespan AI &amp; Robotics for Aging
-              </span>
-            </span>
-          </a>
-          <nav className="primary-nav" aria-label="Main navigation">
-            <a href="#intro">Home</a>
-            <a href="#mission">Our mission</a>
-            <a className="news-nav" href="#news">
-              News
-            </a>
-          </nav>
-        </div>
-      </header>
+      <SiteHeader page="home" />
 
-      <main>
+      <main id="content" tabIndex={-1}>
         <section className="hero" id="intro" aria-labelledby="headline">
           <div className="container hero-grid">
             <div className="hero-copy">
@@ -172,20 +151,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="container">
-        <a className="brand footer-brand" href="#top" aria-label="ELARA Lab home">
-          <img src={logo} width={48} height={48} alt="" />
-          <span>
-            <strong>ELARA Lab</strong>
-            <span className="brand-description">
-              Human agency across the lifespan.
-            </span>
-          </span>
-        </a>
-        <a className="back-top" href="#top">
-          Back to top <span aria-hidden="true">&#8593;</span>
-        </a>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }

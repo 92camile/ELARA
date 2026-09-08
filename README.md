@@ -19,6 +19,8 @@ pnpm build
 ```
 
 The static website is exported to `dist/client/`.
+The build also prepares `students/index.html` so the separate `/students/`
+page works on GitHub Pages without routing rules.
 
 ## GitHub updates
 
@@ -49,12 +51,22 @@ search results helped locate this coverage; full access to Chorong Park's
 list is not a complete import of the profile's articles. There is no automatic
 LinkedIn synchronization.
 
+## Current students
+
+The separate `/students/` page contains the four student profiles supplied
+in the Word document. Edit `lib/students.ts` for biographies, interests,
+and public contact links. Photos are stored in `public/students/`.
+The page uses the lab logo and no personal links for Anika, reflecting the
+preferences in the supplied profile. Jana's supplied university email is
+used instead of her personal address. Levi's role does not assume that the
+planned change of major has already taken place.
+
 ## Local validation
 
 `pnpm lint`, `pnpm exec tsc --noEmit`, and `pnpm verify` check code and the
 exported website. `pnpm verify` requires a prior build.
 
-On this Windows host, Vinext completed prerendering but Node crashed during
-shutdown with `UV_HANDLE_CLOSING`. The exported files are present, but the
-build command currently exits unsuccessfully. The Linux GitHub workflow has
-not been run yet; deployment is not verified.
+This Windows host has intermittently reported `UV_HANDLE_CLOSING` during
+Vinext shutdown after prerendering. Treat a nonzero build exit as a failure
+even if exported files are present. The Linux GitHub workflow has not been
+run yet; deployment is not verified.
