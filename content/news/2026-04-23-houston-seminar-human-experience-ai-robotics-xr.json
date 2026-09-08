@@ -1,0 +1,63 @@
+{
+  "slug": "houston-seminar-human-experience-ai-robotics-xr",
+  "title": "A Houston Seminar on Human Experience in AI, Robotics, and XR",
+  "summary": "Park's seminar announcement brought trust, accessibility, and everyday technology use into an interdisciplinary conversation.",
+  "category": "Talks & seminars",
+  "postId": "7453287935824637952",
+  "originalDate": "2026-04-23",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 2,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_computerscience-hci-hri-activity-7453287935824637952-JEUo"
+    },
+    {
+      "id": "uh",
+      "label": "University of Houston Computer Science seminar listing",
+      "url": "https://www.uh.edu/nsm/computer-science/events/seminars/"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "On April 23, 2026, Chorong Park announced a seminar for the University of Houston Department of Computer Science. The department's calendar lists the talk for April 24 at 11 a.m. in PGH 563.",
+      "sourceIds": ["linkedin", "uh"]
+    },
+    {
+      "text": "The announced talk, \"Bridging Technology and Human Experience in AI, Robotics, and XR,\" focused on the importance of human-centered design in interactive technologies. Park proposed looking beyond technical capability to consider whether systems are usable and trustworthy in real settings.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Her planned discussion connected human-computer and human-robot interaction with aging, care, privacy, and adoption. The announcement offered a meeting point for researchers across disciplines working on how technology fits into people's lives.",
+      "sourceIds": ["linkedin"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/post-7453287935824637952-1.jpg",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "4c1fb46e925d57e0ab32c6a0efe2feb1d408aa0b4e8eacddd29485ab8af52f93",
+      "alt": "Portrait photograph of Chorong Park.",
+      "caption": "Portrait photograph of Chorong Park. Original LinkedIn image 1 of 2.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7453287935824637952-2.jpg",
+      "width": 480,
+      "height": 320,
+      "sha256": "3118593f35e3ad0f31dd58c32471f80fc45b90eba78ee1aa89e8192eab8baa11",
+      "alt": "University of Houston Computer Science Seminar graphic.",
+      "caption": "University of Houston Computer Science Seminar graphic. Original LinkedIn image 2 of 2.",
+      "afterParagraph": 1
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Full April 23 post and both images reviewed. April 24 time, venue, speaker, and title verified in the department calendar. Written as a historical announcement; no unsupported claim that the event occurred or had particular outcomes. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+  }
+}
