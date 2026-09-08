@@ -1,0 +1,67 @@
+{
+  "slug": "chi-2026-honorable-mention-robot-privacy",
+  "title": "Robot Privacy Research Earns CHI 2026 Honorable Mention",
+  "summary": "The recognized paper asks how robots can respect older adults' privacy as preferences and circumstances change.",
+  "category": "Research & awards",
+  "postId": "7436867486114975744",
+  "originalDate": "2026-03-09",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 2,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_chi2026-hci-hri-activity-7436867486114975744-jq4s"
+    },
+    {
+      "id": "purdue",
+      "label": "Purdue's CHI 2026 award report",
+      "url": "https://polytechnic.purdue.edu/newsroom/polytechnic-researchers-tackle-ai-privacy-present-accepted-papers-plus-honorable-mention"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "A paper coauthored by Chorong Park received an Honorable Mention at CHI 2026. Park announced the recognition on March 9; Purdue's subsequent conference report independently confirms the award for \"Privacy is Not One-Click: Designing Robots That Adapt to Older Adults' Changing Boundaries.\"",
+      "sourceIds": ["linkedin", "purdue"]
+    },
+    {
+      "text": "Park described a community-engaged project that began in summer 2024 and included two participatory design workshops in an assisted-living setting. Interviews, storyboards, and discussion helped the team explore how privacy expectations shift over time and across relationships.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "The work challenges the idea that a single agreement can settle privacy for the life of a robotic system. Instead, the team considered ways to make privacy preferences adjustable and understandable as people's needs change.",
+      "sourceIds": ["linkedin", "purdue"]
+    },
+    {
+      "text": "Park's reflection points to design possibilities such as adaptable privacy profiles, real-time feedback, and greater control over personal data. These are research-informed design directions, rather than an announcement of a finished privacy product.",
+      "sourceIds": ["linkedin"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/post-7436867486114975744-1.jpg",
+      "width": 362,
+      "height": 331,
+      "sha256": "97e623625de3520ea196f7c9ef1129db831085a0597f225a1ab9a3027be974fb",
+      "alt": "Two-photo collage showing a seated participant facing different small companion robots.",
+      "caption": "Two-photo collage showing a seated participant facing different small companion robots. Original LinkedIn image 1 of 2.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7436867486114975744-2.jpg",
+      "width": 1280,
+      "height": 1446,
+      "sha256": "1e19290912d2764b87930a4093e65ef27debcb556b2d01ee1f85461262916bca",
+      "alt": "Three presenters stand at the front of a room beside a digital privacy slide.",
+      "caption": "Three presenters stand at the front of a room beside a digital privacy slide. Original LinkedIn image 2 of 2.",
+      "afterParagraph": 2
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Full March 9 source and two original images reviewed. Honorable Mention independently verified in Purdue's May 1 report. Workshop history and proposed features attributed to Park; no claim of a deployed or clinically validated system. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+  }
+}
