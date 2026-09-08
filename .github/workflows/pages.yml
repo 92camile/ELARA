@@ -30,13 +30,16 @@ jobs:
         id: pages
       - run: pnpm install --frozen-lockfile
       - run: pnpm lint
+      - run: pnpm test
       - run: pnpm exec tsc --noEmit
       - run: pnpm build
         env:
           NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          NEXT_PUBLIC_ELFSIGHT_LINKEDIN_WIDGET_ID: ${{ vars.NEXT_PUBLIC_ELFSIGHT_LINKEDIN_WIDGET_ID }}
       - run: pnpm verify
         env:
           NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          NEXT_PUBLIC_ELFSIGHT_LINKEDIN_WIDGET_ID: ${{ vars.NEXT_PUBLIC_ELFSIGHT_LINKEDIN_WIDGET_ID }}
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist/client

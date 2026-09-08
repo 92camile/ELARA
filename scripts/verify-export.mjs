@@ -1,11 +1,28 @@
 import assert from 'node:assert/strict';
 import { existsSync, readFileSync, statSync } from 'node:fs';
 import path from 'node:path';
+import { getLinkedInWidgetId, linkedinProfileUrl } from '../lib/linkedin.mjs';
 
 const root = path.resolve('dist/client');
 const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
 const home = readFileSync(path.join(root, 'index.html'), 'utf8');
 const students = readFileSync(path.join(root, 'students/index.html'), 'utf8');
+const linkedInWidgetId = getLinkedInWidgetId(
+  process.env.NEXT_PUBLIC_ELFSIGHT_LINKEDIN_WIDGET_ID,
+);
+assert.ok(home.includes(`href="${linkedinProfileUrl}"`));
+if (linkedInWidgetId) {
+  assert.ok(home.includes(`class="elfsight-app-${linkedInWidgetId}"`));
+  assert.ok(home.includes('data-elfsight-app-lazy=""'));
+  assert.ok(home.includes('id="linkedin-feed-title"'));
+  assert.ok(home.includes('View posts on LinkedIn'));
+  assert.ok(home.includes('<noscript>'));
+} else {
+  assert.ok(!home.includes('id="linkedin-feed-title"'));
+  assert.ok(!home.includes('class="elfsight-app-'));
+  assert.ok(!home.includes('<script src="https://elfsightcdn.com/'));
+}
+assert.ok(!students.includes('class="elfsight-app-'));
 assert.equal(
   readFileSync(path.join(root, 'CNAME'), 'utf8').trim(),
   'elaralab.org',

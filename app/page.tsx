@@ -1,9 +1,14 @@
 /* oxlint-disable next/no-img-element -- Static hosting serves the existing logo without an image service. */
 import { newsArticles } from '../lib/news';
 import { SiteHeader, SiteFooter } from '../components/site-shell';
+import { LinkedInFeed } from '../components/linkedin-feed';
+import { getLinkedInWidgetId, linkedinProfileUrl } from '../lib/linkedin.mjs';
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 const logo = `${basePath}/elara-logo.png`;
+const linkedInWidgetId = getLinkedInWidgetId(
+  process.env.NEXT_PUBLIC_ELFSIGHT_LINKEDIN_WIDGET_ID,
+);
 
 export default function Home() {
   return (
@@ -104,7 +109,7 @@ export default function Home() {
               </div>
               <a
                 className="profile-link"
-                href="https://www.linkedin.com/in/cparkphd"
+                href={linkedinProfileUrl}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -112,6 +117,7 @@ export default function Home() {
                 <span className="sr-only"> (opens in a new tab)</span>
               </a>
             </div>
+            {linkedInWidgetId && <LinkedInFeed widgetId={linkedInWidgetId} />}
             <div className="news-grid">
               {newsArticles.map((article) => (
                 <article

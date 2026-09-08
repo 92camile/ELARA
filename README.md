@@ -54,8 +54,43 @@ The current three stories were verified against University of Houston,
 InnovationMap, and Purdue Polytechnic on September 7, 2026. Public LinkedIn
 search results helped locate this coverage; full access to Chorong Park's
 [profile](https://www.linkedin.com/in/cparkphd) required sign-in, so the current
-list is not a complete import of the profile's articles. There is no automatic
-LinkedIn synchronization.
+list is not a complete import of the profile's articles.
+
+## LinkedIn feed
+
+The News section supports an optional Elfsight LinkedIn Feed. It stays hidden
+until a real, verified widget ID is configured; the existing news articles and
+profile link remain available. No LinkedIn credentials belong in the site.
+
+To activate it:
+
+1. In your own free Elfsight account, create a LinkedIn Feed using
+   `https://www.linkedin.com/in/cparkphd/`. Confirm the preview shows the correct
+   author and real posts, not example content. Choose the Free plan.
+2. Use a light grid layout and ELARA's red `#e31745` and purple `#6f237f` in the
+   widget editor. Retain Elfsight's required free-plan branding.
+3. Take the UUID after `elfsight-app-` from its installation code. In GitHub,
+   add a repository Actions variable named
+   `NEXT_PUBLIC_ELFSIGHT_LINKEDIN_WIDGET_ID` containing only that UUID.
+4. Run the existing Pages workflow on `main`, or push a new commit to `main`.
+   The static build reads the variable and enables the feed automatically.
+
+For local development, set the same environment variable before starting the
+development server. For local validation, use the same value for `pnpm build`
+and `pnpm verify`. Remove the variable and redeploy to disable the integration.
+
+The public widget ID is not a secret. The loader uses Elfsight's official CDN,
+starts after React mounts, and uses the vendor's lazy-loading attribute. It is
+never loaded on the Students page or when the feed is disabled. The LinkedIn
+link remains visible if scripts are blocked or the provider's quota is reached.
+An embedded feed depends on Elfsight and is not a permanent archive in GitHub.
+
+As checked September 8, 2026, Elfsight's Free plan has one widget, branding,
+and 200 widget views per month. Exceeding the limit temporarily disables the
+widget. LinkedIn posts refresh on a 48-hour cycle, not immediately; complete
+historical coverage is not guaranteed. Verify current terms before activating:
+[pricing](https://elfsight.com/linkedin-feed-widget/pricing/) and
+[feed behavior](https://elfsight.com/linkedin-feed-widget/).
 
 ## Current students
 
@@ -69,10 +104,11 @@ planned change of major has already taken place.
 
 ## Local validation
 
-`pnpm lint`, `pnpm exec tsc --noEmit`, and `pnpm verify` check code and the
+`pnpm lint`, `pnpm test`, `pnpm exec tsc --noEmit`, and `pnpm verify` check code and the
 exported website. `pnpm verify` requires a prior build.
 
 This Windows host has intermittently reported `UV_HANDLE_CLOSING` during
 Vinext shutdown after prerendering. Treat a nonzero build exit as a failure
-even if exported files are present. The Linux GitHub workflow has not been
-run yet; deployment is not verified.
+even if exported files are present. The Linux GitHub workflow validates each
+publication; its status, rather than the presence of local artifacts, determines
+whether a deployment succeeded.
