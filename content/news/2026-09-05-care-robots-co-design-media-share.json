@@ -1,0 +1,49 @@
+{
+  "slug": "care-robots-co-design-media-share",
+  "title": "Media Coverage Highlights Designing With Older Adults",
+  "summary": "A shared feature draws attention to participation, privacy, and trust in ELARA's companion robot research.",
+  "category": "In the media",
+  "postId": "7502030461079040000",
+  "originalDate": "2026-09-05",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 0,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_designing-care-robots-with-older-adults-activity-7502030461079040000-tb0Q"
+    },
+    {
+      "id": "shared",
+      "label": "The Humanoids4Good feature shared by Park",
+      "url": "https://humanoids4good.com/en/artikel/2026-06-02_uh-elara-care-robot-codesign/"
+    },
+    {
+      "id": "uh",
+      "label": "Original University of Houston reporting",
+      "url": "https://stories.uh.edu/2026-ai-robots-for-older-adults/index.html"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "On September 5, 2026, Chorong Park shared a Humanoids4Good feature about ELARA's approach to developing care robots with older adults. The post is a link-only share, directing readers to coverage based on University of Houston reporting.",
+      "sourceIds": ["linkedin", "shared"]
+    },
+    {
+      "text": "The university's original account describes older adults as contributors to design, working with students to provide feedback and model ideas for future companion robots. It identifies privacy and feeling comfortable with a system as important considerations alongside function and accessibility.",
+      "sourceIds": ["uh"]
+    },
+    {
+      "text": "The coverage offers a way into the lab's participatory research, not evidence that a finished care robot is already in use. Readers can follow the original university report for the research context and the community's role.",
+      "sourceIds": ["uh"]
+    }
+  ],
+  "photos": [],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "LinkedIn source opened directly while signed in: link-only share, no authored body and no attached gallery or preview photograph. Elfsight also shows zero media. Linked Humanoids4Good article read in browser; its inaccurate associate-professor label and unsupported ranking of adoption barriers were not repeated. Technical account based on UH original, which identifies Park as assistant professor. No unrelated profile image imported. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+  }
+}
