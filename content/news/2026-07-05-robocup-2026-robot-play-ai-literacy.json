@@ -1,0 +1,116 @@
+{
+  "slug": "robocup-2026-robot-play-ai-literacy",
+  "title": "From Robot Play to AI Literacy at RoboCup 2026",
+  "summary": "Park's Incheon update introduced a planned presentation on helping older adults understand, question, and control AI.",
+  "category": "Research & conferences",
+  "postId": "7479446810361753600",
+  "originalDate": "2026-07-05",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 8,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_robocup-robocup2026-hri-activity-7479446810361753600-uzVT"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "During RoboCup 2026 in Incheon, Chorong Park shared a July 5 update connecting robot play with AI literacy. She announced a WEROB presentation, \"From Robot Play to AI Literacy,\" scheduled for the following day.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "The proposed focus was on how companion robots could help older adults make sense of AI in everyday life. Understanding a system, questioning its behavior, and retaining control were central to the approach she described.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Park framed educational robotics as a community-centered activity, bringing together accessibility, trust, privacy awareness, and enjoyable learning. The post presents a research direction, not evidence that a particular robot has already improved AI literacy.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Her eight photographs document the broader RoboCup setting, from robot demonstrations and competition spaces to the gathering of participants. They offer a visual record of the event alongside the planned research contribution.",
+      "sourceIds": ["linkedin"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/post-7479446810361753600-1.jpg",
+      "width": 1280,
+      "height": 1706,
+      "sha256": "4b74ce66ccea9941ff35c983ccb430bcabba4b55c6b05c03880a75d4e90885fa",
+      "alt": "Visitors watch a robot demonstration inside a partitioned indoor arena.",
+      "caption": "Visitors watch a robot demonstration inside a partitioned indoor arena. Original LinkedIn image 1 of 8.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7479446810361753600-2.jpg",
+      "width": 1280,
+      "height": 1706,
+      "sha256": "961fc1b65d4f6be3744b7f13b9dc3b45927184296f1722cc8a21b0e4acfdea5a",
+      "alt": "Robots and participants occupy a green indoor soccer field.",
+      "caption": "Robots and participants occupy a green indoor soccer field. Original LinkedIn image 2 of 8.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7479446810361753600-3.jpg",
+      "width": 1280,
+      "height": 1706,
+      "sha256": "724876ae9cd9d1e15718520cf58020c7d6e57e8056e8a727f03307ad77681952",
+      "alt": "A large group poses behind a lineup of service robots.",
+      "caption": "A large group poses behind a lineup of service robots. Original LinkedIn image 3 of 8.",
+      "afterParagraph": 1
+    },
+    {
+      "src": "/images/news/post-7479446810361753600-4.jpg",
+      "width": 1280,
+      "height": 1706,
+      "sha256": "9a3b19bd4632a684ce4c881956ecf1f333ba31d2ec5cb5b76c6df9e505e9a1f6",
+      "alt": "Spectators watch activity on an indoor robot soccer field.",
+      "caption": "Spectators watch activity on an indoor robot soccer field. Original LinkedIn image 4 of 8.",
+      "afterParagraph": 1
+    },
+    {
+      "src": "/images/news/post-7479446810361753600-5.jpg",
+      "width": 1280,
+      "height": 1706,
+      "sha256": "8457355c9b89c18a1f43eebb3a5f48d4fdada7cb8703a4112f3f63c4487eb85c",
+      "alt": "A small red-and-black humanoid robot stands between spectators.",
+      "caption": "A small red-and-black humanoid robot stands between spectators. Original LinkedIn image 5 of 8.",
+      "afterParagraph": 2
+    },
+    {
+      "src": "/images/news/post-7479446810361753600-6.jpg",
+      "width": 1280,
+      "height": 1706,
+      "sha256": "cf3366455cb949c3d03c4754f9940b404c663d81381ff9afb2bb0a7724973d26",
+      "alt": "Participants crouch beside mobile robots in an indoor demonstration area.",
+      "caption": "Participants crouch beside mobile robots in an indoor demonstration area. Original LinkedIn image 6 of 8.",
+      "afterParagraph": 2
+    },
+    {
+      "src": "/images/news/post-7479446810361753600-7.jpg",
+      "width": 1280,
+      "height": 1706,
+      "sha256": "2287ee7b4d2ab3f77c23350827e3e8175c94ccfb9b6dfdc58f53f20abdbddda9",
+      "alt": "Attendees gather around tables in a large banquet hall.",
+      "caption": "Attendees gather around tables in a large banquet hall. Original LinkedIn image 7 of 8.",
+      "afterParagraph": 3
+    },
+    {
+      "src": "/images/news/post-7479446810361753600-8.jpg",
+      "width": 1280,
+      "height": 1706,
+      "sha256": "383b44fccb1fb7d00448a213be99d27a5600a135184d3d7f149ac96fc944ddb3",
+      "alt": "Service robots stand among worktables inside a busy exhibition hall.",
+      "caption": "Service robots stand among worktables inside a busy exhibition hall. Original LinkedIn image 8 of 8.",
+      "afterParagraph": 3
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Full July 5 post and eight original images reviewed. WEROB talk remains a planned July 6 presentation in the article. Omitted competition ranking because not independently checked; no measured educational outcome asserted. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+  }
+}
