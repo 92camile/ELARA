@@ -1,0 +1,62 @@
+{
+  "slug": "robotics-day-human-connection",
+  "title": "Robotics Day Sparks Ideas for Accessible, Purposeful Design",
+  "summary": "A visit to Purdue Robotics Day prompted new questions about robots for learning, care, and companionship.",
+  "category": "Research exchange",
+  "postId": "7446985956177575937",
+  "originalDate": "2026-04-06",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 2,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_chi2026-purdue-roboticsday-activity-7446985956177575937-2fTD"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Chorong Park reflected on a recent Robotics Day visit in an April 6, 2026, post, describing encounters with projects that opened up new directions for human-robot interaction. Her photographs capture a range of demonstrations and exhibits.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "The visit prompted questions about designing robots for specific everyday purposes, including education, healthcare, and companionship for older adults. Park emphasized that well-being and accessibility should guide those design decisions.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "She thanked Rua M. Williams, Anastasia Kouvaras Ostrowski, and Sooyeon Jeong for sharing research and projects during the visit. The exchange offered a chance to connect technical possibilities with questions about genuine human connection.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Looking ahead to CHI 2026, Park expressed interest in continuing those conversations. The post records a research exchange and emerging ideas, rather than new clinical findings or a product launch.",
+      "sourceIds": ["linkedin"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/post-7446985956177575937-1.jpg",
+      "width": 1280,
+      "height": 1599,
+      "sha256": "8942cd9fc349ed86cba65b7b342377468ede7458c8ad3133a5a3ca6fc793da1c",
+      "alt": "Collage of a Purdue Robotics Day visit, including an event sign, badge, exhibits, and attendees.",
+      "caption": "Collage of a Purdue Robotics Day visit, including an event sign, badge, exhibits, and attendees. Original LinkedIn image 1 of 2.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7446985956177575937-2.jpg",
+      "width": 1536,
+      "height": 1536,
+      "sha256": "7bbd7a6a094da2f717f46bb865585c6c19ede3fff810b3a5e758704ea2e4ecc1",
+      "alt": "Collage of a visitor with a robot dog and displays of humanoid and quadruped robots.",
+      "caption": "Collage of a visitor with a robot dog and displays of humanoid and quadruped robots. Original LinkedIn image 2 of 2.",
+      "afterParagraph": 2
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Full April 6 post and both original collages reviewed, preserving each collage intact. No exact event date inferred from the posting date. Researcher names checked against the post; future uses described as ideas. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+  }
+}
