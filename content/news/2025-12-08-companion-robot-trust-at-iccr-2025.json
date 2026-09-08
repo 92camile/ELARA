@@ -1,0 +1,85 @@
+{
+  "slug": "companion-robot-trust-at-iccr-2025",
+  "title": "Exploring Trust in Companion Robots at ICCR 2025",
+  "summary": "Park's Kyoto presentation examined how friendly behavior, pet-like qualities, and reminiscence could inform companion robot design.",
+  "category": "Research & conferences",
+  "postId": "7403748802551296002",
+  "originalDate": "2025-12-08",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 4,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_iccr2025-hri-hci-activity-7403748802551296002-KVu4"
+    },
+    {
+      "id": "proceedings",
+      "label": "ICCR 2025 proceedings table of contents",
+      "url": "https://www.proceedings.com/content/084/084281webtoc.pdf"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "At ICCR 2025 in Kyoto, Chorong Park presented research on designing companion robots that older adults might find approachable and trustworthy. Her December 8 reflection looked back on a presentation the previous day.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "The conference proceedings list her paper, \"Enhancing Trust Cues in Companion Robots for Older Adults: A Pet-Like, Friendly and Nostalgia-Driven Kansei Approach.\" Park's account describes design questions around pet-like appeal, friendly social behavior, and interactions that invite reminiscence.",
+      "sourceIds": ["linkedin", "proceedings"]
+    },
+    {
+      "text": "The aim is to explore how a robot's appearance and behavior shape people's experience of it in daily life. These design directions are not a claim that emotional appeal alone establishes safety or that companion robots have proven clinical benefits.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Park also outlined plans to connect researchers, care organizations, community settings, and industry around future studies. She invited conversations about shared research and real-world testing, with older adults' autonomy and dignity guiding that work.",
+      "sourceIds": ["linkedin"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/post-7403748802551296002-1.jpg",
+      "width": 2048,
+      "height": 921,
+      "sha256": "fb023685a6a2d93a7df303a44ad8466f81b60d4a709ba502349f2d78f7704788",
+      "alt": "Conference participants stand together holding certificates.",
+      "caption": "Conference participants stand together holding certificates. Original LinkedIn image 1 of 4.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7403748802551296002-2.jpg",
+      "width": 726,
+      "height": 1613,
+      "sha256": "bce4925ac46e499a9522d0e9993ac7531c673ec7a55d5e0adeb211f117a2ee86",
+      "alt": "Audience members and open laptops face the front of a conference room.",
+      "caption": "Audience members and open laptops face the front of a conference room. Original LinkedIn image 2 of 4.",
+      "afterParagraph": 1
+    },
+    {
+      "src": "/images/news/post-7403748802551296002-3.jpg",
+      "width": 1613,
+      "height": 726,
+      "sha256": "4e996c6fb9850d050a9f02f4839b382abaeb115983ad6cf819da67b277a5367b",
+      "alt": "A presenter stands beside a projected questions-and-discussion slide.",
+      "caption": "A presenter stands beside a projected questions-and-discussion slide. Original LinkedIn image 3 of 4.",
+      "afterParagraph": 2
+    },
+    {
+      "src": "/images/news/post-7403748802551296002-4.jpg",
+      "width": 2048,
+      "height": 921,
+      "sha256": "9699545ab1e3cc49bab1bb8b61ed992d1f456bb74893d6a438520c33662bcb7c",
+      "alt": "A presenter smiles while holding a certificate in a conference room.",
+      "caption": "A presenter smiles while holding a certificate in a conference room. Original LinkedIn image 4 of 4.",
+      "afterParagraph": 3
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Full December 8 post and all four ordered gallery images reviewed. Publisher proceedings confirm the paper entry. Presentation timing is attributed to the post. Collaboration network remains a plan, not an established partnership; no clinical efficacy claim. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+  }
+}
