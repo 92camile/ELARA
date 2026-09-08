@@ -1,0 +1,57 @@
+{
+  "slug": "elara-first-year-community-research",
+  "title": "A Year of Building ELARA's Research Community",
+  "summary": "Park reflects on a year of student research, community engagement, and international exchange.",
+  "category": "Lab milestones",
+  "postId": "7503097921622544384",
+  "originalDate": "2026-09-08",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 1,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_elaralab-universityofhouston-humanrobotinteraction-activity-7503097921622544384-Hpzd"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Chorong Park marked a year of growth at ELARA Lab and the University of Houston in a September 8, 2026, reflection. Her update connects the lab's research on AI, robotics, and aging with the people and communities who have helped develop it.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "The year included student research, community demonstrations, talks, and international exchanges. Park thanked the students, collaborators, and community partners who contributed ideas and time to this work.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Her reflection returned to a consistent research priority: developing technology that supports people's choices rather than taking those choices away. For the lab, community participation remains an important way to understand what meaningful assistance should look like.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Park also invited interest from students and collaborators across design, computing, robotics, psychology, healthcare, and care settings. The post looks toward a broader research community while recognizing the relationships already built.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "The original collage brings together moments from community workshops, showing participants and researchers exploring companion robots together.",
+      "sourceIds": ["linkedin"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/post-7503097921622544384-1.jpg",
+      "width": 1983,
+      "height": 793,
+      "sha256": "ac3bf3579774b98c7d94071d845d2a331cf681d2c9533e2e61ac98f86ef389cd",
+      "alt": "Three-photo collage of community participants and researchers exploring companion robots around workshop tables.",
+      "caption": "Three-photo collage of community participants and researchers exploring companion robots around workshop tables. Original LinkedIn image 1 of 1.",
+      "afterParagraph": 0
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Full September 8 post and its one original three-panel collage reviewed. One-year milestone and collaboration invitation attributed to Park; no invented lab totals, formal partners, funded positions, or completion claims. Incomplete contact handle omitted rather than converted into a guessed email address. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+  }
+}
