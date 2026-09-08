@@ -1,0 +1,81 @@
+{
+  "slug": "umzh-2026-hypertension-coaching-announcement",
+  "title": "Supporting Digital Health Design at the UMZH Summer School",
+  "summary": "Park joined the coaching program for a hypertension-focused design challenge in Zurich.",
+  "category": "Digital health & learning",
+  "postId": "7495113458493960192",
+  "originalDate": "2026-08-17",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 3,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_digitalhealth-digitaltherapeutics-hypertension-activity-7495113458493960192-plRG"
+    },
+    {
+      "id": "cdhi",
+      "label": "CDHI's 2026 summer school program",
+      "url": "https://www.c4dhi.org/news/second-umzh-precision-digital-therapeutics-summer-school-2026/"
+    },
+    {
+      "id": "reflection",
+      "label": "Park's subsequent summer school reflection",
+      "url": "https://www.linkedin.com/posts/cparkphd_digitalhealth-digitaltherapeutics-precisionhealth-activity-7497574677016428544-tbPJ"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Chorong Park announced on August 17, 2026, that she would serve as a group coach for the hypertension challenge at the second UMZH Precision Digital Therapeutics Summer School. The Zurich program ran August 17-21, with care for older adults as its theme.",
+      "sourceIds": ["linkedin", "cdhi"]
+    },
+    {
+      "text": "Her planned contribution centered on the August 20 implementation sessions, supporting group coaching and preparation for project pitches. Park described working alongside Tobias Kowatsch and other coaches to help participants connect their ideas to practical care settings.",
+      "sourceIds": ["linkedin", "cdhi"]
+    },
+    {
+      "text": "The program brought design work into contact with questions about evidence, regulation, implementation, and access. Park's announcement emphasized the need to consider these issues together rather than treating a promising technical concept as a finished intervention.",
+      "sourceIds": ["linkedin", "cdhi"]
+    },
+    {
+      "text": "The update records the start of her involvement. Her later August 24 reflection describes the coaching experience and the teams' final presentations.",
+      "sourceIds": ["linkedin", "reflection"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/post-7495113458493960192-1.jpg",
+      "width": 1280,
+      "height": 960,
+      "sha256": "2e57a72e15f0b16b0caf34abbab2a941725c71d55b65c46737026febc33cc380",
+      "alt": "Participants work together at a table with open laptops.",
+      "caption": "Participants work together at a table with open laptops. Original LinkedIn image 1 of 3.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7495113458493960192-2.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "bfe5ebef16c471344c18d5fba2b872906e5c824e34614f132cc33d9a3caf5c2d",
+      "alt": "A presentation is visible beyond a tote bag printed with You Are Precious.",
+      "caption": "A presentation is visible beyond a tote bag printed with You Are Precious. Original LinkedIn image 2 of 3.",
+      "afterParagraph": 1
+    },
+    {
+      "src": "/images/news/post-7495113458493960192-3.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "d512aaebe83b6fd0873ab2c6f0e4b43320a7f2a17a30f2f0aa4ab287583d69ca",
+      "alt": "An open publication shows an illustration of a small companion device on an armchair.",
+      "caption": "An open publication shows an illustration of a small companion device on an armchair. Original LinkedIn image 3 of 3.",
+      "afterParagraph": 2
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Full August 17 post and all three original images reviewed. Dates and implementation-day coaching checked against CDHI program; later participation corroborated by August 24 reflection. No clinical, regulatory, reimbursement, or commercial success claimed. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+  }
+}
