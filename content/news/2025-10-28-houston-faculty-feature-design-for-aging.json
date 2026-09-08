@@ -1,0 +1,54 @@
+{
+  "slug": "houston-faculty-feature-design-for-aging",
+  "title": "UH Faculty Feature Highlights Design for Aging",
+  "summary": "A University of Houston faculty feature introduces Park's approach to inclusive technology and participatory design.",
+  "category": "In the media",
+  "postId": "7388952784517259264",
+  "originalDate": "2025-10-28",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 1,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_preserve-plan-innovate-gerald-d-hines-activity-7388952784517259264-uijQ"
+    },
+    {
+      "id": "uh",
+      "label": "University of Houston faculty announcement",
+      "url": "https://www.uh.edu/architecture/newsroom/stories/2025/preserve-plan-innovate.php"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Chorong Park shared a University of Houston faculty feature on October 28, 2025, drawing attention to her work at the intersection of design, aging, and interactive technology.",
+      "sourceIds": ["linkedin", "uh"]
+    },
+    {
+      "text": "Published in September, the college's announcement introduced three faculty members bringing expertise in preservation, urban planning, and user experience. Its profile of Park describes research spanning aging, disability studies, and human-computer interaction, including immersive experiences and social robots.",
+      "sourceIds": ["uh"]
+    },
+    {
+      "text": "The feature places participation at the heart of Park's approach: developing technology with attention to the people who will use it. The original university article offers further background on her research and design practice.",
+      "sourceIds": ["uh"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/post-7388952784517259264-1.jpg",
+      "width": 1200,
+      "height": 630,
+      "sha256": "fcc2f6edb41e8e848b3746c2e5e2869e21ad5272732119b9138d914d3c13039f",
+      "alt": "White interlocking UH letters on a red background.",
+      "caption": "University of Houston logo from the original shared-link preview.",
+      "afterParagraph": 0
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "October 28 link-only share and its one UH logo preview verified in the public feed. Linked publisher announcement read directly; this is a press-share update, not a second appointment announcement. Preview image is labeled as a graphic. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+  }
+}
