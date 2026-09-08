@@ -1,0 +1,134 @@
+{
+  "slug": "embrace-2026-affection-agency-companion-robots",
+  "title": "From Affection to Agency at EMBRACE 2026",
+  "summary": "Park's invited talk asked how emotionally engaging robots can earn trust without weakening user control.",
+  "category": "Research & invited talks",
+  "postId": "7497530598006218752",
+  "originalDate": "2026-08-24",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 9,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_roman2026-humanrobotinteraction-companionrobots-activity-7497530598006218752-ie9o"
+    },
+    {
+      "id": "workshop",
+      "label": "EMBRACE 2026 organizer program",
+      "url": "https://embraceworkshop20262.wordpress.com/"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Chorong Park opened the invited-speaker program at the EMBRACE workshop during IEEE RO-MAN 2026 in Kitakyushu, Japan. The organizer's schedule lists her August 24 talk on emotion-aware, trustworthy companion robots for older adults.",
+      "sourceIds": ["linkedin", "workshop"]
+    },
+    {
+      "text": "In her reflection, Park described research informed by extensive community engagement and an in-situ study with 22 older adults. She discussed how movement, expressive faces, responsive timing, and reminiscence can contribute to affectionate interactions with companion robots.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "The talk also raised a caution: emotional appeal may make people less attentive to privacy risks. Park argued that warmth should not substitute for understandable behavior, genuine user control, or consent that people can withdraw.",
+      "sourceIds": ["linkedin", "workshop"]
+    },
+    {
+      "text": "This emphasis shifted the conversation from making robots appear caring to designing interactions that respect agency and dignity. The workshop brought that question into a wider exchange about emotion, culture, aging, and care.",
+      "sourceIds": ["linkedin", "workshop"]
+    },
+    {
+      "text": "Park thanked the organizers and fellow participants for the discussion. Her nine-image gallery includes the invited presentation, other workshop contributions, collaborative activities, and the conference setting.",
+      "sourceIds": ["linkedin"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/post-7497530598006218752-1.jpg",
+      "width": 1200,
+      "height": 900,
+      "sha256": "fd227acc80c7e614f50e6a734adaa3f44b88d8ea54dbc4cf9ee26f624cfef3c2",
+      "alt": "A presenter speaks beside a study overview slide in a workshop room.",
+      "caption": "A presenter speaks beside a study overview slide in a workshop room. Original LinkedIn image 1 of 9.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7497530598006218752-2.jpg",
+      "width": 1200,
+      "height": 900,
+      "sha256": "18c11ca9289f38244b3b361121a3597dcba4c844849ec8d9baa5defd3854a834",
+      "alt": "Workshop attendees face a projected slide and speaker.",
+      "caption": "Workshop attendees face a projected slide and speaker. Original LinkedIn image 2 of 9.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7497530598006218752-3.jpg",
+      "width": 1200,
+      "height": 900,
+      "sha256": "8f95b0652b19940eb75205af8cf9814b71500a22a2574e5402de53e0eddc3021",
+      "alt": "A wide view of the workshop audience and presentation screen.",
+      "caption": "A wide view of the workshop audience and presentation screen. Original LinkedIn image 3 of 9.",
+      "afterParagraph": 1
+    },
+    {
+      "src": "/images/news/post-7497530598006218752-4.jpg",
+      "width": 1200,
+      "height": 900,
+      "sha256": "1f6f6fc5896bd9bcaabba51770e9cdc71ea78e089ae362d0f856de5d2e8224ca",
+      "alt": "A presenter stands beside a From Affection to Agency title slide.",
+      "caption": "A presenter stands beside a From Affection to Agency title slide. Original LinkedIn image 4 of 9.",
+      "afterParagraph": 1
+    },
+    {
+      "src": "/images/news/post-7497530598006218752-5.jpg",
+      "width": 1280,
+      "height": 960,
+      "sha256": "1ade91b3cbc7441fbcf0ba0b63e680b415235aafabc11ac4328752cbed56ec8e",
+      "alt": "Workshop participants discuss ideas beside a board covered with sticky notes.",
+      "caption": "Workshop participants discuss ideas beside a board covered with sticky notes. Original LinkedIn image 5 of 9.",
+      "afterParagraph": 2
+    },
+    {
+      "src": "/images/news/post-7497530598006218752-6.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "1cd26e116a9cbec0d71be8c1a0df677317bf9cf3e070c6d2e08c75aed03005c3",
+      "alt": "A speaker presents a slide containing a bar chart.",
+      "caption": "A speaker presents a slide containing a bar chart. Original LinkedIn image 6 of 9.",
+      "afterParagraph": 2
+    },
+    {
+      "src": "/images/news/post-7497530598006218752-7.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "9769dd06da9db6d5c8d33f3a4959b086570e81b0f595aea7fb087f0f45ae661e",
+      "alt": "A speaker addresses the room from a wooden lectern.",
+      "caption": "A speaker addresses the room from a wooden lectern. Original LinkedIn image 7 of 9.",
+      "afterParagraph": 3
+    },
+    {
+      "src": "/images/news/post-7497530598006218752-8.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "ed199255909d273bd2631567e67ee588d41cda59f85f100786339e78629056a2",
+      "alt": "Workshop participants stand at the front of the room beside a projected slide.",
+      "caption": "Workshop participants stand at the front of the room beside a projected slide. Original LinkedIn image 8 of 9.",
+      "afterParagraph": 3
+    },
+    {
+      "src": "/images/news/post-7497530598006218752-9.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "3d2e8c88897cff9c036f4f91052b9981fdb28a0b01de076e1966a0118121ac3b",
+      "alt": "A freestanding sign welcomes attendees to IEEE RO-MAN 2026 in Kitakyushu.",
+      "caption": "A freestanding sign welcomes attendees to IEEE RO-MAN 2026 in Kitakyushu. Original LinkedIn image 9 of 9.",
+      "afterParagraph": 4
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Full August 24, 12:49 AM post and all nine original images reviewed. Organizer program independently confirms date, city, talk, and first invited-speaker position. Study size and research interpretation attributed to Park, without converting observations into clinical efficacy claims. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+  }
+}
