@@ -1,0 +1,80 @@
+{
+  "slug": "joy-in-technology-learning-for-older-adults",
+  "title": "Bringing Joy Into Technology Learning for Older Adults",
+  "summary": "Park's IDSA reflection connects technology learning in aging communities with collaboration between design practice and HCI research.",
+  "category": "Design & community",
+  "postId": "7375893179230908416",
+  "originalDate": "2025-09-22",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 4,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Chorong Park's original LinkedIn reflection",
+      "url": "https://www.linkedin.com/posts/cparkphd_idsa2025-hci-designforaging-activity-7375893179230908416-EAwc"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Joy was central to Chorong Park's contribution at IDSA, as she reflected in a September 22, 2025, LinkedIn post. Looking back on the previous week, she described a focus on how aging communities learn to use technology.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "For Park, that work is also about connecting research with design practice. Her reflection describes an ongoing aim to bring designers and academics together to develop tools that fit the ways people actually work.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "She highlighted exchanges at the intersection of user experience and industrial design, alongside the potential contributions of artificial intelligence, robotics, and human-computer interaction. These were areas for conversation and future work, rather than announcements of a new product or formal partnership.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Park closed by thanking the people who shared practical perspectives from their own work. Her post offers a concise account of a research direction grounded in collaboration and in the experience of learning technology within aging communities.",
+      "sourceIds": ["linkedin"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/idsa-joy-1.jpg",
+      "alt": "A group gathered around an outdoor restaurant table.",
+      "caption": "A shared meal pictured in the original IDSA reflection. Photo 1 of 4.",
+      "width": 1280,
+      "height": 960,
+      "afterParagraph": 0,
+      "sha256": "b7dcc3821dd1924287e61eb29454dd05cb81245b29ec97e95f684339d924cbcc"
+    },
+    {
+      "src": "/images/news/idsa-joy-2.jpg",
+      "alt": "Three attendees pose in front of an IDSA event backdrop.",
+      "caption": "A photograph at the IDSA event backdrop. Photo 2 of 4.",
+      "width": 1280,
+      "height": 960,
+      "afterParagraph": 1,
+      "sha256": "e841144f1c7d5b4cd02357bc448df5bc49b2a99c58200cc7d2a80021bceb426f"
+    },
+    {
+      "src": "/images/news/idsa-joy-3.jpg",
+      "alt": "An audience watches a stage presentation in a large hall.",
+      "caption": "A view from the audience, shared with the post. Photo 3 of 4.",
+      "width": 1280,
+      "height": 1706,
+      "afterParagraph": 2,
+      "sha256": "7b9d1ebedd69bb681ea18a520e93ae7f1d0f9a2dda8ae6c9da0bb466971c4d60"
+    },
+    {
+      "src": "/images/news/idsa-joy-4.jpg",
+      "alt": "Two attendees pose beside a display in a museum-style event space.",
+      "caption": "Another moment shared in the IDSA reflection. Photo 4 of 4.",
+      "width": 1280,
+      "height": 960,
+      "afterParagraph": 3,
+      "sha256": "cdc6c97b12e48327c0d4d76e37a5bd2d6d1face4749f8ad7ef3fce08ce8d1ca5"
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Full post verified on LinkedIn and in Elfsight. September 22 post date and four-photo order checked in the feed. All four originals downloaded and visually inspected. The article attributes the experience to Park's own reflection; it does not invent an official talk title, specific event date or location, attendee identities, measured outcomes, or partnerships."
+  }
+}
