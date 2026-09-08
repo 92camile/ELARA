@@ -1,0 +1,80 @@
+{
+  "slug": "caregiver-ai-learning-carebom",
+  "title": "Practical AI Learning for Caregivers at Carebom",
+  "summary": "A volunteer training session introduced caregivers to everyday AI tools while emphasizing privacy and human verification.",
+  "category": "Community & learning",
+  "postId": "7407802375891083264",
+  "originalDate": "2025-12-19",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 4,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_caregiving-aging-agetech-activity-7407802375891083264-cRaH"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Chorong Park led a two-hour volunteer training session at the Carebom Caregiver Training Institute, sharing an account of the experience on December 19, 2025. The session introduced caregivers working with older adults to practical uses of generative AI.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Rather than rushing through a demonstration, Park described a step-by-step format with breaks and time to practice. Participants explored tools such as ChatGPT and Gemini for preparing questions and organizing communication around everyday caregiving tasks.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "An important boundary ran through the training: AI-generated material needs to be checked. Park emphasized protecting personal information and treating generated responses as drafts, not as medical decisions or replacements for professional guidance.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Her reflection describes the value of meeting learners at their own pace and connecting unfamiliar tools to familiar responsibilities. She also expressed interest in offering further caregiver training in Korean and English.",
+      "sourceIds": ["linkedin"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/post-7407802375891083264-1.jpg",
+      "width": 1613,
+      "height": 726,
+      "sha256": "67f0fd273f0a0a19d7b9bf709386e4c987fefcaadfa78213a7351b2572908c83",
+      "alt": "An instructor presents to a classroom of seated participants.",
+      "caption": "An instructor presents to a classroom of seated participants. Original LinkedIn image 1 of 4.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7407802375891083264-2.jpg",
+      "width": 1613,
+      "height": 726,
+      "sha256": "669539f269c4b3baeb0c1b73a0fcab9ee6caddd3861b53790077aab3bebf4901",
+      "alt": "An instructor speaks with a participant between rows of classroom seats.",
+      "caption": "An instructor speaks with a participant between rows of classroom seats. Original LinkedIn image 2 of 4.",
+      "afterParagraph": 1
+    },
+    {
+      "src": "/images/news/post-7407802375891083264-3.jpg",
+      "width": 1613,
+      "height": 726,
+      "sha256": "353852cf80adc6710f9635f8b709c34299bdb1d33d3f64a6466742872f939603",
+      "alt": "An instructor leans over to help a participant during a classroom exercise.",
+      "caption": "An instructor leans over to help a participant during a classroom exercise. Original LinkedIn image 3 of 4.",
+      "afterParagraph": 2
+    },
+    {
+      "src": "/images/news/post-7407802375891083264-4.jpg",
+      "width": 1280,
+      "height": 960,
+      "sha256": "4873cd29e97dccdd28fe602fe38a6a46df775112e807e2cd7292fa5ae0919b09",
+      "alt": "A group gathers around a long table for a shared meal.",
+      "caption": "A group gathers around a long table for a shared meal. Original LinkedIn image 4 of 4.",
+      "afterParagraph": 3
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Full December 19 post and four original gallery images reviewed. This is an attributed account of an educational session, not medical advice. No patient information, treatment instructions, measured learning gains, or clinical benefit is asserted. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+  }
+}
