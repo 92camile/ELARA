@@ -1,11 +1,12 @@
-/* oxlint-disable next/no-img-element -- Static hosting serves the existing logo without an image service. */
+/* oxlint-disable next/no-img-element -- Story photographs are archived with the static site. */
 import { newsArticles } from '../lib/news';
+import { getPublishedStories, storyDate } from '../lib/stories.mjs';
+import { sitePath } from '../lib/site';
 import { SiteHeader, SiteFooter } from '../components/site-shell';
 import { LinkedInFeed } from '../components/linkedin-feed';
+import { WorkshopSlideshow } from '../components/workshop-slideshow';
 import { getLinkedInWidgetId, linkedinProfileUrl } from '../lib/linkedin.mjs';
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-const logo = `${basePath}/elara-logo.png`;
 const linkedInWidgetId = getLinkedInWidgetId(
   process.env.NEXT_PUBLIC_ELFSIGHT_LINKEDIN_WIDGET_ID,
 );
@@ -45,22 +46,7 @@ export default function Home() {
                 <li>Safe generative AI</li>
               </ul>
             </div>
-            <div className="brand-panel">
-              <div className="logo-display">
-                <img
-                  src={logo}
-                  alt="ELARA Lab: Empathetic Lifespan AI and Robotics for Aging"
-                  width={600}
-                  height={600}
-                  fetchPriority="high"
-                />
-              </div>
-              <h2>Autonomy at the center.</h2>
-              <p>
-                Supporting independence, well-being, and control for older
-                adults and people living with chronic conditions.
-              </p>
-            </div>
+            <WorkshopSlideshow />
           </div>
         </section>
 
@@ -117,7 +103,52 @@ export default function Home() {
                 <span className="sr-only"> (opens in a new tab)</span>
               </a>
             </div>
+            <h3 className="news-group-heading" id="lab-stories-title">
+              Lab stories
+            </h3>
+            <div
+              className="news-grid lab-stories"
+              aria-labelledby="lab-stories-title"
+            >
+              {getPublishedStories().map((story) => (
+                <article
+                  className="news-card story-card"
+                  key={story.slug}
+                  aria-labelledby={story.slug}
+                >
+                  {story.photos[0] && (
+                    <img
+                      className="story-card-image"
+                      src={sitePath(story.photos[0].src)}
+                      alt={story.photos[0].alt}
+                      width={story.photos[0].width}
+                      height={story.photos[0].height}
+                      loading="lazy"
+                    />
+                  )}
+                  <div className="card-meta">
+                    <span className="category">{story.category}</span>
+                    <time dateTime={story.originalDate}>
+                      {storyDate(story.originalDate)}
+                    </time>
+                  </div>
+                  <p className="publisher">ELARA Lab</p>
+                  <h3 id={story.slug}>
+                    <a href={sitePath(`/news/${story.slug}/`)}>{story.title}</a>
+                  </h3>
+                  <p className="article-summary">{story.summary}</p>
+                  <a
+                    className="article-link"
+                    href={sitePath(`/news/${story.slug}/`)}
+                    aria-label={`Read ${story.title}`}
+                  >
+                    Read story <span aria-hidden="true">&#8594;</span>
+                  </a>
+                </article>
+              ))}
+            </div>
             {linkedInWidgetId && <LinkedInFeed widgetId={linkedInWidgetId} />}
+            <h3 className="news-group-heading">In the news</h3>
             <div className="news-grid">
               {newsArticles.map((article) => (
                 <article

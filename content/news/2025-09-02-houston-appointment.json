@@ -1,0 +1,54 @@
+{
+  "slug": "chorong-park-joins-university-of-houston",
+  "title": "Chorong Park Joins the University of Houston",
+  "summary": "A new faculty appointment brings Park's research on aging, accessibility, and human-centered technology to the University of Houston.",
+  "category": "Lab milestone",
+  "postId": "7368666064198500352",
+  "originalDate": "2025-09-02",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 1,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Chorong Park's original LinkedIn announcement",
+      "url": "https://www.linkedin.com/posts/cparkphd_universityofhouston-assistantprofessor-uh-activity-7368666064198500352-ehiM"
+    },
+    {
+      "id": "uh",
+      "label": "University of Houston: Preserve, Plan, Innovate (September 25, 2025)",
+      "url": "https://www.uh.edu/architecture/newsroom/stories/2025/preserve-plan-innovate.php"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Chorong Park announced on September 2, 2025, that she had joined the University of Houston as an Assistant Professor and Presidential Frontier Faculty member. The appointment begins a new chapter for her work at the intersection of human-computer interaction and aging.",
+      "sourceIds": ["linkedin", "uh"]
+    },
+    {
+      "text": "The university's subsequent faculty introduction places Park in user experience and user interaction design within the Gerald D. Hines College of Architecture and Design. Her research connects aging and disability studies with accessible immersive experiences, AI agents, and social robotics.",
+      "sourceIds": ["uh"]
+    },
+    {
+      "text": "Park brings doctoral training in technology, with a minor in gerontology, and a master's degree in UX design from Purdue University. The university profile emphasizes her participatory approach: developing technology with aging and disabled communities, with attention to accessibility, autonomy, and the experience of using it.",
+      "sourceIds": ["uh"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/houston-appointment.jpg",
+      "alt": "Portrait from the faculty announcement, with red attire and a red garland against a light background.",
+      "caption": "Photograph shared with the September 2, 2025, LinkedIn announcement.",
+      "width": 1280,
+      "height": 853,
+      "afterParagraph": 0,
+      "sha256": "a0189506e209109894c43fbb14b3653a38f1feab9912015b6a6d48ba663b948f"
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Full announcement and September 2 date read in the connected Elfsight feed; one original photograph retrieved and visually inspected. UH's September 25 faculty introduction independently corroborates appointment, college, research areas, and education. LinkedIn's guest page requires sign-in on recheck. Original post date is not the UH article date or the website publication date. No clinical outcomes, grants, or partnerships inferred."
+  }
+}

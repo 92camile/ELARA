@@ -2,11 +2,18 @@ import assert from 'node:assert/strict';
 import { existsSync, readFileSync, statSync } from 'node:fs';
 import path from 'node:path';
 import { getLinkedInWidgetId, linkedinProfileUrl } from '../lib/linkedin.mjs';
+import { getPublishedStories } from '../lib/stories.mjs';
+import { workshopPhotos } from '../lib/slideshow.mjs';
 
 const root = path.resolve('dist/client');
 const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
 const home = readFileSync(path.join(root, 'index.html'), 'utf8');
 const students = readFileSync(path.join(root, 'students/index.html'), 'utf8');
+const stories = getPublishedStories();
+const storyPages = stories.map((story) => [
+  `/news/${story.slug}/`,
+  readFileSync(path.join(root, `news/${story.slug}/index.html`), 'utf8'),
+]);
 const linkedInWidgetId = getLinkedInWidgetId(
   process.env.NEXT_PUBLIC_ELFSIGHT_LINKEDIN_WIDGET_ID,
 );
@@ -65,14 +72,63 @@ assert.ok(
 );
 
 const newsCards = [...home.matchAll(/<article\b[^>]*>[\s\S]*?<\/article>/g)];
-assert.equal(newsCards.length, 3, 'Expected three verified news articles');
+assert.equal(
+  newsCards.length,
+  3 + stories.length,
+  'Expected all lab stories and three press articles',
+);
 for (const [card] of newsCards) {
   assert.match(
     card,
     /<time dateTime="\d{4}-\d{2}-\d{2}"/,
     'Article date is missing',
   );
-  assert.match(card, /href="https:\/\//, 'Article source is missing');
+  assert.match(
+    card,
+    /href="(?:https:\/\/|[^" ]*\/news\/)/,
+    'Article link is missing',
+  );
+}
+
+assert.ok(
+  !home.includes('Autonomy at the center.'),
+  'Old homepage logo panel remains',
+);
+assert.ok(home.includes('aria-roledescription="carousel"'));
+assert.ok(
+  home.includes('aria-label="Previous photo"') &&
+    home.includes('aria-label="Next photo"'),
+);
+let photoPosition = -1;
+for (const photo of workshopPhotos) {
+  const position = home.indexOf(`src="${base}${photo.src}"`);
+  assert.ok(
+    position > photoPosition,
+    'Slideshow images missing or out of order',
+  );
+  photoPosition = position;
+}
+for (const [index, story] of stories.entries()) {
+  const [, html] = storyPages[index];
+  assert.ok(home.includes(`href="${base}/news/${story.slug}/"`));
+  assert.ok(html.includes(`dateTime="${story.originalDate}"`));
+  assert.ok(html.includes(`dateTime="${story.publishedDate}"`));
+  assert.ok(html.includes('Published on ELARA:'));
+  assert.ok(
+    !html.includes('class="elfsight-app-'),
+    'Reading an archived story should not require the widget',
+  );
+  let position = -1;
+  for (const photo of story.photos) {
+    const next = html.indexOf(`src="${base}${photo.src}"`);
+    assert.ok(
+      next > position,
+      'Article photo missing or out of original order',
+    );
+    position = next;
+  }
+  for (const source of story.sources)
+    assert.ok(html.includes(`href="${source.url.replaceAll('&', '&amp;')}"`));
 }
 
 const studentCards = [
@@ -100,6 +156,7 @@ let checked = 0;
 for (const [route, html] of [
   ['/', home],
   ['/students/', students],
+  ...storyPages,
 ]) {
   assert.doesNotMatch(
     html,
@@ -139,5 +196,5 @@ for (const [route, html] of [
   }
 }
 console.log(
-  `Verified both pages, four student profiles, three news articles, and ${checked} internal links and assets.`,
+  `Verified homepage, students, ${stories.length} lab stories, three press articles, four slideshow photos, and ${checked} internal links and assets.`,
 );

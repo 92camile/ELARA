@@ -1,7 +1,7 @@
 /* oxlint-disable next/no-img-element -- Static hosting serves the existing logo without an image service. */
 import { sitePath } from '../lib/site';
 
-export function SiteHeader({ page }: { page: 'home' | 'students' }) {
+export function SiteHeader({ page }: { page: 'home' | 'students' | 'news' }) {
   const home = page === 'home' ? '' : sitePath('/');
 
   return (
@@ -33,7 +33,12 @@ export function SiteHeader({ page }: { page: 'home' | 'students' }) {
               Home
             </a>
             <a href={`${home}#mission`}>Our mission</a>
-            <a href={`${home}#news`}>News</a>
+            <a
+              href={`${home}#news`}
+              aria-current={page === 'news' ? 'page' : undefined}
+            >
+              News
+            </a>
             <a
               href={sitePath('/students/')}
               aria-current={page === 'students' ? 'page' : undefined}

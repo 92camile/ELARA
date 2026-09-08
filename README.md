@@ -48,13 +48,37 @@ The design follows [elaralab.org](https://elaralab.org): white surfaces,
 red (#e31745) and purple (#6f237f), rounded cards, and bold sans-serif headings.
 `public/elara-logo.png` is the existing logo downloaded from that site.
 
-Edit `lib/news.ts` to add articles, using verified publisher dates, short
+Edit `lib/news.ts` to add external press articles, using verified publisher dates, short
 original summaries, and direct article links. Entries are ordered newest first.
 The current three stories were verified against University of Houston,
 InnovationMap, and Purdue Polytechnic on September 7, 2026. Public LinkedIn
 search results helped locate this coverage; full access to Chorong Park's
 [profile](https://www.linkedin.com/in/cparkphd) required sign-in, so the current
 list is not a complete import of the profile's articles.
+
+## Homepage photographs
+
+`components/workshop-slideshow.tsx` replaces the large hero logo panel with the
+four original user-supplied workshop photographs, in the order recorded in
+`lib/slideshow.mjs`. Header/footer branding is unchanged. The slideshow advances
+every six seconds, pauses on hover or keyboard focus, and provides previous,
+next, and pause controls. Reduced-motion preferences disable automatic playback.
+
+## Archived lab stories
+
+`content/news/` contains one reviewed JSON record per original LinkedIn post.
+These render as independent `/news/<slug>/` pages, including without JavaScript,
+and as homepage cards in original-post order, oldest first. Original LinkedIn
+dates and ELARA publication dates are labeled separately. All post photographs
+are archived in `public/images/news/` and interspersed in source order without
+cropping. An archived article does not depend on the Elfsight view allowance.
+
+Before adding a story, follow `docs/news-publishing.md`. The validator rejects
+duplicate posts, unreviewed entries, incomplete photos, missing citations, unsafe
+asset paths, and images whose hashes no longer match the reviewed originals.
+These are structural checks, not an automated guarantee of factual accuracy.
+Source reading and editorial fact checks are required before setting `passed`.
+Do not store unfinished drafts in `content/news/`; use ignored `work/` instead.
 
 ## LinkedIn feed
 
