@@ -1,0 +1,166 @@
+{
+  "slug": "chi-2026-research-connections-reflection",
+  "title": "CHI 2026 Connects Research on Aging, Privacy, and Interaction",
+  "summary": "Returning to Houston, Park reflected on presentations, an award, and conversations across the HCI community.",
+  "category": "Research & conferences",
+  "postId": "7452372088566329344",
+  "originalDate": "2026-04-21",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 13,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_chi2026-hci-humanrobotinteraction-activity-7452372088566329344-I7dj"
+    },
+    {
+      "id": "purdue",
+      "label": "Purdue's CHI 2026 conference report",
+      "url": "https://polytechnic.purdue.edu/newsroom/polytechnic-researchers-tackle-ai-privacy-present-accepted-papers-plus-honorable-mention"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Back in Houston after CHI 2026, Chorong Park reflected on a conference filled with workshops, paper and poster presentations, and conversations across the human-computer interaction community. Her April 21 post brings together research moments and informal exchanges in a 13-image gallery.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "The week included recognition for the coauthored paper on robots and older adults' changing privacy boundaries. Purdue's conference report confirms the paper's Honorable Mention and places CHI 2026 in Barcelona, April 13-17.",
+      "sourceIds": ["linkedin", "purdue"]
+    },
+    {
+      "text": "For Park, discussions with people from different disciplines and countries were an important part of the experience. She connected those exchanges to questions about making technology more accessible, enjoyable, and responsive to aging populations.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Her reflection looks toward further work on sustainable robot adoption across the lifespan. She invited future collaboration across universities, departments, geographic boundaries, and industry, without announcing a new formal partnership.",
+      "sourceIds": ["linkedin"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/post-7452372088566329344-1.jpg",
+      "width": 1280,
+      "height": 960,
+      "sha256": "d503df2421bf6da52b3843723454e17b1efd99b339eea1dc7f7d2a0d00dbb26b",
+      "alt": "Three conference attendees pose with a certificate in front of a CHI 2026 welcome screen.",
+      "caption": "Three conference attendees pose with a certificate in front of a CHI 2026 welcome screen. Original LinkedIn image 1 of 13.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7452372088566329344-2.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "1ee0edf3a7381d8f58c9764cc681c82f130ed469cec51fbc09fcde2f559cc2b0",
+      "alt": "A presenter speaks at a lectern below a projected slide.",
+      "caption": "A presenter speaks at a lectern below a projected slide. Original LinkedIn image 2 of 13.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7452372088566329344-3.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "5d67e129897c1e6f468bf4ab8436f33a05a0923dac046d7d066d809835678c91",
+      "alt": "A researcher discusses a poster with another conference attendee.",
+      "caption": "A researcher discusses a poster with another conference attendee. Original LinkedIn image 3 of 13.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7452372088566329344-4.jpg",
+      "width": 1280,
+      "height": 967,
+      "sha256": "8a8d8eddd444f82a8fdbe4d8784f47e0c81b587bb442a86086da09fefa171408",
+      "alt": "A group of workshop participants poses beneath a projected event slide.",
+      "caption": "A group of workshop participants poses beneath a projected event slide. Original LinkedIn image 4 of 13.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7452372088566329344-5.jpg",
+      "width": 1280,
+      "height": 1706,
+      "sha256": "055c352b11d814647faf7453f69230f794c5ffd99184e8b03ae56f475bf53d60",
+      "alt": "Three attendees sit together at a restaurant table.",
+      "caption": "Three attendees sit together at a restaurant table. Original LinkedIn image 5 of 13.",
+      "afterParagraph": 1
+    },
+    {
+      "src": "/images/news/post-7452372088566329344-6.jpg",
+      "width": 1280,
+      "height": 960,
+      "sha256": "dd6feb5f4bdcd23ed9d74e58d77fa6737cb3a020c927c9bd4fee0600341d9ef7",
+      "alt": "Two attendees take a photograph inside the conference venue.",
+      "caption": "Two attendees take a photograph inside the conference venue. Original LinkedIn image 6 of 13.",
+      "afterParagraph": 1
+    },
+    {
+      "src": "/images/news/post-7452372088566329344-7.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "8ff1cc386c755a52e604af0c7e3f07d02d916fb73ba2902782eda1f1d403e178",
+      "alt": "Two attendees take a photograph beside illuminated fountains at night.",
+      "caption": "Two attendees take a photograph beside illuminated fountains at night. Original LinkedIn image 7 of 13.",
+      "afterParagraph": 1
+    },
+    {
+      "src": "/images/news/post-7452372088566329344-8.jpg",
+      "width": 1280,
+      "height": 2055,
+      "sha256": "7d964f302784e100eba89a9e89574a65367d0a8cb2fdb770b86db64707143fa4",
+      "alt": "An attendee poses behind large colorful CHI letters.",
+      "caption": "An attendee poses behind large colorful CHI letters. Original LinkedIn image 8 of 13.",
+      "afterParagraph": 2
+    },
+    {
+      "src": "/images/news/post-7452372088566329344-9.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "cdeb018eb0efe19decbffdbde60ab4c2302986c406faea5eef4cc32b4c8b508f",
+      "alt": "A hand touches a white furry robotic device on a demonstration table.",
+      "caption": "A hand touches a white furry robotic device on a demonstration table. Original LinkedIn image 9 of 13.",
+      "afterParagraph": 2
+    },
+    {
+      "src": "/images/news/post-7452372088566329344-10.jpg",
+      "width": 1280,
+      "height": 1706,
+      "sha256": "376067ea3d76c2b1ec7e100b352e08aa3d97593d8de1b0e09ab4db4c12b9acc4",
+      "alt": "Collage of conference conversations, robotic demonstrations, exhibits, and presentations.",
+      "caption": "Collage of conference conversations, robotic demonstrations, exhibits, and presentations. Original LinkedIn image 10 of 13.",
+      "afterParagraph": 2
+    },
+    {
+      "src": "/images/news/post-7452372088566329344-11.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "23820d02ab9937bf97caff250503e29a0b3fbeaf849dd09556a0ab542e0df6a1",
+      "alt": "An overhead view of a crowded conference exhibition hall.",
+      "caption": "An overhead view of a crowded conference exhibition hall. Original LinkedIn image 11 of 13.",
+      "afterParagraph": 3
+    },
+    {
+      "src": "/images/news/post-7452372088566329344-12.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "fa7466986d8596a10a2ef02472857d08bd29664fae15c8844dbece3c0e6b81b0",
+      "alt": "Workshop notes and sticky notes are arranged on the floor among chairs.",
+      "caption": "Workshop notes and sticky notes are arranged on the floor among chairs. Original LinkedIn image 12 of 13.",
+      "afterParagraph": 3
+    },
+    {
+      "src": "/images/news/post-7452372088566329344-13.jpg",
+      "width": 1796,
+      "height": 1536,
+      "sha256": "19c0fadf285e3eb6e0ac0048a8519a606f8ea85b992b6bf633e71b4b72da599b",
+      "alt": "An attendee stands in a palm-lined city square.",
+      "caption": "An attendee stands in a palm-lined city square. Original LinkedIn image 13 of 13.",
+      "afterParagraph": 3
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Full April 21 post and all thirteen original images, including two collages, reviewed in order. Award and conference dates checked in Purdue report. Informal conversations are not represented as formal partnerships or proven health benefits. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+  }
+}
