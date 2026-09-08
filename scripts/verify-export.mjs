@@ -111,6 +111,18 @@ for (const photo of workshopPhotos) {
 for (const [index, story] of stories.entries()) {
   const [, html] = storyPages[index];
   assert.ok(home.includes(`href="${base}/news/${story.slug}/"`));
+  if (linkedInWidgetId) {
+    assert.ok(
+      home.indexOf(`href="${base}/news/${story.slug}/"`) <
+        home.indexOf('id="linkedin-feed-title"'),
+      'Every lab story must appear above the LinkedIn feed',
+    );
+  }
+  assert.equal(
+    [...html.matchAll(/<figure>/g)].length,
+    story.sourcePhotoCount,
+    'Export must include the entire original photo set',
+  );
   assert.ok(html.includes(`dateTime="${story.originalDate}"`));
   assert.ok(html.includes(`dateTime="${story.publishedDate}"`));
   assert.ok(html.includes('Published on ELARA:'));

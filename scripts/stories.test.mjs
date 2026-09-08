@@ -111,6 +111,47 @@ test('duplicate LinkedIn posts cannot be imported again under a new slug', () =>
   );
 });
 
+test('September 2025 through September 8, 2026 backfill retains every reviewed post and image', () => {
+  const expected = {
+    '7368666064198500352': 1,
+    '7375893179230908416': 4,
+    '7388952784517259264': 1,
+    '7403748802551296002': 4,
+    '7407802375891083264': 4,
+    '7436867486114975744': 2,
+    '7446985956177575937': 2,
+    '7449947202388389888': 3,
+    '7449950843333677056': 5,
+    '7452372088566329344': 13,
+    '7453287935824637952': 2,
+    '7479446810361753600': 8,
+    '7495113458493960192': 3,
+    '7495723942599503872': 3,
+    '7495816057245573121': 17,
+    '7496166696194412544': 6,
+    '7496325100552474625': 6,
+    '7497530598006218752': 9,
+    '7497574677016428544': 20,
+    '7501362982296178688': 7,
+    7502030461079040000: 0,
+    '7503097921622544384': 1,
+  };
+  const stories = getPublishedStories();
+  for (const [postId, count] of Object.entries(expected)) {
+    const matches = stories.filter((story) => story.postId === postId);
+    assert.equal(
+      matches.length,
+      1,
+      `Missing or duplicated source post: ${postId}`,
+    );
+    assert.equal(
+      matches[0].photos.length,
+      count,
+      `Incomplete gallery: ${postId}`,
+    );
+  }
+});
+
 test('slideshow preserves all four supplied photographs and wraps both directions', () => {
   assert.deepEqual(
     workshopPhotos.map((photo) => photo.src),

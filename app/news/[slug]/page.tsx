@@ -91,8 +91,10 @@ export default async function NewsArticle({ params }: Props) {
             <section className="story-sources" aria-labelledby="sources-title">
               <h2 id="sources-title">Sources</h2>
               <p>
-                Adapted from Chorong Park&apos;s LinkedIn post. Photographs are
-                presented in their original order.
+                Adapted from Chorong Park&apos;s LinkedIn post.{' '}
+                {story.photos.length > 0
+                  ? 'Images are presented in their original order.'
+                  : 'The original post is a link-only share with no attached photos.'}
               </p>
               <ol>
                 {story.sources.map((source) => (
