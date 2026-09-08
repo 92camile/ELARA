@@ -1,0 +1,98 @@
+{
+  "slug": "skku-responsible-ai-trust-aging",
+  "title": "Designing Trust in Responsible AI at SKKU",
+  "summary": "Park's July talk considered how AI for aging can support emotional connection while preserving autonomy.",
+  "category": "Talks & international exchange",
+  "postId": "7496166696194412544",
+  "originalDate": "2026-08-20",
+  "publishedDate": "2026-09-08",
+  "sourcePhotoCount": 6,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_humanaiinteraction-responsibleai-hri-activity-7496166696194412544--WWz"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "At Sungkyunkwan University, Chorong Park presented a July 20 talk on responsible AI, aging, autonomy, and emotional connection. She shared photographs and reflections from the visit in an August 20, 2026, post.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "The talk asked designers to consider trust alongside intelligence. Park described questions about how verbal and nonverbal cues shape people's experience of AI, particularly when systems take on socially engaging or companion-like roles.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Her account thanked Hayeon Song and the Human-AI Interaction Lab in the Department of Interaction Science for hosting the exchange. The discussion brought human-robot interaction into conversation with broader work on responsible AI.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Park also expressed interest in future research connecting colleagues in South Korea and the United States. That interest was framed around trust, privacy, and autonomy, with emotional connection treated as a design responsibility rather than proof of a system's safety.",
+      "sourceIds": ["linkedin"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/post-7496166696194412544-1.jpg",
+      "width": 1280,
+      "height": 960,
+      "sha256": "563a5fdaf92f046a6eb9c84c488cb79d75c22a17b0cc5468f0b294a31de24de8",
+      "alt": "An audience sits in a lecture room facing a presenter and screen.",
+      "caption": "An audience sits in a lecture room facing a presenter and screen. Original LinkedIn image 1 of 6.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7496166696194412544-2.jpg",
+      "width": 1280,
+      "height": 960,
+      "sha256": "3656314eba98c193c6ee52674da09638759ebeaa220a24076c2e255ea9d79529",
+      "alt": "A presenter introduces a talk on socially responsible AI for aging and emotional connection.",
+      "caption": "A presenter introduces a talk on socially responsible AI for aging and emotional connection. Original LinkedIn image 2 of 6.",
+      "afterParagraph": 0
+    },
+    {
+      "src": "/images/news/post-7496166696194412544-3.jpg",
+      "width": 1280,
+      "height": 960,
+      "sha256": "ed3926a4a6b52e0273b4373fc95daa1015d3a79d7d534522c5e1b2cafc225db5",
+      "alt": "A presenter stands beside a slide about technoageism.",
+      "caption": "A presenter stands beside a slide about technoageism. Original LinkedIn image 3 of 6.",
+      "afterParagraph": 1
+    },
+    {
+      "src": "/images/news/post-7496166696194412544-4.jpg",
+      "width": 1280,
+      "height": 2275,
+      "sha256": "f6f791757a6f85154d6db1142ffc7768e9af430bfea9e6e771020c1effe44643",
+      "alt": "Visitors gather beneath an SKKU International Summer Semester banner.",
+      "caption": "Visitors gather beneath an SKKU International Summer Semester banner. Original LinkedIn image 4 of 6.",
+      "afterParagraph": 2
+    },
+    {
+      "src": "/images/news/post-7496166696194412544-5.jpg",
+      "width": 1280,
+      "height": 2275,
+      "sha256": "6b865bd576a912277975ee78916b70a74ec094dbac9e0407102153078a253b8c",
+      "alt": "A traditional building with painted wooden eaves and stone steps.",
+      "caption": "A traditional building with painted wooden eaves and stone steps. Original LinkedIn image 5 of 6.",
+      "afterParagraph": 2
+    },
+    {
+      "src": "/images/news/post-7496166696194412544-6.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "71e95ee94afc7b5f556be243b039c529735bff4590a30b8fe9d7b6323e629ad1",
+      "alt": "A visitor poses in traditional clothing in front of a historic building.",
+      "caption": "A visitor poses in traditional clothing in front of a historic building. Original LinkedIn image 6 of 6.",
+      "afterParagraph": 3
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-09-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Full August 20, 6:30 AM post and six original images reviewed. July 20 talk date distinguished from August posting date. Host details attributed to Park. Funding and partnership claims not carried over without additional verification. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+  }
+}
