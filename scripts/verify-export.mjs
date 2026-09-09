@@ -4,12 +4,31 @@ import path from 'node:path';
 import { getLinkedInWidgetId, linkedinProfileUrl } from '../lib/linkedin.mjs';
 import { getPublishedStories } from '../lib/stories.mjs';
 import { workshopPhotos } from '../lib/slideshow.mjs';
+import {
+  articleStructuredData,
+  canonicalUrl,
+  createRobots,
+  createSitemap,
+} from '../lib/seo.mjs';
 
 const root = path.resolve('dist/client');
 const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
 const home = readFileSync(path.join(root, 'index.html'), 'utf8');
 const students = readFileSync(path.join(root, 'students/index.html'), 'utf8');
 const stories = getPublishedStories();
+assert.equal(
+  readFileSync(path.join(root, 'sitemap.xml'), 'utf8'),
+  createSitemap(stories, base),
+);
+assert.equal(
+  readFileSync(path.join(root, 'robots.txt'), 'utf8'),
+  createRobots(base),
+);
+assert.ok(
+  home.includes(
+    '<meta name="google-site-verification" content="7RwQ6FKdwA4tvt48CB1HYUuNlXQXKRKPGD7U1n4XbqE"',
+  ),
+);
 const storyPages = stories.map((story) => [
   `/news/${story.slug}/`,
   readFileSync(path.join(root, `news/${story.slug}/index.html`), 'utf8'),
@@ -111,6 +130,20 @@ for (const photo of workshopPhotos) {
 let storyPosition = -1;
 for (const [index, story] of stories.entries()) {
   const [, html] = storyPages[index];
+  const structuredData = [
+    ...html.matchAll(
+      /<script\b[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g,
+    ),
+  ];
+  assert.equal(
+    structuredData.length,
+    1,
+    'Each article needs one structured data record',
+  );
+  assert.deepEqual(
+    JSON.parse(structuredData[0][1]),
+    articleStructuredData(story, base),
+  );
   const cardPosition = home.indexOf(`href="${base}/news/${story.slug}/"`);
   assert.ok(
     cardPosition > storyPosition,
@@ -176,6 +209,22 @@ for (const [route, html] of [
   ['/students/', students],
   ...storyPages,
 ]) {
+  const canonicals = [...html.matchAll(/<link\b[^>]*rel="canonical"[^>]*>/g)];
+  assert.equal(
+    canonicals.length,
+    1,
+    'Each public page needs exactly one canonical',
+  );
+  assert.equal(
+    new URL(canonicals[0][0].match(/href="([^"]+)"/)[1]).href,
+    canonicalUrl(route, base),
+    'Canonical must identify this page, not the homepage or LinkedIn',
+  );
+  assert.doesNotMatch(
+    html,
+    /<meta\b(?=[^>]*name="(?:robots|googlebot)")(?=[^>]*content="[^"]*noindex)[^>]*>/i,
+    'Public pages must not block indexing',
+  );
   assert.doesNotMatch(
     html,
     /financial independence|faculty salary|long-term wealth|geographic mobility/i,

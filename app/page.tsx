@@ -1,4 +1,6 @@
 /* oxlint-disable next/no-img-element -- Story photographs are archived with the static site. */
+import type { Metadata } from 'next';
+import { canonicalUrl } from '../lib/seo.mjs';
 import { newsArticles } from '../lib/news';
 import { getPublishedStories, storyDate } from '../lib/stories.mjs';
 import { sitePath } from '../lib/site';
@@ -10,6 +12,10 @@ import { getLinkedInWidgetId, linkedinProfileUrl } from '../lib/linkedin.mjs';
 const linkedInWidgetId = getLinkedInWidgetId(
   process.env.NEXT_PUBLIC_ELFSIGHT_LINKEDIN_WIDGET_ID,
 );
+
+export const metadata: Metadata = {
+  alternates: { canonical: canonicalUrl('/') },
+};
 
 export default function Home() {
   return (

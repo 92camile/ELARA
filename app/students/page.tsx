@@ -1,10 +1,12 @@
 /* oxlint-disable next/no-img-element -- Student-provided photos are served directly on static hosting. */
 import type { Metadata } from 'next';
+import { canonicalUrl } from '../../lib/seo.mjs';
 import { SiteFooter, SiteHeader } from '../../components/site-shell';
 import { sitePath } from '../../lib/site';
 import { students } from '../../lib/students';
 
 export const metadata: Metadata = {
+  alternates: { canonical: canonicalUrl('/students/') },
   title: 'Current Students | ELARA Lab',
   description:
     "Meet ELARA Lab's current students and explore their research interests in health, aging, and human-centered technology.",

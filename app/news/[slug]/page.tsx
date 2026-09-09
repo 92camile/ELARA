@@ -5,6 +5,11 @@ import { notFound } from 'next/navigation';
 import { SiteHeader, SiteFooter } from '../../../components/site-shell';
 import { getPublishedStories, storyDate } from '../../../lib/stories.mjs';
 import { sitePath } from '../../../lib/site';
+import {
+  articleStructuredData,
+  canonicalUrl,
+  serializeStructuredData,
+} from '../../../lib/seo.mjs';
 
 export const dynamicParams = false;
 
@@ -18,7 +23,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const story = getPublishedStories().find((item) => item.slug === slug);
   if (!story) notFound();
-  return { title: `${story.title} | ELARA Lab`, description: story.summary };
+  return {
+    title: `${story.title} | ELARA Lab`,
+    description: story.summary,
+    alternates: { canonical: canonicalUrl(`/news/${story.slug}/`) },
+  };
 }
 
 export default async function NewsArticle({ params }: Props) {
@@ -34,6 +43,12 @@ export default async function NewsArticle({ params }: Props) {
           &#8592; Back to news
         </a>
         <article>
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: serializeStructuredData(articleStructuredData(story)),
+            }}
+          />
           <header className="story-heading">
             <p className="eyebrow">{story.category}</p>
             <h1>{story.title}</h1>
