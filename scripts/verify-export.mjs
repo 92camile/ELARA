@@ -108,9 +108,15 @@ for (const photo of workshopPhotos) {
   );
   photoPosition = position;
 }
+let storyPosition = -1;
 for (const [index, story] of stories.entries()) {
   const [, html] = storyPages[index];
-  assert.ok(home.includes(`href="${base}/news/${story.slug}/"`));
+  const cardPosition = home.indexOf(`href="${base}/news/${story.slug}/"`);
+  assert.ok(
+    cardPosition > storyPosition,
+    'Homepage stories must preserve newest-first order',
+  );
+  storyPosition = cardPosition;
   if (linkedInWidgetId) {
     assert.ok(
       home.indexOf(`href="${base}/news/${story.slug}/"`) <

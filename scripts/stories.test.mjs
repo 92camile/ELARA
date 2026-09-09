@@ -8,12 +8,15 @@ import {
 import { slideIndex, workshopPhotos } from '../lib/slideshow.mjs';
 import { existsSync } from 'node:fs';
 
-test('published stories have reviewed sources, original photos, and chronological order', () => {
+test('published stories have reviewed sources, original photos, and newest-first order', () => {
   const stories = getPublishedStories();
   assert.ok(stories.length > 0);
   assert.deepEqual(
-    stories.map((story) => story.originalDate),
-    stories.map((story) => story.originalDate).sort(),
+    stories.map((story) => `${story.originalDate}/${story.postId}`),
+    stories
+      .map((story) => `${story.originalDate}/${story.postId}`)
+      .sort()
+      .reverse(),
   );
   assert.equal(storyDate('2025-09-02'), 'September 2, 2025');
 });

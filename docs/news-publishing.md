@@ -5,6 +5,10 @@ onward into ELARA articles and publishing automatically only after factual check
 Process the historical posts oldest first, one article at a time. Preserve the
 existing slideshow, student page, mission, press links, and Elfsight widget.
 
+The public News section displays articles newest first by original LinkedIn post
+date, with newer post IDs first for same-day posts. Historical processing order
+does not change this reader-facing order; do not sort by the import date.
+
 ## Source and editorial checks
 
 1. Read the complete post at https://www.linkedin.com/in/cparkphd/ or in the
