@@ -1,7 +1,7 @@
 {
   "slug": "chi-2026-research-connections-reflection",
-  "title": "CHI 2026 Connects Research on Aging, Privacy, and Interaction",
-  "summary": "Returning to Houston, Park reflected on presentations, an award, and conversations across the HCI community.",
+  "title": "What Park Brought Home From CHI 2026",
+  "summary": "Alongside an Honorable Mention, the Barcelona conference brought fresh questions about making robots accessible, enjoyable, and useful over time.",
   "category": "Research & conferences",
   "postId": "7452372088566329344",
   "originalDate": "2026-04-21",
@@ -21,19 +21,19 @@
   ],
   "paragraphs": [
     {
-      "text": "Back in Houston after CHI 2026, Chorong Park reflected on a conference filled with workshops, paper and poster presentations, and conversations across the human-computer interaction community. Her April 21 post brings together research moments and informal exchanges in a 13-image gallery.",
+      "text": "Chorong Park returned to Houston from CHI 2026 with an Honorable Mention and new ideas for her research on aging and human-robot interaction. Her April 21 reflection put conversations with researchers from different backgrounds alongside the formal presentations as highlights of the week.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "The week included recognition for the coauthored paper on robots and older adults' changing privacy boundaries. Purdue's conference report confirms the paper's Honorable Mention and places CHI 2026 in Barcelona, April 13-17.",
+      "text": "Held in Barcelona from April 13 to 17, the conference recognized her coauthored work on robots and older adults' changing privacy boundaries. Workshops, papers, and posters offered further opportunities to discuss how interactive systems fit into daily life.",
       "sourceIds": ["linkedin", "purdue"]
     },
     {
-      "text": "For Park, discussions with people from different disciplines and countries were an important part of the experience. She connected those exchanges to questions about making technology more accessible, enjoyable, and responsive to aging populations.",
+      "text": "For Park, exchanges across countries and disciplines sharpened a connected set of questions: how can technology be more accessible, more enjoyable, and worth continuing to use? Her reflection links the experience of an interaction with the longer-term challenge of robot adoption.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "Her reflection looks toward further work on sustainable robot adoption across the lifespan. She invited future collaboration across universities, departments, geographic boundaries, and industry, without announcing a new formal partnership.",
+      "text": "She welcomed future collaboration across universities and industry. The invitation carried the energy of the conference back into her work in Houston, with an emphasis on learning from people who approach similar problems differently.",
       "sourceIds": ["linkedin"]
     }
   ],
@@ -158,9 +158,9 @@
   ],
   "review": {
     "status": "passed",
-    "checkedOn": "2026-09-08",
+    "checkedOn": "2026-09-13",
     "fullTextVerified": true,
     "allPhotosVerified": true,
-    "notes": "Full April 21 post and all thirteen original images, including two collages, reviewed in order. Award and conference dates checked in Purdue report. Informal conversations are not represented as formal partnerships or proven health benefits. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+    "notes": "Full April 21 post and all thirteen original images, including two collages, reviewed in order. Award and conference dates checked in Purdue report. Informal conversations are not represented as formal partnerships or proven health benefits. Image bytes archived locally without alteration; dimensions and SHA-256 checked. Editorial rewrite checked September 13, 2026 against the original feed text and retained primary-source evidence; insights are framed as design implications, not new findings. All original photo metadata, order, and file hashes retained and checked."
   }
 }

@@ -1,7 +1,7 @@
 {
   "slug": "khou-11-visits-elara-community-research",
-  "title": "KHOU 11 Visits ELARA's Community Research",
-  "summary": "A filmed interview at the Mamie George Community Center highlighted work with older adults on companion robot design.",
+  "title": "KHOU 11 Visits ELARA, With Older Adults at the Center",
+  "summary": "A community-center interview highlighted why listening to people's reactions is part of robot design, not just outreach.",
   "category": "Community & media",
   "postId": "7501362982296178688",
   "originalDate": "2026-09-03",
@@ -21,23 +21,23 @@
   ],
   "paragraphs": [
     {
-      "text": "Chorong Park shared a behind-the-scenes account of an interview with KHOU 11 reporter Amanda Henderson on September 3, 2026. The photographs show filming and community activities at the Mamie George Community Center.",
+      "text": "KHOU 11 visited the Mamie George Community Center to hear about ELARA's companion robot research and meet older adults taking part. Chorong Park shared the September 3, 2026, interview with reporter Amanda Henderson as a behind-the-scenes look at the work.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "The update places older adults' perspectives at the center of ELARA's work. Park described listening to what people find welcoming, useful, confusing, or intrusive when they encounter companion robots.",
+      "text": "For Park, the most meaningful part was listening. Participants' questions and reactions help the team understand what feels welcoming, useful, confusing, or intrusive when a robot enters an everyday setting.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "A University of Houston report by Kelly Schafler offers additional context: older adults and students have contributed feedback on existing robots and used creative activities to explore ideas for future designs. The work supports development, rather than establishing that a new robot has already been completed or clinically validated.",
+      "text": "Kelly Schafler's University of Houston reporting describes older adults working with students to evaluate existing robots and model ideas for future designs. Their input is helping inform a new robot still in development.",
       "sourceIds": ["uh"]
     },
     {
-      "text": "Park emphasized an aim of supporting choice, independence, and connection without replacing human relationships. She thanked community participants, students, and collaborators for helping shape the research.",
+      "text": "That makes community engagement part of the research itself, not simply a way to explain it afterward. Park's goal is assistance that supports choice and connection without replacing human relationships.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "At the time of her post, broadcast coverage was expected near the end of September. This article records the interview and preparation; it does not imply that the segment has already aired.",
+      "text": "She thanked community members, students, and collaborators for shaping the work. At the time of the post, the television segment was expected near the end of September; the update documented filming ahead of that planned coverage.",
       "sourceIds": ["linkedin"]
     }
   ],
@@ -108,9 +108,9 @@
   ],
   "review": {
     "status": "passed",
-    "checkedOn": "2026-09-08",
+    "checkedOn": "2026-09-13",
     "fullTextVerified": true,
     "allPhotosVerified": true,
-    "notes": "Full September 3 post and all seven original images reviewed. UH primary report corroborates community co-design context. KHOU interview and expected broadcast attributed to Park. No aired segment, finished robot, clinical outcome, or guaranteed future completion date asserted. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+    "notes": "Full September 3 post and all seven original images reviewed. UH primary report corroborates community co-design context. KHOU interview and expected broadcast attributed to Park. No aired segment, finished robot, clinical outcome, or guaranteed future completion date asserted. Image bytes archived locally without alteration; dimensions and SHA-256 checked. Editorial rewrite checked September 13, 2026 against the original feed text and retained primary-source evidence; insights are framed as design implications, not new findings. All original photo metadata, order, and file hashes retained and checked."
   }
 }

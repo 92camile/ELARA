@@ -1,7 +1,7 @@
 {
   "slug": "robotics-day-human-connection",
-  "title": "Robotics Day Sparks Ideas for Accessible, Purposeful Design",
-  "summary": "A visit to Purdue Robotics Day prompted new questions about robots for learning, care, and companionship.",
+  "title": "At Robotics Day, the Question Is Who a Robot Helps",
+  "summary": "Purdue demonstrations prompted Park to think about purpose, accessibility, and human connection alongside technical possibility.",
   "category": "Research exchange",
   "postId": "7446985956177575937",
   "originalDate": "2026-04-06",
@@ -16,19 +16,19 @@
   ],
   "paragraphs": [
     {
-      "text": "Chorong Park reflected on a recent Robotics Day visit in an April 6, 2026, post, describing encounters with projects that opened up new directions for human-robot interaction. Her photographs capture a range of demonstrations and exhibits.",
+      "text": "A visit to Purdue Robotics Day left Chorong Park with new ideas about robots for care, education, and companionship. In an April 6, 2026, reflection, she connected the demonstrations to a question running through her research: what makes a robot genuinely useful to people?",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "The visit prompted questions about designing robots for specific everyday purposes, including education, healthcare, and companionship for older adults. Park emphasized that well-being and accessibility should guide those design decisions.",
+      "text": "Park emphasized designing for a particular purpose, with well-being and accessibility guiding the choices. For her, a robot's capabilities matter in relation to the everyday experience they could support, especially for older adults.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "She thanked Rua M. Williams, Anastasia Kouvaras Ostrowski, and Sooyeon Jeong for sharing research and projects during the visit. The exchange offered a chance to connect technical possibilities with questions about genuine human connection.",
+      "text": "She credited Rua M. Williams, Anastasia Kouvaras Ostrowski, and Sooyeon Jeong for sharing projects and perspectives that expanded her thinking. The exchange connected technical demonstrations with the human side of interaction.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "Looking ahead to CHI 2026, Park expressed interest in continuing those conversations. The post records a research exchange and emerging ideas, rather than new clinical findings or a product launch.",
+      "text": "Park hoped to continue the conversation at CHI 2026. Her takeaway from the visit was less about a single standout machine and more about the direction of design: building around access, purpose, and connection.",
       "sourceIds": ["linkedin"]
     }
   ],
@@ -54,9 +54,9 @@
   ],
   "review": {
     "status": "passed",
-    "checkedOn": "2026-09-08",
+    "checkedOn": "2026-09-13",
     "fullTextVerified": true,
     "allPhotosVerified": true,
-    "notes": "Full April 6 post and both original collages reviewed, preserving each collage intact. No exact event date inferred from the posting date. Researcher names checked against the post; future uses described as ideas. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+    "notes": "Full April 6 post and both original collages reviewed, preserving each collage intact. No exact event date inferred from the posting date. Researcher names checked against the post; future uses described as ideas. Image bytes archived locally without alteration; dimensions and SHA-256 checked. Editorial rewrite checked September 13, 2026 against the original feed text and retained primary-source evidence; insights are framed as design implications, not new findings. All original photo metadata, order, and file hashes retained and checked."
   }
 }

@@ -1,7 +1,7 @@
 {
   "slug": "umzh-2026-digital-health-coaching-reflection",
-  "title": "From Digital Health Concepts to Implementation Questions in Zurich",
-  "summary": "Park's summer school reflection follows teams from coaching conversations to their final project pitches.",
+  "title": "What Comes After a Promising Digital Health Idea?",
+  "summary": "Coaching hypertension teams in Zurich brought evidence, feedback, and practical delivery into the same design conversation.",
   "category": "Digital health & learning",
   "postId": "7497574677016428544",
   "originalDate": "2026-08-24",
@@ -21,27 +21,23 @@
   ],
   "paragraphs": [
     {
-      "text": "After the second UMZH Precision Digital Therapeutics Summer School in Zurich, Chorong Park reflected on coaching participants in the hypertension challenge. Her August 24, 2026, post follows the earlier announcement of her role with a record of the experience.",
+      "text": "At the second UMZH Precision Digital Therapeutics Summer School in Zurich, Chorong Park helped hypertension challenge teams think beyond the initial idea. Her August 24, 2026, reflection followed an intensive week of coaching, feedback, and final pitches.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "Park described working with teams as they developed ideas, responded to feedback, and prepared final pitches. The summer school's official program combined group development with coaching and presentations to a panel.",
+      "text": "Participants worked from clinical problems toward digital therapeutic concepts. Park described teams revising their proposals as they considered behavior change, intervention design, and how an idea could be evaluated.",
       "sourceIds": ["linkedin", "cdhi"]
     },
     {
-      "text": "The learning extended beyond designing an interface or building a prototype. Park highlighted the need to think about behavior change, evaluation, practical implementation, and the conditions that allow a digital health idea to be used responsibly.",
+      "text": "The discussion also reached questions that sit beyond the interface: implementation, regulation, reimbursement, and sustainable delivery. These were considerations for developing concepts, not evidence that the projects had already cleared those hurdles.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "These were developing concepts, not announcements of approved treatments or proven clinical results. Her reflection emphasized connecting promising ideas to evidence and real-world care before making claims about their impact.",
+      "text": "Park praised the teams for taking feedback seriously and strengthening their final pitches. The experience brought design and delivery into the same conversation, rather than leaving practical constraints until after a prototype was built.",
       "sourceIds": ["linkedin", "cdhi"]
     },
     {
-      "text": "Park thanked Tobias Kowatsch, the organizers, fellow coaches, and participants for the exchange. She described bringing those lessons back to Houston, with renewed attention to responsible development and implementation.",
-      "sourceIds": ["linkedin"]
-    },
-    {
-      "text": "The complete 20-image gallery records coaching sessions, presentations, group photographs, and moments around Zurich. It preserves the broader experience alongside the project work.",
+      "text": "She returned to Houston with lessons for ELARA's work on responsible AI and digital health. Her takeaway was to develop the case for how an intervention could work in practice alongside the idea for what it might do.",
       "sourceIds": ["linkedin"]
     }
   ],
@@ -206,7 +202,7 @@
       "sha256": "b02c943cc7e0a32cda6d5baa6a32f74e7dac6da6de744d3aca0deab83060eb2a",
       "alt": "A speaker presents beside a screen showing photographs.",
       "caption": "A speaker presents beside a screen showing photographs. Original LinkedIn image 18 of 20.",
-      "afterParagraph": 5
+      "afterParagraph": 4
     },
     {
       "src": "/images/news/post-7497574677016428544-19.jpg",
@@ -215,7 +211,7 @@
       "sha256": "89550957aa921fb8fc8b06f7882560ba6b44dc4117de8fa33fe29a79df2ee477",
       "alt": "A speaker uses a handheld microphone beside a projected slide.",
       "caption": "A speaker uses a handheld microphone beside a projected slide. Original LinkedIn image 19 of 20.",
-      "afterParagraph": 5
+      "afterParagraph": 4
     },
     {
       "src": "/images/news/post-7497574677016428544-20.jpg",
@@ -224,14 +220,14 @@
       "sha256": "ba724a1656e88c7960cce404e789c023c3fccc2734ff55e644f06bf9b1ac9fa2",
       "alt": "A doorway displays portrait illustrations and a view into an adjoining room.",
       "caption": "A doorway displays portrait illustrations and a view into an adjoining room. Original LinkedIn image 20 of 20.",
-      "afterParagraph": 5
+      "afterParagraph": 4
     }
   ],
   "review": {
     "status": "passed",
-    "checkedOn": "2026-09-08",
+    "checkedOn": "2026-09-13",
     "fullTextVerified": true,
     "allPhotosVerified": true,
-    "notes": "Full August 24, 3:45 AM post and all twenty original images reviewed. CDHI program corroborates event context and project format. Original order retained; certificates not labeled as competition wins. No clinical validation, regulatory approval, reimbursement, or revenue inferred. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+    "notes": "Full August 24, 3:45 AM post and all twenty original images reviewed. CDHI program corroborates event context and project format. Original order retained; certificates not labeled as competition wins. No clinical validation, regulatory approval, reimbursement, or revenue inferred. Image bytes archived locally without alteration; dimensions and SHA-256 checked. Editorial rewrite checked September 13, 2026 against the original feed text and retained primary-source evidence; insights are framed as design implications, not new findings. All original photo metadata, order, and file hashes retained and checked."
   }
 }

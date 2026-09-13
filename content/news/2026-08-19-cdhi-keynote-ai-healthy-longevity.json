@@ -1,7 +1,7 @@
 {
   "slug": "cdhi-keynote-ai-healthy-longevity",
-  "title": "Human-Centered AI and Healthy Longevity at CDHI",
-  "summary": "A June keynote explored how intelligent systems can remain meaningful and usable in older adults' everyday lives.",
+  "title": "What Makes Digital Coaching Meaningful in Everyday Life?",
+  "summary": "At CDHI, Park connected AI and digital coaching with trust, dignity, and the realities of aging.",
   "category": "Talks & international exchange",
   "postId": "7495723942599503872",
   "originalDate": "2026-08-19",
@@ -21,19 +21,19 @@
   ],
   "paragraphs": [
     {
-      "text": "Chorong Park reflected on a June keynote with the Centre for Digital Health Interventions in an August 19, 2026, post. CDHI's event announcement identifies the keynote date as June 1, distinguishing the research visit from the later reflection.",
+      "text": "Intelligent systems also need to make sense to the people using them. Chorong Park explored that challenge in a June 1, 2026, keynote through the Centre for Digital Health Interventions, later sharing a reflection on August 19.",
       "sourceIds": ["linkedin", "cdhi"]
     },
     {
-      "text": "Her presentation connected ELARA's work on human-centered AI, socially assistive robots, voice interaction, and technology for aging. The central question was how intelligent, adaptive systems can also be trustworthy, understandable, and grounded in daily experience.",
+      "text": "Drawing on ELARA's work in socially assistive robots, voice interaction, and technology for aging, Park asked how adaptive systems could be trustworthy, usable, and emotionally meaningful. Digital coaching offered a way to connect those design questions with everyday health and care.",
       "sourceIds": ["linkedin", "cdhi"]
     },
     {
-      "text": "Park described discussions of digital coaching, personalization, dignity, and technology acceptance. These topics drew attention to the gap between developing an interesting system and making it meaningful in a real health or care setting.",
+      "text": "The discussion brought personalization into conversation with dignity and technology acceptance. Park's reflection points to an important distinction: tailoring a system is not only a technical exercise; it also means understanding whether that support fits someone's life.",
       "sourceIds": ["linkedin", "cdhi"]
     },
     {
-      "text": "She thanked Tobias Kowatsch, Rasita Vinay, Felix Moser, and the CDHI team for hosting the exchange. The visit offered space to share research and explore future collaboration without claiming that the technologies discussed were already proven interventions.",
+      "text": "She thanked Tobias Kowatsch, Rasita Vinay, Felix Moser, and the CDHI team for the exchange. Questions about moving promising technologies into real care settings remained a central part of the conversation.",
       "sourceIds": ["linkedin"]
     }
   ],
@@ -68,9 +68,9 @@
   ],
   "review": {
     "status": "passed",
-    "checkedOn": "2026-09-08",
+    "checkedOn": "2026-09-13",
     "fullTextVerified": true,
     "allPhotosVerified": true,
-    "notes": "Full August 19 post and three original keynote photographs reviewed. June 1 event date and topic verified on CDHI host page. August is publication timing, not the keynote date. No efficacy or implementation outcome asserted. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+    "notes": "Full August 19 post and three original keynote photographs reviewed. June 1 event date and topic verified on CDHI host page. August is publication timing, not the keynote date. No efficacy or implementation outcome asserted. Image bytes archived locally without alteration; dimensions and SHA-256 checked. Editorial rewrite checked September 13, 2026 against the original feed text and retained primary-source evidence; insights are framed as design implications, not new findings. All original photo metadata, order, and file hashes retained and checked."
   }
 }

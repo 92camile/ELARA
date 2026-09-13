@@ -1,7 +1,7 @@
 {
   "slug": "umzh-2026-hypertension-coaching-announcement",
-  "title": "Supporting Digital Health Design at the UMZH Summer School",
-  "summary": "Park joined the coaching program for a hypertension-focused design challenge in Zurich.",
+  "title": "Helping Digital Health Ideas Find a Path Into Care",
+  "summary": "Park joined the UMZH summer school's hypertension challenge with a focus on the practical questions beyond a promising concept.",
   "category": "Digital health & learning",
   "postId": "7495113458493960192",
   "originalDate": "2026-08-17",
@@ -26,19 +26,19 @@
   ],
   "paragraphs": [
     {
-      "text": "Chorong Park announced on August 17, 2026, that she would serve as a group coach for the hypertension challenge at the second UMZH Precision Digital Therapeutics Summer School. The Zurich program ran August 17-21, with care for older adults as its theme.",
+      "text": "Chorong Park joined the coaching program for the hypertension challenge at the second UMZH Precision Digital Therapeutics Summer School in Zurich. Her August 17, 2026, announcement outlined a role helping participants connect digital health ideas with practical care needs.",
       "sourceIds": ["linkedin", "cdhi"]
     },
     {
-      "text": "Her planned contribution centered on the August 20 implementation sessions, supporting group coaching and preparation for project pitches. Park described working alongside Tobias Kowatsch and other coaches to help participants connect their ideas to practical care settings.",
+      "text": "Park was scheduled to support group coaching and pre-pitch feedback on August 20, the program's implementation day. The agenda paired that work with sessions on regulation, reimbursement, business models, and putting digital interventions into practice.",
       "sourceIds": ["linkedin", "cdhi"]
     },
     {
-      "text": "The program brought design work into contact with questions about evidence, regulation, implementation, and access. Park's announcement emphasized the need to consider these issues together rather than treating a promising technical concept as a finished intervention.",
+      "text": "Her focus was the connection between behavioral support and the conditions needed to deliver it. A compelling concept still raises questions about evidence, who could use it, and how it would fit into an existing care system.",
       "sourceIds": ["linkedin", "cdhi"]
     },
     {
-      "text": "The update records the start of her involvement. Her later August 24 reflection describes the coaching experience and the teams' final presentations.",
+      "text": "The announcement set up the work ahead. In her subsequent August 24 reflection, Park described how teams used feedback to refine their concepts and prepare final pitches.",
       "sourceIds": ["linkedin", "reflection"]
     }
   ],
@@ -73,9 +73,9 @@
   ],
   "review": {
     "status": "passed",
-    "checkedOn": "2026-09-08",
+    "checkedOn": "2026-09-13",
     "fullTextVerified": true,
     "allPhotosVerified": true,
-    "notes": "Full August 17 post and all three original images reviewed. Dates and implementation-day coaching checked against CDHI program; later participation corroborated by August 24 reflection. No clinical, regulatory, reimbursement, or commercial success claimed. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+    "notes": "Full August 17 post and all three original images reviewed. Dates and implementation-day coaching checked against CDHI program; later participation corroborated by August 24 reflection. No clinical, regulatory, reimbursement, or commercial success claimed. Image bytes archived locally without alteration; dimensions and SHA-256 checked. Editorial rewrite checked September 13, 2026 against the original feed text and retained primary-source evidence; insights are framed as design implications, not new findings. All original photo metadata, order, and file hashes retained and checked."
   }
 }

@@ -1,7 +1,7 @@
 {
   "slug": "seoul-research-exchange-aging-autonomy",
-  "title": "A Seoul Research Exchange on Aging, Autonomy, and Technology",
-  "summary": "A summer visit to Seoul National University emphasized sustained relationships with older adults in technology research.",
+  "title": "In Seoul, a Conversation About Research That Keeps Listening",
+  "summary": "Park's summer research visit put lasting relationships with older adults at the center of AI and robotics design.",
   "category": "International exchange",
   "postId": "7495816057245573121",
   "originalDate": "2026-08-19",
@@ -16,23 +16,23 @@
   ],
   "paragraphs": [
     {
-      "text": "An August 19, 2026, reflection from Chorong Park looked back on a summer research visit to Seoul National University. Hosted by Hyunggu Jung's lab in the College of Nursing, Park shared recent work and joined an international group in conversation about technology and aging.",
+      "text": "Chorong Park brought a relationship-centered view of technology research to a summer visit at Seoul National University. Hosted by Hyunggu Jung's lab in the College of Nursing, she shared recent work on aging, AI, and companion robots.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "Her account focused on sustained engagement with older adults. Rather than treating participation as a single recruitment step, she described the importance of listening, building relationships, and returning to people's experiences over time.",
+      "text": "In her August 19, 2026, reflection, Park emphasized what happens beyond recruitment: returning, listening, offering support, and involving older adults in design over time. She described that sustained engagement as central to building trust.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "The discussion connected human-computer and human-robot interaction with trust, privacy, autonomy, and technoageism. Park emphasized older adults' role as contributors to research and design, not simply recipients of technology developed elsewhere.",
+      "text": "The discussion also challenged technoageism, including the tendency to treat older adults as passive users or people to be monitored. Park instead emphasized their role in shaping technologies that respect privacy, autonomy, dignity, and joy.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "She also described exchanges with visiting researchers from Taiwan, including a follow-up conversation with Yung-Ju Chang of National Yang Ming Chiao Tung University. Those conversations opened possibilities for future visits and collaboration.",
+      "text": "The visit included exchanges with researchers from Taiwan and a follow-up conversation with Yung-Ju Chang of National Yang Ming Chiao Tung University about possible future collaboration.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "The 17-image gallery preserves the classroom presentation and moments of informal exchange from the original post. Together, they document a visit centered on learning across research communities.",
+      "text": "The research lesson Park highlighted travels across settings: participation is not a box to check once. It is an ongoing relationship that can change the questions a team asks and whose perspective guides the work.",
       "sourceIds": ["linkedin"]
     }
   ],
@@ -193,9 +193,9 @@
   ],
   "review": {
     "status": "passed",
-    "checkedOn": "2026-09-08",
+    "checkedOn": "2026-09-13",
     "fullTextVerified": true,
     "allPhotosVerified": true,
-    "notes": "Full August 19, 7:16 AM post and all seventeen ordered images reviewed. The post supplies host and visit context; no exact summer visit date or formal institutional partnership is invented. Do not confuse the author with a different SNU faculty member of the same name. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+    "notes": "Full August 19, 7:16 AM post and all seventeen ordered images reviewed. The post supplies host and visit context; no exact summer visit date or formal institutional partnership is invented. Do not confuse the author with a different SNU faculty member of the same name. Image bytes archived locally without alteration; dimensions and SHA-256 checked. Editorial rewrite checked September 13, 2026 against the original feed text and retained primary-source evidence; insights are framed as design implications, not new findings. All original photo metadata, order, and file hashes retained and checked."
   }
 }

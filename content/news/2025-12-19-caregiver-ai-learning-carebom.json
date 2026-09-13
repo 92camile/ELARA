@@ -1,7 +1,7 @@
 {
   "slug": "caregiver-ai-learning-carebom",
-  "title": "Practical AI Learning for Caregivers at Carebom",
-  "summary": "A volunteer training session introduced caregivers to everyday AI tools while emphasizing privacy and human verification.",
+  "title": "Helping Caregivers Use AI Without Handing Over Judgment",
+  "summary": "A hands-on Carebom session focused on everyday communication, time to practice, and knowing when to check an AI response.",
   "category": "Community & learning",
   "postId": "7407802375891083264",
   "originalDate": "2025-12-19",
@@ -16,19 +16,19 @@
   ],
   "paragraphs": [
     {
-      "text": "Chorong Park led a two-hour volunteer training session at the Carebom Caregiver Training Institute, sharing an account of the experience on December 19, 2025. The session introduced caregivers working with older adults to practical uses of generative AI.",
+      "text": "Chorong Park brought practical AI learning to the Carebom Caregiver Training Institute through a two-hour volunteer session on December 19, 2025. The aim was to connect unfamiliar tools with tasks caregivers already handle every day.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "Rather than rushing through a demonstration, Park described a step-by-step format with breaks and time to practice. Participants explored tools such as ChatGPT and Gemini for preparing questions and organizing communication around everyday caregiving tasks.",
+      "text": "Participants worked through examples using ChatGPT and Gemini, including drafting appointment messages and preparing questions for a visit. Park built in breaks and practice time so learners could try each step rather than just watch a demonstration.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "An important boundary ran through the training: AI-generated material needs to be checked. Park emphasized protecting personal information and treating generated responses as drafts, not as medical decisions or replacements for professional guidance.",
+      "text": "The session kept a clear boundary: generated answers are drafts to verify, not medical decisions. Privacy protection and professional judgment remained central, especially when a question touched on someone's health.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "Her reflection describes the value of meeting learners at their own pace and connecting unfamiliar tools to familiar responsibilities. She also expressed interest in offering further caregiver training in Korean and English.",
+      "text": "For Park, the takeaway was that AI made more sense when presented as support, not authority. She sees potential in reducing communication and paperwork demands so caregivers can keep their attention on people, and welcomed interest in similar Korean- or English-language sessions.",
       "sourceIds": ["linkedin"]
     }
   ],
@@ -72,9 +72,9 @@
   ],
   "review": {
     "status": "passed",
-    "checkedOn": "2026-09-08",
+    "checkedOn": "2026-09-13",
     "fullTextVerified": true,
     "allPhotosVerified": true,
-    "notes": "Full December 19 post and four original gallery images reviewed. This is an attributed account of an educational session, not medical advice. No patient information, treatment instructions, measured learning gains, or clinical benefit is asserted. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+    "notes": "Full December 19 post and four original gallery images reviewed. This is an attributed account of an educational session, not medical advice. No patient information, treatment instructions, measured learning gains, or clinical benefit is asserted. Image bytes archived locally without alteration; dimensions and SHA-256 checked. Editorial rewrite checked September 13, 2026 against the original feed text and retained primary-source evidence; insights are framed as design implications, not new findings. All original photo metadata, order, and file hashes retained and checked."
   }
 }

@@ -1,7 +1,7 @@
 {
   "slug": "companion-robot-trust-at-iccr-2025",
-  "title": "Exploring Trust in Companion Robots at ICCR 2025",
-  "summary": "Park's Kyoto presentation examined how friendly behavior, pet-like qualities, and reminiscence could inform companion robot design.",
+  "title": "What Makes a Companion Robot Feel Approachable?",
+  "summary": "At ICCR 2025 in Kyoto, Park explored how familiar, friendly interactions could shape older adults' experiences with robots.",
   "category": "Research & conferences",
   "postId": "7403748802551296002",
   "originalDate": "2025-12-08",
@@ -21,19 +21,19 @@
   ],
   "paragraphs": [
     {
-      "text": "At ICCR 2025 in Kyoto, Chorong Park presented research on designing companion robots that older adults might find approachable and trustworthy. Her December 8 reflection looked back on a presentation the previous day.",
+      "text": "A companion robot's first impression is about more than its features. At ICCR 2025 in Kyoto, Chorong Park explored how pet-like qualities, friendly behavior, and familiar memories could make robots feel more approachable to older adults.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "The conference proceedings list her paper, \"Enhancing Trust Cues in Companion Robots for Older Adults: A Pet-Like, Friendly and Nostalgia-Driven Kansei Approach.\" Park's account describes design questions around pet-like appeal, friendly social behavior, and interactions that invite reminiscence.",
+      "text": "Writing on December 8 about her presentation the day before, Park described an approach that pays attention to the emotional side of interaction. The research asks how a robot might feel less unfamiliar and invite moments of reminiscence.",
       "sourceIds": ["linkedin", "proceedings"]
     },
     {
-      "text": "The aim is to explore how a robot's appearance and behavior shape people's experience of it in daily life. These design directions are not a claim that emotional appeal alone establishes safety or that companion robots have proven clinical benefits.",
+      "text": "The design challenge is to take those feelings seriously while keeping autonomy and dignity in view. In Park's account, emotional connection is a starting point for co-design and testing, not the end of the research process.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "Park also outlined plans to connect researchers, care organizations, community settings, and industry around future studies. She invited conversations about shared research and real-world testing, with older adults' autonomy and dignity guiding that work.",
+      "text": "She also invited researchers, care organizations, community groups, and industry to explore future studies together. The next step she outlined was collaborative testing in everyday settings, where promising design ideas can meet people's actual experiences.",
       "sourceIds": ["linkedin"]
     }
   ],
@@ -77,9 +77,9 @@
   ],
   "review": {
     "status": "passed",
-    "checkedOn": "2026-09-08",
+    "checkedOn": "2026-09-13",
     "fullTextVerified": true,
     "allPhotosVerified": true,
-    "notes": "Full December 8 post and all four ordered gallery images reviewed. Publisher proceedings confirm the paper entry. Presentation timing is attributed to the post. Collaboration network remains a plan, not an established partnership; no clinical efficacy claim. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+    "notes": "Full December 8 post and all four ordered gallery images reviewed. Publisher proceedings confirm the paper entry. Presentation timing is attributed to the post. Collaboration network remains a plan, not an established partnership; no clinical efficacy claim. Image bytes archived locally without alteration; dimensions and SHA-256 checked. Editorial rewrite checked September 13, 2026 against the original feed text and retained primary-source evidence; insights are framed as design implications, not new findings. All original photo metadata, order, and file hashes retained and checked."
   }
 }

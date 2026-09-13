@@ -1,7 +1,7 @@
 {
   "slug": "embrace-2026-affection-agency-companion-robots",
-  "title": "From Affection to Agency at EMBRACE 2026",
-  "summary": "Park's invited talk asked how emotionally engaging robots can earn trust without weakening user control.",
+  "title": "A Friendly Robot Still Needs to Earn Your Trust",
+  "summary": "Park's EMBRACE invited talk explored how companion robots can encourage connection without letting affection obscure privacy risks.",
   "category": "Research & invited talks",
   "postId": "7497530598006218752",
   "originalDate": "2026-08-24",
@@ -21,23 +21,23 @@
   ],
   "paragraphs": [
     {
-      "text": "Chorong Park opened the invited-speaker program at the EMBRACE workshop during IEEE RO-MAN 2026 in Kitakyushu, Japan. The organizer's schedule lists her August 24 talk on emotion-aware, trustworthy companion robots for older adults.",
+      "text": "A robot can feel caring without giving someone enough control. Chorong Park explored that tension as the first invited speaker at the EMBRACE workshop during IEEE RO-MAN 2026 in Kitakyushu, Japan, on August 24.",
       "sourceIds": ["linkedin", "workshop"]
     },
     {
-      "text": "In her reflection, Park described research informed by extensive community engagement and an in-situ study with 22 older adults. She discussed how movement, expressive faces, responsive timing, and reminiscence can contribute to affectionate interactions with companion robots.",
+      "text": "Drawing on community engagement and a study with 22 older adults, Park discussed how pet-like movement, expressive faces, and responsive timing can invite affection. Familiar interactions and reminiscence were also part of the research she described.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "The talk also raised a caution: emotional appeal may make people less attentive to privacy risks. Park argued that warmth should not substitute for understandable behavior, genuine user control, or consent that people can withdraw.",
+      "text": "But warmth can complicate trust. Park raised the possibility that emotionally appealing behavior may make people less alert to privacy risks, even when an interaction feels comfortable.",
       "sourceIds": ["linkedin", "workshop"]
     },
     {
-      "text": "This emphasis shifted the conversation from making robots appear caring to designing interactions that respect agency and dignity. The workshop brought that question into a wider exchange about emotion, culture, aging, and care.",
+      "text": "Her response was to design for understandable behavior, meaningful control, and consent people can withdraw. The goal is not to remove emotion from companion robots, but to keep a friendly interaction from becoming a reason to overlook boundaries.",
       "sourceIds": ["linkedin", "workshop"]
     },
     {
-      "text": "Park thanked the organizers and fellow participants for the discussion. Her nine-image gallery includes the invited presentation, other workshop contributions, collaborative activities, and the conference setting.",
+      "text": "The workshop connected that question with perspectives on emotion, culture, aging, and care. Park left with new questions about how robots might support connection while respecting the person making it.",
       "sourceIds": ["linkedin"]
     }
   ],
@@ -126,9 +126,9 @@
   ],
   "review": {
     "status": "passed",
-    "checkedOn": "2026-09-08",
+    "checkedOn": "2026-09-13",
     "fullTextVerified": true,
     "allPhotosVerified": true,
-    "notes": "Full August 24, 12:49 AM post and all nine original images reviewed. Organizer program independently confirms date, city, talk, and first invited-speaker position. Study size and research interpretation attributed to Park, without converting observations into clinical efficacy claims. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+    "notes": "Full August 24, 12:49 AM post and all nine original images reviewed. Organizer program independently confirms date, city, talk, and first invited-speaker position. Study size and research interpretation attributed to Park, without converting observations into clinical efficacy claims. Image bytes archived locally without alteration; dimensions and SHA-256 checked. Editorial rewrite checked September 13, 2026 against the original feed text and retained primary-source evidence; insights are framed as design implications, not new findings. All original photo metadata, order, and file hashes retained and checked."
   }
 }

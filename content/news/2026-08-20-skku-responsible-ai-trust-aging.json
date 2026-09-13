@@ -1,7 +1,7 @@
 {
   "slug": "skku-responsible-ai-trust-aging",
-  "title": "Designing Trust in Responsible AI at SKKU",
-  "summary": "Park's July talk considered how AI for aging can support emotional connection while preserving autonomy.",
+  "title": "At SKKU, Designing Trust Alongside AI Intelligence",
+  "summary": "Park's July talk explored the responsibility that comes with making AI agents socially and emotionally engaging.",
   "category": "Talks & international exchange",
   "postId": "7496166696194412544",
   "originalDate": "2026-08-20",
@@ -16,19 +16,19 @@
   ],
   "paragraphs": [
     {
-      "text": "At Sungkyunkwan University, Chorong Park presented a July 20 talk on responsible AI, aging, autonomy, and emotional connection. She shared photographs and reflections from the visit in an August 20, 2026, post.",
+      "text": "Trust deserves as much design attention as intelligence. Chorong Park made that case in a July 20, 2026, talk at Sungkyunkwan University, sharing a reflection on the visit the following month.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "The talk asked designers to consider trust alongside intelligence. Park described questions about how verbal and nonverbal cues shape people's experience of AI, particularly when systems take on socially engaging or companion-like roles.",
+      "text": "Her presentation connected responsible AI with aging, autonomy, and emotional connection. She highlighted future research questions about verbal and nonverbal cues: how an agent communicates, and how those signals shape the trust people place in it.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "Her account thanked Hayeon Song and the Human-AI Interaction Lab in the Department of Interaction Science for hosting the exchange. The discussion brought human-robot interaction into conversation with broader work on responsible AI.",
+      "text": "Hayeon Song and the Human-AI Interaction Lab in the Department of Interaction Science hosted the exchange. Park welcomed the possibility of continuing the work through research connecting South Korea and the United States.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "Park also expressed interest in future research connecting colleagues in South Korea and the United States. That interest was framed around trust, privacy, and autonomy, with emotional connection treated as a design responsibility rather than proof of a system's safety.",
+      "text": "The question linking those interests is not simply whether people like an AI companion. It is whether the interaction helps them understand what to trust, protect their privacy, and remain in control as emotional connections develop.",
       "sourceIds": ["linkedin"]
     }
   ],
@@ -90,9 +90,9 @@
   ],
   "review": {
     "status": "passed",
-    "checkedOn": "2026-09-08",
+    "checkedOn": "2026-09-13",
     "fullTextVerified": true,
     "allPhotosVerified": true,
-    "notes": "Full August 20, 6:30 AM post and six original images reviewed. July 20 talk date distinguished from August posting date. Host details attributed to Park. Funding and partnership claims not carried over without additional verification. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+    "notes": "Full August 20, 6:30 AM post and six original images reviewed. July 20 talk date distinguished from August posting date. Host details attributed to Park. Funding and partnership claims not carried over without additional verification. Image bytes archived locally without alteration; dimensions and SHA-256 checked. Editorial rewrite checked September 13, 2026 against the original feed text and retained primary-source evidence; insights are framed as design implications, not new findings. All original photo metadata, order, and file hashes retained and checked."
   }
 }

@@ -1,7 +1,7 @@
 {
   "slug": "chi-2026-honorable-mention-robot-privacy",
   "title": "Robot Privacy Research Earns CHI 2026 Honorable Mention",
-  "summary": "The recognized paper asks how robots can respect older adults' privacy as preferences and circumstances change.",
+  "summary": "An award-recognized study asks a practical question: what happens when someone's privacy preferences change after the first click?",
   "category": "Research & awards",
   "postId": "7436867486114975744",
   "originalDate": "2026-03-09",
@@ -21,19 +21,19 @@
   ],
   "paragraphs": [
     {
-      "text": "A paper coauthored by Chorong Park received an Honorable Mention at CHI 2026. Park announced the recognition on March 9; Purdue's subsequent conference report independently confirms the award for \"Privacy is Not One-Click: Designing Robots That Adapt to Older Adults' Changing Boundaries.\"",
+      "text": "Research coauthored by Chorong Park has earned a CHI 2026 Honorable Mention for challenging one-time consent in social robots. Park announced the award on March 9 for \"Privacy is Not One-Click: Designing Robots That Adapt to Older Adults' Changing Boundaries.\"",
       "sourceIds": ["linkedin", "purdue"]
     },
     {
-      "text": "Park described a community-engaged project that began in summer 2024 and included two participatory design workshops in an assisted-living setting. Interviews, storyboards, and discussion helped the team explore how privacy expectations shift over time and across relationships.",
+      "text": "The project grew from community-engaged work that began in summer 2024. In two participatory design workshops with older adults in assisted-living settings, the team used interviews, storyboards, and discussion to explore how people experience privacy.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "The work challenges the idea that a single agreement can settle privacy for the life of a robotic system. Instead, the team considered ways to make privacy preferences adjustable and understandable as people's needs change.",
+      "text": "The findings point to privacy as something people negotiate over time and through relationships, rather than settle with a checkbox. That changes the design question: not just how to ask for permission, but how to let someone revisit it.",
       "sourceIds": ["linkedin", "purdue"]
     },
     {
-      "text": "Park's reflection points to design possibilities such as adaptable privacy profiles, real-time feedback, and greater control over personal data. These are research-informed design directions, rather than an announcement of a finished privacy product.",
+      "text": "The team proposed privacy profiles, real-time feedback, and data ownership tools as possible responses. Park credited the older adults, community settings, and research team behind the work, emphasizing the listening and iteration that came before the recognition.",
       "sourceIds": ["linkedin"]
     }
   ],
@@ -59,9 +59,9 @@
   ],
   "review": {
     "status": "passed",
-    "checkedOn": "2026-09-08",
+    "checkedOn": "2026-09-13",
     "fullTextVerified": true,
     "allPhotosVerified": true,
-    "notes": "Full March 9 source and two original images reviewed. Honorable Mention independently verified in Purdue's May 1 report. Workshop history and proposed features attributed to Park; no claim of a deployed or clinically validated system. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+    "notes": "Full March 9 source and two original images reviewed. Honorable Mention independently verified in Purdue's May 1 report. Workshop history and proposed features attributed to Park; no claim of a deployed or clinically validated system. Image bytes archived locally without alteration; dimensions and SHA-256 checked. Editorial rewrite checked September 13, 2026 against the original feed text and retained primary-source evidence; insights are framed as design implications, not new findings. All original photo metadata, order, and file hashes retained and checked."
   }
 }

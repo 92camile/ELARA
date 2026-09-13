@@ -1,7 +1,7 @@
 {
   "slug": "joy-in-technology-learning-for-older-adults",
   "title": "Bringing Joy Into Technology Learning for Older Adults",
-  "summary": "Park's IDSA reflection connects technology learning in aging communities with collaboration between design practice and HCI research.",
+  "summary": "An IDSA conversation puts enjoyment, everyday routines, and collaboration at the heart of technology learning for older adults.",
   "category": "Design & community",
   "postId": "7375893179230908416",
   "originalDate": "2025-09-22",
@@ -16,19 +16,19 @@
   ],
   "paragraphs": [
     {
-      "text": "Joy was central to Chorong Park's contribution at IDSA, as she reflected in a September 22, 2025, LinkedIn post. Looking back on the previous week, she described a focus on how aging communities learn to use technology.",
+      "text": "Learning technology should make room for joy. That was the focus of Chorong Park's contribution to the IDSA design community, which she shared in a September 22, 2025, reflection on the previous week's conversations.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "For Park, that work is also about connecting research with design practice. Her reflection describes an ongoing aim to bring designers and academics together to develop tools that fit the ways people actually work.",
+      "text": "Park connected the topic to a practical goal: bringing designers and researchers together to create tools that fit real routines. She thanked participants for sharing what works in practice, especially where user experience meets industrial design.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "She highlighted exchanges at the intersection of user experience and industrial design, alongside the potential contributions of artificial intelligence, robotics, and human-computer interaction. These were areas for conversation and future work, rather than announcements of a new product or formal partnership.",
+      "text": "AI, robotics, and human-computer interaction were part of that discussion. Rather than starting with what a new tool can do, her focus was on the experience of learning to use it.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "Park closed by thanking the people who shared practical perspectives from their own work. Her post offers a concise account of a research direction grounded in collaboration and in the experience of learning technology within aging communities.",
+      "text": "The useful shift in perspective is simple: ease of use and enjoyment deserve attention together. Park's emphasis on joy invites designers to think beyond completing a task to how the learning experience feels.",
       "sourceIds": ["linkedin"]
     }
   ],
@@ -72,9 +72,9 @@
   ],
   "review": {
     "status": "passed",
-    "checkedOn": "2026-09-08",
+    "checkedOn": "2026-09-13",
     "fullTextVerified": true,
     "allPhotosVerified": true,
-    "notes": "Full post verified on LinkedIn and in Elfsight. September 22 post date and four-photo order checked in the feed. All four originals downloaded and visually inspected. The article attributes the experience to Park's own reflection; it does not invent an official talk title, specific event date or location, attendee identities, measured outcomes, or partnerships."
+    "notes": "Full post verified on LinkedIn and in Elfsight. September 22 post date and four-photo order checked in the feed. All four originals downloaded and visually inspected. The article attributes the experience to Park's own reflection; it does not invent an official talk title, specific event date or location, attendee identities, measured outcomes, or partnerships. Editorial rewrite checked September 13, 2026 against the original feed text and retained primary-source evidence; insights are framed as design implications, not new findings. All original photo metadata, order, and file hashes retained and checked."
   }
 }

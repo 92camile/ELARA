@@ -1,7 +1,7 @@
 {
   "slug": "chorong-park-joins-university-of-houston",
   "title": "Chorong Park Joins the University of Houston",
-  "summary": "A new faculty appointment brings Park's research on aging, accessibility, and human-centered technology to the University of Houston.",
+  "summary": "Park brings a people-first approach to technology, aging, and design to her new faculty role in Houston.",
   "category": "Lab milestone",
   "postId": "7368666064198500352",
   "originalDate": "2025-09-02",
@@ -21,15 +21,15 @@
   ],
   "paragraphs": [
     {
-      "text": "Chorong Park announced on September 2, 2025, that she had joined the University of Houston as an Assistant Professor and Presidential Frontier Faculty member. The appointment begins a new chapter for her work at the intersection of human-computer interaction and aging.",
+      "text": "Chorong Park has joined the University of Houston as an assistant professor and Presidential Frontier Faculty member. She announced the move on September 2, 2025, bringing her work on technology and aging to a new academic home.",
       "sourceIds": ["linkedin", "uh"]
     },
     {
-      "text": "The university's subsequent faculty introduction places Park in user experience and user interaction design within the Gerald D. Hines College of Architecture and Design. Her research connects aging and disability studies with accessible immersive experiences, AI agents, and social robotics.",
+      "text": "At the Gerald D. Hines College of Architecture and Design, her focus is user experience and interaction design. Her research spans accessible immersive experiences, AI agents, and social robots, informed by aging and disability studies.",
       "sourceIds": ["uh"]
     },
     {
-      "text": "Park brings doctoral training in technology, with a minor in gerontology, and a master's degree in UX design from Purdue University. The university profile emphasizes her participatory approach: developing technology with aging and disabled communities, with attention to accessibility, autonomy, and the experience of using it.",
+      "text": "The thread connecting that work is participation: involving people in shaping the technology they will use. As the university's faculty profile highlights, accessibility and autonomy belong in the design process, not just in the finished product.",
       "sourceIds": ["uh"]
     }
   ],
@@ -46,9 +46,9 @@
   ],
   "review": {
     "status": "passed",
-    "checkedOn": "2026-09-08",
+    "checkedOn": "2026-09-13",
     "fullTextVerified": true,
     "allPhotosVerified": true,
-    "notes": "Full announcement and September 2 date read in the connected Elfsight feed; one original photograph retrieved and visually inspected. UH's September 25 faculty introduction independently corroborates appointment, college, research areas, and education. LinkedIn's guest page requires sign-in on recheck. Original post date is not the UH article date or the website publication date. No clinical outcomes, grants, or partnerships inferred."
+    "notes": "Full announcement and September 2 date read in the connected Elfsight feed; one original photograph retrieved and visually inspected. UH's September 25 faculty introduction independently corroborates appointment, college, research areas, and education. LinkedIn's guest page requires sign-in on recheck. Original post date is not the UH article date or the website publication date. No clinical outcomes, grants, or partnerships inferred. Editorial rewrite checked September 13, 2026 against the original feed text and retained primary-source evidence; insights are framed as design implications, not new findings. All original photo metadata, order, and file hashes retained and checked."
   }
 }

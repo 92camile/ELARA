@@ -1,7 +1,7 @@
 {
   "slug": "eth-zurich-social-robotics-exchange",
   "title": "Connecting Human Behavior and Social Robotics at ETH Zurich",
-  "summary": "A June research visit opened conversations across human-centered AI, social robotics, and human behavior.",
+  "summary": "An ETH Zurich exchange connected Park's work on aging and robot interaction with perspectives from neuroscience and behavior.",
   "category": "International exchange",
   "postId": "7496325100552474625",
   "originalDate": "2026-08-20",
@@ -16,19 +16,19 @@
   ],
   "paragraphs": [
     {
-      "text": "Chorong Park's June visit to ETH Zurich brought her research into conversation with a group working across human behavior and social robotics. In an August 20, 2026, reflection, she thanked Emily S. Cross and Amol Deshmukh for hosting the exchange.",
+      "text": "How people respond to robots is a question for more than robotics alone. During a June visit to ETH Zurich, Chorong Park discussed her research with Emily S. Cross, Amol Deshmukh, and colleagues working across social robotics and human behavior.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "Park described presenting work on human-centered AI and human-robot interaction, with a focus on aging, trust, autonomy, and meaningful everyday experiences. The visit offered an opportunity to discuss these questions with researchers approaching them from related perspectives.",
+      "text": "Park presented work on human-centered AI and robotics for aging, focusing on trust, autonomy, and everyday experience. In her August 20, 2026, reflection, she highlighted the chance to hear related questions approached from different disciplines.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "Her reflection highlighted the intersection of neuroscience, behavior, and social robotics. The photographs show the presentation and discussion around a shared meeting table.",
+      "text": "The exchange connected neuroscience and behavior with the design of interactive systems. For Park, that overlap offered a way to think about both what a robot does and how a person experiences the encounter.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "Park closed by expressing appreciation for the welcome and interest in continuing the conversation. The account documents an exchange of ideas and potential future collaboration, rather than a new formal agreement.",
+      "text": "She thanked the ETH Zurich team for hosting and welcomed opportunities to stay connected. The visit added new perspectives to an ongoing research question: how to make intelligent technologies supportive without losing sight of human choice.",
       "sourceIds": ["linkedin"]
     }
   ],
@@ -90,9 +90,9 @@
   ],
   "review": {
     "status": "passed",
-    "checkedOn": "2026-09-08",
+    "checkedOn": "2026-09-13",
     "fullTextVerified": true,
     "allPhotosVerified": true,
-    "notes": "Full August 20, 4:59 PM post and all six original photographs reviewed. Visit is explicitly in June; no exact date supplied. Host names and research context attributed to Park. Future collaboration not stated as a signed partnership. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+    "notes": "Full August 20, 4:59 PM post and all six original photographs reviewed. Visit is explicitly in June; no exact date supplied. Host names and research context attributed to Park. Future collaboration not stated as a signed partnership. Image bytes archived locally without alteration; dimensions and SHA-256 checked. Editorial rewrite checked September 13, 2026 against the original feed text and retained primary-source evidence; insights are framed as design implications, not new findings. All original photo metadata, order, and file hashes retained and checked."
   }
 }

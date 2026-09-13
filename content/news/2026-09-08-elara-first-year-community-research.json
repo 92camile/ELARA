@@ -1,7 +1,7 @@
 {
   "slug": "elara-first-year-community-research",
-  "title": "A Year of Building ELARA's Research Community",
-  "summary": "Park reflects on a year of student research, community engagement, and international exchange.",
+  "title": "ELARA's First Year: Building Research Through Relationships",
+  "summary": "Park looks back on student-led projects, community robot demonstrations, and international exchanges, and welcomes new collaborators.",
   "category": "Lab milestones",
   "postId": "7503097921622544384",
   "originalDate": "2026-09-08",
@@ -16,23 +16,19 @@
   ],
   "paragraphs": [
     {
-      "text": "Chorong Park marked a year of growth at ELARA Lab and the University of Houston in a September 8, 2026, reflection. Her update connects the lab's research on AI, robotics, and aging with the people and communities who have helped develop it.",
+      "text": "Chorong Park marked ELARA Lab's first year at the University of Houston with a look back at the people behind its research. Her September 8, 2026, update highlighted student-led work, hands-on robot demonstrations with older adults, and international talks and exchanges.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "The year included student research, community demonstrations, talks, and international exchanges. Park thanked the students, collaborators, and community partners who contributed ideas and time to this work.",
+      "text": "Across those activities, the focus has been human-centered AI and social robotics for aging and care. Park thanked students, collaborators, and community partners for contributing the ideas, time, and experiences that help shape the work.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "Her reflection returned to a consistent research priority: developing technology that supports people's choices rather than taking those choices away. For the lab, community participation remains an important way to understand what meaningful assistance should look like.",
+      "text": "Her reflection connects the lab's growth to a practical research priority: supporting people without taking choices away. Bringing community experience into robot research helps keep the discussion grounded in what assistance should mean to the person receiving it.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "Park also invited interest from students and collaborators across design, computing, robotics, psychology, healthcare, and care settings. The post looks toward a broader research community while recognizing the relationships already built.",
-      "sourceIds": ["linkedin"]
-    },
-    {
-      "text": "The original collage brings together moments from community workshops, showing participants and researchers exploring companion robots together.",
+      "text": "Park also welcomed interest in voluntary collaboration from students at undergraduate through doctoral levels, industry professionals, clinicians, and care organizations. The invitation spans design, computing, robotics, psychology, and health, opening the next chapter to people with different perspectives on aging and care.",
       "sourceIds": ["linkedin"]
     }
   ],
@@ -49,9 +45,9 @@
   ],
   "review": {
     "status": "passed",
-    "checkedOn": "2026-09-08",
+    "checkedOn": "2026-09-13",
     "fullTextVerified": true,
     "allPhotosVerified": true,
-    "notes": "Full September 8 post and its one original three-panel collage reviewed. One-year milestone and collaboration invitation attributed to Park; no invented lab totals, formal partners, funded positions, or completion claims. Incomplete contact handle omitted rather than converted into a guessed email address. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+    "notes": "Full September 8 post and its one original three-panel collage reviewed. One-year milestone and collaboration invitation attributed to Park; no invented lab totals, formal partners, funded positions, or completion claims. Incomplete contact handle omitted rather than converted into a guessed email address. Image bytes archived locally without alteration; dimensions and SHA-256 checked. Editorial rewrite checked September 13, 2026 against the original feed text and retained primary-source evidence; insights are framed as design implications, not new findings. All original photo metadata, order, and file hashes retained and checked."
   }
 }

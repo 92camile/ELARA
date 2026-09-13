@@ -1,7 +1,7 @@
 {
   "slug": "houston-seminar-human-experience-ai-robotics-xr",
-  "title": "A Houston Seminar on Human Experience in AI, Robotics, and XR",
-  "summary": "Park's seminar announcement brought trust, accessibility, and everyday technology use into an interdisciplinary conversation.",
+  "title": "A Houston Seminar Looks Beyond What AI Can Do",
+  "summary": "Park's planned Computer Science talk asks what makes AI, robots, and immersive technologies usable and trustworthy in everyday life.",
   "category": "Talks & seminars",
   "postId": "7453287935824637952",
   "originalDate": "2026-04-23",
@@ -21,15 +21,15 @@
   ],
   "paragraphs": [
     {
-      "text": "On April 23, 2026, Chorong Park announced a seminar for the University of Houston Department of Computer Science. The department's calendar lists the talk for April 24 at 11 a.m. in PGH 563.",
+      "text": "Chorong Park announced a University of Houston Computer Science seminar on a question that cuts across emerging technologies: how do technical capabilities become useful human experiences? The April 23, 2026, announcement scheduled the talk for the following day at 11 a.m. in PGH 563.",
       "sourceIds": ["linkedin", "uh"]
     },
     {
-      "text": "The announced talk, \"Bridging Technology and Human Experience in AI, Robotics, and XR,\" focused on the importance of human-centered design in interactive technologies. Park proposed looking beyond technical capability to consider whether systems are usable and trustworthy in real settings.",
+      "text": "The planned presentation, \"Bridging Technology and Human Experience in AI, Robotics, and XR,\" drew on her research in aging, care, trust, privacy, and technology adoption. It invited an interdisciplinary look at what makes systems understandable and usable outside a demonstration.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "Her planned discussion connected human-computer and human-robot interaction with aging, care, privacy, and adoption. The announcement offered a meeting point for researchers across disciplines working on how technology fits into people's lives.",
+      "text": "The distinction matters to Park's research direction: technical performance and a good experience are connected, but they are not the same question. Her seminar proposal brought the people using these systems into a conversation often centered on the systems themselves.",
       "sourceIds": ["linkedin"]
     }
   ],
@@ -55,9 +55,9 @@
   ],
   "review": {
     "status": "passed",
-    "checkedOn": "2026-09-08",
+    "checkedOn": "2026-09-13",
     "fullTextVerified": true,
     "allPhotosVerified": true,
-    "notes": "Full April 23 post and both images reviewed. April 24 time, venue, speaker, and title verified in the department calendar. Written as a historical announcement; no unsupported claim that the event occurred or had particular outcomes. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+    "notes": "Full April 23 post and both images reviewed. April 24 time, venue, speaker, and title verified in the department calendar. Written as a historical announcement; no unsupported claim that the event occurred or had particular outcomes. Image bytes archived locally without alteration; dimensions and SHA-256 checked. Editorial rewrite checked September 13, 2026 against the original feed text and retained primary-source evidence; insights are framed as design implications, not new findings. All original photo metadata, order, and file hashes retained and checked."
   }
 }

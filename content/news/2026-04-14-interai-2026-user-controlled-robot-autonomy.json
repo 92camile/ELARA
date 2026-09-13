@@ -1,7 +1,7 @@
 {
   "slug": "interai-2026-user-controlled-robot-autonomy",
   "title": "Putting People in Control of Adaptive Robot Autonomy",
-  "summary": "At InterAI 2026, Park emphasized personalization and predictable behavior as design priorities for assistive robots.",
+  "summary": "Park's InterAI message: robots should adapt as people change, but people should have a say in how that happens.",
   "category": "Research & workshops",
   "postId": "7449950843333677056",
   "originalDate": "2026-04-14",
@@ -16,19 +16,19 @@
   ],
   "paragraphs": [
     {
-      "text": "People change over time; assistive robots should be designed to respond without taking control away from them. That was the central idea Chorong Park highlighted from the third InterAI Workshop on Interactive AI for Human-centered Robotics at CHI 2026.",
+      "text": "Assistive robots should change with people, not quietly take over more of their lives. Chorong Park brought that message to the third InterAI Workshop at CHI 2026, sharing her reflection on April 14.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "In her April 14 reflection, Park described how changing abilities, bodies, and preferences call for user-controlled personalization. Adaptation, in this view, is not simply something a system does automatically. People need a meaningful role in deciding how assistance changes.",
+      "text": "As bodies, abilities, and preferences evolve, Park argued, assistance needs to be adjustable. Her focus was user-controlled personalization: giving people a meaningful role in deciding what a robot does for them and how that support changes.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "Predictability was a second priority. Park argued that people should be able to understand a robot's next action and what it expects from them, making an interaction easier to navigate.",
+      "text": "Predictability matters alongside flexibility. People should be able to anticipate a robot's next action and understand what it expects from them, rather than guess their way through an interaction.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "The workshop also brought opportunities to exchange ideas with researchers working on related questions. The original gallery follows the presentation into group discussion and shared note-making, documenting the collaborative setting behind these design proposals.",
+      "text": "Together, those priorities suggest a different way to think about autonomy: more automation is not automatically better assistance. Park's workshop contribution placed understandable behavior and human choice at the center of the design discussion.",
       "sourceIds": ["linkedin"]
     }
   ],
@@ -81,9 +81,9 @@
   ],
   "review": {
     "status": "passed",
-    "checkedOn": "2026-09-08",
+    "checkedOn": "2026-09-13",
     "fullTextVerified": true,
     "allPhotosVerified": true,
-    "notes": "Full April 14, 5:44 PM post and all five ordered images reviewed. Personalization and predictability presented as workshop design arguments, not experimentally established adoption results. Image bytes archived locally without alteration; dimensions and SHA-256 checked."
+    "notes": "Full April 14, 5:44 PM post and all five ordered images reviewed. Personalization and predictability presented as workshop design arguments, not experimentally established adoption results. Image bytes archived locally without alteration; dimensions and SHA-256 checked. Editorial rewrite checked September 13, 2026 against the original feed text and retained primary-source evidence; insights are framed as design implications, not new findings. All original photo metadata, order, and file hashes retained and checked."
   }
 }
