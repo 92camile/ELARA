@@ -213,9 +213,11 @@ export function PersonalIntroduction() {
                 space for a person&apos;s own goals and relationships, not only
                 tasks and monitoring.
               </p>
-              <a className="article-link" href={profileSources.microsoftCare}>
-                Explore the original case study{' '}
-                <span aria-hidden="true">&#8599;</span>
+              <a
+                className="article-link"
+                href={sitePath('/projects/microsoft-care-team/')}
+              >
+                Read the full case study <span aria-hidden="true">&#8594;</span>
               </a>
             </div>
           </div>
@@ -241,9 +243,11 @@ export function PersonalIntroduction() {
                 means making options understandable, while leaving meaningful
                 decisions with the person.
               </p>
-              <a className="article-link" href={profileSources.microsoftCareer}>
-                Explore the original case study{' '}
-                <span aria-hidden="true">&#8599;</span>
+              <a
+                className="article-link"
+                href={sitePath('/projects/microsoft-career/')}
+              >
+                Read the full case study <span aria-hidden="true">&#8594;</span>
               </a>
             </div>
           </div>
@@ -257,9 +261,9 @@ export function PersonalIntroduction() {
           {collaborations.map((company) => (
             <div className="collaboration-row" key={company.name}>
               <dt>
-                <a href={company.url}>
+                <a href={sitePath(company.url)}>
                   {company.name}
-                  <span aria-hidden="true"> &#8599;</span>
+                  <span aria-hidden="true"> &#8594;</span>
                 </a>
                 <span>{company.context}</span>
               </dt>

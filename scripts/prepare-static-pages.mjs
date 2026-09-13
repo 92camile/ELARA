@@ -1,6 +1,7 @@
 import { copyFileSync, mkdirSync, writeFileSync } from 'node:fs';
 import { getPublishedStories } from '../lib/stories.mjs';
 import { createRobots, createSitemap } from '../lib/seo.mjs';
+import { getProjects } from '../lib/projects.mjs';
 
 const stories = getPublishedStories();
 
@@ -9,6 +10,7 @@ for (const route of [
   'students',
   'lab',
   'publications',
+  ...getProjects().map((project) => `projects/${project.slug}`),
   ...stories.map((story) => `news/${story.slug}`),
 ]) {
   mkdirSync(`dist/client/${route}`, { recursive: true });
@@ -37,5 +39,5 @@ writeFileSync(
 writeFileSync('dist/client/sitemap.xml', createSitemap(stories, base));
 writeFileSync('dist/client/robots.txt', createRobots(base));
 console.log(
-  'Prepared students, news stories, legacy links, and custom domain for static hosting.',
+  'Prepared students, publications, projects, news stories, legacy links, and custom domain for static hosting.',
 );

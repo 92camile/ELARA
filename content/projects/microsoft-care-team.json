@@ -1,0 +1,2446 @@
+{
+  "slug": "microsoft-care-team",
+  "company": "Microsoft Care Team",
+  "subtitle": "Family caregiving and togetherness",
+  "kind": "case-study",
+  "sourceUrl": "https://cpark.squarespace.com/about/microsoft-care-team",
+  "sourceTitle": "Microsoft Care Team - Creating togetherness for caregiving family \u2014 Camille (Chorong) Park",
+  "sourceHtmlSha256": "0fc9f4ad2a1afe98ee18da6f1e9713e4ef1e3e8565f6c638861f051f73057bb7",
+  "originalText": "Design by Chorong ParkMy role as team leader was to mentoring and managing team members, complete the UI of the Wish Board using Figma, create prototypes of UI, lead team discussions, interviews, and user testing, generate insights from interviews and testing, and create weekly presentations together for MS sponsors.As we had three different solutions for this project. We divided our team to three small teams (2~3 people per idea) to create three different experiences. Wish Board was the design that Microsoft sponsors valued the most among those three ideas. MS Teams Wish Board: Connecting family by creating memorable experiences A creative tool that allows family members to create a memorable experience by helping each other to fulfill wishes, and naturally brings family involvement and togetherness. The Wish Board is designed to help family members, especially care recipients, achieve and live the best life possible. ABOUT THE PROJECT As our elderly population grows, there will be a shortage of caregivers, doctors and nurses to meet their needs. To meet these needs, healthcare for the elderly is slowly shifting from assisted living facilities to the comfort of their own homes. The conflict that arises from this shift, however, is that care recipients and caregivers will be limited in their ability to socialize and connect with others, which could negatively affect their mental and physical well-being. TEAM TIMELINE Chorong Park (Team lead), Annie Giang (Team lead), Olivia Le, Evan Burr, Sophie Regele, Titan HoangSuff Syed (Head of Design), Parker Phend (Program Manager), Owen Richard (Design Lead) 4 MonthsTOOLSFigma PROBLEMWith the mental/physical effects that come with receiving healthcare at home, we want to promote care recipients' well being by fostering deeper connections with their caregivers and loved ones. Our goal is to design a mobile application that will create togetherness by addressing the three pillars, which are the three main criteria that our design must meet. How might we create a system to reduce feelings of isolation, improve health outcomes, and create meaningful, shared experiences? GOAL & DISCIPLINEOur end goal is to design a meaningful, social experience that will bring the older and younger generations together. To enable this experience, our job is to create an application that naturally creates family togetherness. Our application aims to reduce isolation, improve health outcomes, and create shared experiences among families. I functioned as a Team lead and helped to develop the team\u2019s three ideas for Microsoft Sponsors. I led the user research discussion, feedback, and ideation sessions. I conducted over 15 interviews with caregivers and care recipients, ran idea sketching sessions, and designed The Wish Board. The idea was presented to Microsoft executives. THE WISH BOARD WALK THROUGH (3m) \u201cThe app encourages families to pitch ideas, do teamwork, and lessen the responsibility of family caregivers.\u201d \u2014 Jack, 20 years old The Wish board enables family members to achieve their wishes while connecting them together and creating memorable moments. The Wish Board idea began from our interview findings. One of the elderly participants mentioned that her grandson\u2019s letter: \u201cI want you to be in my college graduation in three years\u201d, motivated her to manage her health more. Based on that, we focused on the types of interactions that would increase family engagement naturally. We found that helping family members achieve their wishes while getting supported by other family members increases family togetherness.RESEARCH #1.0We conducted research to gain a better understanding of our target user. This guides us in the ideation and sketching process. It allowed us to develop personas with detailed descriptions and pain points. PERSONASAfter conducting research over our user groups of care recipients, primary caregivers and secondary caregivers or family members, our team created personas as a resource to revisit the pain points we want to solve for through our future designs. INTERVIEWSResearch findings support design decisions.One of the interviewee\u2019s quotes gave inspiration to the Wish Board idea. Marlene, who is 64 years of old living with her daughter said, \u201c On my 64th birthday, my grandson wrote a card saying: I want you to come to my college graduation in the future. That motivated me to manage my health more for my baby\u201dThis gave the idea of how can we utilize the anticipation of the future to motivate older adults\u2019 health while creating a shared experience, which brings the family together. Participant showing medical journal for her care recipients (her mother, and husband) RE-DEFINED PROBLEM STATEMENT How might we implement tangible objects (voice recording, video, picture) which can be easily open back up after our loved ones are gone? How might we create an experience that connects the family\u2019s past, present, and future?RESEARCH #2.0We found that giving the feeling of support and knowing they are being cared for is important in family togetherness. How does future anticipation bring a positive outcome for people\u2019s well-being? The research data we found answers these questions.We must design an experience that is Inclusive and accessible - 55+, THEIR needs. Younger population connect digitally is easy but for elders is notExperience must allow the elderly to engage sociallyWith current generations, it doesn't feel natural to connect with elders (compared to how natural it is to pull up our phones and go on social media)We want the family caregiver population to want to naturally connect with eldersTarget Users:To satisfy the three different target users, we conducted user research first.The three different target users are; first, caregivers who have a primary job but being a caregiver 35-50 after their job. Second, the caregiver\u2019s family members who do not directly participate in the care recipient\u2019s medical decision. Lastly, the care recipient. Target user research takeawaysCare recipient (grandparents)Isolation is not only limited to physical separation, it can also result from a lack of relationship or belongingness in a familyMany feel guilt in terms of appearing too dependent or furthering burden upon their familyPrimary Caregiver (Daughter/son of care recipient)There is a feeling of social responsibility or moral obligation to take care of recipients which can result in feelings of guilt or burdenConnections from social support, small positive moments, and assistance from a secondary caregiver were some of the most effective means of supportSecondary Caregiver (Families who do not directly get involved with care recipient\u2019s medical decisions) Focuses more on tasks and chores to support the primary caregiver rather than medical care for the recipientAlthough not as involved in the care recipient, they still face similar burdens and stress as the primary caregiverActivities through shared experiences were some of the most effective means of stress supportDeep dive into the researchAt first, what we focused on are the three main difficulties that elders are facing nowadays.The first one is loneliness.50% of older adults in Canada who are having physical or mental illness reported a feeling of loneliness. Lack of meaningful, supportive relationships with family and friends causes issues with the safety, health, and well-being of older adults.Second, lack of motivation for physical activitiesWorkout is associated with physical and mental health, emotional well-being, especially for older adults. But the lack of motivation on having regular physical activities deprives older adults of the benefits of the workout.Third, missing the feeling of being supported by family Expressing concern, sharing responsibilities, and mutual respect are considered important elements to maintaining a healthy family. Elders feel less lonely when family members express the care for them.Then, we came up with a question. How might we encourage physical activity that also aims to enhance social connectedness while supporting family members?We conducted more research and found three main elements we want to combine when creating an app.First, Utilize the benefit of socializationBy increasing socialization through planning wishes to accomplish together, older adult's physical, emotional and mental well-being improves.Second, Sustain motivation and participation in activitiesDoing activities lead to more fruitful engagement rather than watching or listening. Social connectedness was established by participating in activities that not only provided social contact but also allowed them to talk, share thoughts, and feel supported.Third, Anticipation of near-future family eventsPeople\u2019s well-being is correlated with brain activity during the perception of emotional events. The anticipation for positive events enhanced brain activation which is associated with higher levels of well-being.FINAL DESIGN ITERATIONS (Sketch to Mid-fi) Final User Testing quotes \u201cBy putting the wishes into the board and share them with family, they will be able to ask questions that will keep that person motivated to do their goals, because now everyone knows that I\u2019m working to get this goal, they are willing to help and support you.\u201d \u2014 Alexander, 30 yrs old \u201cThe point of the app is to set wishes that you want to help your family accomplish, so even if they do say something that they probably can\u2019t really attain right now, they would have that support and help from the family.\u201d \u2014 Jess, 67 yrs old Final Design SummaryWish board sustain motivation and participation in activities while promoting socialization between family, and sharing their anticipation of future desired events. For our final design, we focused on delivering the three main key points which connect to our three main pillars we focused on solving the problem over the semester First, The Wish Board allows all family members to share their wishes and pitch ideas to achieve the wishes together, which reduces the feeling of isolation.Second, Activities such as family hiking or learning dance created by family members using the Wish Board help to improve the health of family members, and sustain motivation and participation in activities.Lastly, Families can save pictures and videos from the event for everlasting memories. And feel good about the family achievements Project overview:As our elderly population is increasing, there will be a shortage of caregivers, doctors, and nurses to attend to their needs. To accommodate these needs, healthcare for the elderly is slowly shifting from assisted living facilities to the comfort of their own homes. The conflict that arises from this shift, however, is that care recipients and caregivers will have limitations on socializing and connecting with others. Due to the nature of being treated at home, recipients and caregivers may feel a sense of isolation which could negatively affect their mental and physical well-being.Our end goal is to design a meaningful, social experience that will bring the older and younger generations together. The tool must be accessible and easy to use for the elderly, who may have difficulties with technology usage due to generational differences. It is also important that this experience should motivate younger generations to naturally connect with their elders, providing opportunities to create everlasting memories to reminisce once their loved ones are gone. Through the creation of this tool, it should alleviate the boundaries on communication between these various groups, promoting the unity and wellbeing of everyone.The togetherness challenge:Frequently caregivers feel that they have moved into an administrative role and spend less time as the spouse, child, or grandchild of their care recipient. The Together Time feature\u2019s goal is to help the family caregivers and the care community connect on a more human level with their loved ones. Bring them back to being family.We developed basic how might we question to start the secondary research.How might we design an authentic social experience that brings our elders closer to younger generations? To answer this question, we focused on the three main pillars to creating family togetherness.Creating togetherness with three main pillars 1) Removing the feeling of isolation of the elderly as they age autonomously. Ensuring they feel connected to their children and grandchildren improving overall happiness daily.2) Contribute to better health outcomes of the elderly encouraged by the involvement of younger generations proactively.3) Create lasting memories for younger generations to reflect on and reminisce when their loved one is no longer with themRefind how might we statement isHow might we remove isolation to improve overall mood, improve health outcomes daily through shared experiences, and create last memories?To answer how might we question, we set the goal of the project as:Designing a mobile platform experience for Microsoft Teams that will help caregivers and care recipients experience togetherness by removing feelings of isolation, improve the health of both users, creating lasting memories, as well as drive younger generations to build more strong connections with their elders.The first round of research takeaways We must design an experience that is Inclusive and accessible - 55+, THEIR needs. Younger population connect digitally is easy but for elders is notExperience must allow the elderly to engage sociallyWith current generations, it doesn't feel natural to connect with elders (compared to how natural it is to pull up our phones and go on social media)We want the family caregiver population to want to naturally connect with eldersBoundaries:The experience needed to be developed within the boundaries of what is possible inside a Microsoft Teams environment. Using MS Team\u2019s natural features like Chat, Audio/Video class, Calendar, Tasks, etc. To understand the boundaries better, we conducted research on the applications that creates togetherness.Inspiring applications: The applications give the feeling of togetherness:Headspace - emote the feeling of calm and mindfulnessWhile it\u2019s geared towards gen Zs, many older generations also enjoy it due to its structurePush yourself to leverage inspiration from these apps into what we end up designingCocoon - brings family members closer in unique ways, meaningful insights in the background to keep everyone connected when disconnectedLeverage data really wellTiktok - managed to connect multiple generationsGrandparents and grandchildren are often seen doing challenges together in public ways, finding meaningful ways to connectOlder generations find happiness because they are able to be with their childrenSecond round research for three main pillarsI lead a research session for the team research discussion meeting. There are three main key factors we found that are important; togetherness, accessibility, and the perspective of the caregiver. The research takeaways are:There has to be a balance between how much is shared between caregivers and care recipients to maintain some sense of privacy.Being part of an enacted togetherness created ordinariness and a sense of safety in everyday life, and feelings of not being alone.Caregivers spend their emotional energy to take care of the care recipient, therefore hard to attend self-care.Three questions have developed from our takeaways:How do we implement an experience that alleviates the workload of \"basic tasks\"?How do we create experiences that leave an imprint on memories using the app?How can the app communicate boundaries, togetherness, and a sense of belonging?PersonaBased on the ideas we gathered, we created personas for each target user group. Mary is a 70-year-old woman with multiple disabilities. She lives far away from her children, except for Aleesha, who lives with her. Ethan and his son live farther away, but they visit Mary often and like to plan activities with her. Made with \u2764\ufe0f",
+  "originalTextSha256": "cc94dc8cac642c75b19e0066424bfb8e3bbe12092d3ac3a846e4a1646c8a5ee6",
+  "images": [
+    {
+      "src": "/images/projects/8261beabaedf21bb-03_final_design_wish_board.png",
+      "originalPath": "assets/8261beabaedf21bb-03_final_design_wish_board.png",
+      "sha256": "8261beabaedf21bb9404c8bf61e5d00168877139effa46d51ef9af6cd6decccc",
+      "bytes": 2434945
+    },
+    {
+      "src": "/images/projects/2e3221ec57bf0349-20M-final-design.gif",
+      "originalPath": "assets/2e3221ec57bf0349-20M-final-design.gif",
+      "sha256": "2e3221ec57bf0349979cf761fa38019568500ed155c8000d050957a177ca6a51",
+      "bytes": 18462572
+    },
+    {
+      "src": "/images/projects/a56c0de0e4c3d314-Screen-Shot-2021-05-08-at-7.08.14-PM.png",
+      "originalPath": "assets/a56c0de0e4c3d314-Screen-Shot-2021-05-08-at-7.08.14-PM.png",
+      "sha256": "a56c0de0e4c3d31471a95fc88169a716fa80fb91c1db31fa618813783e3d21b5",
+      "bytes": 105433
+    },
+    {
+      "src": "/images/projects/5f039f035acc2cca-Togetherness-research.png",
+      "originalPath": "assets/5f039f035acc2cca-Togetherness-research.png",
+      "sha256": "5f039f035acc2cca665ba58fac285c6e930839fe1b6bf5d6ed900dbcca884243",
+      "bytes": 129125
+    },
+    {
+      "src": "/images/projects/a1250b37b2929591-Screen-Shot-2022-11-01-at-7.22.46-PM.png",
+      "originalPath": "assets/a1250b37b2929591-Screen-Shot-2022-11-01-at-7.22.46-PM.png",
+      "sha256": "a1250b37b29295918ed59fe4114d20955f608f06eb37b490774816e9c0e2f90d",
+      "bytes": 137348
+    },
+    {
+      "src": "/images/projects/9e3cddbfdc5f8e06-PERSONA2.jpg",
+      "originalPath": "assets/9e3cddbfdc5f8e06-PERSONA2.jpg",
+      "sha256": "9e3cddbfdc5f8e061949ae1b1af1400928be59d88e58f8863f28bac3bec17def",
+      "bytes": 168145
+    },
+    {
+      "src": "/images/projects/d000142badf9846f-PERSONA.jpg",
+      "originalPath": "assets/d000142badf9846f-PERSONA.jpg",
+      "sha256": "d000142badf9846f7e83c31b7d013483e83941ca872cfe9e2009e68204840121",
+      "bytes": 153248
+    },
+    {
+      "src": "/images/projects/4eaab93dfcc7be51-karen.png",
+      "originalPath": "assets/4eaab93dfcc7be51-karen.png",
+      "sha256": "4eaab93dfcc7be5119badad090b440a7fd992f7864a79c519fefe1e2d24291f7",
+      "bytes": 1525582
+    },
+    {
+      "src": "/images/projects/4697d5aa977b607f-Microsoft-Documentation-Landscape-72-dragged-.jpg",
+      "originalPath": "assets/4697d5aa977b607f-Microsoft-Documentation-Landscape-72-dragged-.jpg",
+      "sha256": "4697d5aa977b607f13a0ad36266baf401a2fbb66b31a0e9b2e5f4a261a51f594",
+      "bytes": 325999
+    },
+    {
+      "src": "/images/projects/d0c75eaf38296fac-Microsoft-Documentation-Landscape-73-dragged-.png",
+      "originalPath": "assets/d0c75eaf38296fac-Microsoft-Documentation-Landscape-73-dragged-.png",
+      "sha256": "d0c75eaf38296facbdc8a1de2c3e60a7ff8022d5d0c04483bccca9b253625057",
+      "bytes": 809512
+    },
+    {
+      "src": "/images/projects/4fda79bb704cd2b9-Microsoft-Documentation-Landscape-74-dragged-.png",
+      "originalPath": "assets/4fda79bb704cd2b9-Microsoft-Documentation-Landscape-74-dragged-.png",
+      "sha256": "4fda79bb704cd2b9514b5d3951f132e13c201cf4faa8adad7b755849c83262ca",
+      "bytes": 1027199
+    },
+    {
+      "src": "/images/projects/3659905d7a08de7f-Microsoft-Documentation-Landscape-75-dragged-.png",
+      "originalPath": "assets/3659905d7a08de7f-Microsoft-Documentation-Landscape-75-dragged-.png",
+      "sha256": "3659905d7a08de7fd4960f45fefa20f5842e08660f8fae040b9ca5c04d258302",
+      "bytes": 679163
+    },
+    {
+      "src": "/images/projects/0e8ff248ef523902-Microsoft-Documentation-Landscape-76-dragged-.png",
+      "originalPath": "assets/0e8ff248ef523902-Microsoft-Documentation-Landscape-76-dragged-.png",
+      "sha256": "0e8ff248ef52390277049ea9dc70bf3e668d2e23c06e430ed9071ab0807f0ce5",
+      "bytes": 692905
+    },
+    {
+      "src": "/images/projects/be673a7dbdb0825d-Microsoft-Documentation-Landscape-77-dragged-.png",
+      "originalPath": "assets/be673a7dbdb0825d-Microsoft-Documentation-Landscape-77-dragged-.png",
+      "sha256": "be673a7dbdb0825df60a22dd0c3aa1b92713c90cb11ac620e995a2008ea012f9",
+      "bytes": 1321646
+    },
+    {
+      "src": "/images/projects/17479625845e52c7-Microsoft-Documentation-Landscape-78-dragged-.png",
+      "originalPath": "assets/17479625845e52c7-Microsoft-Documentation-Landscape-78-dragged-.png",
+      "sha256": "17479625845e52c7e33c9fd49ad27c80279938646be0fa27ebf8254f5fc8931d",
+      "bytes": 1480291
+    },
+    {
+      "src": "/images/projects/8f2734a498dce630-Microsoft-Documentation-Landscape-79-dragged-.png",
+      "originalPath": "assets/8f2734a498dce630-Microsoft-Documentation-Landscape-79-dragged-.png",
+      "sha256": "8f2734a498dce6308c569f618c4cc8963f66a3f37ecc5700cd756d657e413b45",
+      "bytes": 657841
+    },
+    {
+      "src": "/images/projects/dfde9da9080906a7-Screen-Shot-2021-05-08-at-7.46.54-PM.jpg",
+      "originalPath": "assets/dfde9da9080906a7-Screen-Shot-2021-05-08-at-7.46.54-PM.jpg",
+      "sha256": "dfde9da9080906a7375ac5856da378dee69cc1e5ac51faeac3e9b186190761a9",
+      "bytes": 134690
+    },
+    {
+      "src": "/images/projects/5f1e960a5a53f121-Screen-Shot-2021-05-08-at-7.47.02-PM.jpg",
+      "originalPath": "assets/5f1e960a5a53f121-Screen-Shot-2021-05-08-at-7.47.02-PM.jpg",
+      "sha256": "5f1e960a5a53f12131d989b88ec74abb1d9ee4e236b1077acb20f9b91a0b4fe8",
+      "bytes": 107539
+    },
+    {
+      "src": "/images/projects/8d88afc84bc7db0e-inspiration-examples.jpg",
+      "originalPath": "assets/8d88afc84bc7db0e-inspiration-examples",
+      "sha256": "8d88afc84bc7db0e213592f4288c91fcc77c614071983ef3f18a6fc9fece36a3",
+      "bytes": 219765
+    },
+    {
+      "src": "/images/projects/bfd62d9ba6a7d2a3-Screen-Shot-2021-03-09-at-12.06.00-AM.png",
+      "originalPath": "assets/bfd62d9ba6a7d2a3-Screen-Shot-2021-03-09-at-12.06.00-AM.png",
+      "sha256": "bfd62d9ba6a7d2a3701259d3f428a6ae62512426ea23605a1a6fda07acc126ae",
+      "bytes": 359308
+    },
+    {
+      "src": "/images/projects/1dcdc88f03c74588-Screen-Shot-2021-03-09-at-12.06.10-AM.png",
+      "originalPath": "assets/1dcdc88f03c74588-Screen-Shot-2021-03-09-at-12.06.10-AM.png",
+      "sha256": "1dcdc88f03c7458845f81b77e92cf512169588457f86c4f9eb29dec4a268540c",
+      "bytes": 343670
+    },
+    {
+      "src": "/images/projects/b156123c1779677b-Screen-Shot-2021-03-09-at-12.06.37-AM.png",
+      "originalPath": "assets/b156123c1779677b-Screen-Shot-2021-03-09-at-12.06.37-AM.png",
+      "sha256": "b156123c1779677bfe897663ab5c1e4ae878b3b2ed8302eaed9f6e33d4515ebf",
+      "bytes": 435844
+    },
+    {
+      "src": "/images/projects/9884a73d8bcf2e77-Team-picture.png",
+      "originalPath": "assets/9884a73d8bcf2e77-Team-picture.png",
+      "sha256": "9884a73d8bcf2e7793b895240a24dc08ad7806b502057c04bbe2cde7abdc99f7",
+      "bytes": 2845679
+    }
+  ],
+  "documentLinks": [],
+  "videos": [
+    "https://www.youtube.com/embed/oS89scxLlSg?feature=oembed"
+  ],
+  "content": [
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/8261beabaedf21bb-03_final_design_wish_board.png",
+              "alt": "Microsoft Care Team: original project image 1",
+              "width": 2500,
+              "height": 2031
+            },
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "figcaption",
+              "children": [
+                "\n",
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "em",
+                      "children": [
+                        "Design by Chorong Park"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "children": [
+                    "My role as team leader was to mentoring and managing team members, complete the UI of the Wish Board using Figma, create prototypes of UI, lead team discussions, interviews, and user testing, generate insights from interviews and testing, and create weekly presentations together for MS sponsors.As we had three different solutions for this project. We divided our team to three small teams (2~3 people per idea) to create three different experiences. Wish Board was the design that Microsoft sponsors valued the most among those three ideas."
+                  ]
+                },
+                "\n"
+              ]
+            },
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h2",
+          "children": [
+            {
+              "tag": "span",
+              "children": [
+                {
+                  "tag": "strong",
+                  "children": [
+                    "MS Teams Wish Board"
+                  ]
+                },
+                ":"
+              ]
+            },
+            " Connecting family by creating memorable experiences"
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "p",
+          "children": [
+            "A creative tool that allows family members to create a memorable experience by helping each other to fulfill wishes, and naturally brings family involvement and togetherness. The Wish Board is designed to help family members, especially care recipients, achieve and live the best life possible."
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/2e3221ec57bf0349-20M-final-design.gif",
+              "alt": "Microsoft Care Team: original project image 2",
+              "width": 540,
+              "height": 1077
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h2",
+          "children": [
+            {
+              "tag": "span",
+              "children": [
+                {
+                  "tag": "strong",
+                  "children": [
+                    "ABOUT THE PROJECT"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "p",
+          "children": [
+            "As our elderly population grows, there will be a shortage of caregivers, doctors and nurses to meet their needs. To meet these needs, healthcare for the ",
+            {
+              "tag": "strong",
+              "children": [
+                "elderly is slowly shifting from assisted living facilities to the comfort of their own homes."
+              ]
+            },
+            " The conflict that arises from this shift, however, is that care recipients and caregivers will be limited in their ability to socialize and connect with others, ",
+            {
+              "tag": "strong",
+              "children": [
+                "which could negatively affect their mental and physical well-being."
+              ]
+            }
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "TEAM"
+              ]
+            }
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "span",
+              "children": [
+                {
+                  "tag": "strong",
+                  "children": [
+                    "TIMELINE"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "p",
+          "children": [
+            "Chorong Park (Team lead), Annie Giang (Team lead), Olivia Le, Evan Burr, Sophie Regele, Titan Hoang",
+            {
+              "tag": "br"
+            },
+            "Suff Syed (Head of Design), Parker Phend (Program Manager), Owen Richard (Design Lead) "
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "p",
+          "children": [
+            "4 Months"
+          ]
+        },
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "TOOLS"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Figma"
+          ]
+        },
+        {
+          "tag": "p"
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "PROBLEM"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "With the mental/physical effects that come with receiving healthcare at home, we want to promote care recipients' well being by fostering deeper connections with their caregivers and loved ones. Our goal is to design a mobile application that will create togetherness by addressing the ",
+            {
+              "tag": "strong",
+              "children": [
+                "three pillars"
+              ]
+            },
+            ", which are the three main criteria that our design must meet. ",
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            "How might we create a system to ",
+            {
+              "tag": "strong",
+              "children": [
+                "reduce feelings of isolation, improve health outcomes, and create meaningful, shared experiences?"
+              ]
+            }
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/a56c0de0e4c3d314-Screen-Shot-2021-05-08-at-7.08.14-PM.png",
+              "alt": "Microsoft Care Team: original project image 3",
+              "width": 1529,
+              "height": 617
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "GOAL & DISCIPLINE"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Our end goal is to design a meaningful, social experience that will bring the older and younger generations together. To enable this experience, our job is to ",
+            {
+              "tag": "strong",
+              "children": [
+                "create an application that naturally creates family togetherness. "
+              ]
+            },
+            "Our application aims to reduce isolation, improve health outcomes, and create shared experiences among families.\u00a0",
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            "I functioned as a Team lead and helped to develop the team\u2019s three ideas for Microsoft Sponsors. I led the user research discussion, feedback, and ideation sessions. I conducted over 15 interviews with caregivers and care recipients, ran idea sketching sessions, and designed The Wish Board. The idea was presented to Microsoft executives."
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "THE WISH BOARD WALK THROUGH (3m)"
+              ]
+            }
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        {
+          "tag": "iframe",
+          "src": "https://www.youtube.com/embed/oS89scxLlSg?feature=oembed",
+          "title": "Microsoft Care Team: Wish Board walkthrough"
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            {
+              "tag": "blockquote",
+              "children": [
+                "\n",
+                {
+                  "tag": "span",
+                  "children": [
+                    "\u201c"
+                  ]
+                },
+                "The app encourages families to pitch ideas, do teamwork, and lessen the responsibility of family caregivers.",
+                {
+                  "tag": "span",
+                  "children": [
+                    "\u201d"
+                  ]
+                },
+                "\n"
+              ]
+            },
+            "\n",
+            {
+              "tag": "figcaption",
+              "children": [
+                "\u2014 Jack, 20 years old"
+              ]
+            },
+            "\n"
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "p",
+          "children": [
+            "The Wish board enables family members to achieve their wishes while connecting them together and creating memorable moments. The Wish Board idea began from our interview findings. One of the elderly participants mentioned that her grandson\u2019s letter: \u201cI want you to be in my college graduation in three years\u201d, motivated her to manage her health more. Based on that, we focused on the types of interactions that would increase family engagement naturally. We found that helping family members achieve their wishes while getting supported by other family members increases family togetherness."
+          ]
+        },
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "RESEARCH #1.0"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "We conducted research to gain a better understanding of our target user. This guides us in the ideation and sketching process. It allowed us to develop personas with detailed descriptions and pain points."
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/5f039f035acc2cca-Togetherness-research.png",
+              "alt": "Microsoft Care Team: original project image 4",
+              "width": 1294,
+              "height": 388
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/a1250b37b2929591-Screen-Shot-2022-11-01-at-7.22.46-PM.png",
+              "alt": "Microsoft Care Team: original project image 5",
+              "width": 1346,
+              "height": 402
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "PERSONAS"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "After conducting research over our user groups of care recipients, primary caregivers and secondary caregivers or family members, our team created personas as a resource to revisit the pain points we want to solve for through our future designs. "
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/9e3cddbfdc5f8e06-PERSONA2.jpg",
+              "alt": "Microsoft Care Team: original project image 6",
+              "width": 1920,
+              "height": 877
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/d000142badf9846f-PERSONA.jpg",
+              "alt": "Microsoft Care Team: original project image 7",
+              "width": 1920,
+              "height": 855
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "INTERVIEWS"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Research findings support design decisions."
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "One of the interviewee\u2019s quotes gave inspiration to the Wish Board idea. Marlene, who is 64 years of old living with her daughter said, \u201c On my 64th birthday, my grandson wrote a card saying: I want you to come to my college graduation in the future. That motivated me to manage my health more for my baby\u201d"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "This gave the idea of how can we utilize the anticipation of the future to motivate older adults\u2019 health while creating a shared experience, which brings the family together."
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/4eaab93dfcc7be51-karen.png",
+              "alt": "Microsoft Care Team: original project image 8",
+              "width": 2500,
+              "height": 1405
+            },
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "figcaption",
+              "children": [
+                "\n",
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "em",
+                      "children": [
+                        "Participant showing medical journal for her care recipients (her mother, and husband)"
+                      ]
+                    }
+                  ]
+                },
+                "\n"
+              ]
+            },
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "RE-DEFINED PROBLEM STATEMENT"
+              ]
+            }
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "p",
+          "children": [
+            "How might we implement tangible objects (voice recording, video, picture) which can be easily open back up after our loved ones are gone?"
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "p",
+          "children": [
+            "How might we create an experience that connects the family\u2019s past, present, and future?"
+          ]
+        },
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "RESEARCH #2.0"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "We found that giving the feeling of support and knowing they are being cared for is important in family togetherness. How does future anticipation bring a positive outcome for people\u2019s well-being? The research data we found answers these questions.",
+            {
+              "tag": "br"
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "We must design an experience that is Inclusive and accessible - 55+, THEIR needs. Younger population connect digitally is easy but for elders is not"
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Experience must allow the elderly to engage socially"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "With current generations, it doesn't feel natural to connect with elders (compared to how natural it is to pull up our phones and go on social media)"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "We want the family caregiver population to want to naturally connect with elders"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Target Users:"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "To satisfy the three different target users, we conducted user research first.",
+            {
+              "tag": "br"
+            },
+            "The three different target users are; first, caregivers who have a primary job but being a caregiver 35-50 after their job. Second, the caregiver\u2019s family members who do not directly participate in the care recipient\u2019s medical decision. Lastly, the care recipient. "
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Target user research takeaways"
+              ]
+            },
+            {
+              "tag": "br"
+            },
+            "Care recipient (grandparents)"
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Isolation is not only limited to physical separation, it can also result from a lack of relationship or belongingness in a family"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Many feel guilt in terms of appearing too dependent or furthering burden upon their family"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Primary Caregiver (Daughter/son of care recipient)"
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "There is a feeling of social responsibility or moral obligation to take care of recipients which can result in feelings of guilt or burden"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Connections from social support, small positive moments, and assistance from a secondary caregiver were some of the most effective means of support"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Secondary Caregiver (Families who do not directly get involved with care recipient\u2019s medical decisions) "
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Focuses more on tasks and chores to support the primary caregiver rather than medical care for the recipient"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Although not as involved in the care recipient, they still face similar burdens and stress as the primary caregiver"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Activities through shared experiences were some of the most effective means of stress support"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "strong",
+              "children": [
+                "Deep dive into the research",
+                {
+                  "tag": "br"
+                }
+              ]
+            },
+            {
+              "tag": "br"
+            },
+            "At first, what we focused on are the three main difficulties that elders are facing nowadays."
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "The first one is loneliness."
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "50% of older adults in Canada who are having physical or mental illness reported a feeling of loneliness. Lack of meaningful, supportive relationships with family and friends causes issues with the safety, health, and well-being of older adults."
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Second, lack of motivation for physical activities"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Workout is associated with physical and mental health, emotional well-being, especially for older adults. But the lack of motivation on having regular physical activities deprives older adults of the benefits of the workout."
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Third, missing the feeling of being supported by family "
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Expressing concern, sharing responsibilities, and mutual respect are considered important elements to maintaining a healthy family. Elders feel less lonely when family members express the care for them."
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Then, we came up with a question. ",
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "strong",
+              "children": [
+                "How might we encourage physical activity that also aims to enhance social connectedness while supporting family members?",
+                {
+                  "tag": "br"
+                },
+                {
+                  "tag": "br"
+                }
+              ]
+            },
+            "We conducted more research and found three main elements we want to combine when creating an app."
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "First"
+              ]
+            },
+            ", Utilize the benefit of socialization"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "By increasing socialization through planning wishes to accomplish together, older adult's physical, emotional and mental well-being improves."
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Second"
+              ]
+            },
+            ", Sustain motivation and participation in activities"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Doing activities lead to more fruitful engagement rather than watching or listening. Social connectedness was established by participating in activities that not only provided social contact but also allowed them to talk, share thoughts, and feel supported."
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Third"
+              ]
+            },
+            ", Anticipation of near-future family events"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "People\u2019s well-being is correlated with brain activity during the perception of emotional events. The anticipation for positive events enhanced brain activation which is associated with higher levels of well-being."
+          ]
+        },
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "FINAL DESIGN"
+              ]
+            }
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/4697d5aa977b607f-Microsoft-Documentation-Landscape-72-dragged-.jpg",
+              "alt": "Microsoft Care Team: original project image 9",
+              "width": 1853,
+              "height": 1406
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/d0c75eaf38296fac-Microsoft-Documentation-Landscape-73-dragged-.png",
+              "alt": "Microsoft Care Team: original project image 10",
+              "width": 2500,
+              "height": 1406
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/4fda79bb704cd2b9-Microsoft-Documentation-Landscape-74-dragged-.png",
+              "alt": "Microsoft Care Team: original project image 11",
+              "width": 2500,
+              "height": 1406
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/3659905d7a08de7f-Microsoft-Documentation-Landscape-75-dragged-.png",
+              "alt": "Microsoft Care Team: original project image 12",
+              "width": 2500,
+              "height": 1406
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/0e8ff248ef523902-Microsoft-Documentation-Landscape-76-dragged-.png",
+              "alt": "Microsoft Care Team: original project image 13",
+              "width": 2500,
+              "height": 1406
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/be673a7dbdb0825d-Microsoft-Documentation-Landscape-77-dragged-.png",
+              "alt": "Microsoft Care Team: original project image 14",
+              "width": 2500,
+              "height": 1406
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/17479625845e52c7-Microsoft-Documentation-Landscape-78-dragged-.png",
+              "alt": "Microsoft Care Team: original project image 15",
+              "width": 2500,
+              "height": 1406
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/8f2734a498dce630-Microsoft-Documentation-Landscape-79-dragged-.png",
+              "alt": "Microsoft Care Team: original project image 16",
+              "width": 2500,
+              "height": 1406
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "ITERATIONS (Sketch to Mid-fi)"
+              ]
+            }
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/dfde9da9080906a7-Screen-Shot-2021-05-08-at-7.46.54-PM.jpg",
+              "alt": "Microsoft Care Team: original project image 17",
+              "width": 1693,
+              "height": 640
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/5f1e960a5a53f121-Screen-Shot-2021-05-08-at-7.47.02-PM.jpg",
+              "alt": "Microsoft Care Team: original project image 18",
+              "width": 1694,
+              "height": 640
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Final User Testing quotes"
+              ]
+            }
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            {
+              "tag": "blockquote",
+              "children": [
+                "\n",
+                {
+                  "tag": "span",
+                  "children": [
+                    "\u201c"
+                  ]
+                },
+                "By putting the wishes into the board and share them with family, they will be able to ask questions that will keep that person motivated to do their goals, because now everyone knows that I\u2019m working to get this goal, they are willing to help and support you.",
+                {
+                  "tag": "span",
+                  "children": [
+                    "\u201d"
+                  ]
+                },
+                "\n"
+              ]
+            },
+            "\n",
+            {
+              "tag": "figcaption",
+              "children": [
+                "\u2014 Alexander, 30 yrs old"
+              ]
+            },
+            "\n"
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            {
+              "tag": "blockquote",
+              "children": [
+                "\n",
+                {
+                  "tag": "span",
+                  "children": [
+                    "\u201c"
+                  ]
+                },
+                "The point of the app is to set wishes that you want to help your family accomplish, so even if they do say something that they probably can\u2019t really attain right now, they would have that support and help from the family.",
+                {
+                  "tag": "span",
+                  "children": [
+                    "\u201d"
+                  ]
+                },
+                "\n"
+              ]
+            },
+            "\n",
+            {
+              "tag": "figcaption",
+              "children": [
+                "\u2014 Jess, 67 yrs old"
+              ]
+            },
+            "\n"
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Final Design Summary"
+              ]
+            },
+            {
+              "tag": "br"
+            },
+            "Wish board sustain motivation and participation in activities while promoting socialization between family, and sharing their anticipation of future desired events. For our final design, we focused on delivering the three main key points which connect to our three main pillars we focused on solving the problem over the semester "
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "First, The Wish Board allows all family members to share their wishes and pitch ideas to achieve the wishes together, which reduces the feeling of isolation."
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Second, Activities such as family hiking or learning dance created by family members using the Wish Board help to improve the health of family members, and sustain motivation and participation in activities."
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Lastly, Families can save pictures and videos from the event for everlasting memories. And feel good about the family achievements"
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "strong",
+              "children": [
+                "Project overview:"
+              ]
+            },
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            "As our elderly population is increasing, there will be a shortage of caregivers, doctors, and nurses to attend to their needs. To accommodate these needs, healthcare for the elderly is slowly shifting from assisted living facilities to the comfort of their own homes. The conflict that arises from this shift, however, is that care recipients and caregivers will have limitations on socializing and connecting with others. Due to the nature of being treated at home, recipients and caregivers may feel a sense of isolation which could negatively affect their mental and physical well-being.",
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            "Our end goal is to design a meaningful, social experience that will bring the older and younger generations together. The tool must be accessible and easy to use for the elderly, who may have difficulties with technology usage due to generational differences. It is also important that this experience should motivate younger generations to naturally connect with their elders, providing opportunities to create everlasting memories to reminisce once their loved ones are gone. Through the creation of this tool, it should alleviate the boundaries on communication between these various groups, promoting the unity and wellbeing of everyone.",
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "The togetherness challenge:"
+              ]
+            },
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            "Frequently ",
+            {
+              "tag": "strong",
+              "children": [
+                "caregivers"
+              ]
+            },
+            " feel that they have moved into an administrative role and spend less time as the spouse, child, or ",
+            {
+              "tag": "strong",
+              "children": [
+                "grandchild"
+              ]
+            },
+            " of their ",
+            {
+              "tag": "strong",
+              "children": [
+                "care recipient"
+              ]
+            },
+            ". The Together Time feature\u2019s goal is to help the family caregivers and the care community connect on a more human level with their loved ones. Bring them back to being family.",
+            {
+              "tag": "br"
+            },
+            "We developed basic how might we question to start the secondary research.",
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "em",
+              "children": [
+                "How might we design an authentic social experience that brings our elders closer to younger generations? ",
+                {
+                  "tag": "br"
+                },
+                {
+                  "tag": "br"
+                }
+              ]
+            },
+            "To answer this question, we focused on the three main pillars to creating family togetherness.",
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "strong",
+              "children": [
+                "Creating togetherness with three main pillars "
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "1) Removing the feeling of isolation of the elderly as they age autonomously. Ensuring they feel connected to their children and grandchildren improving overall happiness daily.",
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            "2) Contribute to better health outcomes of the elderly encouraged by the involvement of younger generations proactively."
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "3) Create lasting memories for younger generations to reflect on and reminisce when their loved one is no longer with them",
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "strong",
+              "children": [
+                "Refind how might we statement is"
+              ]
+            },
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "em",
+              "children": [
+                {
+                  "tag": "br"
+                },
+                "How might we remove isolation to improve overall mood, improve health outcomes daily through shared experiences, and create last memories?"
+              ]
+            },
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            "To answer how might we question, we set the goal of the project as:",
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "br"
+                }
+              ]
+            },
+            "Designing a mobile platform experience for Microsoft Teams that will help caregivers and care recipients experience togetherness by removing feelings of isolation, improve the health of both users, creating lasting memories, as well as drive younger generations to build more strong connections with their elders.",
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "br"
+                },
+                {
+                  "tag": "br"
+                },
+                "The first round of research takeaways "
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "We must design an experience that is Inclusive and accessible - 55+, THEIR needs. Younger population connect digitally is easy but for elders is not"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Experience must allow the elderly to engage socially"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "With current generations, it doesn't feel natural to connect with elders (compared to how natural it is to pull up our phones and go on social media)"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "We want the family caregiver population to want to naturally connect with elders"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "br"
+                },
+                "Boundaries:",
+                {
+                  "tag": "br"
+                },
+                {
+                  "tag": "br"
+                }
+              ]
+            },
+            "The experience needed to be developed within the boundaries of what is possible inside a Microsoft Teams environment. Using MS Team\u2019s natural features like Chat, Audio/Video class, Calendar, Tasks, etc. To understand the boundaries better, we conducted research on the applications that creates togetherness.",
+            {
+              "tag": "strong",
+              "children": [
+                {
+                  "tag": "br"
+                },
+                {
+                  "tag": "br"
+                }
+              ]
+            },
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "strong",
+              "children": [
+                "Inspiring applications:"
+              ]
+            },
+            {
+              "tag": "br"
+            }
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/8d88afc84bc7db0e-inspiration-examples.jpg",
+              "alt": "Microsoft Care Team: original project image 19",
+              "width": 2134,
+              "height": 1427
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "The applications give the feeling of togetherness:",
+                {
+                  "tag": "br"
+                },
+                {
+                  "tag": "br"
+                },
+                "Headspace"
+              ]
+            },
+            " - emote the feeling of calm and mindfulness",
+            {
+              "tag": "br"
+            },
+            "While it\u2019s geared towards gen Zs, many older generations also enjoy it due to its structure"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Push yourself to leverage inspiration from these apps into what we end up designing"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Cocoon"
+              ]
+            },
+            " - brings family members closer in unique ways, meaningful insights in the background to keep everyone connected when disconnected"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Leverage data really well"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Tiktok"
+              ]
+            },
+            " - managed to connect multiple generations"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Grandparents and grandchildren are often seen doing challenges together in public ways, finding meaningful ways to connect"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Older generations find happiness because they are able to be with their children",
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Second round research for three main pillars"
+              ]
+            },
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            "I lead a research session for the team research discussion meeting. There are three main key factors we found that are important; togetherness, accessibility, and the perspective of the caregiver. ",
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            "The research takeaways are:"
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "There has to be a balance between how much is shared between caregivers and care recipients to maintain some sense of privacy."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Being part of an enacted togetherness created ordinariness and a sense of safety in everyday life, and feelings of not being alone."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Caregivers spend their emotional energy to take care of the care recipient, therefore hard to attend self-care.",
+                    {
+                      "tag": "br"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Three questions have developed from our takeaways:"
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "How do we implement an experience that alleviates the workload of \"basic tasks\"?"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "How do we create experiences that leave an imprint on memories using the app?"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "How can the app communicate boundaries, togetherness, and a sense of belonging?"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Persona"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Based on the ideas we gathered, we created personas for each target user group. Mary is a 70-year-old woman with multiple disabilities. She lives far away from her children, except for Aleesha, who lives with her. Ethan and his son live farther away, but they visit Mary often and like to plan activities with her."
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/bfd62d9ba6a7d2a3-Screen-Shot-2021-03-09-at-12.06.00-AM.png",
+              "alt": "Microsoft Care Team: original project image 20",
+              "width": 1258,
+              "height": 1366
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/1dcdc88f03c74588-Screen-Shot-2021-03-09-at-12.06.10-AM.png",
+              "alt": "Microsoft Care Team: original project image 21",
+              "width": 1150,
+              "height": 1284
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/b156123c1779677b-Screen-Shot-2021-03-09-at-12.06.37-AM.png",
+              "alt": "Microsoft Care Team: original project image 22",
+              "width": 1480,
+              "height": 1400
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/9884a73d8bcf2e77-Team-picture.png",
+              "alt": "Microsoft Care Team: original project image 23",
+              "width": 2500,
+              "height": 1098
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "p",
+          "children": [
+            "Made with \u2764\ufe0f"
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n"
+  ]
+}

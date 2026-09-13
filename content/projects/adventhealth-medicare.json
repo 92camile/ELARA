@@ -1,0 +1,336 @@
+{
+  "slug": "adventhealth-medicare",
+  "company": "AdventHealth & UEGroup",
+  "subtitle": "Navigating out-of-hospital care",
+  "kind": "case-study",
+  "sourceUrl": "https://cpark.squarespace.com/industry/advant-health-medicre-informational-app",
+  "sourceTitle": "[Advant Health] Mediating Complexity in Out-of-Hospital Care Ecosystems \u2014 Camille (Chorong) Park",
+  "sourceHtmlSha256": "8bb28507e06089450d273efed7b423e71d671213e6b34161a44a1c157a296b3f",
+  "originalText": "Mediating Complexity in Out-of-Hospital Care EcosystemsProject: AdventHealth Medicare Informational App Design Context: An industry-academic collaboration between Purdue UX Experience Studio, AdventHealth, and UEGroup. Overview 1. Mediating Complexity in Health EcosystemsThe core challenge involved designing for a highly fragmented socio-technical system. The project unpacked the intricate structures of government healthcare (Medicare Parts A, B, C, D, Medigap, and Medicaid) and mapped them against individual user contexts (financial status, chronic conditions, existing employer insurance). By utilizing Experience Mapping and Affinity Diagramming, the team synthesized these complex variables to design an integrated care ecosystem tool that guides users through systemic ambiguity, empowering them to make informed health choices.2. Participatory and Inclusive Design ApproachesThe methodology was deeply rooted in participatory research and inclusive design, ensuring the intervention served a vulnerable aging population equitably.Multi-Stakeholder Engagement: Primary research was not limited to patients; it included systemic actors such as Social Security Office workers and State Health Insurance Assistance Program specialists to understand the holistic care network.Co-Design & Iterative Testing: The team utilized continuous feedback loops, progressing from Frankensketch ideation to multi-round usability and Guerilla testing with the target demographic (ages 52\u201374), ensuring the tool met real-world care contexts.Designing for Equity and Accessibility: Recognizing the physical and cognitive barriers of the aging demographic, the team conducted rigorous accessibility testing (e.g., using Coblis for color blindness, ensuring 15pt+ typography, and cognitive load reduction), directly contributing to a fairer and more inclusive digital care system.3. Service Design for Systemic TransformationThis project went beyond traditional UI/UX by applying service design principles to bridge formal healthcare systems (AdventHealth), government policy, and informal care networks (dependents and spouses).Integrating Human Touchpoints: Recognizing that digital interfaces cannot entirely replace human empathy in complex health decisions, the team designed integrated \"live help/chat\" pathways, connecting the digital service with real-world care professionals.Personalized Care Pathways: By developing rigorous personas (e.g., \"Wilma\") and scenario-based testing, the service was designed to adapt to specific health conditions and socioeconomic realities, filtering systemic noise to deliver personalized, actionable care pathways.4. Transdisciplinary Collaboration & Real-World ImpactWorking at the intersection of a major healthcare provider (AdventHealth), a specialized design agency (UEGroup), and academia, this project demonstrates the ability to align diverse industry and societal partners. The resulting high-fidelity prototype serves as a design-led blueprint for systemic transformation, turning a historically confusing administrative burden into a seamless, user-centric gateway to preventative and continuous out-of-hospital care. Presentation Slides Design Documentaion",
+  "originalTextSha256": "711fa35c317de9ce390bbb57b60dc89f36b381d5c631edefa123e7d5c384cf60",
+  "images": [
+    {
+      "src": "/images/projects/3f922a870f81489d-Example1_UsabilityTestingTakeaways.png",
+      "originalPath": "assets/3f922a870f81489d-Example1_UsabilityTestingTakeaways.png",
+      "sha256": "3f922a870f81489d6ff2e01172f7ea4a31fbfaa03706f02fd1acffbed9e340ba",
+      "bytes": 96354
+    }
+  ],
+  "documentLinks": [
+    "https://drive.google.com/file/d/1gS4-ctfUNMakwPrdIZkVsmHgybh-BKoC/view?usp=sharing",
+    "https://drive.google.com/file/d/1XPrLpmzuYpSHqzye9bnifgzMC6mFIZLr/view?usp=sharing"
+  ],
+  "videos": [],
+  "content": [
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h2",
+          "children": [
+            "Mediating Complexity in Out-of-Hospital Care Ecosystems"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Project:"
+              ]
+            },
+            " AdventHealth Medicare Informational App Design ",
+            {
+              "tag": "strong",
+              "children": [
+                "Context:"
+              ]
+            },
+            " An industry-academic collaboration between Purdue UX Experience Studio, AdventHealth, and UEGroup."
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    {
+      "tag": "img",
+      "src": "/images/projects/3f922a870f81489d-Example1_UsabilityTestingTakeaways.png",
+      "alt": "AdventHealth & UEGroup: original project image 1",
+      "width": 906,
+      "height": 522
+    },
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h2",
+          "children": [
+            "Overview"
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h3",
+          "children": [
+            "1. Mediating Complexity in Health Ecosystems"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "The core challenge involved designing for a highly fragmented socio-technical system. The project unpacked the intricate structures of government healthcare (Medicare Parts A, B, C, D, Medigap, and Medicaid) and mapped them against individual user contexts (financial status, chronic conditions, existing employer insurance). By utilizing ",
+            {
+              "tag": "strong",
+              "children": [
+                "Experience Mapping"
+              ]
+            },
+            " and ",
+            {
+              "tag": "strong",
+              "children": [
+                "Affinity Diagramming"
+              ]
+            },
+            ", the team synthesized these complex variables to design an integrated care ecosystem tool that guides users through systemic ambiguity, empowering them to make informed health choices."
+          ]
+        },
+        {
+          "tag": "h3",
+          "children": [
+            "2. Participatory and Inclusive Design Approaches"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "The methodology was deeply rooted in participatory research and inclusive design, ensuring the intervention served a vulnerable aging population equitably."
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Multi-Stakeholder Engagement:"
+                      ]
+                    },
+                    " Primary research was not limited to patients; it included systemic actors such as Social Security Office workers and State Health Insurance Assistance Program specialists to understand the holistic care network."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Co-Design & Iterative Testing:"
+                      ]
+                    },
+                    " The team utilized continuous feedback loops, progressing from ",
+                    {
+                      "tag": "em",
+                      "children": [
+                        "Frankensketch"
+                      ]
+                    },
+                    " ideation to multi-round usability and Guerilla testing with the target demographic (ages 52\u201374), ensuring the tool met real-world care contexts."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Designing for Equity and Accessibility:"
+                      ]
+                    },
+                    " Recognizing the physical and cognitive barriers of the aging demographic, the team conducted rigorous accessibility testing (e.g., using Coblis for color blindness, ensuring 15pt+ typography, and cognitive load reduction), directly contributing to a fairer and more inclusive digital care system."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "h3",
+          "children": [
+            "3. Service Design for Systemic Transformation"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "This project went beyond traditional UI/UX by applying service design principles to bridge formal healthcare systems (AdventHealth), government policy, and informal care networks (dependents and spouses)."
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Integrating Human Touchpoints:"
+                      ]
+                    },
+                    " Recognizing that digital interfaces cannot entirely replace human empathy in complex health decisions, the team designed integrated \"live help/chat\" pathways, connecting the digital service with real-world care professionals."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Personalized Care Pathways:"
+                      ]
+                    },
+                    " By developing rigorous personas (e.g., \"Wilma\") and scenario-based testing, the service was designed to adapt to specific health conditions and socioeconomic realities, filtering systemic noise to deliver personalized, actionable care pathways."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "h3",
+          "children": [
+            "4. Transdisciplinary Collaboration & Real-World Impact"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Working at the intersection of a major healthcare provider (AdventHealth), a specialized design agency (UEGroup), and academia, this project demonstrates the ability to align diverse industry and societal partners. The resulting high-fidelity prototype serves as a design-led blueprint for systemic transformation, turning a historically confusing administrative burden into a seamless, user-centric gateway to preventative and continuous out-of-hospital care."
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "a",
+          "href": "https://drive.google.com/file/d/1gS4-ctfUNMakwPrdIZkVsmHgybh-BKoC/view?usp=sharing",
+          "children": [
+            "\r\n    Presentation Slides\r\n  "
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "a",
+          "href": "https://drive.google.com/file/d/1XPrLpmzuYpSHqzye9bnifgzMC6mFIZLr/view?usp=sharing",
+          "children": [
+            "\r\n    Design Documentaion\r\n  "
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n"
+  ]
+}

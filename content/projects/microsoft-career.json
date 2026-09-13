@@ -1,0 +1,172 @@
+{
+  "slug": "microsoft-career",
+  "company": "Microsoft",
+  "subtitle": "Career progression in Microsoft Teams",
+  "kind": "case-study",
+  "sourceUrl": "https://cpark.squarespace.com/industry/ms",
+  "sourceTitle": "[Microsoft] Providing an engaging experience centered around career progression. \u2014 Camille (Chorong) Park",
+  "sourceHtmlSha256": "ff5f8b5a01c4e10dd5715946723164293fb9e98348815d462cd88a2df81373a6",
+  "originalText": "Provide an engaging experience centered around career progression. As a Lead Project Owner, my role was to lead and participate in the team with design sprints, qualitative research, prototyping, testing, and final design creation.College of Liberal Arts (CLA) students who attend STEM schools need help in making educated decisions toward their career because (from research) CLA majors are too broad and students find it difficult to narrow down what job titles fit their skills and interests. Our goal is to create an integration into Microsoft Teams to help students find resources and build career skill sets to forward their career goals. Design Doc Presentation file",
+  "originalTextSha256": "771961c8910bc03d1fd9ef48185f78a9ce8e74dfc3602ffb107def71a3cbbcd3",
+  "images": [
+    {
+      "src": "/images/projects/9072c72bc5bd99c5-Screen-Shot-2022-10-26-at-4.08.28-PM.png",
+      "originalPath": "assets/9072c72bc5bd99c5-Screen-Shot-2022-10-26-at-4.08.28-PM.png",
+      "sha256": "9072c72bc5bd99c539fa42db57e0c570ff4c9dfa486031aaf1445db6988d93cf",
+      "bytes": 280454
+    }
+  ],
+  "documentLinks": [
+    "https://drive.google.com/file/d/1Q1k8ovlKiKRrWwXIizZH6O2JnenJrIZS/view?usp=sharing",
+    "https://drive.google.com/file/d/1TJfZTdv_Xoqin6o2l_db1oBArk595uAr/view?usp=sharing"
+  ],
+  "videos": [],
+  "content": [
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h2",
+          "children": [
+            "Provide an engaging experience centered around career progression. "
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        {
+          "tag": "img",
+          "src": "/images/projects/9072c72bc5bd99c5-Screen-Shot-2022-10-26-at-4.08.28-PM.png",
+          "alt": "Microsoft: original project image 1",
+          "width": 1563,
+          "height": 816
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "p",
+          "children": [
+            "As a Lead Project Owner, my role was to lead and participate in the team with design sprints, qualitative research, prototyping, testing, and final design creation.",
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            "College of Liberal Arts (CLA) students who attend STEM schools need help in making educated decisions toward their career because (from research) ",
+            {
+              "tag": "strong",
+              "children": [
+                "CLA majors are too broad"
+              ]
+            },
+            " and students find it difficult to narrow down ",
+            {
+              "tag": "strong",
+              "children": [
+                "what job titles fit their skills and interests."
+              ]
+            },
+            " ",
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            "Our goal is to create an integration into Microsoft Teams ",
+            {
+              "tag": "strong",
+              "children": [
+                "to help students find resources and build career skill sets to forward their career goals."
+              ]
+            }
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "a",
+          "href": "https://drive.google.com/file/d/1Q1k8ovlKiKRrWwXIizZH6O2JnenJrIZS/view?usp=sharing",
+          "children": [
+            "\r\n    Design Doc\r\n  "
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "a",
+          "href": "https://drive.google.com/file/d/1TJfZTdv_Xoqin6o2l_db1oBArk595uAr/view?usp=sharing",
+          "children": [
+            "\r\n    Presentation file\r\n  "
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n"
+  ]
+}

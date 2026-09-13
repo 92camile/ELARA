@@ -1,0 +1,166 @@
+{
+  "slug": "dolby-community",
+  "company": "Dolby",
+  "subtitle": "Community in a digital workplace",
+  "kind": "case-study",
+  "sourceUrl": "https://cpark.squarespace.com/industry/project-two-llrgk-5xkxg",
+  "sourceTitle": "[Dolby Lab] Creating a digital environment naturally fosters community \u2014 Camille (Chorong) Park",
+  "sourceHtmlSha256": "42d475a28d326388af6a45a082fec061da4b0aa1fbe1140854b7b16c823033ee",
+  "originalText": "Creating a digital environment that naturally fosters community As a Lead Project Owner, my role was to lead and organized a team of 7 designers. I participated in conducting design sprints, qualitative and quantitative research, ideation, testing, and iterating solutions to Dolby employees\u2019 needs of connecting with each other in a remote work setting. Our end goal is to create a digital environment that naturally fosters community, based on our understanding of Dolby\u2019s culture, which is slowly eroding due to employees being spread out on several different online platforms. Additionally, Dolby employees would benefit from a strong communication platform as their culture stems off of their connection to one another. Design Doc Presentation file",
+  "originalTextSha256": "03463b43a343d136b0de0289d80a64295e3f7721598b9af922aaacf7ac1ffaa8",
+  "images": [
+    {
+      "src": "/images/projects/c7b2177ff3f24277-Dolby-cubicle-final-design.png",
+      "originalPath": "assets/c7b2177ff3f24277-Dolby-cubicle-final-design",
+      "sha256": "c7b2177ff3f2427741d97597b7e2699bbd6cf86ca87cd325202d9e1e07135928",
+      "bytes": 522362
+    }
+  ],
+  "documentLinks": [
+    "https://drive.google.com/file/d/1b6GOdBB8BJyV-ZFxF2CZXyFaQM7fYvdZ/view?usp=sharing",
+    "https://drive.google.com/file/d/1lODQd__l5B1viCG4ENsB357xhhTDYW1Q/view?usp=sharing"
+  ],
+  "videos": [],
+  "content": [
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h2",
+          "children": [
+            "Creating a digital environment that naturally fosters community"
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        {
+          "tag": "img",
+          "src": "/images/projects/c7b2177ff3f24277-Dolby-cubicle-final-design.png",
+          "alt": "Dolby: original project image 1",
+          "width": 578,
+          "height": 745
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "p",
+          "children": [
+            "As a Lead Project Owner, my role was to lead and organized a team of 7 designers. I participated in conducting design sprints,  qualitative and quantitative research, ideation, testing, and iterating solutions to Dolby employees\u2019 needs of connecting with each other in a remote work setting. ",
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            "Our end goal is to create a digital environment that ",
+            {
+              "tag": "strong",
+              "children": [
+                "naturally fosters community"
+              ]
+            },
+            ", based on our understanding of Dolby\u2019s culture, which is ",
+            {
+              "tag": "strong",
+              "children": [
+                "slowly eroding due to employees being spread out on several different online platforms"
+              ]
+            },
+            ". Additionally, Dolby employees would benefit from a strong ",
+            {
+              "tag": "strong",
+              "children": [
+                "communication platform "
+              ]
+            },
+            "as their culture stems off of their connection to one another. "
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "a",
+          "href": "https://drive.google.com/file/d/1b6GOdBB8BJyV-ZFxF2CZXyFaQM7fYvdZ/view?usp=sharing",
+          "children": [
+            "\r\n    Design Doc\r\n  "
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "a",
+          "href": "https://drive.google.com/file/d/1lODQd__l5B1viCG4ENsB357xhhTDYW1Q/view?usp=sharing",
+          "children": [
+            "\r\n    Presentation file\r\n  "
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n"
+  ]
+}

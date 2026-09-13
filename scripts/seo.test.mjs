@@ -8,6 +8,7 @@ import {
   serializeStructuredData,
 } from '../lib/seo.mjs';
 import { getPublishedStories } from '../lib/stories.mjs';
+import { getProjects } from '../lib/projects.mjs';
 
 test('canonical URLs stay on the production domain and support repository base paths', () => {
   assert.equal(canonicalUrl('/'), 'https://elaralab.org/');
@@ -38,18 +39,23 @@ test('sitemap discovers all canonical pages and original images, without externa
       canonicalUrl('/lab/', base),
       canonicalUrl('/publications/', base),
       canonicalUrl('/students/', base),
+      ...getProjects().map((project) =>
+        canonicalUrl(`/projects/${project.slug}/`, base),
+      ),
       ...stories.map((story) => canonicalUrl(`/news/${story.slug}/`, base)),
     ]);
     assert.equal(new Set(urls).size, urls.length);
     const images = [...sitemap.matchAll(/<image:loc>(.*?)<\/image:loc>/g)].map(
       (match) => match[1],
     );
-    assert.deepEqual(
-      images,
-      stories.flatMap((story) =>
+    assert.deepEqual(images, [
+      ...getProjects().flatMap((project) =>
+        project.images.map((image) => canonicalUrl(image.src, base)),
+      ),
+      ...stories.flatMap((story) =>
         story.photos.map((photo) => canonicalUrl(photo.src, base)),
       ),
-    );
+    ]);
     assert.doesNotMatch(
       sitemap,
       /<lastmod>|linkedin\.com|people\.html|clock\.html|#news/,

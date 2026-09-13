@@ -4,6 +4,7 @@ import path from 'node:path';
 import { getLinkedInWidgetId, linkedinProfileUrl } from '../lib/linkedin.mjs';
 import { getPublishedStories } from '../lib/stories.mjs';
 import { workshopPhotos } from '../lib/slideshow.mjs';
+import { getProjects } from '../lib/projects.mjs';
 import {
   publications,
   publicationGroups,
@@ -26,6 +27,11 @@ const publicationPage = readFileSync(
   'utf8',
 );
 const stories = getPublishedStories();
+const projects = getProjects();
+const projectPages = projects.map((project) => [
+  `/projects/${project.slug}/`,
+  readFileSync(path.join(root, `projects/${project.slug}/index.html`), 'utf8'),
+]);
 assert.equal(
   readFileSync(path.join(root, 'sitemap.xml'), 'utf8'),
   createSitemap(stories, base),
@@ -92,6 +98,72 @@ assert.ok(
 );
 assert.ok(home.includes(`src="${base}/images/profile/chorong-park.jpeg"`));
 assert.ok(home.includes('Microsoft') && home.includes('PathAI'));
+assert.doesNotMatch(
+  home,
+  /href="https:\/\/cpark\.squarespace\.com/,
+  'Homepage project links must stay on ELARA',
+);
+function htmlEscape(value) {
+  return value
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#x27;');
+}
+for (const [index, project] of projects.entries()) {
+  const [, html] = projectPages[index];
+  assert.ok(
+    home.includes(`href="${base}/projects/${project.slug}/"`),
+    `Unlinked project: ${project.slug}`,
+  );
+  assert.equal(
+    [...html.matchAll(/<h1\b/g)].length,
+    1,
+    'Project needs one primary heading',
+  );
+  assert.doesNotMatch(
+    html,
+    /href="https:\/\/cpark\.squarespace\.com|definitions\.sqspcdn\.com|data-block-scripts/,
+  );
+  assert.ok(html.includes(`href="${base}/#industry"`));
+  let position = -1;
+  for (const image of project.images) {
+    const next = html.indexOf(`src="${base}${image.src}"`);
+    assert.ok(
+      next > position,
+      `Missing or reordered project image: ${image.src}`,
+    );
+    position = next;
+  }
+  for (const url of project.documentLinks)
+    assert.ok(html.includes(`href="${htmlEscape(url)}"`));
+  for (const url of project.videos)
+    assert.ok(html.includes(`<iframe src="${htmlEscape(url)}"`));
+  // Check every original text leaf in the exported article, not just its metadata/RSC payload.
+  const body = html
+    .split('id="original-project-content">')[1]
+    ?.split('</article>')[0];
+  assert.ok(body, 'Missing original project body');
+  let textPosition = 0;
+  function checkText(nodes) {
+    for (const node of nodes) {
+      if (typeof node !== 'string') {
+        checkText(node.children || []);
+        continue;
+      }
+      if (!node.trim()) continue;
+      const text = htmlEscape(node.trim());
+      const found = body.indexOf(text, textPosition);
+      assert.ok(
+        found >= textPosition,
+        `Missing original text in ${project.slug}: ${node.slice(0, 80)}`,
+      );
+      textPosition = found + text.length;
+    }
+  }
+  checkText(project.content);
+}
 assert.ok(
   home.includes(`href="${base}/lab/"`) &&
     home.includes(`href="${base}/publications/"`),
@@ -248,6 +320,7 @@ for (const [route, html] of [
   ['/lab/', lab],
   ['/publications/', publicationPage],
   ...storyPages,
+  ...projectPages,
 ]) {
   const canonicals = [...html.matchAll(/<link\b[^>]*rel="canonical"[^>]*>/g)];
   assert.equal(
@@ -303,5 +376,5 @@ for (const [route, html] of [
   }
 }
 console.log(
-  `Verified homepage, students, ${stories.length} lab stories, three press articles, four slideshow photos, and ${checked} internal links and assets.`,
+  `Verified homepage, students, ${projects.length} complete projects, ${stories.length} lab stories, three press articles, four slideshow photos, and ${checked} internal links and assets.`,
 );

@@ -1,0 +1,2344 @@
+{
+  "slug": "pg-amazon-shopping",
+  "company": "P&G",
+  "subtitle": "The mobile shopping experience",
+  "kind": "case-study",
+  "sourceUrl": "https://cpark.squarespace.com/industry/project-one-ephnc-2e6bd",
+  "sourceTitle": "[P&G] Improving shopping exp on Amazon mobile app \u2014 Camille (Chorong) Park",
+  "sourceHtmlSha256": "0a30d65a26f19689b925195860d79eb5876544a1fa58a47561282c0938875a90",
+  "originalText": "Improving P&G product shopping experience on Amazon mobile app My role as a Lead Project Owner was to lead and organized a team of 8 designers. I participated in conducting design sprints, qualitative and quantitative research, ideation, testing, and iterating solutions to P&G amazon users\u2019 needs. The goal of the project was to deliver design insights and recommendations in the form of widgets to increase shopping frequency, drive product discovery, eliminate pain points and optimize shopping tools on Amazon mobile app. Design Doc Presentation File 1. Project Title: Improving Amazon's Mobile Shopping Experience for P&GRole: Lead Project OwnerCollaborators: Purdue University UX Design Experience Studio Team (8 members)\u200d\u200d2. Problem StatementChallenge:P&G tasked the team with enhancing the shopping experience for their beauty category on the Amazon mobile app, focusing on increasing shopping frequency and driving product discovery. The sponsor prioritized quantity of ideas over high-fidelity deliverables, aiming to extract multiple actionable insights for improving user engagement.Key Objectives:Eliminate navigation pain points for users.Optimize existing shopping tools such as \"Subscribe and Save.\"Drive product discovery, especially within skin and hair care subcategories.Insights from Research:\u200dUser Behavior: Shoppers often have a product in mind before entering the app, rely on external sources for research, and face difficulties comparing products effectively due to irrelevant filters and poor widget usability.Pain Points Identified:Scrolling fatigue caused by excessive navigation requirements.Insufficient and irrelevant product comparison features.Lack of personalized filtering options for product recommendations.Shoppers\u2019 Needs:Detailed product information tailored to their personal preferences (e.g., ingredients, compatibility).Simplified navigation tools that reduce cognitive overload.3. ApproachResearch Phase:User Research & Behavioral Analysis:The team conducted extensive research through scholarly articles, online sources (e.g., Buzzfeed, Bustle), and user interviews to understand shopper behaviors and pain points.Focused on three sub-behaviors of Amazon Prime mobile app users:Shoppers often know what they want before entering the app.They prioritize product benefits, ingredients, and compatibility.They rarely use existing comparison widgets due to ineffective navigation and irrelevant value propositions.Milestones Defined:Milestone 1: Research completion (Week 6) to gather initial user behavior insights.Milestone 2: Insights accumulation (Week 10) through usability and concept testing, identifying patterns in behavior and pain points.Milestone 3: Delivery of high-fidelity widget design concepts (Week 14), emphasizing quantity over quality to explore multiple potential solutions.Ideation Phase:Concept Development:Brainstormed solutions to address major pain points:Scrolling fatigue: Designed a floating navigation menu to simplify product detail page (PDP) navigation.Product comparison: Prototyped widgets allowing better side-by-side product evaluation.Discovery enhancement: Created tools like the Hair Profile Page to filter results based on individual user needs.Used carousel sketching (rapid iteration process where sketches are refined collaboratively) to foster creativity.Widget 1 Scrolling Fatigue Prevention | Float Menu to Jump to Key SectionsCollaboration:Divided the team into smaller groups to focus on specific pain points:Comparison Widget Team: Addressed product comparison difficulties.Ingredients Widget Team: Focused on personalization via product benefits and discovery tools.Testing and Feedback Integration:Iteratively tested widget prototypes with users, refining designs based on usability feedback and aligning with sponsor expectations.Design Focus:Delivered multiple low-to-high fidelity widget concepts.Ensured solutions were backed by actionable insights from user data, prioritizing practicality and ease of implementation.\u200d4. Deliverables1. Widgets Designed:Floating Menu:A navigation tool developed to address scrolling fatigue on the Amazon mobile app\u2019s product detail page (PDP).Features:Quick access to key sections: product information, reviews, Q&A, and comparison options.Simplified layout enabling faster decision-making.User feedback led to changes such as universally recognized icons and descriptive text labels.Sustainability Loyalty Program:A gamified feature encouraging shoppers to explore sustainable P&G products.Features:Points-based system rewarding purchases of eco-friendly items.Visible icons to easily identify sustainable products.Objectives like \"Buy eco-friendly products\" or \"Share with friends\" to motivate engagement.Hair Profile Page:A personalized feature allowing users to filter results based on their specific hair care needs.Features:Users can input hair type, desired ingredients, and concerns (e.g., sulfate-free, restorative).Tailored recommendations with options to save preferences for future searches.Accessible Product Comparison Screens:\u200dA set of features designed to simplify and improve the product comparison experience on Amazon's mobile app.Feature:Users can add products to a comparison list and view them side by side.Includes static comparison screens where the main product remains fixed while others are scrollable.Split-screen mode allows users to compare two products simultaneously with drag-and-drop functionality.Customizable filters let users choose comparison categories, such as price, ingredients, and benefits.Version 1 | Static Comparison + with Scrollable Comparison WheelVersion 2 | Comparison on a Separate, Large ScreenVersion 3 | Split-Screen Comparison2. Research Documentation:Comprehensive insights derived from:Behavioral data on Amazon shoppers.Identified pain points like product comparison difficulties, cognitive overload, and irrelevant filters.Analysis of user personas, such as \"Amelia,\" a Prime user prioritizing fast, convenient shopping experiences.\u200dVisualization Tools:Experience maps outlining customer journeys.Data-backed personas showcasing user goals, pain points, and behaviors.3. Final Presentation:A slide deck summarizing:Research findings, ideation process, and widget designs.High-fidelity visuals of key widgets (e.g., floating menu, loyalty program).Interactive demos to illustrate widget usability.\u200d5. ResultsKey Achievements:Enhanced User Experience:Designed widgets that directly addressed critical user pain points, including scrolling fatigue, lack of personalized filters, and ineffective comparison tools.Simplified navigation and improved decision-making for shoppers, aligning with their preferences for efficiency and clarity.Impactful Deliverables for P&G:Delivered a suite of actionable widget concepts:The Floating Menu enhanced navigation on product detail pages.The Sustainability Loyalty Program incentivized eco-conscious shopping behavior.The Hair Profile Page provided tailored product recommendations, improving the relevance of search results.Offered practical, user-centric solutions supported by behavioral research and usability testing.User Feedback Integration:Concept testing with users provided valuable insights that shaped the final designs:Icons in the floating menu were revised for universal recognition.Sustainability features were modified to clearly highlight eco-friendly options.Received positive feedback on usability and alignment with shopper expectations.Metrics and Sponsor Satisfaction:Quantity and Quality: Delivered multiple design ideas, exceeding the sponsor\u2019s expectations for actionable insights and breadth of solutions.Sponsor Feedback: P&G noted the value in both the diversity of widgets and the depth of research supporting each design.Learning Outcomes for the Team:Gained hands-on experience in applying user-centered design methodologies to real-world challenges.Learned to prioritize actionable solutions within constrained timelines and resources.Potential Future Impact:Widgets like the Floating Menu and Hair Profile Page have strong implementation potential to improve Amazon\u2019s shopping experience for P&G\u2019s beauty products.The Sustainability Loyalty Program aligns with broader consumer trends, providing P&G with opportunities to enhance brand loyalty and market differentiation.\u200d6. ReflectionKey Learnings:User-Centric Design:The project reinforced the importance of understanding users\u2019 behaviors and pain points to design solutions that are both impactful and practical.Iterative feedback loops proved essential in refining widget designs to align with user needs and sponsor expectations.Collaboration Across Disciplines:As the Lead Project Owner, managing a diverse team with distinct skill sets highlighted the value of effective communication and delegation.Dividing the team into smaller, goal-focused groups allowed for efficient handling of complex challenges and ensured accountability.Balancing Quantity and Quality:Delivering multiple widget concepts prioritized by the sponsor encouraged the exploration of diverse ideas, even if all concepts were not high-fidelity. This approach provided a rich pool of potential solutions for P&G\u2019s future use.Research-Driven Design:Combining qualitative insights from interviews and observations with quantitative research from scholarly articles and user testing ensured a robust understanding of the problem space.Personas and user journeys provided a framework to keep the team aligned on user priorities throughout the project.Challenges Faced:Managing Expectations:Balancing the sponsor\u2019s emphasis on quantity with the team\u2019s desire for polished outputs required ongoing alignment and communication.Time Constraints:With limited time, prioritizing and iterating effectively was critical. Splitting the team into smaller groups accelerated progress but demanded strong oversight.Cognitive Overload in Designs:Initial prototypes introduced complexities for users. Usability testing highlighted the need for simplicity and clarity, leading to focused design revisions.Future Directions:Broader Implementation:Collaborating with P&G\u2019s technical teams could bring these widget concepts to life, potentially improving customer satisfaction and driving product discovery on the Amazon platform.Advanced Personalization:Further iterations could explore deeper AI-driven personalization, enhancing tools like the Hair Profile Page with real-time recommendations and adaptive filters.\u200d7. Link to the full documentationFor detailed usability testings, processes, and research, please visit the whole documentation. \u200d\u200d\u200d\u200d",
+  "originalTextSha256": "460064a940a79922321863e0a953ed1fe1241268cfbac1900955b6e5273f36cd",
+  "images": [
+    {
+      "src": "/images/projects/fd73a0584b1552c9-Screen-Shot-2022-10-26-at-3.30.51-PM.png",
+      "originalPath": "assets/fd73a0584b1552c9-Screen-Shot-2022-10-26-at-3.30.51-PM.png",
+      "sha256": "fd73a0584b1552c90fed4601226cfe061f269ca7bc915d8828def3c6b7745af3",
+      "bytes": 160434
+    }
+  ],
+  "documentLinks": [
+    "https://drive.google.com/file/d/1_g7EcauGOrww41S67edDet-c0_h-tdfh/view?usp=sharing",
+    "https://drive.google.com/file/d/1h5t0wIR9C0V185bfb3Ch9lKG4crvboFQ/view?usp=sharing",
+    "https://drive.google.com/file/d/1vKRoXzwCxiw_srt5bIfTlD05RittI6UV/view?usp=sharing"
+  ],
+  "videos": [],
+  "content": [
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h2",
+          "children": [
+            "Improving P&G product shopping experience on Amazon mobile app"
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        {
+          "tag": "img",
+          "src": "/images/projects/fd73a0584b1552c9-Screen-Shot-2022-10-26-at-3.30.51-PM.png",
+          "alt": "P&G: original project image 1",
+          "width": 695,
+          "height": 474
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "p",
+          "children": [
+            "My role as a Lead Project Owner was to lead and organized a team of 8 designers. I participated in conducting design sprints,  qualitative and quantitative research, ideation, testing, and iterating solutions to P&G amazon users\u2019 needs. ",
+            {
+              "tag": "br"
+            },
+            {
+              "tag": "br"
+            },
+            "The goal of the project was to deliver design insights and ",
+            {
+              "tag": "strong",
+              "children": [
+                "recommendations in the form of widgets"
+              ]
+            },
+            " to ",
+            {
+              "tag": "strong",
+              "children": [
+                "increase shopping frequency"
+              ]
+            },
+            ", ",
+            {
+              "tag": "strong",
+              "children": [
+                "drive product discovery"
+              ]
+            },
+            ", ",
+            {
+              "tag": "strong",
+              "children": [
+                "eliminate pain points and optimize shopping tools"
+              ]
+            },
+            " on Amazon mobile app."
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "a",
+          "href": "https://drive.google.com/file/d/1_g7EcauGOrww41S67edDet-c0_h-tdfh/view?usp=sharing",
+          "children": [
+            "\r\n    Design Doc\r\n  "
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "a",
+          "href": "https://drive.google.com/file/d/1h5t0wIR9C0V185bfb3Ch9lKG4crvboFQ/view?usp=sharing",
+          "children": [
+            "\r\n    Presentation File\r\n  "
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "1. Project Title: Improving Amazon's Mobile Shopping Experience for P&G"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Role:"
+                      ]
+                    },
+                    " Lead Project Owner"
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Collaborators:"
+                      ]
+                    },
+                    " Purdue University UX Design Experience Studio Team (8 members)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "\u200d"
+              ]
+            },
+            "\u200d",
+            {
+              "tag": "strong",
+              "children": [
+                "2. Problem Statement"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Challenge:"
+              ]
+            },
+            {
+              "tag": "br"
+            },
+            "P&G tasked the team with enhancing the shopping experience for their beauty category on the Amazon mobile app, focusing on increasing shopping frequency and driving product discovery. The sponsor prioritized quantity of ideas over high-fidelity deliverables, aiming to extract multiple actionable insights for improving user engagement."
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Key Objectives:"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ol",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Eliminate navigation pain points for users."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Optimize existing shopping tools such as \"Subscribe and Save.\""
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Drive product discovery, especially within skin and hair care subcategories."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Insights from Research:"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "\u200d"
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "User Behavior:"
+                      ]
+                    },
+                    " Shoppers often have a product in mind before entering the app, rely on external sources for research, and face difficulties comparing products effectively due to irrelevant filters and poor widget usability."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Pain Points Identified:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Scrolling fatigue caused by excessive navigation requirements."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Insufficient and irrelevant product comparison features."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Lack of personalized filtering options for product recommendations."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Shoppers\u2019 Needs:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Detailed product information tailored to their personal preferences (e.g., ingredients, compatibility)."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Simplified navigation tools that reduce cognitive overload."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "3. Approach"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Research Phase:"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ol",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "User Research & Behavioral Analysis:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "The team conducted extensive research through scholarly articles, online sources (e.g., Buzzfeed, Bustle), and user interviews to understand shopper behaviors and pain points."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Focused on ",
+                            {
+                              "tag": "strong",
+                              "children": [
+                                "three sub-behaviors"
+                              ]
+                            },
+                            " of Amazon Prime mobile app users:"
+                          ]
+                        },
+                        {
+                          "tag": "ul",
+                          "children": [
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    "Shoppers often know what they want before entering the app."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    "They prioritize product benefits, ingredients, and compatibility."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    "They rarely use existing comparison widgets due to ineffective navigation and irrelevant value propositions."
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Milestones Defined:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            {
+                              "tag": "strong",
+                              "children": [
+                                "Milestone 1:"
+                              ]
+                            },
+                            " Research completion (Week 6) to gather initial user behavior insights."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            {
+                              "tag": "strong",
+                              "children": [
+                                "Milestone 2:"
+                              ]
+                            },
+                            " Insights accumulation (Week 10) through usability and concept testing, identifying patterns in behavior and pain points."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            {
+                              "tag": "strong",
+                              "children": [
+                                "Milestone 3:"
+                              ]
+                            },
+                            " Delivery of high-fidelity widget design concepts (Week 14), emphasizing quantity over quality to explore multiple potential solutions."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Ideation Phase:"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ol",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Concept Development:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Brainstormed solutions to address major pain points:"
+                          ]
+                        },
+                        {
+                          "tag": "ul",
+                          "children": [
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    {
+                                      "tag": "strong",
+                                      "children": [
+                                        "Scrolling fatigue:"
+                                      ]
+                                    },
+                                    " Designed a floating navigation menu to simplify product detail page (PDP) navigation."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    {
+                                      "tag": "strong",
+                                      "children": [
+                                        "Product comparison:"
+                                      ]
+                                    },
+                                    " Prototyped widgets allowing better side-by-side product evaluation."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    {
+                                      "tag": "strong",
+                                      "children": [
+                                        "Discovery enhancement:"
+                                      ]
+                                    },
+                                    " Created tools like the Hair Profile Page to filter results based on individual user needs."
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Used ",
+                            {
+                              "tag": "strong",
+                              "children": [
+                                "carousel sketching"
+                              ]
+                            },
+                            " (rapid iteration process where sketches are refined collaboratively) to foster creativity."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Widget 1 Scrolling Fatigue Prevention | Float Menu to Jump to Key Sections"
+          ]
+        },
+        {
+          "tag": "ol",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Collaboration:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Divided the team into smaller groups to focus on specific pain points:"
+                          ]
+                        },
+                        {
+                          "tag": "ul",
+                          "children": [
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    {
+                                      "tag": "strong",
+                                      "children": [
+                                        "Comparison Widget Team:"
+                                      ]
+                                    },
+                                    " Addressed product comparison difficulties."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    {
+                                      "tag": "strong",
+                                      "children": [
+                                        "Ingredients Widget Team:"
+                                      ]
+                                    },
+                                    " Focused on personalization via product benefits and discovery tools."
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Testing and Feedback Integration:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Iteratively tested widget prototypes with users, refining designs based on usability feedback and aligning with sponsor expectations."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Design Focus:"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Delivered multiple low-to-high fidelity widget concepts."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Ensured solutions were backed by actionable insights from user data, prioritizing practicality and ease of implementation."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "\u200d",
+            {
+              "tag": "strong",
+              "children": [
+                "4. Deliverables"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "1. Widgets Designed:"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Floating Menu:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "A navigation tool developed to address ",
+                            {
+                              "tag": "strong",
+                              "children": [
+                                "scrolling fatigue"
+                              ]
+                            },
+                            " on the Amazon mobile app\u2019s product detail page (PDP)."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Features:"
+                          ]
+                        },
+                        {
+                          "tag": "ul",
+                          "children": [
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    "Quick access to key sections: product information, reviews, Q&A, and comparison options."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    "Simplified layout enabling faster decision-making."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    "User feedback led to changes such as universally recognized icons and descriptive text labels."
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Sustainability Loyalty Program:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "A gamified feature encouraging shoppers to explore sustainable P&G products."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Features:"
+                          ]
+                        },
+                        {
+                          "tag": "ul",
+                          "children": [
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    "Points-based system rewarding purchases of eco-friendly items."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    "Visible icons to easily identify sustainable products."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    "Objectives like \"Buy eco-friendly products\" or \"Share with friends\" to motivate engagement."
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Hair Profile Page:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "A personalized feature allowing users to filter results based on their specific hair care needs."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Features:"
+                          ]
+                        },
+                        {
+                          "tag": "ul",
+                          "children": [
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    "Users can input hair type, desired ingredients, and concerns (e.g., sulfate-free, restorative)."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    "Tailored recommendations with options to save preferences for future searches."
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Accessible Product Comparison Screens:"
+                      ]
+                    },
+                    "\u200d"
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "A set of features designed to simplify and improve the product comparison experience on Amazon's mobile app."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Feature:"
+                          ]
+                        },
+                        {
+                          "tag": "ul",
+                          "children": [
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    "Users can add products to a comparison list and view them side by side."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    "Includes ",
+                                    {
+                                      "tag": "strong",
+                                      "children": [
+                                        "static comparison screens"
+                                      ]
+                                    },
+                                    " where the main product remains fixed while others are scrollable."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    {
+                                      "tag": "strong",
+                                      "children": [
+                                        "Split-screen mode"
+                                      ]
+                                    },
+                                    " allows users to compare two products simultaneously with drag-and-drop functionality."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    "Customizable filters let users choose comparison categories, such as price, ingredients, and benefits."
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Version 1 |\u00a0Static Comparison +\u00a0with Scrollable Comparison Wheel"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Version 2 | Comparison on a Separate, Large Screen"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Version 3\u00a0| Split-Screen Comparison"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "2. Research Documentation:"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Comprehensive insights derived from:"
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Behavioral data on Amazon shoppers."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Identified pain points like product comparison difficulties, cognitive overload, and irrelevant filters."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Analysis of user personas, such as \"Amelia,\" a Prime user prioritizing fast, convenient shopping experiences."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "\u200d"
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Visualization Tools:"
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Experience maps outlining customer journeys."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Data-backed personas showcasing user goals, pain points, and behaviors."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "3. Final Presentation:"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "A slide deck summarizing:"
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Research findings, ideation process, and widget designs."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "High-fidelity visuals of key widgets (e.g., floating menu, loyalty program)."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Interactive demos to illustrate widget usability."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "\u200d"
+          ]
+        },
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "5. Results"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Key Achievements:"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ol",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Enhanced User Experience:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Designed widgets that directly addressed critical user pain points, including scrolling fatigue, lack of personalized filters, and ineffective comparison tools."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Simplified navigation and improved decision-making for shoppers, aligning with their preferences for efficiency and clarity."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Impactful Deliverables for P&G:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Delivered a suite of actionable widget concepts:"
+                          ]
+                        },
+                        {
+                          "tag": "ul",
+                          "children": [
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    "The ",
+                                    {
+                                      "tag": "strong",
+                                      "children": [
+                                        "Floating Menu"
+                                      ]
+                                    },
+                                    " enhanced navigation on product detail pages."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    "The ",
+                                    {
+                                      "tag": "strong",
+                                      "children": [
+                                        "Sustainability Loyalty Program"
+                                      ]
+                                    },
+                                    " incentivized eco-conscious shopping behavior."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    "The ",
+                                    {
+                                      "tag": "strong",
+                                      "children": [
+                                        "Hair Profile Page"
+                                      ]
+                                    },
+                                    " provided tailored product recommendations, improving the relevance of search results."
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Offered practical, user-centric solutions supported by behavioral research and usability testing."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "User Feedback Integration:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Concept testing with users provided valuable insights that shaped the final designs:"
+                          ]
+                        },
+                        {
+                          "tag": "ul",
+                          "children": [
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    "Icons in the floating menu were revised for universal recognition."
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "li",
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "children": [
+                                    "Sustainability features were modified to clearly highlight eco-friendly options."
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Received positive feedback on usability and alignment with shopper expectations."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Metrics and Sponsor Satisfaction:"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Quantity and Quality:"
+                      ]
+                    },
+                    " Delivered multiple design ideas, exceeding the sponsor\u2019s expectations for actionable insights and breadth of solutions."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Sponsor Feedback:"
+                      ]
+                    },
+                    " P&G noted the value in both the diversity of widgets and the depth of research supporting each design."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Learning Outcomes for the Team:"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Gained hands-on experience in applying user-centered design methodologies to real-world challenges."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Learned to prioritize actionable solutions within constrained timelines and resources."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Potential Future Impact:"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "Widgets like the ",
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Floating Menu"
+                      ]
+                    },
+                    " and ",
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Hair Profile Page"
+                      ]
+                    },
+                    " have strong implementation potential to improve Amazon\u2019s shopping experience for P&G\u2019s beauty products."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    "The ",
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Sustainability Loyalty Program"
+                      ]
+                    },
+                    " aligns with broader consumer trends, providing P&G with opportunities to enhance brand loyalty and market differentiation."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "\u200d"
+          ]
+        },
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "6. Reflection"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Key Learnings:"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ol",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "User-Centric Design:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "The project reinforced the importance of understanding users\u2019 behaviors and pain points to design solutions that are both impactful and practical."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Iterative feedback loops proved essential in refining widget designs to align with user needs and sponsor expectations."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Collaboration Across Disciplines:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "As the Lead Project Owner, managing a diverse team with distinct skill sets highlighted the value of effective communication and delegation."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Dividing the team into smaller, goal-focused groups allowed for efficient handling of complex challenges and ensured accountability."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Balancing Quantity and Quality:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Delivering multiple widget concepts prioritized by the sponsor encouraged the exploration of diverse ideas, even if all concepts were not high-fidelity. This approach provided a rich pool of potential solutions for P&G\u2019s future use."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Research-Driven Design:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Combining qualitative insights from interviews and observations with quantitative research from scholarly articles and user testing ensured a robust understanding of the problem space."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Personas and user journeys provided a framework to keep the team aligned on user priorities throughout the project."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Challenges Faced:"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ol",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Managing Expectations:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Balancing the sponsor\u2019s emphasis on quantity with the team\u2019s desire for polished outputs required ongoing alignment and communication."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Time Constraints:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "With limited time, prioritizing and iterating effectively was critical. Splitting the team into smaller groups accelerated progress but demanded strong oversight."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Cognitive Overload in Designs:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Initial prototypes introduced complexities for users. Usability testing highlighted the need for simplicity and clarity, leading to focused design revisions."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Future Directions:"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Broader Implementation:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Collaborating with P&G\u2019s technical teams could bring these widget concepts to life, potentially improving customer satisfaction and driving product discovery on the Amazon platform."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Advanced Personalization:"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "ul",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "children": [
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Further iterations could explore deeper AI-driven personalization, enhancing tools like the Hair Profile Page with real-time recommendations and adaptive filters."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "\u200d"
+          ]
+        },
+        {
+          "tag": "h3",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "7. Link to the full documentation"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "For detailed usability testings, processes, and research, please visit the ",
+            {
+              "tag": "a",
+              "href": "https://drive.google.com/file/d/1vKRoXzwCxiw_srt5bIfTlD05RittI6UV/view?usp=sharing",
+              "children": [
+                "whole documentation."
+              ]
+            },
+            " ",
+            {
+              "tag": "br"
+            },
+            "\u200d"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "\u200d"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "\u200d"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "\u200d"
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n"
+  ]
+}

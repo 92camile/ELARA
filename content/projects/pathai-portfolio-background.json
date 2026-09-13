@@ -1,0 +1,251 @@
+{
+  "slug": "pathai-portfolio-background",
+  "company": "PathAI & portfolio background",
+  "subtitle": "An archive of my earlier portfolio biography",
+  "kind": "biography-archive",
+  "sourceUrl": "https://cpark.squarespace.com/about-me",
+  "sourceTitle": "About \u2014 Camille (Chorong) Park",
+  "sourceHtmlSha256": "69fcd12ddb67765a75bec70e32e9282293ff8b1ed1133e45b7b859a78ef393f1",
+  "originalText": "Hello! Nice to meet you :) I am a multidisciplinary researcher and designer who strive to make delightful, engaging experiences. As a Technology Ph.D. student, I focus on improving the usability, adaptability and accessibility of applications, automobiles, AI/ML, VR/AR/XR, robots, and other technologies! A cute picture with PathAI Product Design team members from last summer :D I was a Product Design Intern for their team! \u201cChorong was a wonderful teammate to work with and always full of great ideas. She worked really hard with the team to understand the problem and to learn as much as possible.\u201d \u2014 Peer feedback from UX Graduate Studio I class I am a multi-disciplinary designer focused on UI/UX Design and some programming skills. Currently, I am a graduate research assistant.I enjoy painting when I am away from my Macbook, and like to participate art fairs :)There are also so many other things I could tell you about myself and my work!",
+  "originalTextSha256": "24a9b644d423789aaa409cbdc0e6a2110501f35254d009005b30c56b3865374a",
+  "images": [
+    {
+      "src": "/images/projects/3f45dc77517986b6-Chorong-Park.png",
+      "originalPath": "assets/3f45dc77517986b6-Chorong-Park.png",
+      "sha256": "3f45dc77517986b622aa0307b629c55d971830faeb2579be8e273e5e14019a6b",
+      "bytes": 471939
+    },
+    {
+      "src": "/images/projects/3829d8dd5425400f-PathAITeamPic.jpg",
+      "originalPath": "assets/3829d8dd5425400f-PathAITeamPic.jpg",
+      "sha256": "3829d8dd5425400fc7167e4bc502d49c1558d9fcf601d5a6213615f853391da5",
+      "bytes": 246739
+    },
+    {
+      "src": "/images/projects/761a3250b70e15f9-aboutmephoto10.jpg",
+      "originalPath": "assets/761a3250b70e15f9-aboutmephoto10.jpg",
+      "sha256": "761a3250b70e15f9d990eb656396f6a1b43f075558d957740286eac67781a541",
+      "bytes": 251980
+    }
+  ],
+  "documentLinks": [],
+  "videos": [],
+  "content": [
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/3f45dc77517986b6-Chorong-Park.png",
+              "alt": "Chorong Park.png",
+              "width": 578,
+              "height": 502
+            },
+            "\n",
+            "\n",
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "figcaption",
+              "children": [
+                "\n",
+                "\n",
+                {
+                  "tag": "p",
+                  "children": [
+                    "Hello! "
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "children": [
+                    "Nice to meet you :)"
+                  ]
+                },
+                "\n",
+                {
+                  "tag": "p",
+                  "children": [
+                    " I am a multidisciplinary researcher and designer who strive to make delightful, engaging experiences. As a Technology Ph.D. student, I focus on improving the usability, adaptability and accessibility of applications, automobiles, AI/ML, VR/AR/XR, robots, and other technologies!"
+                  ]
+                },
+                "\n",
+                "\n"
+              ]
+            },
+            "\n"
+          ]
+        },
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/3829d8dd5425400f-PathAITeamPic.jpg",
+              "alt": "PathAI & portfolio background: original project image 2",
+              "width": 1080,
+              "height": 1080
+            },
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "figcaption",
+              "children": [
+                "\n",
+                {
+                  "tag": "p",
+                  "children": [
+                    "A cute picture with PathAI Product Design team members from last summer :D ",
+                    {
+                      "tag": "br"
+                    },
+                    "I was a Product Design Intern for their team!"
+                  ]
+                },
+                "\n"
+              ]
+            },
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            {
+              "tag": "blockquote",
+              "children": [
+                "\n",
+                {
+                  "tag": "span",
+                  "children": [
+                    "\u201c"
+                  ]
+                },
+                "Chorong was a wonderful teammate to work with and always full of great ideas. She worked really hard with the team to understand the problem and to learn as much as possible.",
+                {
+                  "tag": "span",
+                  "children": [
+                    "\u201d"
+                  ]
+                },
+                "\n"
+              ]
+            },
+            "\n",
+            {
+              "tag": "figcaption",
+              "children": [
+                "\u2014 Peer feedback from UX Graduate Studio I class"
+              ]
+            },
+            "\n"
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "p",
+          "children": [
+            "I am a multi-disciplinary designer focused on UI/UX Design and some programming skills.  Currently, I am a graduate research assistant."
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "I enjoy painting when I am away from my Macbook, and like to participate art fairs :)",
+            {
+              "tag": "br"
+            },
+            "There are also so many other things I could tell you about myself and my work!"
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "figure",
+          "children": [
+            "\n",
+            "\n",
+            "\n",
+            {
+              "tag": "img",
+              "src": "/images/projects/761a3250b70e15f9-aboutmephoto10.jpg",
+              "alt": "aboutmephoto10.jpg",
+              "width": 1240,
+              "height": 954
+            },
+            "\n",
+            "\n",
+            "\n"
+          ]
+        },
+        "\n",
+        "\n"
+      ]
+    },
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n"
+  ]
+}

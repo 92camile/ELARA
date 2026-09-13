@@ -1,0 +1,304 @@
+{
+  "slug": "cerner-telehealth",
+  "company": "Cerner",
+  "subtitle": "Human connection in telehealth",
+  "kind": "case-study",
+  "sourceUrl": "https://cpark.squarespace.com/industry/cerner-rehumanizing-sociotechnical-telehealth-systems",
+  "sourceTitle": "[Cerner] Re-humanizing Socio-Technical Telehealth Systems \u2014 Camille (Chorong) Park",
+  "sourceHtmlSha256": "6cc303b967a72e8fb646b71393c2547f4e9731788bb3e897b333c7f025cb0d8a",
+  "originalText": "Re-humanizing Socio-Technical Telehealth SystemsProject: Cerner Telemedicine Video Chatting Experience Context: An industry-academic collaboration between Purdue UX Experience Studio and Cerner (Fall 2020).Overview: This project addresses a critical vulnerability in modern, digitized healthcare ecosystems: the erosion of interpersonal connection within telemedicine. By applying a rigorous, human-centered design approach to a complex socio-technical system, this project delivered an evidence-based web portal plug-in for Cerner. The intervention successfully mediated the friction between clinical efficiency and patient psychological safety, demonstrating how systemic design can transform a sterile digital interface into a therapeutic environment. Project Summary 1. Mapping and Navigating Complex Care NetworksTo understand the telemedicine ecosystem, the project began with a macro-level Stakeholder Map, identifying the intricate network of actors involved in a virtual visit (front-office administration, back-office personnel, clinical providers, and patients/caregivers). By systematically prioritizing this network, the team scoped the intervention to focus on the most critical friction point: the provider-patient dyad, ensuring that design efforts targeted the highest-impact interactions within the care continuum.2. Evidence-Based and Transdisciplinary ResearchThe project employed a rigorous, mixed-methods approach to unearth systemic gaps in virtual care delivery.Triangulated Landscape Research: Combined competitive analysis of five existing platforms with comprehensive clinical literature reviews to establish a baseline of market failures and medical requirements.Dual-Sided Empathy: Conducted parallel, in-depth interviews with both patients and specialized healthcare providers. This methodology revealed a shared, systemic failure: a profound decrease in personal connection that hindered patients from actively speaking up about their health concerns.3. Translating Research into Systemic InterventionsTo bridge the gap between abstract psychological needs and tangible digital interactions, the team synthesized their research into core Experience Principles (Create Comfort, Streamline Process, Gentle Ease-Out). These principles acted as a systemic framework for all subsequent design decisions, ensuring the technology served the care objective rather than dictating it.4. Prototyping for Clinical Contexts and Patient AgencyMoving from Wizard of Oz testing to iterative usability evaluations, the team developed a specialized Minimum Viable Product (MVP) tailored for sensitive health contexts (including customized therapy modules). The resulting design interventions\u2014such as interactive pre-visit environments, visual status indicators, and personalized environmental settings\u2014act as critical \"scaffolding\" that empowers patient agency, reduces cognitive load, and enables clinicians to deliver higher-quality, empathetic care through a digital medium. Presentation File Design Documentation",
+  "originalTextSha256": "0a6fcde9cca03ad7a5baa56c69e0b1b1ecf1865c05f563365cc4720a29f9b443",
+  "images": [
+    {
+      "src": "/images/projects/356a5bfcad44ae05-Pic.png",
+      "originalPath": "assets/356a5bfcad44ae05-Pic.png",
+      "sha256": "356a5bfcad44ae053f7e238c5b9f0dc189974a46decbe28e022c46f7c8f4841b",
+      "bytes": 79228
+    }
+  ],
+  "documentLinks": [
+    "https://drive.google.com/file/d/1ZVjolF9N6ju1gKcPNo25tvAta0N8M9uO/view?usp=sharing",
+    "https://drive.google.com/file/d/1r_MkSgKgibqn_V7a9SvCvmcfr4GdDYNJ/view?usp=sharing"
+  ],
+  "videos": [],
+  "content": [
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h2",
+          "children": [
+            "Re-humanizing Socio-Technical Telehealth Systems"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Project:"
+              ]
+            },
+            " Cerner Telemedicine Video Chatting Experience "
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Context:"
+              ]
+            },
+            " An industry-academic collaboration between Purdue UX Experience Studio and Cerner (Fall 2020)."
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            {
+              "tag": "strong",
+              "children": [
+                "Overview:"
+              ]
+            },
+            " This project addresses a critical vulnerability in modern, digitized healthcare ecosystems: the erosion of interpersonal connection within telemedicine. By applying a rigorous, human-centered design approach to a complex socio-technical system, this project delivered an evidence-based web portal plug-in for Cerner. The intervention successfully mediated the friction between clinical efficiency and patient psychological safety, demonstrating how systemic design can transform a sterile digital interface into a therapeutic environment."
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        {
+          "tag": "img",
+          "src": "/images/projects/356a5bfcad44ae05-Pic.png",
+          "alt": "Cerner: original project image 1",
+          "width": 1033,
+          "height": 568
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h2",
+          "children": [
+            "Project Summary"
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        {
+          "tag": "h3",
+          "children": [
+            "1. Mapping and Navigating Complex Care Networks"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "To understand the telemedicine ecosystem, the project began with a macro-level ",
+            {
+              "tag": "strong",
+              "children": [
+                "Stakeholder Map"
+              ]
+            },
+            ", identifying the intricate network of actors involved in a virtual visit (front-office administration, back-office personnel, clinical providers, and patients/caregivers). By systematically prioritizing this network, the team scoped the intervention to focus on the most critical friction point: the provider-patient dyad, ensuring that design efforts targeted the highest-impact interactions within the care continuum."
+          ]
+        },
+        {
+          "tag": "h3",
+          "children": [
+            "2. Evidence-Based and Transdisciplinary Research"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "The project employed a rigorous, mixed-methods approach to unearth systemic gaps in virtual care delivery."
+          ]
+        },
+        {
+          "tag": "ul",
+          "children": [
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Triangulated Landscape Research:"
+                      ]
+                    },
+                    " Combined competitive analysis of five existing platforms with comprehensive clinical literature reviews to establish a baseline of market failures and medical requirements."
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "li",
+              "children": [
+                {
+                  "tag": "p",
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "children": [
+                        "Dual-Sided Empathy:"
+                      ]
+                    },
+                    " Conducted parallel, in-depth interviews with both patients and specialized healthcare providers. This methodology revealed a shared, systemic failure: a profound decrease in personal connection that hindered patients from actively speaking up about their health concerns."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "h3",
+          "children": [
+            "3. Translating Research into Systemic Interventions"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "To bridge the gap between abstract psychological needs and tangible digital interactions, the team synthesized their research into core ",
+            {
+              "tag": "strong",
+              "children": [
+                "Experience Principles"
+              ]
+            },
+            " (Create Comfort, Streamline Process, Gentle Ease-Out). These principles acted as a systemic framework for all subsequent design decisions, ensuring the technology served the care objective rather than dictating it."
+          ]
+        },
+        {
+          "tag": "h3",
+          "children": [
+            "4. Prototyping for Clinical Contexts and Patient Agency"
+          ]
+        },
+        {
+          "tag": "p",
+          "children": [
+            "Moving from ",
+            {
+              "tag": "em",
+              "children": [
+                "Wizard of Oz"
+              ]
+            },
+            " testing to iterative usability evaluations, the team developed a specialized Minimum Viable Product (MVP) tailored for sensitive health contexts (including customized therapy modules). The resulting design interventions\u2014such as interactive pre-visit environments, visual status indicators, and personalized environmental settings\u2014act as critical \"scaffolding\" that empowers patient agency, reduces cognitive load, and enables clinicians to deliver higher-quality, empathetic care through a digital medium."
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "a",
+          "href": "https://drive.google.com/file/d/1ZVjolF9N6ju1gKcPNo25tvAta0N8M9uO/view?usp=sharing",
+          "children": [
+            "\r\n    Presentation File\r\n  "
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "tag": "div",
+      "children": [
+        "\n",
+        "\n",
+        {
+          "tag": "a",
+          "href": "https://drive.google.com/file/d/1r_MkSgKgibqn_V7a9SvCvmcfr4GdDYNJ/view?usp=sharing",
+          "children": [
+            "\r\n    Design Documentation\r\n  "
+          ]
+        },
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n"
+  ]
+}
