@@ -7,9 +7,9 @@ export const metadata: Metadata = {
   verification: {
     google: '7RwQ6FKdwA4tvt48CB1HYUuNlXQXKRKPGD7U1n4XbqE',
   },
-  title: 'ELARA Lab | Human Agency Across the Lifespan',
+  title: 'Chorong Park | Human-Centered AI, Aging & Care',
   description:
-    'Autonomy-preserving embodied AI to support independence, well-being, and control for older adults and people living with chronic conditions.',
+    'Chorong Park, Ph.D., is a University of Houston researcher and designer working on human-centered AI, robotics, aging, and care. Explore her research, industry collaborations, publications, and ELARA Lab.',
 };
 
 export default function RootLayout({

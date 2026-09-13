@@ -5,6 +5,11 @@ import { getLinkedInWidgetId, linkedinProfileUrl } from '../lib/linkedin.mjs';
 import { getPublishedStories } from '../lib/stories.mjs';
 import { workshopPhotos } from '../lib/slideshow.mjs';
 import {
+  publications,
+  publicationGroups,
+  publicationsForGroup,
+} from '../lib/publications.mjs';
+import {
   articleStructuredData,
   canonicalUrl,
   createRobots,
@@ -15,6 +20,11 @@ const root = path.resolve('dist/client');
 const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
 const home = readFileSync(path.join(root, 'index.html'), 'utf8');
 const students = readFileSync(path.join(root, 'students/index.html'), 'utf8');
+const lab = readFileSync(path.join(root, 'lab/index.html'), 'utf8');
+const publicationPage = readFileSync(
+  path.join(root, 'publications/index.html'),
+  'utf8',
+);
 const stories = getPublishedStories();
 assert.equal(
   readFileSync(path.join(root, 'sitemap.xml'), 'utf8'),
@@ -67,14 +77,42 @@ assert.ok(
 
 assert.match(
   home,
-  /ELARA Lab \| Human Agency Across the Lifespan/,
+  /Chorong Park \| Human-Centered AI, Aging &amp; Care/,
   'Homepage title is missing',
 );
 assert.match(
-  home,
+  lab,
   /autonomy-preserving embodied AI/,
   'ELARA mission is missing',
 );
+assert.ok(
+  home.includes('id="about"') &&
+    home.includes('id="research"') &&
+    home.includes('id="industry"'),
+);
+assert.ok(home.includes(`src="${base}/images/profile/chorong-park.jpeg"`));
+assert.ok(home.includes('Microsoft') && home.includes('PathAI'));
+assert.ok(
+  home.includes(`href="${base}/lab/"`) &&
+    home.includes(`href="${base}/publications/"`),
+);
+assert.ok(lab.includes('aria-roledescription="carousel"'));
+assert.equal(
+  [...publicationPage.matchAll(/class="publication-item"/g)].length,
+  publications.length,
+);
+for (const group of publicationGroups) {
+  let lastPosition = -1;
+  for (const paper of publicationsForGroup(group.id)) {
+    const position = publicationPage.indexOf(`id="${paper.id}"`);
+    assert.ok(
+      position > lastPosition,
+      `Publication missing or out of order: ${paper.id}`,
+    );
+    assert.ok(publicationPage.includes(`href="${paper.url}"`));
+    lastPosition = position;
+  }
+}
 assert.match(home, /href="#news"[^>]*>News<\/a>/, 'News navigation is missing');
 assert.match(
   students,
@@ -207,6 +245,8 @@ let checked = 0;
 for (const [route, html] of [
   ['/', home],
   ['/students/', students],
+  ['/lab/', lab],
+  ['/publications/', publicationPage],
   ...storyPages,
 ]) {
   const canonicals = [...html.matchAll(/<link\b[^>]*rel="canonical"[^>]*>/g)];

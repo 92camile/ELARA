@@ -7,6 +7,8 @@ const stories = getPublishedStories();
 // Keep directory URLs portable to GitHub Pages without relying on server rewrites.
 for (const route of [
   'students',
+  'lab',
+  'publications',
   ...stories.map((story) => `news/${story.slug}`),
 ]) {
   mkdirSync(`dist/client/${route}`, { recursive: true });

@@ -35,6 +35,8 @@ test('sitemap discovers all canonical pages and original images, without externa
     );
     assert.deepEqual(urls, [
       canonicalUrl('/', base),
+      canonicalUrl('/lab/', base),
+      canonicalUrl('/publications/', base),
       canonicalUrl('/students/', base),
       ...stories.map((story) => canonicalUrl(`/news/${story.slug}/`, base)),
     ]);

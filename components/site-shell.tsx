@@ -1,7 +1,11 @@
 /* oxlint-disable next/no-img-element -- Static hosting serves the existing logo without an image service. */
 import { sitePath } from '../lib/site';
 
-export function SiteHeader({ page }: { page: 'home' | 'students' | 'news' }) {
+export function SiteHeader({
+  page,
+}: {
+  page: 'home' | 'students' | 'news' | 'lab' | 'publications';
+}) {
   const home = page === 'home' ? '' : sitePath('/');
 
   return (
@@ -11,17 +15,17 @@ export function SiteHeader({ page }: { page: 'home' | 'students' | 'news' }) {
       </a>
       <header className="masthead">
         <div className="header-inner">
-          <a className="brand" href={sitePath('/')} aria-label="ELARA Lab home">
-            <img
-              src={sitePath('/elara-logo.png')}
-              width={64}
-              height={64}
-              alt=""
-            />
+          <a
+            className="brand personal-brand"
+            href={sitePath('/')}
+            aria-label="Chorong Park home"
+          >
             <span>
-              <strong>ELARA Lab</strong>
+              <strong>
+                Chorong Park<span className="brand-dot">.</span>
+              </strong>
               <span className="brand-description">
-                Empathetic Lifespan AI &amp; Robotics for Aging
+                Human-centered AI, aging &amp; care
               </span>
             </span>
           </a>
@@ -30,9 +34,22 @@ export function SiteHeader({ page }: { page: 'home' | 'students' | 'news' }) {
               href={`${home}#intro`}
               aria-current={page === 'home' ? 'page' : undefined}
             >
-              Home
+              About
             </a>
-            <a href={`${home}#mission`}>Our mission</a>
+            <a href={`${home}#research`}>Research</a>
+            <a href={`${home}#industry`}>Industry</a>
+            <a
+              href={sitePath('/publications/')}
+              aria-current={page === 'publications' ? 'page' : undefined}
+            >
+              Publications
+            </a>
+            <a
+              href={sitePath('/lab/')}
+              aria-current={page === 'lab' ? 'page' : undefined}
+            >
+              ELARA Lab
+            </a>
             <a
               href={`${home}#news`}
               aria-current={page === 'news' ? 'page' : undefined}
@@ -57,14 +74,14 @@ export function SiteFooter() {
     <footer className="container">
       <a
         className="brand footer-brand"
-        href={sitePath('/')}
-        aria-label="ELARA Lab home"
+        href={sitePath('/lab/')}
+        aria-label="Visit ELARA Lab"
       >
         <img src={sitePath('/elara-logo.png')} width={48} height={48} alt="" />
         <span>
           <strong>ELARA Lab</strong>
           <span className="brand-description">
-            Human agency across the lifespan.
+            Led by Chorong Park. Human agency across the lifespan.
           </span>
         </span>
       </a>

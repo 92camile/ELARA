@@ -6,7 +6,7 @@ import { getPublishedStories, storyDate } from '../lib/stories.mjs';
 import { sitePath } from '../lib/site';
 import { SiteHeader, SiteFooter } from '../components/site-shell';
 import { LinkedInFeed } from '../components/linkedin-feed';
-import { WorkshopSlideshow } from '../components/workshop-slideshow';
+import { PersonalIntroduction } from '../components/personal-introduction';
 import { getLinkedInWidgetId, linkedinProfileUrl } from '../lib/linkedin.mjs';
 
 const linkedInWidgetId = getLinkedInWidgetId(
@@ -23,66 +23,7 @@ export default function Home() {
       <SiteHeader page="home" />
 
       <main id="content" tabIndex={-1}>
-        <section className="hero" id="intro" aria-labelledby="headline">
-          <div className="container hero-grid">
-            <div className="hero-copy">
-              <p className="eyebrow pill">
-                Human-centered AI, robotics, and aging
-              </p>
-              <h1 id="headline">
-                Expanding human agency.
-                <br />
-                <span className="gradient-text">Across the lifespan.</span>
-              </h1>
-              <p className="introduction">
-                AI should expand human agency across the lifespan, not replace
-                human judgment, relationships, or care.
-              </p>
-              <div className="hero-actions">
-                <a className="button button-primary" href="#mission">
-                  Explore our mission <span aria-hidden="true">&#8594;</span>
-                </a>
-                <a className="button button-secondary" href="#news">
-                  Latest news
-                </a>
-              </div>
-              <ul className="research-tags" aria-label="Research approach">
-                <li>Participatory design</li>
-                <li>Behavioral science</li>
-                <li>Safe generative AI</li>
-              </ul>
-            </div>
-            <WorkshopSlideshow />
-          </div>
-        </section>
-
-        <section
-          className="mission container"
-          id="mission"
-          aria-labelledby="mission-title"
-        >
-          <div className="section-heading">
-            <p className="eyebrow">Our mission</p>
-            <h2 id="mission-title">
-              From human agency
-              <br />
-              to everyday impact.
-            </h2>
-          </div>
-          <div className="mission-copy">
-            <p>
-              ELARA Lab develops and evaluates autonomy-preserving embodied AI
-              systems that help older adults and people living with chronic
-              conditions maintain independence, well-being, and control.
-            </p>
-            <p>
-              We integrate participatory design, behavioral science, and safe
-              generative AI to create clinically credible, implementation-ready
-              interventions with viable pathways to adoption, reimbursement, and
-              sustainable scale across diverse health and care systems.
-            </p>
-          </div>
-        </section>
+        <PersonalIntroduction />
 
         <section
           className="news-section"
