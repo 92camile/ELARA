@@ -41,8 +41,8 @@ export default async function ProjectPage({ params }: Props) {
     <div id="top">
       <SiteHeader page="projects" />
       <main id="content" tabIndex={-1} className="project-page container">
-        <a className="profile-link" href={sitePath('/#industry')}>
-          &#8592; Back to industry projects
+        <a className="profile-link" href={sitePath('/projects/')}>
+          &#8592; All projects
         </a>
         <article>
           <header className="project-heading">
@@ -79,7 +79,7 @@ export default async function ProjectPage({ params }: Props) {
           <ProjectContent content={project.content} />
         </article>
         <div className="project-end">
-          <a className="button button-secondary" href={sitePath('/#industry')}>
+          <a className="button button-secondary" href={sitePath('/projects/')}>
             &#8592; Explore other projects
           </a>
         </div>

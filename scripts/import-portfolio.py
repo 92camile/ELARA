@@ -20,6 +20,7 @@ PROJECTS = [
     ('microsoft-career', 'industry/ms', 'Microsoft', 'Career progression in Microsoft Teams'),
     ('pg-amazon-shopping', 'industry/project-one-ephnc-2e6bd', 'P&G', 'The mobile shopping experience'),
     ('dolby-community', 'industry/project-two-llrgk-5xkxg', 'Dolby', 'Community in a digital workplace'),
+    ('bnu-purdue-vehicle-design', 'industry/project-three-8zgh7-bj6cf', 'Beijing Normal University & Purdue', 'Future UX for semi-autonomous vehicles'),
     ('pepsico-engagement', 'industry/project-one-ephnc-2e6bd-xzlxa', 'PepsiCo', 'Connecting physical and digital experiences'),
     ('adventhealth-medicare', 'industry/advant-health-medicre-informational-app', 'AdventHealth & UEGroup', 'Navigating out-of-hospital care'),
     ('cerner-telehealth', 'industry/cerner-rehumanizing-sociotechnical-telehealth-systems', 'Cerner', 'Human connection in telehealth'),
@@ -60,6 +61,23 @@ def main():
     images_dir = root / 'public/images/projects'
     output.mkdir(parents=True, exist_ok=True)
     images_dir.mkdir(parents=True, exist_ok=True)
+
+    index_bytes = (archive / 'industry/index.html').read_bytes()
+    index = BeautifulSoup(index_bytes.decode('utf-8'), 'html.parser')
+    industry_entries = []
+    imported_routes = {route for _, route, _, _ in PROJECTS}
+    for link in index.select('main a[href]'):
+        href = link['href']
+        assert '://' not in href and href.endswith('/index.html'), href
+        destination = (archive / 'industry' / href).resolve()
+        assert destination.is_relative_to(archive / 'industry'), href
+        route = destination.parent.relative_to(archive).as_posix()
+        assert route in imported_routes, f'Industry project missing from import: {route}'
+        industry_entries.append({'title': link.get_text(' ', strip=True), 'sourceUrl': 'https://cpark.squarespace.com/' + route})
+    assert industry_entries, 'Industry index must contain projects'
+    coverage = {'sourceUrl': 'https://cpark.squarespace.com/industry', 'sourceHtmlSha256': digest(index_bytes), 'projects': industry_entries}
+    (root / 'content/portfolio-industry-index.json').write_text(json.dumps(coverage, ensure_ascii=True, indent=2) + '\n', encoding='utf-8')
+    print(f'Industry index: all {len(industry_entries)} source projects covered')
 
     for slug, route, company, subtitle in PROJECTS:
         source = archive / route / 'index.html'

@@ -1,8 +1,12 @@
 # Local portfolio case studies
 
-Eight destinations linked from the personal homepage are now hosted at
+Nine destinations linked from the personal homepage are now hosted at
 `https://elaralab.org/projects/<slug>/`. Both Microsoft summary cards and all
-company rows link internally, using the site's configurable base path.
+company rows link internally, using the site's configurable base path. The
+`/projects/` directory presents all nine pages together. It includes all seven
+entries from the original Industry index, plus Microsoft Care Team and the
+PathAI biography archive. The university collaboration with Beijing Normal
+University/Purdue is explicitly distinguished from company work.
 
 ## Source and fidelity
 
@@ -13,7 +17,7 @@ ordered image manifest with original paths and hashes, document URLs, video URLs
 and an allowlisted rich-content tree.
 
 The import preserves all body wording, punctuation, lists, quotations, captions,
-32 images (including the animated GIF), 12 Google Drive document links, and the
+33 images (including the animated GIF), 14 Google Drive document links, and the
 Microsoft Care Team YouTube walkthrough. Images are copied byte-for-byte into
 `public/images/projects`. Two extensionless images receive their actual format's
 extension so static hosting serves the correct media type. No crop or re-encoding
@@ -36,9 +40,13 @@ and peer feedback must not be misrepresented as current roles or endorsements.
 `scripts/import-portfolio.py <archive-directory>` requires Python and
 `beautifulsoup4==4.13.4`. This one-time import dependency is not required by the
 site, CI, or normal builds. The importer fails on unknown content tags, unsafe
-URLs, missing assets, changed text, media omissions, or reordered media.
+URLs, missing assets, changed text, media omissions, or reordered media. It also
+compares the Industry index against the import list and records its complete
+source inventory in `content/portfolio-industry-index.json`.
 
 `pnpm test` checks content text, image bytes, expected media counts and ordering,
 and the renderer's content allowlist. `pnpm verify` checks exported wording,
 original images, links, internal homepage destinations, canonicals, and sitemap
-coverage. All eight pages and their images are included in the XML sitemap.
+coverage. All nine pages, their images, and the project directory are included
+in the XML sitemap. A regression test requires every original Industry index
+entry to have exactly one corresponding local page.

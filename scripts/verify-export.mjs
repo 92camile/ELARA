@@ -28,6 +28,25 @@ const publicationPage = readFileSync(
 );
 const stories = getPublishedStories();
 const projects = getProjects();
+const directoryPage = readFileSync(
+  path.join(root, 'projects/index.html'),
+  'utf8',
+);
+assert.ok(
+  home.includes(`href="${base}/projects/"`),
+  'Homepage must expose the complete directory',
+);
+assert.doesNotMatch(directoryPage, /href="https:\/\/cpark\.squarespace\.com/);
+assert.equal(
+  [...directoryPage.matchAll(/class="project-directory-card"/g)].length,
+  projects.length,
+);
+for (const project of projects) {
+  assert.ok(
+    directoryPage.includes(`href="${base}/projects/${project.slug}/"`),
+    `Directory missing ${project.slug}`,
+  );
+}
 const projectPages = projects.map((project) => [
   `/projects/${project.slug}/`,
   readFileSync(path.join(root, `projects/${project.slug}/index.html`), 'utf8'),
@@ -127,6 +146,10 @@ for (const [index, project] of projects.entries()) {
     /href="https:\/\/cpark\.squarespace\.com|definitions\.sqspcdn\.com|data-block-scripts/,
   );
   assert.ok(html.includes(`href="${base}/#industry"`));
+  assert.ok(
+    html.includes(`href="${base}/projects/"`),
+    'Every project must link to the complete collection',
+  );
   let position = -1;
   for (const image of project.images) {
     const next = html.indexOf(`src="${base}${image.src}"`);
@@ -319,6 +342,7 @@ for (const [route, html] of [
   ['/students/', students],
   ['/lab/', lab],
   ['/publications/', publicationPage],
+  ['/projects/', directoryPage],
   ...storyPages,
   ...projectPages,
 ]) {

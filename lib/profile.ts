@@ -49,6 +49,12 @@ export const collaborations = [
     url: '/projects/cerner-telehealth/',
   },
   {
+    name: 'Beijing Normal University & Purdue',
+    context: 'Lead Project Owner / Academic collaboration',
+    work: 'Led team discussions, UX research, and design exploration for semi-autonomous vehicles through a cross-cultural university collaboration.',
+    url: '/projects/bnu-purdue-vehicle-design/',
+  },
+  {
     name: 'PathAI',
     context: 'Product Design Intern',
     work: 'Worked with the product design team, as documented in my portfolio biography.',

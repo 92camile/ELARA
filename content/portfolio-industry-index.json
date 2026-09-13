@@ -1,0 +1,34 @@
+{
+  "sourceUrl": "https://cpark.squarespace.com/industry",
+  "sourceHtmlSha256": "491aa6d931ce8a21dc05ee2208775ef33aa2e905e8b167fa2e5792f32ec8cf01",
+  "projects": [
+    {
+      "title": "[P&G] Improving shopping exp on Amazon mobile app",
+      "sourceUrl": "https://cpark.squarespace.com/industry/project-one-ephnc-2e6bd"
+    },
+    {
+      "title": "[Dolby Lab] Creating a digital environment naturally fosters community",
+      "sourceUrl": "https://cpark.squarespace.com/industry/project-two-llrgk-5xkxg"
+    },
+    {
+      "title": "[BUN x PURDUE] Designing future UX of semi-autonomous vehicle",
+      "sourceUrl": "https://cpark.squarespace.com/industry/project-three-8zgh7-bj6cf"
+    },
+    {
+      "title": "[Microsoft] Providing an engaging experience centered around career progression.",
+      "sourceUrl": "https://cpark.squarespace.com/industry/ms"
+    },
+    {
+      "title": "[PepsiCo] Digitizing physical products to drive increased consumer engagement.",
+      "sourceUrl": "https://cpark.squarespace.com/industry/project-one-ephnc-2e6bd-xzlxa"
+    },
+    {
+      "title": "[Advant Health] Mediating Complexity in Out-of-Hospital Care Ecosystems",
+      "sourceUrl": "https://cpark.squarespace.com/industry/advant-health-medicre-informational-app"
+    },
+    {
+      "title": "[Cerner] Re-humanizing Socio-Technical Telehealth Systems",
+      "sourceUrl": "https://cpark.squarespace.com/industry/cerner-rehumanizing-sociotechnical-telehealth-systems"
+    }
+  ]
+}

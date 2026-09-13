@@ -257,6 +257,12 @@ export function PersonalIntroduction() {
           not claims of shipped products or current company endorsements.
           Project roles and employment experience are distinguished below.
         </p>
+        <a
+          className="button button-secondary project-directory-link"
+          href={sitePath('/projects/')}
+        >
+          View all projects <span aria-hidden="true">&#8594;</span>
+        </a>
         <dl className="collaboration-list">
           {collaborations.map((company) => (
             <div className="collaboration-row" key={company.name}>

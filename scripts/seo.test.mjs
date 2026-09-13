@@ -39,6 +39,7 @@ test('sitemap discovers all canonical pages and original images, without externa
       canonicalUrl('/lab/', base),
       canonicalUrl('/publications/', base),
       canonicalUrl('/students/', base),
+      canonicalUrl('/projects/', base),
       ...getProjects().map((project) =>
         canonicalUrl(`/projects/${project.slug}/`, base),
       ),
