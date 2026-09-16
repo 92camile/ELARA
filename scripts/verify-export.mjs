@@ -283,6 +283,17 @@ for (const [index, story] of stories.entries()) {
     'Homepage stories must preserve newest-first order',
   );
   storyPosition = cardPosition;
+  const storyCard = newsCards.find(([card]) =>
+    card.includes(`aria-labelledby="${story.slug}"`),
+  )?.[0];
+  assert.ok(storyCard, 'Missing homepage story card');
+  for (const source of story.sources.filter((item) => item.id === 'workshop')) {
+    assert.ok(
+      storyCard.includes(`href="${htmlEscape(source.url)}"`),
+      'Workshop website must remain directly accessible from News',
+    );
+    assert.ok(storyCard.includes('Workshop website'));
+  }
   if (linkedInWidgetId) {
     assert.ok(
       home.indexOf(`href="${base}/news/${story.slug}/"`) <

@@ -575,6 +575,16 @@ h1 {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
+.story-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 20px;
+  margin-top: auto;
+}
+.story-card-links .article-link {
+  margin-top: 0;
+}
 footer {
   display: flex;
   justify-content: space-between;

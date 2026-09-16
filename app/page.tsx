@@ -84,13 +84,30 @@ export default function Home() {
                     <a href={sitePath(`/news/${story.slug}/`)}>{story.title}</a>
                   </h3>
                   <p className="article-summary">{story.summary}</p>
-                  <a
-                    className="article-link"
-                    href={sitePath(`/news/${story.slug}/`)}
-                    aria-label={`Read ${story.title}`}
-                  >
-                    Read story <span aria-hidden="true">&#8594;</span>
-                  </a>
+                  <div className="story-card-links">
+                    <a
+                      className="article-link"
+                      href={sitePath(`/news/${story.slug}/`)}
+                      aria-label={`Read ${story.title}`}
+                    >
+                      Read story <span aria-hidden="true">&#8594;</span>
+                    </a>
+                    {story.sources
+                      .filter((source) => source.id === 'workshop')
+                      .map((source) => (
+                        <a
+                          className="article-link"
+                          key={source.id}
+                          href={source.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={`${source.label} (opens in a new tab)`}
+                        >
+                          Workshop website{' '}
+                          <span aria-hidden="true">&#8599;</span>
+                        </a>
+                      ))}
+                  </div>
                 </article>
               ))}
             </div>
