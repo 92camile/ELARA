@@ -33,18 +33,6 @@ export const students: Student[] = [
     linkedin: 'https://www.linkedin.com/in/noorul-m-a41589249/',
   },
   {
-    id: 'jana-qaddoura',
-    name: 'Jana Qaddoura',
-    role: 'Undergraduate student, B.S. Health',
-    interests: ['Epidemiology', 'Digital health literacy'],
-    bio: 'Jana is an undergraduate student who aspires to become an epidemiologist, with a strong interest in advancing public health through research and community engagement. She values community service and health initiatives that support diverse populations.',
-    photo: '/students/jana-qaddoura.png',
-    photoWidth: 377,
-    photoHeight: 250,
-    email: 'jsqaddou@cougarnet.uh.edu',
-    linkedin: 'https://www.linkedin.com/in/jana-qaddoura/',
-  },
-  {
     id: 'levi-abrahams',
     name: 'Levi Abrahams',
     role: 'Undergraduate student, pre-med',
@@ -59,5 +47,20 @@ export const students: Student[] = [
     photoWidth: 307,
     photoHeight: 250,
     email: 'abrahams.levi@gmail.com',
+  },
+];
+
+export const pastStudents: Student[] = [
+  {
+    id: 'jana-qaddoura',
+    name: 'Jana Qaddoura',
+    role: 'Former undergraduate researcher',
+    interests: ['Epidemiology', 'Digital health literacy'],
+    bio: 'During her time with ELARA, Jana brought interests in epidemiology, digital health literacy, and public health through research and community engagement. Her profile is preserved here in recognition of her contribution to the lab.',
+    photo: '/students/jana-qaddoura.png',
+    photoWidth: 377,
+    photoHeight: 250,
+    email: 'jsqaddou@cougarnet.uh.edu',
+    linkedin: 'https://www.linkedin.com/in/jana-qaddoura/',
   },
 ];

@@ -1,11 +1,12 @@
 {
   "slug": "embrace-2026-affection-agency-companion-robots",
-  "title": "A Friendly Robot Still Needs to Earn Your Trust",
-  "summary": "Park's EMBRACE invited talk explored how companion robots can encourage connection without letting affection obscure privacy risks.",
+  "title": "Chorong Park and Fellow Speakers Explore Care Robotics at EMBRACE 2026",
+  "summary": "The RO-MAN workshop connected Park's work on trust with cross-cultural robot teleoperation, emotionally responsive companions, and a shared discussion about care.",
   "category": "Research & invited talks",
   "postId": "7497530598006218752",
   "originalDate": "2026-08-24",
   "publishedDate": "2026-09-08",
+  "updatedDate": "2026-09-15",
   "sourcePhotoCount": 9,
   "sources": [
     {
@@ -21,24 +22,24 @@
   ],
   "paragraphs": [
     {
-      "text": "A robot can feel caring without giving someone enough control. Chorong Park explored that tension as the first invited speaker at the EMBRACE workshop during IEEE RO-MAN 2026 in Kitakyushu, Japan, on August 24.",
+      "text": "Chorong Park opened the invited talks at EMBRACE 2026, a workshop on emotion-aware, multicultural robotics for aging and care. Held during IEEE RO-MAN in Kitakyushu, Japan, on August 24, it brought speakers and participants together around a shared challenge: making robotic assistance responsive to people, not just tasks.",
       "sourceIds": ["linkedin", "workshop"]
     },
     {
-      "text": "Drawing on community engagement and a study with 22 older adults, Park discussed how pet-like movement, expressive faces, and responsive timing can invite affection. Familiar interactions and reminiscence were also part of the research she described.",
+      "text": "In her talk, From Affection to Agency, Park drew on community engagement and a study with 22 older adults. She explored how friendly behavior can encourage connection but also soften attention to privacy, arguing for understandable robot behavior, meaningful control, and consent people can withdraw.",
       "sourceIds": ["linkedin"]
     },
     {
-      "text": "But warmth can complicate trust. Park raised the possibility that emotionally appealing behavior may make people less alert to privacy risks, even when an interaction feels comfortable.",
+      "text": "Assistant Professor Tomoya Sasaki and postdoctoral researcher Sim\u00e9on Capy, both at Tokyo University of Science, presented the ARC Project. Their work examines robot teleoperation across distance and cultural settings, including studies in Canada and Japan.",
       "sourceIds": ["linkedin", "workshop"]
     },
     {
-      "text": "Her response was to design for understandable behavior, meaningful control, and consent people can withdraw. The goal is not to remove emotion from companion robots, but to keep a friendly interaction from becoming a reason to overlook boundaries.",
+      "text": "Professor Masahiro Shiomi, affiliated with Kyoto University and ATR, discussed affective interaction with a baby-like robot for older adults and caregivers. Lightning talks added perspectives on attention-aware remote caregiving and VR-based control of companion robots.",
       "sourceIds": ["linkedin", "workshop"]
     },
     {
-      "text": "The workshop connected that question with perspectives on emotion, culture, aging, and care. Park left with new questions about how robots might support connection while respecting the person making it.",
-      "sourceIds": ["linkedin"]
+      "text": "Organized by Waterloo's Yue Hu, Moojan Ghafurian, Thomas M. Kwok, and Neil Fernandes, the workshop also made space for group discussion. The exchange points to a useful design insight: warmth, cultural fit, and human control need to be considered together, rather than treated as separate finishing touches.",
+      "sourceIds": ["linkedin", "workshop"]
     }
   ],
   "photos": [
@@ -124,11 +125,57 @@
       "afterParagraph": 4
     }
   ],
+  "supplementalPhotos": [
+    {
+      "src": "/images/news/embrace-2026-speaker-chorong-park.png",
+      "alt": "Chorong Park's speaker portrait, as identified on the EMBRACE workshop website.",
+      "caption": "Chorong Park, University of Houston. Speaker portrait from the EMBRACE 2026 website.",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 1,
+      "sha256": "696b523331a6f1965e9dc072c847172af9e88da669050bc007c399e17956a6f3",
+      "sourceId": "workshop",
+      "sourceUrl": "https://embraceworkshop20262.wordpress.com/wp-content/uploads/2026/04/c32f5425-8cd5-4f16-9fb1-1c8cdb0c114c.png"
+    },
+    {
+      "src": "/images/news/embrace-2026-speaker-tomoya-sasaki.png",
+      "alt": "Tomoya Sasaki's speaker portrait, as identified on the EMBRACE workshop website.",
+      "caption": "Tomoya Sasaki, Tokyo University of Science. Speaker portrait from the EMBRACE 2026 website.",
+      "width": 1024,
+      "height": 1024,
+      "afterParagraph": 2,
+      "sha256": "f0104af016eec334fc46950877a91a3cab9eb85e7e2abff687971ceb00548f60",
+      "sourceId": "workshop",
+      "sourceUrl": "https://embraceworkshop20262.wordpress.com/wp-content/uploads/2026/04/sasaki-3.png?w=1024"
+    },
+    {
+      "src": "/images/news/embrace-2026-speaker-simeon-capy.jpg",
+      "alt": "Simeon Capy's outdoor speaker portrait, as identified on the EMBRACE workshop website.",
+      "caption": "Sim\u00e9on Capy, Tokyo University of Science. Speaker portrait from the EMBRACE 2026 website.",
+      "width": 648,
+      "height": 648,
+      "afterParagraph": 2,
+      "sha256": "10192e08af1aeed5ed4936a5b8323dbfe6fd39b9472dd938decfd78bde2a2a13",
+      "sourceId": "workshop",
+      "sourceUrl": "https://embraceworkshop20262.wordpress.com/wp-content/uploads/2026/04/moi.jpg"
+    },
+    {
+      "src": "/images/news/embrace-2026-speaker-masahiro-shiomi.jpg",
+      "alt": "Masahiro Shiomi's speaker portrait, as identified on the EMBRACE workshop website.",
+      "caption": "Masahiro Shiomi, Kyoto University and ATR. Speaker portrait from the EMBRACE 2026 website.",
+      "width": 2056,
+      "height": 2864,
+      "afterParagraph": 3,
+      "sha256": "b78be004ef7b24df7099a757c2ff7d6c15c712a8d8440e7c89760fbbfbf3fed0",
+      "sourceId": "workshop",
+      "sourceUrl": "https://embraceworkshop20262.wordpress.com/wp-content/uploads/2026/06/shiomi_l.jpg"
+    }
+  ],
   "review": {
     "status": "passed",
-    "checkedOn": "2026-09-13",
+    "checkedOn": "2026-09-15",
     "fullTextVerified": true,
     "allPhotosVerified": true,
-    "notes": "Full August 24, 12:49 AM post and all nine original images reviewed. Organizer program independently confirms date, city, talk, and first invited-speaker position. Study size and research interpretation attributed to Park, without converting observations into clinical efficacy claims. Image bytes archived locally without alteration; dimensions and SHA-256 checked. Editorial rewrite checked September 13, 2026 against the original feed text and retained primary-source evidence; insights are framed as design implications, not new findings. All original photo metadata, order, and file hashes retained and checked."
+    "notes": "Expanded September 15, 2026 at the owner's request using the full LinkedIn reflection and EMBRACE organizer program. Program verifies event date, speaker names, roles, affiliations, talk topics, two lightning contributions, organizers, and scheduled group discussion; Park's account and original gallery corroborate participation and discussion. Capy is identified as a postdoctoral researcher, not a professor. No clinical efficacy or joint research agreement inferred. All nine original LinkedIn images retain their existing bytes, hashes, metadata, and order. Four additional portraits from the organizer's visible speaker section were downloaded, visually inspected, and hash-checked; they are credited separately with original image URLs and are not represented as event photographs. The site's Copilot illustration and tracking pixel were not used. Original article URL, LinkedIn date, and ELARA publication date retained; actual editorial update date recorded."
   }
 }

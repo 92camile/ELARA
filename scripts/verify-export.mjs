@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { existsSync, readFileSync, statSync } from 'node:fs';
 import path from 'node:path';
 import { getLinkedInWidgetId, linkedinProfileUrl } from '../lib/linkedin.mjs';
-import { getPublishedStories } from '../lib/stories.mjs';
+import { getPublishedStories, getStoryPhotos } from '../lib/stories.mjs';
 import { workshopPhotos } from '../lib/slideshow.mjs';
 import { getProjects } from '../lib/projects.mjs';
 import {
@@ -292,24 +292,34 @@ for (const [index, story] of stories.entries()) {
   }
   assert.equal(
     [...html.matchAll(/<figure>/g)].length,
-    story.sourcePhotoCount,
-    'Export must include the entire original photo set',
+    getStoryPhotos(story).length,
+    'Export must include original photos and credited supplemental images',
   );
   assert.ok(html.includes(`dateTime="${story.originalDate}"`));
   assert.ok(html.includes(`dateTime="${story.publishedDate}"`));
   assert.ok(html.includes('Published on ELARA:'));
+  if (story.updatedDate) {
+    assert.ok(html.includes(`dateTime="${story.updatedDate}"`));
+    assert.ok(html.includes('Updated on ELARA:'));
+  }
   assert.ok(
     !html.includes('class="elfsight-app-'),
     'Reading an archived story should not require the widget',
   );
   let position = -1;
-  for (const photo of story.photos) {
+  for (const photo of getStoryPhotos(story)) {
     const next = html.indexOf(`src="${base}${photo.src}"`);
     assert.ok(
       next > position,
       'Article photo missing or out of original order',
     );
     position = next;
+  }
+  for (const photo of story.supplementalPhotos || []) {
+    assert.ok(
+      html.includes(`href="${htmlEscape(photo.sourceUrl)}"`),
+      'Missing supplemental image credit',
+    );
   }
   for (const source of story.sources)
     assert.ok(html.includes(`href="${source.url.replaceAll('&', '&amp;')}"`));
@@ -318,6 +328,30 @@ for (const [index, story] of stories.entries()) {
 const studentCards = [
   ...students.matchAll(/<article\b[^>]*>[\s\S]*?<\/article>/g),
 ];
+const currentSection = students
+  .split('id="current-students"')[1]
+  ?.split('</section>')[0];
+const pastSection = students
+  .split('id="past-students"')[1]
+  ?.split('</section>')[0];
+assert.ok(
+  currentSection && pastSection,
+  'Both current and past student sections are required',
+);
+assert.equal([...currentSection.matchAll(/<article\b/g)].length, 3);
+assert.equal([...pastSection.matchAll(/<article\b/g)].length, 1);
+assert.ok(
+  !currentSection.includes('jana-qaddoura'),
+  'Jana must not appear among current students',
+);
+assert.ok(
+  pastSection.includes('id="jana-qaddoura"'),
+  'Jana must remain in past students',
+);
+assert.ok(
+  pastSection.includes('/students/jana-qaddoura.png'),
+  "Retain Jana's photograph",
+);
 assert.equal(studentCards.length, 4, 'Expected four student profiles');
 for (const name of [
   'Anika Vadlamudi',

@@ -7,7 +7,7 @@ import {
   createSitemap,
   serializeStructuredData,
 } from '../lib/seo.mjs';
-import { getPublishedStories } from '../lib/stories.mjs';
+import { getPublishedStories, getStoryPhotos } from '../lib/stories.mjs';
 import { getProjects } from '../lib/projects.mjs';
 
 test('canonical URLs stay on the production domain and support repository base paths', () => {
@@ -54,7 +54,7 @@ test('sitemap discovers all canonical pages and original images, without externa
         project.images.map((image) => canonicalUrl(image.src, base)),
       ),
       ...stories.flatMap((story) =>
-        story.photos.map((photo) => canonicalUrl(photo.src, base)),
+        getStoryPhotos(story).map((photo) => canonicalUrl(photo.src, base)),
       ),
     ]);
     assert.doesNotMatch(
@@ -80,14 +80,14 @@ test('article markup describes the published ELARA article and preserves every s
     );
     assert.deepEqual(
       data.image || [],
-      story.photos.map((photo) => canonicalUrl(photo.src, '')),
+      getStoryPhotos(story).map((photo) => canonicalUrl(photo.src, '')),
     );
     assert.deepEqual(
       data.citation,
       story.sources.map((source) => source.url),
     );
     assert.equal(data.author.name, 'ELARA Lab');
-    assert.ok(!('dateModified' in data));
+    assert.equal(data.dateModified, story.updatedDate);
   }
 });
 

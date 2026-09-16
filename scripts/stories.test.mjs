@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import {
   getPublishedStories,
+  getStoryPhotos,
   storyDate,
   validateStories,
 } from '../lib/stories.mjs';
@@ -173,3 +174,106 @@ test('slideshow preserves all four supplied photographs and wraps both direction
   assert.equal(slideIndex(-1, 4), 3);
   assert.equal(slideIndex(1, 4), 1);
 });
+
+test('EMBRACE keeps the complete LinkedIn gallery and four separately credited website portraits', () => {
+  const story = getPublishedStories().find(
+    (item) => item.postId === '7497530598006218752',
+  );
+  assert.ok(story);
+  assert.equal(story.sourcePhotoCount, 9);
+  assert.equal(story.photos.length, 9);
+  assert.equal(story.supplementalPhotos.length, 4);
+  assert.equal(getStoryPhotos(story).length, 13);
+  assert.deepEqual(
+    getStoryPhotos(story).filter((photo) => !('sourceId' in photo)),
+    story.photos,
+  );
+  assert.deepEqual(
+    story.photos.map((photo) => photo.src),
+    Array.from(
+      { length: 9 },
+      (_, i) => `/images/news/post-7497530598006218752-${i + 1}.jpg`,
+    ),
+  );
+  assert.equal(story.originalDate, '2026-08-24');
+  assert.equal(story.publishedDate, '2026-09-08');
+  assert.equal(story.updatedDate, '2026-09-15');
+  for (const photo of story.supplementalPhotos) {
+    assert.equal(photo.sourceId, 'workshop');
+    assert.equal(
+      new URL(photo.sourceUrl).hostname,
+      'embraceworkshop20262.wordpress.com',
+    );
+    assert.match(photo.caption, /Speaker portrait/);
+  }
+});
+
+/** @type {[string, (story: import('../lib/stories.mjs').Story) => void][]} */
+const supplementalCases = [
+  [
+    'unknown supplemental source',
+    (story) => {
+      story.supplementalPhotos[0].sourceId = 'unchecked';
+    },
+  ],
+  [
+    'unsafe supplemental source URL',
+    (story) => {
+      story.supplementalPhotos[0].sourceUrl = 'javascript:alert(1)';
+    },
+  ],
+  [
+    'credentialed supplemental source',
+    (story) => {
+      story.supplementalPhotos[0].sourceUrl =
+        'https://secret@example.org/photo.png';
+    },
+  ],
+  [
+    'changed supplemental image',
+    (story) => {
+      story.supplementalPhotos[0].sha256 = '0'.repeat(64);
+    },
+  ],
+  [
+    'duplicate supplemental image',
+    (story) => {
+      story.supplementalPhotos.push({ ...story.supplementalPhotos[3] });
+    },
+  ],
+  [
+    'supplemental image past article end',
+    (story) => {
+      story.supplementalPhotos[0].afterParagraph = story.paragraphs.length;
+    },
+  ],
+  [
+    'out-of-order supplemental images',
+    (story) => {
+      story.supplementalPhotos.reverse();
+    },
+  ],
+  [
+    'update before publication',
+    (story) => {
+      story.updatedDate = '2026-08-01';
+    },
+  ],
+  [
+    'future update',
+    (story) => {
+      story.updatedDate = '2099-01-01';
+    },
+  ],
+];
+for (const [name, mutate] of supplementalCases) {
+  test(`refuses ${name}`, () => {
+    const story = structuredClone(
+      getPublishedStories().find(
+        (item) => item.postId === '7497530598006218752',
+      ),
+    );
+    mutate(story);
+    assert.throws(() => validateStories([story]));
+  });
+}

@@ -70,6 +70,15 @@ move an older post to the top merely because its prose was edited. This voice
 applies to ELARA news adaptations, not the separately archived portfolio project
 pages whose original contents the owner requested preserving.
 
+When the owner asks to include images from an event website, keep them in
+`supplementalPhotos`, not in the original LinkedIn `photos` array. Each needs the
+usual image metadata plus a checked `sourceId` and the observed HTTPS `sourceUrl`.
+Credit them separately and identify portraits or illustrations accurately.
+`sourcePhotoCount` must continue to match only the complete original LinkedIn
+gallery. Both image sets are validated, rendered, and included in search metadata.
+Set `updatedDate` only for an actual editorial revision, preserving the original
+publication date and newest-first ordering by the LinkedIn post date.
+
 Search discovery files are generated on every production build: `sitemap.xml`
 lists the homepage, students, all published articles, and their original images;
 `robots.txt` points crawlers to that sitemap. Preserve each page's canonical URL,

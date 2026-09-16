@@ -63,6 +63,15 @@ export default async function NewsArticle({ params }: Props) {
               <time dateTime={story.publishedDate}>
                 {storyDate(story.publishedDate)}
               </time>
+              {story.updatedDate && (
+                <>
+                  <br />
+                  Updated on ELARA:{' '}
+                  <time dateTime={story.updatedDate}>
+                    {storyDate(story.updatedDate)}
+                  </time>
+                </>
+              )}
             </p>
           </header>
           <div className="story-body">
@@ -87,6 +96,36 @@ export default async function NewsArticle({ params }: Props) {
                     })}
                   </span>
                 </p>
+                {story.supplementalPhotos?.some(
+                  (photo) => photo.afterParagraph === index,
+                ) && (
+                  <div className="story-portraits">
+                    {story.supplementalPhotos
+                      .filter((photo) => photo.afterParagraph === index)
+                      .map((photo) => (
+                        <figure key={photo.src}>
+                          <img
+                            src={sitePath(photo.src)}
+                            alt={photo.alt}
+                            width={photo.width}
+                            height={photo.height}
+                            loading="lazy"
+                          />
+                          <figcaption>
+                            {photo.caption}{' '}
+                            <a
+                              href={photo.sourceUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              aria-label={`Original image: ${photo.alt} (opens in a new tab)`}
+                            >
+                              Photo source
+                            </a>
+                          </figcaption>
+                        </figure>
+                      ))}
+                  </div>
+                )}
                 {story.photos
                   .filter((photo) => photo.afterParagraph === index)
                   .map((photo) => (
@@ -108,8 +147,11 @@ export default async function NewsArticle({ params }: Props) {
               <p>
                 Adapted from Chorong Park&apos;s LinkedIn post.{' '}
                 {story.photos.length > 0
-                  ? 'Images are presented in their original order.'
+                  ? 'LinkedIn images are presented in their original order.'
                   : 'The original post is a link-only share with no attached photos.'}
+                {story.supplementalPhotos?.length
+                  ? ' Additional website images are credited separately and are not part of the original LinkedIn gallery.'
+                  : ''}
               </p>
               <ol>
                 {story.sources.map((source) => (
