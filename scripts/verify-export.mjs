@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
 import { existsSync, readFileSync, statSync } from 'node:fs';
 import path from 'node:path';
 import { getLinkedInWidgetId, linkedinProfileUrl } from '../lib/linkedin.mjs';
@@ -211,7 +212,7 @@ for (const group of publicationGroups) {
 assert.match(home, /href="#news"[^>]*>News<\/a>/, 'News navigation is missing');
 assert.match(
   students,
-  /Current Students \| ELARA Lab/,
+  /Students \| ELARA Lab/,
   'Student page title is missing',
 );
 assert.ok(
@@ -339,42 +340,55 @@ for (const [index, story] of stories.entries()) {
 const studentCards = [
   ...students.matchAll(/<article\b[^>]*>[\s\S]*?<\/article>/g),
 ];
-const currentSection = students
-  .split('id="current-students"')[1]
+const studentSection = students
+  .split('id="student-profiles"')[1]
   ?.split('</section>')[0];
-const pastSection = students
-  .split('id="past-students"')[1]
-  ?.split('</section>')[0];
-assert.ok(
-  currentSection && pastSection,
-  'Both current and past student sections are required',
+assert.ok(studentSection, 'Keep one combined student section');
+assert.doesNotMatch(students, /past-students|Past students|Current students/);
+assert.equal([...studentSection.matchAll(/<article\b/g)].length, 7);
+assert.equal(studentCards.length, 7, 'Expected seven student profiles');
+assert.deepEqual(
+  studentCards.map(([card]) => card.match(/aria-labelledby="([^"]+)"/)[1]),
+  [
+    'hayley-b-lukken',
+    'jevin-pinto',
+    'jana-qaddoura',
+    'levi-abrahams',
+    'noorul-maqbool',
+    'anika-vadlamudi',
+    'henrique-pfeiffer',
+  ],
+  'Preserve the requested profile order',
 );
-assert.equal([...currentSection.matchAll(/<article\b/g)].length, 3);
-assert.equal([...pastSection.matchAll(/<article\b/g)].length, 1);
-assert.ok(
-  !currentSection.includes('jana-qaddoura'),
-  'Jana must not appear among current students',
-);
-assert.ok(
-  pastSection.includes('id="jana-qaddoura"'),
-  'Jana must remain in past students',
-);
-assert.ok(
-  pastSection.includes('/students/jana-qaddoura.png'),
-  "Retain Jana's photograph",
-);
-assert.equal(studentCards.length, 4, 'Expected four student profiles');
-for (const name of [
-  'Anika Vadlamudi',
-  'Noorul Maqbool',
-  'Jana Qaddoura',
-  'Levi Abrahams',
+const hayley = studentCards[0][0];
+assert.ok(hayley.includes('Hayley B. Lukken'));
+assert.ok(hayley.includes('graduate') && hayley.includes('thesis'));
+assert.ok(hayley.includes('ADHD') && hayley.includes('autistic people'));
+const jevin = studentCards[1][0];
+assert.ok(jevin.includes('Jevin Pinto'));
+assert.ok(jevin.includes('/students/jevin-pinto.png'));
+assert.ok(jevin.includes('width="1792" height="2011"'));
+for (const url of [
+  'mailto:jevin.marcus.pinto@gmail.com',
+  'https://www.linkedin.com/in/jevinpinto',
+  'https://jevinmarcuspinto.myportfolio.com/',
 ]) {
-  assert.ok(
-    studentCards.some(([card]) => card.includes(name)),
-    `Missing student: ${name}`,
-  );
+  assert.ok(jevin.includes(`href="${url}"`), `Missing Jevin contact: ${url}`);
 }
+assert.equal(
+  createHash('sha256')
+    .update(readFileSync(path.join(root, 'students/jevin-pinto.png')))
+    .digest('hex'),
+  '6e8f622be07bdea61584d32087a94bbbe87b349aab9b85676de0a226a36bbafa',
+  'Preserve the supplied headshot without alterations',
+);
+assert.ok(studentCards[2][0].includes('/students/jana-qaddoura.png'));
+assert.ok(studentCards[3][0].includes('/students/levi-abrahams.jpg'));
+assert.ok(studentCards[4][0].includes('/students/noorul-maqbool.png'));
+const henrique = studentCards[6][0];
+assert.ok(henrique.includes('Henrique Pfeiffer'));
+assert.ok(henrique.includes('Psychology') && henrique.includes('HCI'));
+assert.ok(henrique.includes('HRI') && henrique.includes('project management'));
 const anika = studentCards.find(([card]) =>
   card.includes('Anika Vadlamudi'),
 )?.[0];

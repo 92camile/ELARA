@@ -616,19 +616,6 @@ footer {
   max-width: 640px;
   margin-bottom: 0;
 }
-.past-students {
-  padding-top: 36px;
-  border-top: 1px solid var(--line);
-}
-.past-students > h2 {
-  font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 750;
-  letter-spacing: -0.03em;
-  margin: 0 0 16px;
-}
-.past-students > .introduction {
-  margin-bottom: 32px;
-}
 .student-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

@@ -65,7 +65,7 @@ export function SiteHeader({
               href={sitePath('/students/')}
               aria-current={page === 'students' ? 'page' : undefined}
             >
-              Current students
+              Students
             </a>
           </nav>
         </div>

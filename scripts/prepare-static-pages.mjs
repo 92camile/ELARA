@@ -35,7 +35,7 @@ const studentsUrl = `${base}/students/`;
 writeFileSync(
   'dist/client/people.html',
   `<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0;url=${studentsUrl}"><title>Current Students | ELARA Lab</title></head><body><p>Our team page has moved to <a href="${studentsUrl}">Current Students</a>.</p></body></html>\n`,
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0;url=${studentsUrl}"><title>Students | ELARA Lab</title></head><body><p>Our team page has moved to <a href="${studentsUrl}">Students</a>.</p></body></html>\n`,
 );
 writeFileSync('dist/client/sitemap.xml', createSitemap(stories, base));
 writeFileSync('dist/client/robots.txt', createRobots(base));

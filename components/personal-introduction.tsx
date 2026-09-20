@@ -312,7 +312,7 @@ export function PersonalIntroduction() {
                 className="button button-secondary"
                 href={sitePath('/students/')}
               >
-                Current students
+                Students
               </a>
             </div>
             <a className="article-link" href={scholarUrl}>

@@ -3,13 +3,13 @@ import type { Metadata } from 'next';
 import { canonicalUrl } from '../../lib/seo.mjs';
 import { SiteFooter, SiteHeader } from '../../components/site-shell';
 import { sitePath } from '../../lib/site';
-import { students, pastStudents, type Student } from '../../lib/students';
+import { students, type Student } from '../../lib/students';
 
 export const metadata: Metadata = {
   alternates: { canonical: canonicalUrl('/students/') },
-  title: 'Current Students | ELARA Lab',
+  title: 'Students | ELARA Lab',
   description:
-    "Meet ELARA Lab's current and past students and explore their research interests in health, aging, and human-centered technology.",
+    "Meet ELARA Lab's students and graduates and explore their research interests in design, health, aging, and human-centered technology.",
 };
 
 export default function StudentsPage() {
@@ -21,35 +21,21 @@ export default function StudentsPage() {
           <div className="container">
             <p className="eyebrow">People at ELARA</p>
             <h1 id="students-title">
-              Current <span className="gradient-text">students</span>
+              <span className="gradient-text">Students</span>
             </h1>
             <p className="introduction">
-              Meet the students contributing to ELARA&apos;s research on health,
-              aging, and human-centered technology.
+              Meet the students and graduates who contribute to ELARA&apos;s
+              research community in design, health, aging, and human-centered
+              technology.
             </p>
-            <a className="profile-link" href="#past-students">
-              Past students
-            </a>
           </div>
         </section>
         <section
           className="container"
-          id="current-students"
-          aria-label="Current student profiles"
+          id="student-profiles"
+          aria-label="Student profiles"
         >
           <StudentProfiles members={students} />
-        </section>
-        <section
-          className="container past-students"
-          id="past-students"
-          aria-labelledby="past-students-title"
-        >
-          <h2 id="past-students-title">Past students</h2>
-          <p className="introduction">
-            Recognizing students who have contributed to ELARA&apos;s research
-            community.
-          </p>
-          <StudentProfiles members={pastStudents} past />
         </section>
       </main>
       <SiteFooter />
@@ -57,15 +43,7 @@ export default function StudentsPage() {
   );
 }
 
-function StudentProfiles({
-  members,
-  past = false,
-}: {
-  members: Student[];
-  past?: boolean;
-}) {
-  const NameHeading = past ? 'h3' : 'h2';
-  const InterestsHeading = past ? 'h4' : 'h3';
+function StudentProfiles({ members }: { members: Student[] }) {
   return (
     <div className="student-grid">
       {members.map((student) => (
@@ -91,20 +69,18 @@ function StudentProfiles({
             />
           </div>
           <div className="student-details">
-            <NameHeading className="student-name" id={student.id}>
+            <h2 className="student-name" id={student.id}>
               {student.name}
-            </NameHeading>
+            </h2>
             <p className="student-role">{student.role}</p>
             <p className="student-bio">{student.bio}</p>
-            <InterestsHeading className="student-interests-title">
-              Research interests
-            </InterestsHeading>
+            <h3 className="student-interests-title">Research interests</h3>
             <ul className="student-interests">
               {student.interests.map((interest) => (
                 <li key={interest}>{interest}</li>
               ))}
             </ul>
-            {(student.email || student.linkedin) && (
+            {(student.email || student.linkedin || student.portfolio) && (
               <div className="student-links">
                 {student.email && (
                   <a
@@ -122,6 +98,16 @@ function StudentProfiles({
                     aria-label={`${student.name} on LinkedIn (opens in a new tab)`}
                   >
                     LinkedIn <span aria-hidden="true">&#8599;</span>
+                  </a>
+                )}
+                {student.portfolio && (
+                  <a
+                    href={student.portfolio}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`${student.name}'s portfolio (opens in a new tab)`}
+                  >
+                    Portfolio <span aria-hidden="true">&#8599;</span>
                   </a>
                 )}
               </div>
