@@ -115,6 +115,9 @@ export function PersonalIntroduction() {
               I connect participatory design, behavioral science, and
               responsible AI to study how technology can fit everyday life.
             </p>
+            <a className="article-link" href={sitePath('/current-projects/')}>
+              Explore current projects <span aria-hidden="true">&#8594;</span>
+            </a>
           </div>
           <div className="research-grid">
             <div className="research-area">

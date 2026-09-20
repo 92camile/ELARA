@@ -11,6 +11,7 @@ for (const route of [
   'lab',
   'publications',
   'projects',
+  'current-projects',
   ...getProjects().map((project) => `projects/${project.slug}`),
   ...stories.map((story) => `news/${story.slug}`),
 ]) {

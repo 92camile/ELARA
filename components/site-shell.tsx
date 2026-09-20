@@ -4,7 +4,14 @@ import { sitePath } from '../lib/site';
 export function SiteHeader({
   page,
 }: {
-  page: 'home' | 'students' | 'news' | 'lab' | 'publications' | 'projects';
+  page:
+    | 'home'
+    | 'students'
+    | 'news'
+    | 'lab'
+    | 'publications'
+    | 'projects'
+    | 'current-projects';
 }) {
   const home = page === 'home' ? '' : sitePath('/');
 
@@ -37,6 +44,12 @@ export function SiteHeader({
               About
             </a>
             <a href={`${home}#research`}>Research</a>
+            <a
+              href={sitePath('/current-projects/')}
+              aria-current={page === 'current-projects' ? 'page' : undefined}
+            >
+              Current projects
+            </a>
             <a
               href={`${home}#industry`}
               aria-current={page === 'projects' ? 'location' : undefined}

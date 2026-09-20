@@ -7,6 +7,11 @@ import { getPublishedStories, getStoryPhotos } from '../lib/stories.mjs';
 import { workshopPhotos } from '../lib/slideshow.mjs';
 import { getProjects } from '../lib/projects.mjs';
 import {
+  currentResearchProjects,
+  proposedResearchProjects,
+  researchProjectGroups,
+} from '../lib/current-projects.mjs';
+import {
   publications,
   publicationGroups,
   publicationsForGroup,
@@ -23,6 +28,10 @@ const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
 const home = readFileSync(path.join(root, 'index.html'), 'utf8');
 const students = readFileSync(path.join(root, 'students/index.html'), 'utf8');
 const lab = readFileSync(path.join(root, 'lab/index.html'), 'utf8');
+const currentProjectsPage = readFileSync(
+  path.join(root, 'current-projects/index.html'),
+  'utf8',
+);
 const publicationPage = readFileSync(
   path.join(root, 'publications/index.html'),
   'utf8',
@@ -130,6 +139,50 @@ function htmlEscape(value) {
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#x27;');
+}
+assert.match(
+  currentProjectsPage,
+  /Current Projects \| Chorong Park &amp; ELARA Lab/,
+);
+assert.equal([...currentProjectsPage.matchAll(/<h1\b/g)].length, 1);
+assert.equal(
+  [...currentProjectsPage.matchAll(/class="current-project-card"/g)].length,
+  currentResearchProjects.length,
+);
+assert.equal(
+  [...currentProjectsPage.matchAll(/class="proposed-project"/g)].length,
+  proposedResearchProjects.length,
+);
+assert.match(currentProjectsPage, /<details class="proposed-projects">/);
+assert.match(currentProjectsPage, /not funded awards or completed/);
+assert.doesNotMatch(
+  currentProjectsPage,
+  /11573805|2643368|735765|Insert Project Scope|docs\.google\.com\/document/,
+);
+for (const html of [home, lab, students, publicationPage, directoryPage]) {
+  assert.ok(
+    html.includes(`href="${base}/current-projects/"`),
+    'Current projects must be discoverable from site navigation',
+  );
+}
+for (const group of researchProjectGroups) {
+  assert.ok(currentProjectsPage.includes(`id="${group.id}"`));
+  assert.ok(currentProjectsPage.includes(`href="#${group.id}"`));
+}
+for (const project of [
+  ...currentResearchProjects,
+  ...proposedResearchProjects,
+]) {
+  const card = currentProjectsPage.match(
+    new RegExp(`<article[^>]*id="${project.id}"[^>]*>([\\s\\S]*?)</article>`),
+  )?.[1];
+  assert.ok(card, `Missing research project: ${project.id}`);
+  for (const field of ['title', 'summary', 'stage', 'role']) {
+    assert.ok(
+      card.includes(htmlEscape(project[field])),
+      `Missing ${field} for ${project.id}`,
+    );
+  }
 }
 for (const [index, project] of projects.entries()) {
   const [, html] = projectPages[index];
@@ -402,6 +455,7 @@ for (const [route, html] of [
   ['/lab/', lab],
   ['/publications/', publicationPage],
   ['/projects/', directoryPage],
+  ['/current-projects/', currentProjectsPage],
   ...storyPages,
   ...projectPages,
 ]) {
