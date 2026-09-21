@@ -12,6 +12,7 @@ for (const route of [
   'publications',
   'projects',
   'current-projects',
+  'volunteer',
   ...getProjects().map((project) => `projects/${project.slug}`),
   ...stories.map((story) => `news/${story.slug}`),
 ]) {

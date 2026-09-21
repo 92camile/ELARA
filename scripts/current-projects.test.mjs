@@ -38,16 +38,12 @@ test('CV-based research coverage is separate from proposed work and historical p
     currentResearchProjects.map((p) => p.id),
     [
       'pupper-study',
-      'dogvest',
-      'robot-dog-navigation',
-      'touch-mediated-assistance',
+      'robot-accessory',
       'moflin-cross-cultural-study',
       'autonomous-living-robotics',
-      'technology-difficulties-llm',
       'creative-ai-provenance',
       'immersive-collaboration-joy',
       'ai-glasses',
-      'earbud-eeg-audio',
       'robotics-in-nursing',
       'alzheimers-community-engagement',
       'cross-cultural-care',
@@ -76,11 +72,7 @@ test('CV-based research coverage is separate from proposed work and historical p
   );
 });
 
-test('early-stage systems and pending proposals do not imply clinical validation or awarded funding', () => {
-  assert.match(
-    currentResearchProjects.find((p) => p.id === 'earbud-eeg-audio').summary,
-    /effectiveness has not been established/,
-  );
+test('pending proposals do not imply awarded funding or finalized partnerships', () => {
   assert.match(
     currentResearchProjects.find((p) => p.id === 'autonomous-living-robotics')
       .summary,
@@ -90,5 +82,21 @@ test('early-stage systems and pending proposals do not imply clinical validation
     proposedResearchProjects.find((p) => p.id === 'humanoid-assistive-robotics')
       .summary,
     /not a finalized partnership/,
+  );
+});
+
+test('confidential research stays within the owner-approved public statement', () => {
+  assert.deepEqual(
+    currentResearchProjects.find((p) => p.id === 'robot-accessory'),
+    {
+      id: 'robot-accessory',
+      group: 'companion-robotics',
+      title: 'Robot accessory for emotional well-being & comfort',
+      stage: 'Confidential research',
+      role: 'Research project lead',
+      collaborators: 'ELARA Lab',
+      summary:
+        'Developing a robot accessory for emotional well-being and comfort, informed by clinical data.',
+    },
   );
 });

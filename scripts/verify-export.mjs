@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
-import { existsSync, readFileSync, statSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
 import path from 'node:path';
 import { getLinkedInWidgetId, linkedinProfileUrl } from '../lib/linkedin.mjs';
 import { getPublishedStories, getStoryPhotos } from '../lib/stories.mjs';
@@ -28,6 +28,10 @@ const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
 const home = readFileSync(path.join(root, 'index.html'), 'utf8');
 const students = readFileSync(path.join(root, 'students/index.html'), 'utf8');
 const lab = readFileSync(path.join(root, 'lab/index.html'), 'utf8');
+const volunteerPage = readFileSync(
+  path.join(root, 'volunteer/index.html'),
+  'utf8',
+);
 const currentProjectsPage = readFileSync(
   path.join(root, 'current-projects/index.html'),
   'utf8',
@@ -155,6 +159,46 @@ assert.equal(
 );
 assert.match(currentProjectsPage, /<details class="proposed-projects">/);
 assert.match(currentProjectsPage, /not funded awards or completed/);
+assert.equal(currentResearchProjects.length, 12);
+assert.match(currentProjectsPage, /Confidential research/);
+assert.match(currentProjectsPage, /informed by clinical data/);
+assert.match(volunteerPage, /Volunteer \| Chorong Park &amp; ELARA Lab/);
+assert.equal([...volunteerPage.matchAll(/<h1\b/g)].length, 1);
+for (const text of [
+  'Mamie George Community Center',
+  'Monthly volunteering',
+  'robot-engagement activities',
+  'Dr. Rua Williams',
+  'West Lafayette, Indiana',
+  'honorary external advisor',
+  'ongoing joint study',
+]) {
+  assert.ok(
+    volunteerPage.includes(text),
+    `Missing volunteer information: ${text}`,
+  );
+}
+assert.ok(
+  volunteerPage.includes(
+    'href="mailto:cpark14@uh.edu?subject=ELARA%20volunteer%20interest"',
+  ),
+);
+assert.ok(volunteerPage.includes(`src="${base}${workshopPhotos[0].src}"`));
+for (const html of [home, lab, currentProjectsPage, students]) {
+  assert.ok(
+    html.includes(`href="${base}/volunteer/"`),
+    'Volunteer page must be linked from the site',
+  );
+}
+// Inspect all exported text, including RSC and JS, not just visible page copy.
+for (const file of readdirSync(root, { recursive: true })) {
+  if (!/\.(?:html|rsc|js|json|txt|xml|map)$/i.test(file)) continue;
+  assert.doesNotMatch(
+    readFileSync(path.join(root, file), 'utf8'),
+    /DogVest|Qin\s+Lin|Debaleena|Jeff\s+Feng|robot-dog-navigation|touch-mediated-assistance|technology-difficulties-llm|earbud-eeg-audio/i,
+    `Withdrawn project content remains in export: ${file}`,
+  );
+}
 assert.doesNotMatch(
   currentProjectsPage,
   /11573805|2643368|735765|Insert Project Scope|docs\.google\.com\/document/,
@@ -456,6 +500,7 @@ for (const [route, html] of [
   ['/publications/', publicationPage],
   ['/projects/', directoryPage],
   ['/current-projects/', currentProjectsPage],
+  ['/volunteer/', volunteerPage],
   ...storyPages,
   ...projectPages,
 ]) {

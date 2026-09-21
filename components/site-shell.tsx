@@ -11,7 +11,8 @@ export function SiteHeader({
     | 'lab'
     | 'publications'
     | 'projects'
-    | 'current-projects';
+    | 'current-projects'
+    | 'volunteer';
 }) {
   const home = page === 'home' ? '' : sitePath('/');
 
@@ -79,6 +80,12 @@ export function SiteHeader({
               aria-current={page === 'students' ? 'page' : undefined}
             >
               Students
+            </a>
+            <a
+              href={sitePath('/volunteer/')}
+              aria-current={page === 'volunteer' ? 'page' : undefined}
+            >
+              Volunteer
             </a>
           </nav>
         </div>

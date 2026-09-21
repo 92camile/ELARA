@@ -1171,6 +1171,76 @@ footer {
     radial-gradient(ellipse at 0 0, var(--soft-red), transparent 60%),
     radial-gradient(ellipse at 100% 100%, var(--soft-purple), transparent 60%);
 }
+.volunteer-hero {
+  padding-block: 64px;
+  background: linear-gradient(
+    120deg,
+    var(--soft-red),
+    white 55%,
+    var(--soft-purple)
+  );
+  border-bottom: 1px solid var(--line);
+}
+.volunteer-hero h1 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: 400;
+}
+.volunteer-photo {
+  margin: 0;
+  padding: 12px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}
+.volunteer-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.volunteer-photo figcaption {
+  margin: 12px 4px 2px;
+  color: var(--muted);
+  font-size: 0.8125rem;
+}
+.volunteer-programs {
+  padding-block: 64px;
+}
+.volunteer-programs .current-project-grid {
+  margin-top: 32px;
+}
+.volunteer-activities {
+  margin: auto 0 0;
+  padding-left: 20px;
+  list-style: disc;
+  color: var(--muted);
+}
+.volunteer-activities li + li {
+  margin-top: 8px;
+}
+.volunteer-advisor {
+  margin: auto 0 0;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+.volunteer-advisor strong {
+  color: var(--purple-dark);
+}
+.volunteer-contact {
+  background: var(--panel);
+  border-block: 1px solid var(--line);
+}
+.volunteer-email {
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+@media (max-width: 720px) {
+  .volunteer-hero,
+  .volunteer-programs {
+    padding-block: 40px;
+  }
+}
 .current-projects-intro h1 {
   font-family: Georgia, 'Times New Roman', serif;
   font-weight: 400;

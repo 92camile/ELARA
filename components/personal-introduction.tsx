@@ -317,6 +317,12 @@ export function PersonalIntroduction() {
               >
                 Students
               </a>
+              <a
+                className="button button-secondary"
+                href={sitePath('/volunteer/')}
+              >
+                Volunteer
+              </a>
             </div>
             <a className="article-link" href={scholarUrl}>
               Find my work on Google Scholar{' '}

@@ -158,6 +158,9 @@ export default function CurrentProjectsPage() {
               clinical effectiveness.
             </p>
             <div className="hero-actions">
+              <a className="profile-link" href={sitePath('/volunteer/')}>
+                Community volunteering <span aria-hidden="true">&#8594;</span>
+              </a>
               <a className="profile-link" href={sitePath('/publications/')}>
                 Read publications <span aria-hidden="true">&#8594;</span>
               </a>

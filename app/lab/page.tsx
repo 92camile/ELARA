@@ -98,6 +98,9 @@ export default function LabPage() {
                 support everyday life while keeping people in control.
               </p>
               <div className="hero-actions">
+                <a className="profile-link" href={sitePath('/volunteer/')}>
+                  Volunteer with ELARA <span aria-hidden="true">&#8594;</span>
+                </a>
                 <a
                   className="profile-link"
                   href={sitePath('/current-projects/')}
