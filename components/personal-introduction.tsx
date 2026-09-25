@@ -2,6 +2,7 @@
 import { collaborations, profileSources, scholarUrl } from '../lib/profile';
 import { sitePath } from '../lib/site';
 import { WorkshopSlideshow } from './workshop-slideshow';
+import { FeaturedStory } from './featured-story';
 
 export function PersonalIntroduction() {
   return (
@@ -47,19 +48,7 @@ export function PersonalIntroduction() {
               </a>
             </div>
           </div>
-          <figure className="personal-portrait">
-            <img
-              src={sitePath('/images/profile/chorong-park.jpeg')}
-              alt="Chorong Park"
-              width={1024}
-              height={1024}
-              fetchPriority="high"
-            />
-            <figcaption>
-              <span>Human-centered AI &amp; design</span>
-              <span>Houston, Texas</span>
-            </figcaption>
-          </figure>
+          <FeaturedStory />
         </div>
       </section>
 

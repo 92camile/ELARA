@@ -6,6 +6,7 @@ import { getLinkedInWidgetId, linkedinProfileUrl } from '../lib/linkedin.mjs';
 import { getPublishedStories, getStoryPhotos } from '../lib/stories.mjs';
 import { workshopPhotos } from '../lib/slideshow.mjs';
 import { getProjects } from '../lib/projects.mjs';
+import { featuredCoverage, socialProfiles } from '../lib/site-media.mjs';
 import {
   currentResearchProjects,
   proposedResearchProjects,
@@ -129,7 +130,20 @@ assert.ok(
     home.includes('id="research"') &&
     home.includes('id="industry"'),
 );
-assert.ok(home.includes(`src="${base}/images/profile/chorong-park.jpeg"`));
+assert.doesNotMatch(home, /class="personal-portrait"/);
+assert.ok(home.includes('id="featured-story-title"'));
+assert.ok(home.includes(htmlEscape(featuredCoverage.title)));
+assert.ok(home.includes(htmlEscape(featuredCoverage.summary)));
+assert.ok(home.includes('aria-label="Play the KHOU 11 featured story"'));
+assert.ok(home.includes(`src="${featuredCoverage.poster}"`));
+assert.doesNotMatch(
+  home,
+  /<iframe\b/,
+  'Video must load only after a visitor clicks play',
+);
+for (const coverage of [featuredCoverage, ...featuredCoverage.related]) {
+  assert.ok(home.includes(`href="${htmlEscape(coverage.url)}"`));
+}
 assert.ok(home.includes('Microsoft') && home.includes('PathAI'));
 assert.doesNotMatch(
   home,
@@ -504,6 +518,18 @@ for (const [route, html] of [
   ...storyPages,
   ...projectPages,
 ]) {
+  const socialNav = html.match(
+    /<nav class="social-links"[^>]*>([\s\S]*?)<\/nav>/,
+  )?.[1];
+  assert.ok(socialNav, `Missing separate social navigation: ${route}`);
+  for (const profile of socialProfiles) {
+    assert.ok(socialNav.includes(`href="${profile.url}"`));
+    assert.ok(
+      socialNav.includes(
+        `aria-label="Chorong Park on ${profile.label} (opens in a new tab)"`,
+      ),
+    );
+  }
   const canonicals = [...html.matchAll(/<link\b[^>]*rel="canonical"[^>]*>/g)];
   assert.equal(
     canonicals.length,
