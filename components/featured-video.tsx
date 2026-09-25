@@ -1,8 +1,9 @@
 'use client';
 
-/* oxlint-disable next/no-img-element -- YouTube supplies this preview image for its original video. */
+/* oxlint-disable next/no-img-element -- Serve the captured interview still directly in the static export. */
 import { useEffect, useRef, useState } from 'react';
 import { featuredCoverage } from '../lib/site-media.mjs';
+import { sitePath } from '../lib/site';
 
 export function FeaturedVideo() {
   const [playing, setPlaying] = useState(false);
@@ -39,10 +40,10 @@ export function FeaturedVideo() {
             }}
           >
             <img
-              src={featuredCoverage.poster}
-              alt=""
-              width={480}
-              height={360}
+              src={sitePath(featuredCoverage.poster)}
+              alt={featuredCoverage.posterAlt}
+              width={featuredCoverage.posterWidth}
+              height={featuredCoverage.posterHeight}
               fetchPriority="high"
             />
             <span className="featured-play-icon" aria-hidden="true">

@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 import test from 'node:test';
 import { featuredCoverage, socialProfiles } from '../lib/site-media.mjs';
 
@@ -8,6 +9,23 @@ test('social profiles use the owner-supplied handles', () => {
     ['https://www.instagram.com/drchorongpark/', 'https://x.com/drchorongpark'],
   );
   assert.equal(new Set(socialProfiles.map(({ id }) => id)).size, 2);
+});
+
+test('the homepage preview uses the local owner-requested interview still', () => {
+  assert.equal(
+    featuredCoverage.poster,
+    '/images/featured/khou-chorong-park-1m16s.jpg',
+  );
+  const image = readFileSync(
+    new URL(`../public${featuredCoverage.poster}`, import.meta.url),
+  );
+  assert.equal(image.readUInt16BE(0), 0xffd8, 'Preview must be a JPEG');
+  assert.ok(image.length > 10000, 'Preview must contain the captured frame');
+  assert.equal(
+    featuredCoverage.posterWidth / featuredCoverage.posterHeight,
+    16 / 9,
+  );
+  assert.match(featuredCoverage.posterAlt, /Chorong Park.*KHOU 11/);
 });
 
 test('the feature preserves all four supplied videos and correct publishers', () => {

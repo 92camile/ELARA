@@ -135,7 +135,18 @@ assert.ok(home.includes('id="featured-story-title"'));
 assert.ok(home.includes(htmlEscape(featuredCoverage.title)));
 assert.ok(home.includes(htmlEscape(featuredCoverage.summary)));
 assert.ok(home.includes('aria-label="Play the KHOU 11 featured story"'));
-assert.ok(home.includes(`src="${featuredCoverage.poster}"`));
+assert.ok(home.includes(`src="${base}${featuredCoverage.poster}"`));
+assert.ok(home.includes(`alt="${htmlEscape(featuredCoverage.posterAlt)}"`));
+assert.ok(existsSync(path.join(root, featuredCoverage.poster)));
+assert.equal(
+  createHash('sha256')
+    .update(readFileSync(path.join(root, featuredCoverage.poster)))
+    .digest('hex'),
+  createHash('sha256')
+    .update(readFileSync(path.join('public', featuredCoverage.poster)))
+    .digest('hex'),
+  'Exported featured preview must preserve the selected interview still',
+);
 assert.doesNotMatch(
   home,
   /<iframe\b/,
