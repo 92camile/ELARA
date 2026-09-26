@@ -7,6 +7,7 @@ import { sitePath } from '../lib/site';
 import { SiteHeader, SiteFooter } from '../components/site-shell';
 import { LinkedInFeed } from '../components/linkedin-feed';
 import { PersonalIntroduction } from '../components/personal-introduction';
+import { AcademicNetwork } from '../components/academic-network';
 import { getLinkedInWidgetId, linkedinProfileUrl } from '../lib/linkedin.mjs';
 
 const linkedInWidgetId = getLinkedInWidgetId(
@@ -150,6 +151,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <AcademicNetwork />
       </main>
 
       <SiteFooter />

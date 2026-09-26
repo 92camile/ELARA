@@ -1,0 +1,3 @@
+# Preserve downloaded and extracted logo bytes on every platform.
+*.svg -text
+*.png -text

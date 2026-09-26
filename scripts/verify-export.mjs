@@ -7,6 +7,7 @@ import { getPublishedStories, getStoryPhotos } from '../lib/stories.mjs';
 import { workshopPhotos } from '../lib/slideshow.mjs';
 import { getProjects } from '../lib/projects.mjs';
 import { featuredCoverage, socialProfiles } from '../lib/site-media.mjs';
+import { academicNetwork } from '../lib/academic-network.mjs';
 import {
   currentResearchProjects,
   proposedResearchProjects,
@@ -156,6 +157,27 @@ for (const coverage of [featuredCoverage, ...featuredCoverage.related]) {
   assert.ok(home.includes(`href="${htmlEscape(coverage.url)}"`));
 }
 assert.ok(home.includes('Microsoft') && home.includes('PathAI'));
+const academicSection = home.match(
+  /<section class="academic-network"[^>]*>([\s\S]*?)<\/section>/,
+)?.[1];
+assert.ok(academicSection, 'Homepage needs its academic network strip');
+assert.equal(
+  [...academicSection.matchAll(/<li\b/g)].length,
+  academicNetwork.length,
+);
+assert.ok(home.indexOf('id="academic-network"') > home.indexOf('id="news"'));
+assert.ok(home.indexOf('id="academic-network"') < home.indexOf('<footer'));
+assert.doesNotMatch(students + lab, /id="academic-network"/);
+for (const school of academicNetwork) {
+  assert.ok(academicSection.includes(`href="${school.url}"`));
+  assert.ok(academicSection.includes(htmlEscape(school.relationship)));
+  assert.ok(academicSection.includes(`src="${base}${school.logo}"`));
+  assert.deepEqual(
+    readFileSync(path.join(root, school.logo)),
+    readFileSync(path.join('public', school.logo)),
+    `Export must preserve ${school.name}'s original artwork`,
+  );
+}
 assert.doesNotMatch(
   home,
   /href="https:\/\/cpark\.squarespace\.com/,

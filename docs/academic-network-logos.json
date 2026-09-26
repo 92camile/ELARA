@@ -1,0 +1,131 @@
+{
+  "retrievedOn": "2026-09-26",
+  "logos": [
+    {
+      "id": "purdue",
+      "file": "purdue.svg",
+      "source": "https://www.purdue.edu/home/wp-content/themes/purdue-home-theme-beta/imgs/PU-H-light.svg",
+      "width": 248,
+      "height": 45,
+      "bytes": 6630,
+      "sha256": "5443d07a2f553b5ece70395262d6f485e4b531297cafa4d906dbedb1dff548fd"
+    },
+    {
+      "id": "stanford",
+      "file": "stanford.png",
+      "source": "https://identity.stanford.edu/wp-content/uploads/sites/3/2020/06/wordmark-nospace-red.png",
+      "width": 426,
+      "height": 91,
+      "bytes": 8021,
+      "sha256": "dfa520f00ffdbf1a17ed22c5d8011e0f4da7611764416028d527a9b4cb529a82"
+    },
+    {
+      "id": "kth",
+      "file": "kth.svg",
+      "source": "https://app.kth.se/style/assets/logotype/logotype-blue.svg",
+      "width": 502,
+      "height": 502,
+      "bytes": 56526,
+      "sha256": "b6f7053c87c67528d6337124512b97ccae90093aa6e0f469b58fc26875aa29d3"
+    },
+    {
+      "id": "snu",
+      "file": "snu.png",
+      "source": "https://en.snu.ac.kr/_skin/eng/layout/image/snu-logo-blue_lg.png",
+      "width": 156,
+      "height": 66,
+      "bytes": 7880,
+      "sha256": "a6d475d70d957f787ddabdc20343432cd478964f4d7604d6422c54692802ef61"
+    },
+    {
+      "id": "ntu",
+      "file": "ntu.svg",
+      "source": "https://www.ntu.edu.tw/images/icon-logo-header.svg",
+      "width": 442,
+      "height": 69,
+      "bytes": 107402,
+      "sha256": "dd125bdc9be5e9df5d53d526c2a0450774344ae6258c228000b93750e464d71f"
+    },
+    {
+      "id": "musashino",
+      "file": "musashino.png",
+      "source": "https://www.musashino-u.ac.jp/assets/img/common/header_logo.png",
+      "width": 400,
+      "height": 300,
+      "bytes": 37474,
+      "sha256": "425d0d8ee85b8c51b0c65bd74c4737cc5d1dddccf5c875c0f49d3818271178c8"
+    },
+    {
+      "id": "uncw",
+      "file": "uncw.svg",
+      "source": "https://www.uncw.edu/_global/img/uncw-logo-gold_222x222.svg",
+      "width": 222,
+      "height": 222,
+      "bytes": 22393,
+      "sha256": "241f6001474f392947aa07ecc59ee2d3f376f73f1343650ef7d2c4e719f99739"
+    },
+    {
+      "id": "okstate",
+      "file": "okstate.svg",
+      "source": "https://digitalassets.okstate.edu/m/5edd2b756cf31c9c/original/Logo-Web-Ready.svg",
+      "width": 164,
+      "height": 85,
+      "bytes": 2023,
+      "sha256": "5a29c747551d690e24931f7049547ab7d23748675def53286190f6ee91462167"
+    },
+    {
+      "id": "uzh",
+      "file": "uzh.svg",
+      "source": "https://www.uzh.ch/docroot/logos/uzh_logo_d_pos.svg",
+      "width": 154,
+      "height": 53,
+      "bytes": 38530,
+      "sha256": "fe827a277526d470c7d15fb726eab26cbf18eb7ccaa6e8968ca0dc576c254390"
+    },
+    {
+      "id": "hawaii",
+      "file": "hawaii.png",
+      "source": "https://manoa.hawaii.edu/wp/wp-content/uploads/2022/09/uhm-nameplatesub@3x.png",
+      "width": 2237,
+      "height": 244,
+      "bytes": 34346,
+      "sha256": "3363df1b354012365fc80bba828035df4b42163decb55e3ae145c92d46f59c83"
+    },
+    {
+      "id": "tu-wien",
+      "file": "tu-wien.svg",
+      "source": "https://www.tuwien.at/en/",
+      "width": 97,
+      "height": 97,
+      "bytes": 1439,
+      "sha256": "589467e114d1897f58cdb35338e300c388210087913312101fe026c1c4c81726"
+    },
+    {
+      "id": "eth",
+      "file": "eth.svg",
+      "source": "https://ethz.ch/en.html",
+      "width": 120,
+      "height": 20,
+      "bytes": 3778,
+      "sha256": "d20294cb8e5eb6433b9bdae2a01b7e7c0b310d26ff67686531fa5187f633530d"
+    },
+    {
+      "id": "st-gallen",
+      "file": "st-gallen.svg",
+      "source": "https://www.unisg.ch/en/",
+      "width": 189,
+      "height": 40,
+      "bytes": 11328,
+      "sha256": "175b056f55070513f45480dc43e43a90918b6086140a6c7c8331202b7f36f9ac"
+    },
+    {
+      "id": "twu",
+      "file": "twu.svg",
+      "source": "https://twu.edu/media/img/svgstore.svg#twu_logo",
+      "width": 263,
+      "height": 32,
+      "bytes": 5439,
+      "sha256": "4e46b4f9384e92eb1b8a7501d9a4b664943d0b9a9ac36efada22e5ee7226e9d1"
+    }
+  ]
+}
