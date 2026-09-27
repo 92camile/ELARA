@@ -21,15 +21,15 @@ export function PersonalIntroduction() {
               Chorong Park<span className="name-degree">Ph.D.</span>
             </h1>
             <p className="personal-statement">
-              Technology that supports
+              Designing robots and interventions
               <br />
-              <span className="gradient-text">people on their terms.</span>
+              <span className="gradient-text">for healthier aging.</span>
             </p>
             <p className="introduction">
-              I turn intimidating technology into everyday support for aging,
-              caregiving, and healthy living. My research brings human-centered
-              design to AI, robotics, and digital health, with autonomy,
-              relationships, and joy at the heart of the work.
+              I design robots and technology-based interventions that support
+              positive behavior change, well-being, and independence as people
+              age. My work brings together AI, robotics, immersive experiences,
+              and digital health, shaped by the people who use them.
             </p>
             <p className="appointment">
               Assistant Professor &amp; Presidential Frontier Faculty
@@ -291,10 +291,17 @@ export function PersonalIntroduction() {
           <div className="section-heading">
             <p className="eyebrow">The lab I lead</p>
             <h2 id="lab-feature-title">ELARA Lab</h2>
-            <p>
-              My research comes to life through ELARA: a collaborative home for
-              autonomy-preserving embodied AI, participatory research, and
-              design for aging and care.
+            <p className="lab-goal">
+              ELARA Lab develops and evaluates technologies that help older
+              adults and people living with chronic conditions build healthy
+              routines, stay connected, and maintain control over their lives.
+              We combine participatory design and behavioral science to
+              translate emerging technologies into meaningful, evidence-informed
+              support.
+            </p>
+            <p className="innovation-note">
+              We also encourage innovation and entrepreneurship to help
+              promising research become practical, accessible solutions.
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href={sitePath('/lab/')}>

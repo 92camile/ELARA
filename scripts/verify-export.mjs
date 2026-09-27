@@ -126,6 +126,36 @@ assert.match(
   /autonomy-preserving embodied AI/,
   'ELARA mission is missing',
 );
+const homepageText = home.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ');
+assert.match(homepageText, /Researcher\. Designer\. Community collaborator\./);
+assert.match(
+  homepageText,
+  /Designing robots and interventions for healthier aging\./,
+);
+assert.match(
+  homepageText,
+  /positive behavior change, well-being, and independence/,
+);
+assert.match(
+  homepageText,
+  /AI, robotics, immersive experiences, and digital health/,
+);
+assert.doesNotMatch(home, /I turn intimidating technology/);
+const labGoal = home.match(/<p class="lab-goal">([\s\S]*?)<\/p>/)?.[1];
+const innovationNote = home.match(
+  /<p class="innovation-note">([\s\S]*?)<\/p>/,
+)?.[1];
+assert.ok(
+  labGoal && innovationNote,
+  'Homepage needs its health-first lab goal and supporting note',
+);
+assert.match(
+  labGoal,
+  /build healthy routines, stay connected, and maintain control/,
+);
+assert.match(labGoal, /participatory design and behavioral science/);
+assert.match(innovationNote, /innovation and entrepreneurship/);
+assert.ok(home.indexOf(labGoal) < home.indexOf(innovationNote));
 assert.ok(
   home.includes('id="about"') &&
     home.includes('id="research"') &&

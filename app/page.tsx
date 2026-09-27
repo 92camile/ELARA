@@ -15,6 +15,8 @@ const linkedInWidgetId = getLinkedInWidgetId(
 );
 
 export const metadata: Metadata = {
+  description:
+    'Chorong Park designs robots and technology-based interventions that support positive behavior change, healthier aging, well-being, and independence.',
   alternates: { canonical: canonicalUrl('/') },
 };
 

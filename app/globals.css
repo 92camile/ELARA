@@ -1155,6 +1155,16 @@ footer {
   background: linear-gradient(135deg, white, var(--soft-purple));
   padding-block: 72px;
 }
+.lab-feature .lab-goal {
+  margin-block: 20px 0;
+  font-size: 1.0625rem;
+}
+.lab-feature .innovation-note {
+  margin-block: 16px 0;
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
 .lab-feature .hero-actions {
   margin-top: 28px;
 }
