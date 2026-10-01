@@ -6,7 +6,9 @@ import { sitePath } from '../../lib/site';
 import { workshopPhotos } from '../../lib/slideshow.mjs';
 
 const description =
-  'Volunteer with ELARA through monthly technology support and robot engagement at Mamie George Community Center, and joint senior tech-support activities with Purdue University.';
+  'Volunteer with ELARA at Mamie George Community Center and meet the Purdue student team continuing technology support at Tippecanoe Senior Center, an external research site.';
+
+const purdueVolunteers = ['Joy Zhang', 'Minjum Kim', 'Ryan Jo', 'David Shultz'];
 
 export const metadata: Metadata = {
   title: 'Volunteer | Chorong Park & ELARA Lab',
@@ -122,7 +124,61 @@ export default function VolunteerPage() {
                 tech-support group, supporting this community-centered
                 collaboration.
               </p>
+              <a className="article-link" href="#purdue-volunteer-team">
+                Meet the Purdue volunteer team{' '}
+                <span aria-hidden="true">&#8594;</span>
+              </a>
             </article>
+          </div>
+        </section>
+
+        <section
+          className="volunteer-team"
+          id="purdue-volunteer-team"
+          aria-labelledby="purdue-volunteer-team-title"
+        >
+          <div className="container volunteer-team-layout">
+            <div className="volunteer-team-copy">
+              <div className="section-heading">
+                <p className="eyebrow">Cross-state partnership</p>
+                <h2 id="purdue-volunteer-team-title">Purdue Volunteer Team</h2>
+              </div>
+              <p>
+                This Purdue student volunteer team carries forward the volunteer
+                work Chorong Park began at Tippecanoe Senior Center in
+                Lafayette, Indiana. Connecting our work in Texas and Indiana,
+                the group makes weekly and biweekly visits to help older adults
+                with everyday technology.
+              </p>
+              <p className="volunteer-research-site">
+                <strong>External research site</strong>
+                Tippecanoe Senior Center is an external research site for
+                ELARA&apos;s community-engaged work, connecting ongoing
+                technology support with research on older adults&apos;
+                experiences.
+              </p>
+              <a
+                className="article-link"
+                href="https://tippseniorservices.org/senior-center"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                About Tippecanoe Senior Center{' '}
+                <span aria-hidden="true">&#8599;</span>
+              </a>
+            </div>
+            <ul
+              className="volunteer-team-roster"
+              aria-label="Purdue student volunteers"
+            >
+              {purdueVolunteers.map((name) => (
+                <li key={name}>
+                  <h3>{name}</h3>
+                  <p>Purdue student volunteer</p>
+                  <span>Cross-state partnership</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </section>
 

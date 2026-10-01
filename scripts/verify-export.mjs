@@ -261,6 +261,30 @@ assert.ok(
   ),
 );
 assert.ok(volunteerPage.includes(`src="${base}${workshopPhotos[0].src}"`));
+const purdueTeam = volunteerPage.match(
+  /<section[^>]*id="purdue-volunteer-team"[^>]*>([\s\S]*?)<\/section>/,
+)?.[1];
+assert.ok(purdueTeam, 'Purdue volunteers need a separate section');
+assert.match(purdueTeam, /aria-label="Purdue student volunteers"/);
+assert.deepEqual(
+  [...purdueTeam.matchAll(/<h3>([^<]+)<\/h3>/g)].map((match) => match[1]),
+  ['Joy Zhang', 'Minjum Kim', 'Ryan Jo', 'David Shultz'],
+  'Preserve the requested volunteer names and order',
+);
+for (const text of [
+  'Purdue Volunteer Team',
+  'Cross-state partnership',
+  'Chorong Park began at Tippecanoe Senior Center',
+  'Lafayette, Indiana',
+  'weekly and biweekly visits',
+  'External research site',
+]) {
+  assert.ok(purdueTeam.includes(text), `Missing Purdue team detail: ${text}`);
+}
+assert.ok(volunteerPage.includes('href="#purdue-volunteer-team"'));
+assert.ok(
+  purdueTeam.includes('href="https://tippseniorservices.org/senior-center"'),
+);
 for (const html of [home, lab, currentProjectsPage, students]) {
   assert.ok(
     html.includes(`href="${base}/volunteer/"`),
