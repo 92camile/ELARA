@@ -37,6 +37,7 @@ test('CV-based research coverage is separate from proposed work and historical p
   assert.deepEqual(
     currentResearchProjects.map((p) => p.id),
     [
+      'elphi',
       'pupper-study',
       'robot-accessory',
       'moflin-cross-cultural-study',

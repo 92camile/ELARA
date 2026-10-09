@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { SiteFooter, SiteHeader } from '../../components/site-shell';
+import { ElphiFeature } from '../../components/elphi-feature';
 import {
   currentResearchProjects,
   proposedResearchProjects,
@@ -50,10 +51,12 @@ export default function CurrentProjectsPage() {
             </p>
             <p className="current-projects-context">
               Research collaborations, community initiatives, and emerging
-              directions from my CV. Each entry identifies my role and the
-              project&apos;s stage; proposed work is listed separately below.
+              directions from my CV and recent project updates. Each entry
+              identifies my role and the project&apos;s stage; proposed work is
+              listed separately below.
             </p>
             <nav className="research-jump-links" aria-label="Project topics">
+              <a href="#elphi">Featured: Elphi</a>
               {researchProjectGroups.map((group) => (
                 <a key={group.id} href={`#${group.id}`}>
                   {group.title}
@@ -65,6 +68,7 @@ export default function CurrentProjectsPage() {
         </section>
 
         <div className="container current-projects-body">
+          <ElphiFeature context="projects" />
           {researchProjectGroups.map((group, groupIndex) => (
             <section
               className="current-project-group"
@@ -83,7 +87,10 @@ export default function CurrentProjectsPage() {
               </header>
               <div className="current-project-grid">
                 {currentResearchProjects
-                  .filter((project) => project.group === group.id)
+                  .filter(
+                    (project) =>
+                      project.group === group.id && project.id !== 'elphi',
+                  )
                   .map((project) => (
                     <article
                       className="current-project-card"
@@ -152,10 +159,11 @@ export default function CurrentProjectsPage() {
             aria-label="About this project list"
           >
             <p>
-              Summarized from Chorong Park&apos;s CV, reviewed{' '}
-              <time dateTime={projectsReviewedOn}>September 20, 2026</time>.
-              Research aims and prototype concepts are not claims of established
-              clinical effectiveness.
+              CV-based entries reviewed{' '}
+              <time dateTime={projectsReviewedOn}>September 20, 2026</time>.{' '}
+              Elphi project overview added October 8, 2026. Research aims and
+              prototype concepts are not claims of established clinical
+              effectiveness.
             </p>
             <div className="hero-actions">
               <a className="profile-link" href={sitePath('/volunteer/')}>

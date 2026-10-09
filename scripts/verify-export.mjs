@@ -227,7 +227,8 @@ assert.match(
 );
 assert.equal([...currentProjectsPage.matchAll(/<h1\b/g)].length, 1);
 assert.equal(
-  [...currentProjectsPage.matchAll(/class="current-project-card"/g)].length,
+  [...currentProjectsPage.matchAll(/class="current-project-card(?: [^"]+)?"/g)]
+    .length,
   currentResearchProjects.length,
 );
 assert.equal(
@@ -236,7 +237,34 @@ assert.equal(
 );
 assert.match(currentProjectsPage, /<details class="proposed-projects">/);
 assert.match(currentProjectsPage, /not funded awards or completed/);
-assert.equal(currentResearchProjects.length, 12);
+assert.equal(currentResearchProjects.length, 13);
+for (const [page, id] of [
+  [home, 'elphi-research'],
+  [currentProjectsPage, 'elphi'],
+]) {
+  assert.ok(
+    page.includes(`id="${id}"`),
+    'Elphi must be featured on both pages',
+  );
+  assert.ok(
+    page.includes(`src="${base}/images/research/elphi-everyday-scenarios.png"`),
+  );
+  assert.match(page, /AI-generated concept illustration/);
+  assert.match(page, /not established health benefits/);
+  for (const scenario of ['water', 'walk', 'connection']) {
+    assert.equal(
+      [...page.matchAll(new RegExp(`data-scenario="${scenario}"`, 'g'))].length,
+      1,
+    );
+  }
+}
+assert.ok(home.includes(`href="${base}/current-projects/#elphi"`));
+assert.ok(currentProjectsPage.includes('href="#elphi"'));
+assert.equal(
+  [...currentProjectsPage.matchAll(/id="elphi"/g)].length,
+  1,
+  'Elphi must not be repeated as a generic project card',
+);
 assert.match(currentProjectsPage, /Confidential research/);
 assert.match(currentProjectsPage, /informed by clinical data/);
 assert.match(volunteerPage, /Volunteer \| Chorong Park &amp; ELARA Lab/);

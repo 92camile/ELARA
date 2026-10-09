@@ -3,6 +3,7 @@ import { collaborations, profileSources, scholarUrl } from '../lib/profile';
 import { sitePath } from '../lib/site';
 import { WorkshopSlideshow } from './workshop-slideshow';
 import { FeaturedStory } from './featured-story';
+import { ElphiFeature } from './elphi-feature';
 
 export function PersonalIntroduction() {
   return (
@@ -108,6 +109,7 @@ export function PersonalIntroduction() {
               Explore current projects <span aria-hidden="true">&#8594;</span>
             </a>
           </div>
+          <ElphiFeature context="home" />
           <div className="research-grid">
             <div className="research-area">
               <span className="area-number" aria-hidden="true">
