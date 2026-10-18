@@ -644,7 +644,7 @@ h1 {
 }
 .academic-network-grid {
   display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
+  grid-template-columns: repeat(8, minmax(0, 1fr));
   gap: 12px 20px;
   margin: 0;
   padding: 0;
@@ -668,6 +668,11 @@ h1 {
   max-width: 140px;
   height: 34px;
   object-fit: contain;
+}
+.academic-network-grid .academic-logo-reversed {
+  padding: 5px 7px;
+  border-radius: 3px;
+  background: #173659;
 }
 .academic-network-grid span {
   color: var(--muted);

@@ -1,25 +1,33 @@
 # Homepage academic network
 
 The homepage-only strip sits after News and before the footer. Its desktop
-layout uses two compact rows; smaller screens wrap rather than clipping logos.
+layout uses two compact rows of eight; smaller screens wrap rather than clipping
+logos. Stanford and Rice sit beside each other near the beginning of the list.
 
 ## Content basis
 
-The owner-provided CV was reviewed on September 26, 2026. Entries identify
+The owner-provided CV was reviewed again on October 18, 2026. Entries identify
 individual collaborators' university affiliations, not formal institutional
 partnerships or endorsements. The heading includes academic exchange because
 the CV also describes exploratory work and projects still in development.
 
 - Purdue: research, coauthorship, and community collaboration.
-- Stanford: collaborative Pupper / human-robot interaction research.
+- Stanford: collaborative robotics research and walking-support project development.
+- Rice: student-design collaboration and project development with OEDK,
+  explicitly requested for public inclusion by the owner. No associated
+  confidential project name, technical details, or filing information is included.
 - KTH: cross-cultural research collaboration.
 - TU Wien: academic exchange and research-project development.
-- Seoul National University: comparative research planning.
+- Seoul National University: digital-health research advice and comparative
+  research planning.
 - National Taiwan University and Musashino University: multi-site study planning.
+- National Yang Ming Chiao Tung University: exploratory follow-up collaboration
+  discussions described in the CV, not a confirmed joint study or partnership.
 - UNC Wilmington: research coauthorship and immersive-interaction study development.
 - Oklahoma State: AI-glasses study planning and related concept development.
-- ETH Zurich: academic exchange and exploratory collaboration.
-- University of Zurich and University of St. Gallen: digital-health academic exchange.
+- ETH Zurich: academic exchange, digital-health mentoring, and exploratory collaboration.
+- University of Zurich and University of St. Gallen: digital-health academic
+  exchange and student-team mentoring.
 - University of Hawaii at Manoa: caregiving concept development.
 - Texas Woman's University: co-design teaching and research-proposal development.
 
@@ -35,7 +43,11 @@ SHA-256 digest of each local asset. Downloaded files retain their source bytes.
 TU Wien, ETH Zurich, and St. Gallen are original inline header SVGs extracted
 without altering their artwork. Texas Woman's is the original `twu_logo` symbol
 from its website sprite, with a standalone SVG wrapper. Logo artwork, colors,
-and aspect ratios are not restyled, cropped, or redrawn.
+and aspect ratios are not restyled, cropped, or redrawn. Rice and NYCU use their
+official website header/footer SVG assets, retrieved October 18, 2026 without
+changing their bytes.
+NYCU's official white artwork sits on a dark backplate for contrast; the SVG
+itself remains unchanged.
 
 The marks identify the institutions and link to their official websites.
 They remain the property of their respective institutions; sourcing an asset

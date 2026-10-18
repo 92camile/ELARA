@@ -2,7 +2,10 @@ import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import test from 'node:test';
-import { academicNetwork } from '../lib/academic-network.mjs';
+import {
+  academicNetwork,
+  academicNetworkReviewedOn,
+} from '../lib/academic-network.mjs';
 
 const provenance = JSON.parse(
   readFileSync(
@@ -12,6 +15,8 @@ const provenance = JSON.parse(
 );
 
 test('academic network has unique institutions and explicit relationship context', () => {
+  assert.equal(academicNetworkReviewedOn, '2026-10-18');
+  assert.equal(academicNetwork.length, 16);
   assert.equal(
     new Set(academicNetwork.map(({ id }) => id)).size,
     academicNetwork.length,
@@ -39,10 +44,24 @@ test('exploratory and proposed work is not presented as an awarded partnership',
   assert.match(byId.uzh.relationship, /exchange/i);
   assert.match(byId['st-gallen'].relationship, /exchange/i);
   assert.match(byId.hawaii.relationship, /concept development/);
+  assert.match(byId.rice.relationship, /Student-design collaboration.*OEDK/);
+  assert.match(byId.stanford.relationship, /Robotics research/);
+  assert.match(byId.nycu.relationship, /exploratory.*discussions/);
   assert.doesNotMatch(
     JSON.stringify(academicNetwork),
     /funded|awarded|official partner|endorsement/i,
   );
+});
+
+test('Stanford and Rice stay prominent with only approved relationship summaries', () => {
+  assert.deepEqual(academicNetwork.slice(0, 3).map(({ id }) => id), [
+    'purdue',
+    'stanford',
+    'rice',
+  ]);
+  assert.deepEqual(Object.keys(academicNetwork[2]), [
+    'id', 'name', 'label', 'url', 'relationship', 'logo', 'width', 'height',
+  ]);
 });
 
 test('every logo preserves documented artwork and is safe to serve locally', () => {

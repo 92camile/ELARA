@@ -12,11 +12,11 @@ export function AcademicNetwork() {
       <div className="container">
         <div className="academic-network-heading">
           <h2 id="academic-network-title">
-            Academic collaborations &amp; exchange
+            University collaborations &amp; exchange
           </h2>
           <p>
-            With colleagues across research, developing projects, and academic
-            exchange.
+            With university colleagues across active research, developing
+            projects, and academic exchange.
           </p>
         </div>
         <ul className="academic-network-grid">
@@ -30,6 +30,7 @@ export function AcademicNetwork() {
                 aria-label={`${school.name}: ${school.relationship} (opens in a new tab)`}
               >
                 <img
+                  className={school.id === 'nycu' ? 'academic-logo-reversed' : undefined}
                   src={sitePath(school.logo)}
                   alt=""
                   width={school.width}

@@ -1,5 +1,6 @@
 {
   "retrievedOn": "2026-09-26",
+  "updatedOn": "2026-10-18",
   "logos": [
     {
       "id": "purdue",
@@ -18,6 +19,26 @@
       "height": 91,
       "bytes": 8021,
       "sha256": "dfa520f00ffdbf1a17ed22c5d8011e0f4da7611764416028d527a9b4cb529a82"
+    },
+    {
+      "id": "rice",
+      "file": "rice.svg",
+      "source": "https://www.rice.edu/sites/g/files/bxs2566/files/2019-08/Rice_University_Horizontal_Blue.svg",
+      "retrievedOn": "2026-10-18",
+      "width": 525,
+      "height": 75,
+      "bytes": 26403,
+      "sha256": "c6f98c6282f2cee8820e02738e76637dd249ed8f5ed70eff1024e3f8ab876e51"
+    },
+    {
+      "id": "nycu",
+      "file": "nycu.svg",
+      "source": "https://www.nycu.edu.tw/static/class2/nycu/en/color01/images/all/logo.svg",
+      "retrievedOn": "2026-10-18",
+      "width": 334,
+      "height": 39.294,
+      "bytes": 19823,
+      "sha256": "896b055148b3b593195c7fad0f73c05549087196404a9323712eea8babda123c"
     },
     {
       "id": "kth",
