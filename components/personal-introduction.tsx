@@ -68,17 +68,31 @@ export function PersonalIntroduction() {
         </div>
         <div className="mission-copy">
           <p>
-            I am an applied, community-engaged researcher at the Gerald D. Hines
-            College of Architecture and Design. I work alongside older adults,
-            people with disabilities, caregivers, and community partners to
-            understand not just whether technology works, but whether it belongs
-            in the lives of the people it is meant to support.
+            I am an applied, community-engaged researcher at the University of
+            Houston. I design and study robots and technology-based interventions
+            to support healthy aging, positive behavior change, and everyday
+            independence. I work alongside older adults, people with
+            disabilities, caregivers, and community partners to understand not
+            just whether technology works, but whether it belongs in the lives
+            of the people it is meant to support.
           </p>
           <p>
-            My background connects visual arts, UX design, and gerontology. I
-            earned my Ph.D. in Technology, with a minor in Gerontology, and my
-            M.S. in UX Design at Purdue University, following a B.A. in Visual
-            Arts at the University of Illinois.
+            My work bridges UX design, human-computer interaction, human-robot
+            interaction, human-centered AI, and gerontology. At Purdue
+            University, I earned my Ph.D. in Technology with a focus on
+            human-computer and human-robot interaction, a graduate minor in
+            Gerontology, and an M.S. in UX Design. Earlier studies in visual
+            arts at the University of Illinois Springfield and graduate study
+            in visual communication design at Purdue shaped my foundation in
+            design.
+          </p>
+          <p>
+            My training brings together critical disability studies,
+            accessibility, immersive technologies, psychology, and business
+            strategy, complemented by study in AI foundations and ethics through
+            the University of Helsinki. I bring these perspectives into
+            research that connects technical possibilities with the priorities,
+            choices, and everyday experiences of the people using them.
           </p>
           <p>
             More than 500 hours of community technology support with older
