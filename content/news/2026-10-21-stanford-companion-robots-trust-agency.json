@@ -1,0 +1,64 @@
+{
+  "slug": "stanford-companion-robots-trust-agency",
+  "title": "At Stanford, Exploring Companionship Without Giving Up Control",
+  "summary": "Chorong Park's invited talk and research conversations explored how companion robots can respect older adults' choices, preferences, and changing boundaries.",
+  "category": "Research & invited talks",
+  "postId": "7518764780866732033",
+  "originalDate": "2026-10-21",
+  "publishedDate": "2026-10-23",
+  "sourcePhotoCount": 15,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_humanrobotinteraction-socialrobotics-healthyaging-activity-7518764780866732033-3VNd"
+    },
+    {
+      "id": "stanford",
+      "label": "Stanford Robotics Center seminar listing",
+      "url": "https://src.stanford.edu/src-events/bot4nbr3a8ykux3lkkyvea47c9dmt0-3r4ac-jymyn-yef4t-34mft-2m575-r7k3h-6lyd5-9wygr-5rsgw-ebgam-j6f9n-a75nz-4hrk5-s2t88-3ke68-k27xw-lxslr-d69h4-dps4j-fmh2e-arnhc-5jg7n-68mz5-6r7tn"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Chorong Park brought ELARA's community-engaged research to the Stanford Robotics Center on October 12, 2026, for an invited talk, \"When Robots Feel Like Companions: Designing Trust and Agency with Older Adults.\" The visit connected older adults' experiences with questions about how robots behave and how people understand them.",
+      "sourceIds": ["linkedin", "stanford"]
+    },
+    {
+      "text": "Park asked how a robot might support a meaningful relationship while leaving people free to question it, redirect it, or walk away. Her seminar connected emotional connection with privacy and autonomy. The practical design challenge is not simply making a robot feel friendly, but keeping its behavior understandable and its assistance optional.",
+      "sourceIds": ["linkedin", "stanford"]
+    },
+    {
+      "text": "In her October 21 reflection, Park described conversations about the developing Pupper collaboration and how robot personalities and interaction styles might fit older adults' preferences. Exchanges with Stanford researchers also explored how everyday needs could inform useful robot capabilities, rather than starting with technology and looking for a use afterward.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Park also reported visiting the Palo Alto VA Hospital Simulation Center and discussing potential collaborations around aging, cognitive health, and human-centered technology. These were exploratory conversations connecting design, engineering, and clinical perspectives, not announcements of completed studies or established health benefits.",
+      "sourceIds": ["linkedin"]
+    }
+  ],
+  "photos": [
+    {"src":"/images/news/post-7518764780866732033-1.jpg","width":2045,"height":1536,"sha256":"0cdefd7c2b8c130f1cf4a965c7e2f01788480bfea18f19ac714d1d191650dd0f","alt":"A speaker stands beside a title slide about companion robots, trust, and agency while an audience sits in red chairs.","caption":"The seminar's opening slide introduces companion robots, trust, and agency. Original LinkedIn image 1 of 15.","afterParagraph":0},
+    {"src":"/images/news/post-7518764780866732033-2.jpg","width":1154,"height":1536,"sha256":"1fad6e4723adc75736a3e3e908dd230ee55bee785530513c9e2f4e376c508be0","alt":"Two seated attendees look down toward a small robot beside a presentation screen.","caption":"A small robot beside the audience seating during the presentation. Original LinkedIn image 2 of 15.","afterParagraph":0},
+    {"src":"/images/news/post-7518764780866732033-3.jpg","width":2045,"height":1536,"sha256":"9973769da6f85340d4bc28eb0d727dabab223387219fb7b14e3ee52512e25385","alt":"A speaker gestures beside a slide about how timing complicates the social interpretation of robot responses.","caption":"A slide explores the interpretation of a robot response and the limits of the available evidence. Original LinkedIn image 3 of 15.","afterParagraph":0},
+    {"src":"/images/news/post-7518764780866732033-4.jpg","width":2045,"height":1536,"sha256":"5742ac2cbe4cee366201b1d60519aa06c5715d697d902aab4353f1d950f348f5","alt":"A presentation slide shows Elphi design concepts beside a speaker and seated attendees.","caption":"Elphi concept visualizations appear on a slide describing proposed healthy-routine interactions, not completed participant research. Original LinkedIn image 4 of 15.","afterParagraph":0},
+    {"src":"/images/news/post-7518764780866732033-5.jpg","width":1152,"height":1536,"sha256":"364b97af552b344840ef88323da2d638b156d816e48dda0891d0d0a0e81e9e61","alt":"A gray humanoid robot with yellow joints stands beside a small chair and laboratory equipment.","caption":"A humanoid robot in a laboratory workspace. Original LinkedIn image 5 of 15.","afterParagraph":1},
+    {"src":"/images/news/post-7518764780866732033-6.jpg","width":1152,"height":1536,"sha256":"ffb84d1bb2259e77e4c0d5585dc4632fe9147e86c88913145dc06ff445c79ce9","alt":"A visitor stands beside an orange robot with a bright animated face and articulated hands.","caption":"A close look at an expressive robot during the visit. Original LinkedIn image 6 of 15.","afterParagraph":1},
+    {"src":"/images/news/post-7518764780866732033-7.jpg","width":1152,"height":1536,"sha256":"2ed876057ec213d77a13c1bf0c8393181a73a26c89e928560d7bd66b51001f69","alt":"A visitor takes a selfie in front of a Stanford Robotics Center banner with mirrored lettering.","caption":"A visit snapshot in front of the Stanford Robotics Center banner. Original LinkedIn image 7 of 15.","afterParagraph":1},
+    {"src":"/images/news/post-7518764780866732033-8.jpg","width":1152,"height":1536,"sha256":"0d5d2e06b8d1f43153272e428489f8de89f7c696227c1e717cee2c6418faf793","alt":"A visitor gestures toward the William Gates Computer Science sign above a building entrance.","caption":"Outside the William Gates Computer Science building. Original LinkedIn image 8 of 15.","afterParagraph":1},
+    {"src":"/images/news/post-7518764780866732033-9.jpg","width":2048,"height":1536,"sha256":"44c4afd0ff3394f7ea38dcadb52b8252b07d2076af77793566426d3c89ac0f62","alt":"Four people pose for a selfie outside a stone building with mirrored William Gates Computer Science lettering.","caption":"A group snapshot outside the computer science building. Original LinkedIn image 9 of 15.","afterParagraph":2},
+    {"src":"/images/news/post-7518764780866732033-10.jpg","width":1152,"height":1536,"sha256":"42e4f37f9afd067acb61a3e1178b01ade871ea69a6ebfbd48da394d6d6f315cc","alt":"Four people stand outside a building at night, with one holding up a phone.","caption":"An evening snapshot from the visit. Original LinkedIn image 10 of 15.","afterParagraph":2},
+    {"src":"/images/news/post-7518764780866732033-11.jpg","width":2048,"height":1536,"sha256":"e72540982f6497ead8c11df94ef9f8cfe86119ec9cfdfe070bc7c60f0261f6a0","alt":"Two people sit inside a vehicle with blue seat belts, one holding up a phone.","caption":"A snapshot inside a vehicle during the visit. Original LinkedIn image 11 of 15.","afterParagraph":2},
+    {"src":"/images/news/post-7518764780866732033-12.jpg","width":1125,"height":1125,"sha256":"a0491ff9099e3ca7c5faad6f912cf01602fd21a1b730073d0569714d25dd28b2","alt":"A small pink four-legged robot has a screen face with blue eyes and colorful stickers on its body.","caption":"A close-up of a small robot with an expressive screen face. Original LinkedIn image 12 of 15.","afterParagraph":3},
+    {"src":"/images/news/post-7518764780866732033-13.jpg","width":1125,"height":1125,"sha256":"cc3180b2bf7b4d43c462d89da13ebbaa2d284d4a2815aad6f6952bb5bb261b56","alt":"A bright yellow wheeled robot with a top lid stands on a gray floor.","caption":"A yellow wheeled robot seen during the visit. Original LinkedIn image 13 of 15.","afterParagraph":3},
+    {"src":"/images/news/post-7518764780866732033-14.jpg","width":1125,"height":1125,"sha256":"6a9f3a2fc0dbb804a5628627ea451023d0c931f904fc11575150132052e76796","alt":"A white robot with two dark circular eyes sits on a green platform beside a computer monitor.","caption":"A tabletop robot beside a workstation. Original LinkedIn image 14 of 15.","afterParagraph":3},
+    {"src":"/images/news/post-7518764780866732033-15.jpg","width":1125,"height":1125,"sha256":"20f95e39e30d7303f00f440a1a623f2f476343ebec7afb537807007447cb013e","alt":"A four-legged robot with wheels and mounted equipment stands at the foot of an indoor staircase.","caption":"A wheeled quadruped robot near a staircase. Original LinkedIn image 15 of 15.","afterParagraph":3}
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-10-23",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Complete owner-authored caption, profile and original activity permalink checked in the expanded connected feed and original LinkedIn post. Feed gives October 21, 2026 at 3:06 PM CDT; original post displays a 15-photo gallery. All 15 full-size images were opened in source order, downloaded without alteration, visually reviewed, and checked for dimensions and SHA-256. Original collages/composition retained; no thumbnails substituted and no identities inferred from photographs. Stanford Robotics Center's primary seminar listing independently confirms the October 12 event, exact title and autonomy/privacy focus. Additional visits and research conversations are attributed to Park; developing and potential collaborations are not presented as completed studies, formal institutional agreements or clinical benefits. Elphi slide imagery is identified as concept visualization. No confidential robot-accessory details included."
+  }
+}
