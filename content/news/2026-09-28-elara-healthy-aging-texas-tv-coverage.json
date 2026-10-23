@@ -1,0 +1,71 @@
+{
+  "slug": "elara-healthy-aging-texas-tv-coverage",
+  "title": "ELARA's Healthy-Aging Research Reaches Audiences Across Texas",
+  "summary": "KHOU 11, KENS 5 and CBS19 feature the community input shaping ELARA's research on robots for healthier aging.",
+  "category": "In the media",
+  "postId": "7510419211718942721",
+  "originalDate": "2026-09-28",
+  "publishedDate": "2026-10-23",
+  "sourcePhotoCount": 0,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn post and watch the shared video",
+      "url": "https://www.linkedin.com/posts/cparkphd_humanrobotinteraction-humancenteredai-healthyaging-activity-7510419211718942721-dJ2E"
+    },
+    {
+      "id": "khou",
+      "label": "KHOU 11: University of Houston tests AI companion robots for older adults",
+      "url": "https://www.youtube.com/watch?v=aZ8gMX_bIws"
+    },
+    {
+      "id": "kens",
+      "label": "KENS 5: Researchers studying impacts of AI robot companions for older adults",
+      "url": "https://www.youtube.com/watch?v=Wbw4pvUZ3z4"
+    },
+    {
+      "id": "cbs19",
+      "label": "CBS19: AI companion robots could help shape future elder care",
+      "url": "https://www.youtube.com/watch?v=F_mxVr_6QF0"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "ELARA's research on robots for healthier aging has reached viewers beyond Houston. In a September 28 update, Chorong Park shared coverage from KHOU 11, KENS 5 and CBS19, highlighting the older adults and student researchers helping shape the work at the University of Houston.",
+      "sourceIds": [
+        "linkedin",
+        "khou",
+        "kens",
+        "cbs19"
+      ]
+    },
+    {
+      "text": "Park described how participants' responses to a robot's appearance, movement, voice and behavior inform questions about comfort, trust and accessibility. The aim is not simply to make a robot appealing, but to understand how it could fit into someone's routines while leaving that person in control.",
+      "sourceIds": [
+        "linkedin"
+      ]
+    },
+    {
+      "text": "Her research questions range from emotional connection to medication routines, physical activity and support for people living with chronic conditions. Planned health reminders and privacy controls are directions to investigate, not evidence that the robots already improve health.",
+      "sourceIds": [
+        "linkedin"
+      ]
+    },
+    {
+      "text": "For Park, seeing community participants' perspectives reach a wider audience made the coverage especially meaningful. It brings a practical design question into public view: what people want from a robot matters as much as what engineers can make it do.",
+      "sourceIds": [
+        "linkedin",
+        "khou",
+        "cbs19"
+      ]
+    }
+  ],
+  "photos": [],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-10-23",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Full original authored text, author profile and permalink checked on LinkedIn and in the expanded Elfsight post. Public LinkedIn datePublished and uploadDate are 2026-09-28T19:24:36.914Z, September 28 in America/Chicago. The attachment is one video, not a photograph or gallery; the preview image is a video thumbnail and is not substituted for an original photo. All three short links were followed to the broadcaster-owned YouTube pages; channel identities, titles and descriptions verified there. Original video transcript corroborates planned reminders and privacy controls. No broadcaster footage is reuploaded, and original broadcast links are preserved in Sources. Collaboration lists, speculative clinical outcomes and projected completion dates are not repeated. The design implications are interpretations, not findings. No confidential project details disclosed. Complete caption and all three broadcaster-owned video titles, verified channels and descriptions rechecked on October 23. Original zero-photo count unchanged; no broadcaster footage or thumbnails republished. All release gates rerun without changing publisher or test code."
+  }
+}
