@@ -1,0 +1,59 @@
+{
+  "slug": "uh-seminar-human-centered-ai-healthy-aging",
+  "title": "Park Announces UH Seminar on Human-Centered AI and Healthy Aging",
+  "summary": "A University of Houston seminar announcement connects older adults' experiences with the design of AI and robotic systems for health-related activities.",
+  "category": "Research & community",
+  "postId": "7516655134722953216",
+  "originalDate": "2026-10-15",
+  "publishedDate": "2026-10-23",
+  "sourcePhotoCount": 0,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Read Chorong Park's original LinkedIn announcement",
+      "url": "https://www.linkedin.com/posts/cparkphd_calendar-university-of-houston-activity-7516655134722953216-9OtM"
+    },
+    {
+      "id": "uh-calendar",
+      "label": "University of Houston Computer Science seminar listing",
+      "url": "https://www.uh.edu/nsm/computer-science/events/calendar/index.php#event-details/2b79ac34-41d9-44d3-a925-433393d5768f"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Chorong Park announced an invited seminar at the University of Houston's Department of Computer Science in an October 15 update. Scheduled for October 16, the talk, \"Human-Centered AI and Robotics for Health and Behavior Change: From Community Needs to System Development,\" would focus on how older adults' experiences can guide technology design.",
+      "sourceIds": [
+        "linkedin",
+        "uh-calendar"
+      ]
+    },
+    {
+      "text": "The planned discussion would draw on ELARA's community-engaged research, including a Houston study with 22 older adults interacting with companion robots and voice assistants. Park proposed examining how these systems might support health-related activities while preserving people's autonomy.",
+      "sourceIds": [
+        "linkedin",
+        "uh-calendar"
+      ]
+    },
+    {
+      "text": "That approach starts with people's routines and preferences, rather than assuming that an engaging robot will improve health. The seminar abstract connects those everyday experiences to questions about accessible interaction, adaptive feedback and user control, with health and well-being outcomes still to be evaluated.",
+      "sourceIds": [
+        "uh-calendar"
+      ]
+    },
+    {
+      "text": "Park also planned to introduce student research opportunities linking human-computer interaction, AI and software engineering: identifying community needs, building working prototypes and evaluating them with intended users.",
+      "sourceIds": [
+        "linkedin",
+        "uh-calendar"
+      ]
+    }
+  ],
+  "photos": [],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-10-23",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Complete current authored caption and original author/permalink checked in the expanded feed and original public LinkedIn post. Public SocialMediaPosting datePublished verified as 2026-10-16T00:23:56.815Z, October 15 in America/Chicago. The only attachment is a calendar link preview; zero original photos. UH's primary event listing verifies the title, organizer, speaker, October 16 schedule, PGH 232 room and 22-participant study description. Article reports the announcement and planned content, not completed delivery or demonstrated clinical benefits. No confidential project details, thumbnail substitutions or unrelated user edits included. Complete caption and primary UH event listing rechecked on October 23; original zero-photo count unchanged. All release gates rerun with the current newest-first archive, without changing publisher or test code."
+  }
+}
