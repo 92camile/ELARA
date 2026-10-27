@@ -588,8 +588,13 @@ assert.deepEqual(
 );
 const hayley = studentCards[0][0];
 assert.ok(hayley.includes('Hayley B. Lukken'));
-assert.ok(hayley.includes('graduate') && hayley.includes('thesis'));
-assert.ok(hayley.includes('ADHD') && hayley.includes('autistic people'));
+assert.ok(hayley.includes('Undergraduate industrial design student'));
+assert.ok(
+  hayley.includes(
+    'Hayley is an undergraduate industrial design student interested in social engagement and design for neurodiversity.',
+  ),
+);
+assert.doesNotMatch(hayley, /master|thesis/i);
 const jevin = studentCards[1][0];
 assert.ok(jevin.includes('Jevin Pinto'));
 assert.ok(jevin.includes('/students/jevin-pinto.png'));

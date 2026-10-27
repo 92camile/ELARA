@@ -16,9 +16,9 @@ export const students: Student[] = [
   {
     id: 'hayley-b-lukken',
     name: 'Hayley B. Lukken',
-    role: "Industrial design master's graduate",
+    role: 'Undergraduate industrial design student',
     interests: ['Social engagement', 'Design for neurodiversity'],
-    bio: "Hayley completed her master's studies in industrial design with a thesis focused on designing a social engagement device for people with ADHD and autistic people.",
+    bio: 'Hayley is an undergraduate industrial design student interested in social engagement and design for neurodiversity.',
     photo: null,
   },
   {
