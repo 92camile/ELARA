@@ -1,0 +1,58 @@
+{
+  "slug": "purdue-feature-community-roots-robotics",
+  "title": "Purdue feature traces the community roots of ELARA's robotics research",
+  "summary": "A Purdue Polytechnic profile connects Chorong Park's technology-support work with older adults to ELARA's approach to AI and companion robots.",
+  "category": "In the news",
+  "postId": "7520600341223149568",
+  "originalDate": "2026-10-26",
+  "publishedDate": "2026-10-27",
+  "sourcePhotoCount": 1,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Chorong Park's original LinkedIn post",
+      "url": "https://www.linkedin.com/posts/cparkphd_purdue-humanrobotinteraction-healthyaging-activity-7520600341223149568-rjun"
+    },
+    {
+      "id": "purdue-feature",
+      "label": "Purdue Polytechnic: a healthier future for aging through embodied AI",
+      "url": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumna-pursues-healthier-future-aging-through-embodied-ai"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Purdue Polytechnic has featured Chorong Park's path from graduate research at Purdue to community-engaged work at ELARA Lab, University of Houston. Written by Nick Pompella and published October 21, the profile explores how older adults help shape research on AI and companion robots.",
+      "sourceIds": ["purdue-feature"]
+    },
+    {
+      "text": "Sharing the feature on October 26, Park reflected on more than 500 hours spent helping older adults with technology during her Ph.D. Purdue's account identifies the Tippecanoe Senior Center as a setting for that work, which current Purdue students continue.",
+      "sourceIds": ["linkedin", "purdue-feature"]
+    },
+    {
+      "text": "For Park, those conversations exposed the gap between what seems straightforward to a designer and what someone actually experiences. She credits them with shaping a research approach in which older adults help decide what support belongs in their lives, rather than simply testing a finished design.",
+      "sourceIds": ["linkedin", "purdue-feature"]
+    },
+    {
+      "text": "The feature also describes her continuing collaborations with Purdue faculty, connecting work on accessibility, human-robot interaction, immersive technology and aging with ELARA's research in Houston.",
+      "sourceIds": ["purdue-feature"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/purdue-feature-community-roots-01.jpg",
+      "alt": "Screenshot of Purdue Polytechnic's article headline and a portrait of Chorong Park wearing a dark jacket and red shirt.",
+      "caption": "The original screenshot shared in Park's LinkedIn post, showing Purdue Polytechnic's feature. Article by Nick Pompella; portrait credited to the University of Houston.",
+      "width": 725,
+      "height": 704,
+      "afterParagraph": 0,
+      "sha256": "72f5892d01d8b47b6f4da8ffe38053d043542b4e937dd742d5cbe43fb53f531b"
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-10-27",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Verified complete caption, author and source permalink in the original LinkedIn page and expanded connected feed. October 26 source date corroborated by both relative timestamps and the activity-ID timestamp; Purdue's October 21 feature date is distinct. Original post and full-image viewer show one attachment, preserved from its observed high-resolution source without cropping or recompression; dimensions and SHA-256 recorded after visual inspection. Purdue's primary newsroom article verifies the author, feature date, community work and continued collaborations. Personal interpretations remain attributed to Park; no clinical benefits or confidential project details added."
+  }
+}
