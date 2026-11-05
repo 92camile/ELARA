@@ -1,0 +1,58 @@
+{
+  "slug": "aarp-men-who-care-technology-ai-panel",
+  "title": "Chorong Park to join AARP caregiving panel on technology and AI",
+  "summary": "Park will discuss companion robots, privacy and independence at AARP Texas's Men Who Care Conference in Houston on November 7.",
+  "category": "Community engagement",
+  "postId": "7523901164493639682",
+  "originalDate": "2026-11-04",
+  "publishedDate": "2026-11-05",
+  "sourcePhotoCount": 1,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Chorong Park's original LinkedIn announcement",
+      "url": "https://www.linkedin.com/posts/cparkphd_aarpmenwhocare-caregiving-humanrobotinteraction-activity-7523901164493639682-pVzM"
+    },
+    {
+      "id": "aarp-event",
+      "label": "AARP Men Who Care Conference: event details and registration",
+      "url": "https://events.aarp.org/event/TX-1107-Men"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Chorong Park will join AARP Texas's Men Who Care Conference in Houston on November 7 for a panel on technology and AI for caregiving. Her announcement lists the session for 11:00-11:40 a.m. Central in Room C at Kingdom Builders' Center, 6011 W. Orem Drive.",
+      "sourceIds": ["linkedin", "aarp-event"]
+    },
+    {
+      "text": "Park will join moderator Michael Nevels and fellow panelist Carlos Figarella to discuss how AI and companion robots could support older adults and family caregivers. Planned topics include healthy daily habits, sharing caregiving responsibilities and helping older adults learn technology with confidence.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Privacy, trust and people's choices are central to the discussion Park describes. That focus puts a practical question alongside what a device can do: how could it fit into care without weakening independence or human connection?",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "AARP's broader conference runs from 8:00 a.m. to 1:00 p.m. Central. Park's invitation describes it as free and open to the public; AARP's event page lists a registration deadline of November 6 at 8:00 a.m. Central.",
+      "sourceIds": ["linkedin", "aarp-event"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/aarp-men-who-care-panel-01.jpg",
+      "alt": "Event graphic for the Technology and AI for Caregiving panel, with a portrait of Chorong Park and the November 7 session details.",
+      "caption": "The original panel announcement graphic shared by Park, with the session time, venue and registration address.",
+      "width": 1122,
+      "height": 1402,
+      "afterParagraph": 0,
+      "sha256": "bf30a9da027bccd5b1ead921fc5ffa68e23bde3bc182a38b6d88af80beafaef8"
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-11-05",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Complete owner-authored caption and one-image attachment verified on original LinkedIn Posts and detail pages, including the expanded image viewer. LinkedIn public canonical metadata resolves the copied share link to the cited activity permalink and gives datePublished 2026-11-05T00:17:04.938Z, November 4 in America/Chicago. The original high-resolution attachment was downloaded from its observed public source URL and visually checked; bytes, full composition, dimensions and SHA-256 are preserved. AARP's primary event page confirms the November 7 conference date, overall hours, street address and registration deadline. Session details, panelist names and free admission are attributed to Park's announcement and graphic. Participation is planned, not reported as completed; potential support is not a clinical benefit claim. No confidential research details included."
+  }
+}
