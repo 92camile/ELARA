@@ -1,0 +1,59 @@
+{
+  "slug": "iccr-2026-technical-program-committee",
+  "title": "Chorong Park serves on ICCR 2026 technical program committee",
+  "summary": "Park's committee service connects ELARA's work on everyday human-robot interaction with the wider control and robotics research community.",
+  "category": "Research community",
+  "postId": "7524109111001632768",
+  "originalDate": "2026-11-05",
+  "publishedDate": "2026-11-05",
+  "sourcePhotoCount": 1,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Chorong Park's original LinkedIn announcement",
+      "url": "https://www.linkedin.com/posts/cparkphd_iccr2026-robotics-humanrobotinteraction-activity-7524109111001632768-b1MJ"
+    },
+    {
+      "id": "iccr",
+      "label": "ICCR 2026: official conference information",
+      "url": "https://iccr.net/"
+    },
+    {
+      "id": "committee",
+      "label": "ICCR 2026: organizing and technical committees",
+      "url": "https://iccr.net/committee.html"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Chorong Park is serving on the technical program committee for the eighth International Conference on Control and Robotics, scheduled for December 11-13, 2026, in Tokyo, Japan. The conference's official committee page lists Park with the University of Houston.",
+      "sourceIds": ["linkedin", "iccr", "committee"]
+    },
+    {
+      "text": "In her November 5 announcement, Park described enjoying the chance to see how colleagues across robotics and control approach challenges in their fields. ICCR invites both theoretical and practical research, giving the committee work a scope beyond any one application of robotics.",
+      "sourceIds": ["linkedin", "iccr"]
+    },
+    {
+      "text": "Park connected that service with ELARA Lab's research on how people interact with robots in everyday life, particularly in aging and care. This brings a people-centered question into the broader technical conversation: how robots become part of daily routines, not only how they perform a task.",
+      "sourceIds": ["linkedin"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/iccr-2026-conference-01.jpg",
+      "alt": "Blue ICCR 2026 conference banner with illustrated robots, the conference name, Tokyo location and December 11-13 dates.",
+      "caption": "The ICCR 2026 conference banner shared in Park's original LinkedIn announcement.",
+      "width": 1280,
+      "height": 429,
+      "afterParagraph": 0,
+      "sha256": "68e5707f19efdb858032c6f3fc869150bb332a0e3d4db8736f3ff6caf14a501e"
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-11-05",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Complete caption, owner identity and single attachment verified on original LinkedIn Posts and detail pages. LinkedIn public metadata resolves the share link to the cited canonical activity permalink and gives datePublished 2026-11-05T14:03:23.249Z, November 5 in America/Chicago. The complete banner was downloaded from the observed 1280-by-429 expanded-image viewer source, not the smaller public feed preview; composition and bytes preserved, visually inspected and hashed. ICCR's official site confirms the edition, future dates and Tokyo location; its technical committee page lists Chorong Park, University of Houston, United States. Personal reflections remain attributed. No submission counts, research outcomes, travel plans, conference attendance or new partnerships inferred."
+  }
+}
