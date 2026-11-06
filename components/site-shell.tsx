@@ -35,6 +35,9 @@ export function SiteHeader({
               </strong>
               <span className="brand-description">
                 Human-centered AI, aging &amp; care
+                <span className="brand-lab-name">
+                  Empathetic Lifespan AI &amp; Robotics for Aging (ELARA Lab)
+                </span>
               </span>
             </span>
           </a>

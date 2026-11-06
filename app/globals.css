@@ -146,6 +146,11 @@ img {
   line-height: 1.4;
   margin-top: 4px;
 }
+.brand-lab-name {
+  display: block;
+  max-width: 24rem;
+  margin-top: 2px;
+}
 .primary-nav {
   grid-area: menu;
   justify-self: end;
