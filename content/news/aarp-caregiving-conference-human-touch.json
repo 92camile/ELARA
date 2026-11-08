@@ -1,0 +1,94 @@
+{
+  "slug": "aarp-caregiving-conference-human-touch",
+  "title": "Caregiving technology and the human touch at AARP's Houston conference",
+  "summary": "After an AARP caregiving panel, Chorong Park reflects on practical technology support, caregivers' lived experiences and the importance of human connection.",
+  "category": "Community engagement",
+  "postId": "7524970191772901376",
+  "originalDate": "2026-11-07",
+  "publishedDate": "2026-11-08",
+  "sourcePhotoCount": 5,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Chorong Park's original LinkedIn reflection and photographs",
+      "url": "https://www.linkedin.com/posts/cparkphd_aarp-manwhocares-caregiving-activity-7524970191772901376--CSt"
+    },
+    {
+      "id": "venue",
+      "label": "The KBC Houston's AARP Men Who Care Conference listing",
+      "url": "https://www.thekbchouston.com/upcoming-events/aarp-conference"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Chorong Park joined AARP Texas's Men Who Care Conference in Houston on November 7 for a discussion about technology and AI in caregiving. She spoke alongside Carlos Figarella, with Michael Nevels moderating, and heard caregivers' experiences throughout the conference.",
+      "sourceIds": ["linkedin", "venue"]
+    },
+    {
+      "text": "The panel explored how AI agents, smart glasses, robots and smart-home technologies might help with everyday caregiving tasks. Park described possibilities for support across devices and settings, rather than presenting a finished system or demonstrated health benefits.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Her central takeaway was that practical assistance cannot replace human care or remove the emotional difficulties families face. For Park, listening to caregivers and people receiving care is essential to deciding what technology should do, and where human connection must remain central.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Park highlighted the experiences shared by male caregivers and the personal caregiving stories told by Jes\u00fas Trejo. His reflections on finding joy and laughter stayed with her, alongside her call for caregivers and older adults to help shape the tools intended to support them.",
+      "sourceIds": ["linkedin"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/aarp-caregiving-conference-01.jpg",
+      "alt": "Two-photo collage showing three seated panel speakers in an orange-walled room and a group standing beside a projection screen.",
+      "caption": "The original panel collage shared in Park's conference reflection.",
+      "width": 1080,
+      "height": 1350,
+      "afterParagraph": 0,
+      "sha256": "e7886242d221448f049e075c374dd12c78a7ac9449e232318166ed9f2b9177ea"
+    },
+    {
+      "src": "/images/news/aarp-caregiving-conference-02.jpg",
+      "alt": "Two people pose for a close-up photograph in front of an AARP Houston banner.",
+      "caption": "A conference photograph from Park's original gallery.",
+      "width": 959,
+      "height": 1278,
+      "afterParagraph": 1,
+      "sha256": "d236801eddc3eb6dc3fe61cf24f9b3c1f28d65cac6a00675c135ea03899e21f1"
+    },
+    {
+      "src": "/images/news/aarp-caregiving-conference-03.jpg",
+      "alt": "Six people stand together beside a projection screen in the orange-walled panel room.",
+      "caption": "A group photograph in the conference's panel room.",
+      "width": 1280,
+      "height": 960,
+      "afterParagraph": 2,
+      "sha256": "69469e0bf49de3df51dfbdaba1949e4bc9496e6f463c29915aa7e422d8377ef6"
+    },
+    {
+      "src": "/images/news/aarp-caregiving-conference-04.jpg",
+      "alt": "Two people stand in front of a stage with potted plants, chairs and an AARP Houston banner.",
+      "caption": "A photograph beside the conference stage, shared by Park.",
+      "width": 960,
+      "height": 1280,
+      "afterParagraph": 2,
+      "sha256": "565c483b84db689d56fe6f491e4717d182d710efc716cc708c6891df2267d1c3"
+    },
+    {
+      "src": "/images/news/aarp-caregiving-conference-05.jpg",
+      "alt": "View from a conference table toward a speaker at a lectern and a Men Who Care Conference screen, with an open program in the foreground.",
+      "caption": "The conference room viewed from the audience, with the event program in the foreground.",
+      "width": 900,
+      "height": 1200,
+      "afterParagraph": 3,
+      "sha256": "e46a4c4a6b69f22d5752a4e0b0f4697d49ca4a9040ff9d5c0e8c88ff8a053701"
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-11-08",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Complete caption, author, activity permalink and five-photo gallery checked on the original LinkedIn page and connected feed. Public LinkedIn metadata gives datePublished 2026-11-07T23:05:00.902Z, November 7 in America/Chicago. The venue's primary listing independently confirms the event name, city and November 7 date; participation and reflections are attributed to Park. All five original gallery images were downloaded from their observed highest-resolution source variants, visually inspected and preserved byte-for-byte in source order, including the two-photo collage. Dimensions and SHA-256 recorded; no unnamed attendees identified. Technology possibilities are not described as completed systems, partnerships or clinical findings. No confidential research details included."
+  }
+}
