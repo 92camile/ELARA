@@ -1,0 +1,130 @@
+{
+  "slug": "ux-design-students-health-robotics-review",
+  "title": "UX Design students share health and robotics concepts for faculty review",
+  "summary": "Chorong Park's students presented health-focused design concepts and received feedback on users, physical interaction and the evidence behind their ideas.",
+  "category": "Teaching and mentoring",
+  "postId": "7526814704132980736",
+  "originalDate": "2026-11-12",
+  "publishedDate": "2026-11-16",
+  "sourcePhotoCount": 9,
+  "sources": [
+    {
+      "id": "linkedin",
+      "label": "Chorong Park's original LinkedIn post and classroom photographs",
+      "url": "https://www.linkedin.com/posts/cparkphd_stanford-uxdesign-humanrobotinteraction-activity-7526814704132980736-Rxem"
+    },
+    {
+      "id": "stanford-challenge",
+      "label": "Stanford Center on Longevity's 2026-2027 Design Challenge",
+      "url": "https://longevity.stanford.edu/design-challenge/"
+    }
+  ],
+  "paragraphs": [
+    {
+      "text": "Students in Chorong Park's Introduction to UX Design course at the University of Houston presented health-focused app and robotics concepts for faculty review on November 12. Their projects explored nutrition and daily planning, dementia care, home rehabilitation, stress and sleep, sobriety support, and wearable EEG monitoring.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Park described a semester of reading scientific literature, interviewing people, running surveys and testing prototypes. These activities helped students revisit their assumptions. One team explored how a robot might help students make food choices and plan their day around nutritional needs.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "Faculty feedback asked teams to identify their users more precisely, explain what physical interaction adds, and examine their technical and business assumptions. For Park, the lesson goes beyond making an appealing concept: design decisions need a clear purpose and evidence behind them.",
+      "sourceIds": ["linkedin"]
+    },
+    {
+      "text": "The teams plan to use that feedback to refine their work for submission to the Stanford Center on Longevity Design Challenge. Its 2026-2027 theme is Human-Centered Robotics for Longevity. Park hopes students gain both confidence in developing ideas and the judgment to question them.",
+      "sourceIds": ["linkedin", "stanford-challenge"]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/images/news/ux-design-health-robotics-01.jpg",
+      "alt": "A classroom group poses behind a table displaying a screen, wearable models and small animal-shaped devices.",
+      "caption": "The classroom group and project models, as shared in Park's original gallery.",
+      "width": 800,
+      "height": 400,
+      "afterParagraph": 0,
+      "sha256": "58509293bfcba5ae7357810d3bb8d974a58290be06f6c15f934d9f4dbe8b0522"
+    },
+    {
+      "src": "/images/news/ux-design-health-robotics-02.jpg",
+      "alt": "Students stand together behind a classroom table with a screen, wearable models, a rabbit-shaped device and a squirrel-shaped device.",
+      "caption": "Students with the models displayed during the project review.",
+      "width": 1280,
+      "height": 960,
+      "afterParagraph": 0,
+      "sha256": "9a43375e9e89d2c3cd9adc9efc8f29e7c6836db7cb33e61bb50172b180201d10"
+    },
+    {
+      "src": "/images/news/ux-design-health-robotics-03.jpg",
+      "alt": "Four students present beneath a Research Findings slide about EEG and seizures, with hat-shaped models on a table.",
+      "caption": "A team presents its wearable EEG concept and background research.",
+      "width": 800,
+      "height": 1067,
+      "afterParagraph": 1,
+      "sha256": "5eeba4a313968c1eb23fba840b5c55ba5aaf25ed61cc0de598274058892778ba"
+    },
+    {
+      "src": "/images/news/ux-design-health-robotics-04.jpg",
+      "alt": "Four students stand at the front of a classroom beside a projected iSober presentation showing a phone interface and wearable devices.",
+      "caption": "Students present the iSober concept during the classroom review.",
+      "width": 800,
+      "height": 1067,
+      "afterParagraph": 1,
+      "sha256": "4e689c0afc126b62bfe00a20f733657574bb8807338197b712ed8881d7477f36"
+    },
+    {
+      "src": "/images/news/ux-design-health-robotics-05.jpg",
+      "alt": "A student team presents a Make Pip Your Own slide, with a rabbit-shaped model on the table in front of them.",
+      "caption": "The Pip presentation pairs an app concept with a physical model.",
+      "width": 800,
+      "height": 1067,
+      "afterParagraph": 2,
+      "sha256": "85a0d3ecafb44cb320a756e5c793da817cc558b79ecf385dc5de7f95ff0e78ee"
+    },
+    {
+      "src": "/images/news/ux-design-health-robotics-06.jpg",
+      "alt": "Four students pose behind a squirrel-shaped device, with illustrations of the concept projected behind them.",
+      "caption": "A team shows its physical model alongside illustrations of the concept.",
+      "width": 800,
+      "height": 1067,
+      "afterParagraph": 2,
+      "sha256": "f40c8761a0a7906bcc676f4c0a537c9f39ea9fdf01cc903aaa45e8cada8c6d39"
+    },
+    {
+      "src": "/images/news/ux-design-health-robotics-07.jpg",
+      "alt": "Three students present beneath a Rehab LADD slide; the student in the middle holds a screen displaying an exercise prompt.",
+      "caption": "Students present the Rehab LADD concept and its screen-based interface.",
+      "width": 1280,
+      "height": 960,
+      "afterParagraph": 3,
+      "sha256": "cbd3b0d882dd7d00faac1caa257deff13e4148bc1f6ba8e3586ef95626199493"
+    },
+    {
+      "src": "/images/news/ux-design-health-robotics-08.jpg",
+      "alt": "View from the back of the classroom toward a student team presenting a Student Wellness by the Numbers slide.",
+      "caption": "Classmates listen to a presentation during the review.",
+      "width": 1280,
+      "height": 960,
+      "afterParagraph": 3,
+      "sha256": "844fb475c9152d4a220090500edb1a44e68985cca41213d8e4abf312383306cc"
+    },
+    {
+      "src": "/images/news/ux-design-health-robotics-09.jpg",
+      "alt": "A student team stands beside a What did we discover? slide while classmates watch from rows of desks.",
+      "caption": "A team discusses what it learned while developing its design.",
+      "width": 1280,
+      "height": 960,
+      "afterParagraph": 3,
+      "sha256": "d925cd88b045a4c6c8979b69ea8ef320b76d7a780f62bd3ef904ac04116fd946"
+    }
+  ],
+  "review": {
+    "status": "passed",
+    "checkedOn": "2026-11-16",
+    "fullTextVerified": true,
+    "allPhotosVerified": true,
+    "notes": "Complete caption and author checked using Read more in the connected feed and on the original LinkedIn page. The feed gallery shows November 12, 2026 at 7:14 PM CST and nine original photographs; the original LinkedIn gallery count agrees. All nine observed gallery images were downloaded, visually inspected and preserved byte-for-byte in source order, with dimensions and SHA-256 recorded. No unnamed students identified and no health statistics from presentation slides asserted as article findings. Stanford's official challenge page confirms the 2026-2027 theme. Student concepts and planned submissions are distinguished from completed products, demonstrated benefits and competition outcomes. No confidential research details included."
+  }
+}
