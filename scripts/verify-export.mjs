@@ -571,22 +571,23 @@ const studentSection = students
   ?.split('</section>')[0];
 assert.ok(studentSection, 'Keep one combined student section');
 assert.doesNotMatch(students, /past-students|Past students|Current students/);
-assert.equal([...studentSection.matchAll(/<article\b/g)].length, 7);
-assert.equal(studentCards.length, 7, 'Expected seven student profiles');
+assert.equal([...studentSection.matchAll(/<article\b/g)].length, 8);
+assert.equal(studentCards.length, 8, 'Expected eight student profiles');
 assert.deepEqual(
   studentCards.map(([card]) => card.match(/aria-labelledby="([^"]+)"/)[1]),
   [
+    'henrique-pfeiffer',
+    'agah-duzenli',
     'hayley-b-lukken',
     'jevin-pinto',
     'jana-qaddoura',
     'levi-abrahams',
     'noorul-maqbool',
     'anika-vadlamudi',
-    'henrique-pfeiffer',
   ],
   'Preserve the requested profile order',
 );
-const hayley = studentCards[0][0];
+const hayley = studentCards[2][0];
 assert.ok(hayley.includes('Hayley B. Lukken'));
 assert.ok(hayley.includes('Undergraduate industrial design student'));
 assert.ok(
@@ -595,7 +596,7 @@ assert.ok(
   ),
 );
 assert.doesNotMatch(hayley, /master|thesis/i);
-const jevin = studentCards[1][0];
+const jevin = studentCards[3][0];
 assert.ok(jevin.includes('Jevin Pinto'));
 assert.ok(jevin.includes('/students/jevin-pinto.png'));
 assert.ok(jevin.includes('width="1792" height="2011"'));
@@ -613,13 +614,29 @@ assert.equal(
   '6e8f622be07bdea61584d32087a94bbbe87b349aab9b85676de0a226a36bbafa',
   'Preserve the supplied headshot without alterations',
 );
-assert.ok(studentCards[2][0].includes('/students/jana-qaddoura.png'));
-assert.ok(studentCards[3][0].includes('/students/levi-abrahams.jpg'));
-assert.ok(studentCards[4][0].includes('/students/noorul-maqbool.png'));
-const henrique = studentCards[6][0];
+assert.ok(studentCards[4][0].includes('/students/jana-qaddoura.png'));
+assert.ok(studentCards[5][0].includes('/students/levi-abrahams.jpg'));
+assert.ok(studentCards[6][0].includes('/students/noorul-maqbool.png'));
+const henrique = studentCards[0][0];
 assert.ok(henrique.includes('Henrique Pfeiffer'));
 assert.ok(henrique.includes('Psychology') && henrique.includes('HCI'));
 assert.ok(henrique.includes('HRI') && henrique.includes('project management'));
+const agah = studentCards[1][0];
+assert.ok(agah.includes('Agah Duzenli'));
+assert.ok(agah.includes('Undergraduate student, Computer Science'));
+assert.ok(agah.includes('University of Houston') && agah.includes('Elphi'));
+assert.ok(
+  agah.includes('personalized AI model') && agah.includes('older adults'),
+);
+assert.ok(agah.includes('/students/agah-duzenli.png'));
+assert.ok(agah.includes('width="800" height="800"'));
+assert.equal(
+  createHash('sha256')
+    .update(readFileSync(path.join(root, 'students/agah-duzenli.png')))
+    .digest('hex'),
+  '7411c06bfeab2956d48c5624dadfefb1e0e39a1601fe35e03fb0dc155cd0c3be',
+  "Preserve Agah's supplied portrait without alterations",
+);
 const anika = studentCards.find(([card]) =>
   card.includes('Anika Vadlamudi'),
 )?.[0];

@@ -14,6 +14,33 @@ export type Student = {
 
 export const students: Student[] = [
   {
+    id: 'henrique-pfeiffer',
+    name: 'Henrique Pfeiffer',
+    role: 'Undergraduate student, Psychology',
+    interests: [
+      'Human-computer interaction (HCI)',
+      'Human-robot interaction (HRI)',
+      'Interdisciplinary project management',
+    ],
+    bio: 'Henrique is an undergraduate Psychology student at the University of Houston who is passionate about understanding human behavior and the ways people interact with technology. He is particularly interested in creating technology that is meaningful, accessible, and centered around people.',
+    photo: null,
+  },
+  {
+    id: 'agah-duzenli',
+    name: 'Agah Duzenli',
+    role: 'Undergraduate student, Computer Science',
+    interests: [
+      'Human-computer interaction (HCI)',
+      'Human-AI interaction',
+      'Behavior change',
+      'Embodied AI',
+    ],
+    bio: 'Agah is an undergraduate Computer Science student at the University of Houston with interests in HCI and human-AI interaction. He is developing a personalized AI model for Elphi, an embodied AI project aimed at supporting behavior change and healthier routines for older adults.',
+    photo: '/students/agah-duzenli.png',
+    photoWidth: 800,
+    photoHeight: 800,
+  },
+  {
     id: 'hayley-b-lukken',
     name: 'Hayley B. Lukken',
     role: 'Undergraduate industrial design student',
@@ -80,18 +107,6 @@ export const students: Student[] = [
     role: 'Undergraduate researcher / volunteer',
     interests: ['Loneliness', 'Neurodivergence', 'AI'],
     bio: 'Anika is an undergraduate pre-med Biology student at the University of Houston who is passionate about working with and helping vulnerable populations.',
-    photo: null,
-  },
-  {
-    id: 'henrique-pfeiffer',
-    name: 'Henrique Pfeiffer',
-    role: 'Undergraduate student, Psychology',
-    interests: [
-      'Human-computer interaction (HCI)',
-      'Human-robot interaction (HRI)',
-      'Interdisciplinary project management',
-    ],
-    bio: 'Henrique is an undergraduate Psychology student at the University of Houston who is passionate about understanding human behavior and the ways people interact with technology. He is particularly interested in creating technology that is meaningful, accessible, and centered around people.',
     photo: null,
   },
 ];
